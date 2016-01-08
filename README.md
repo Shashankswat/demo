@@ -43,4 +43,4 @@ Coming Soon ...
 - `cd resources`
 - `bundle install`
 - `bundle exec middleman server`
-- Open Browser to http://localhost:4567
+- Open Browser to [http://localhost:4567](http://localhost:4567)
