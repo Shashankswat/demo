@@ -35,3 +35,12 @@
 ## Business Enablement Agenda
 
 Coming Soon ...
+
+## Using this Repository
+- Install Ruby, RubyGems, and Bundler
+- `git clone https://github.com/githubpartners/enablement`
+- `gem install middleman`
+- `cd resources`
+- `bundle install`
+- `bundle exec middleman server`
+- Open Browser to http://localhost:4567
