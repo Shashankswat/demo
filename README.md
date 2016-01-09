@@ -37,7 +37,7 @@
 Coming Soon ...
 
 ## Using this Repository
-- Install Ruby, RubyGems, and Bundler
+- Install [Ruby](https://github.com/rbenv/rbenv), [RubyGems](https://github.com/rubygems/rubygems), and [Bundler](https://github.com/bundler/bundler)
 - `git clone https://github.com/githubpartners/enablement`
 - `gem install middleman`
 - `cd resources`
