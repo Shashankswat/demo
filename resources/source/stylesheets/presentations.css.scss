@@ -1,6 +1,6 @@
 @import 'normalize';
 @import 'octicons';
-@import 'roboto';
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
 
 $normal-font: "Roboto";
 
@@ -50,15 +50,29 @@ body {
     right: 0;
     padding: 12px 24px;
     text-align: left;
-    font-size: 14px;
+    font-size: 12pt;
     line-height: 24px;
     background-color: $theme-header-background-color;
     color: $theme-header-text-color;
 
-    .tagline {
-      float: right;
-      margin-right: 38px;
+    .octicon-spacer {
+        float: left;
+
+        .octicon {
+          display: inline-block;
+          vertical-align: middle;
+          margin-bottom: -2px;
+          font-size: 1.2em;
+          color: $theme-octicon-color;
+        }
+
+        .tagline {
+          float: right;
+          margin-left: 10px;
+        }
     }
+
+
   }
 
   li {
@@ -81,6 +95,9 @@ body {
 
   .mega-octicon {
     font-size: 10em;
+    padding: 10px;
+    border: 10px solid $theme-octicon-color;
+    border-radius: 50%;
     color: $theme-octicon-color;
   }
 }
@@ -96,10 +113,6 @@ body {
   .mega-octicon {
     float: left;
     margin-left: -20%;
-
-    border: 2px solid $theme-border-color;
-    border-radius: 100%;
-    padding: 50px;
     color: $theme-octicon-color;
   }
 }
