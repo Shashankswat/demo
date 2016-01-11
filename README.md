@@ -4,7 +4,7 @@
 30m - **Business Concept Setting**
 
 ---  
-30m - **GitHub Enterprise Installation and Setup Up**  
+30m - **GitHub Enterprise Installation and Setup**  
 1h - **GitHub Setup Lab**  
 
 ---
