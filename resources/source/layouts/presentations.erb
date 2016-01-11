@@ -1,41 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Title</title>
+    <title><%= current_page.data.title %></title>
     <meta charset="utf-8">
-    <style>
-      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
-      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
-      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
-
-      body { font-family: 'Droid Serif'; }
-      h1, h2, h3 {
-        font-family: 'Yanone Kaffeesatz';
-        font-weight: normal;
-      }
-      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
-    </style>
+    <%= stylesheet_link_tag 'presentations' %>
+    <%= yield_content :assets %>
   </head>
   <body>
-    <textarea id="source">
 
-class: center, middle
+    <%= yield %>
 
-# First Remark Slide
-
----
-
-# Agenda
-
-1. Introduction
-2. Deep-dive
-3. ...
-
----
-
-# Introduction
-
-    </textarea>
     <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
     </script>
     <script>
@@ -60,14 +34,14 @@ class: center, middle
           // Enable or disable navigation using click
           // Default: false
           // Alternatives: true
-          click: false
+          click: true
         },
 
         // Customize slide number label, either using a format string..
         slideNumberFormat: 'Slide %current% of %total%',
         // .. or by using a format function
         slideNumberFormat: function (current, total) {
-          return 'Slide ' + current + ' of ' + total;
+          return current;
         },
 
         // Enable or disable counting of incremental slides in the slide counting

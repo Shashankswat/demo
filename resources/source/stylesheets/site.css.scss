@@ -1,42 +1,60 @@
 @charset "utf-8";
-@import "normalize";
+@import 'normalize';
+@import 'octicons';
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
+
+$normal-font: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+// Light Theme
+$theme-background-color: #ECEFF3;
+$theme-text-color: #53585F;
+$theme-header-background-color: #FFF;
+$theme-header-text-color: #969696;
+$theme-border-color: #50A952;
+$theme-code-border-color: #D9DCDF;
+$theme-code-dots-color: #FFF;
+$theme-octicon-color: #52575E;
 
 body {
-  background: #ECC561;
+  background: $theme-background-color;
   text-align: center;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1em;
+  font-family: $normal-font;
+  color: $theme-text-color;
+  font-size: 12pt;
 }
 
-.logo img {
+.huge-logo {
+  font-size: 15em;
+}
+
+.logo {
   height: 18.75em;
   margin-top: 6em;
 }
 
-h1 {
+h1, h2, h3, h4, h5 {
   color: rgba(0,0,0,0.5);
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.8em;
+  font-family: $normal-font;
   font-weight: 400;
   margin: 0;
 }
 
 .doc {
   margin: 3em 0;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: $normal-font;
   font-size: 1.1em;
   font-weight: 300;
 
   a {
-    border: 1px solid white;
+    border: 1px solid $theme-text-color;
     border-radius: 3px;
     padding: 0.75em 0.7em;
-    color: white;
+    color: $theme-text-color;
     text-decoration: none;
     transition: color 0.1s linear;
     &:hover {
       background: rgba(0,0,0,0.2);
-      color: white;
+      color: $theme-text-color;
       transition: all 0.15s linear;
     }
   }
