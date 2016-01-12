@@ -32,9 +32,110 @@ title: Installation and Setup
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
   ---
+  # Install GitHub Enterprise
+  <br>
+  ### What you will need:
+    - An AWS account capable of launching EC2 instances and creating EBS volumes. [Sign up here](https://aws.amazon.com/).
+    - A GitHub Enterprise license file. To download an existing license file or request a trial license, visit [enterprise.github.com](enterprise.github.com).
+  <br>
+  <br>
+  ### Installation Instructions:
+    - [GitHub Enterprise 2.4 Installation Guide on AWS](https://help.github.com/enterprise/2.4/admin/guides/installation/installing-github-enterprise-on-aws/)
+  <br>
+  <br>
+  ### Configuration Instructions:
+    - [GitHub Enterprise 2.4 Configuration Guide](https://help.github.com/enterprise/2.4/admin/guides/installation/basic-configuration/)
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
   class: center, middle
 
-  # Slide 3
+  <img src="/images/AWS_Management_Console-EC2.png" width=900 height=496>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: center, middle
+
+  <img src="/images/EC2-Launch.png" width=900 height=503>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  # Select the GitHub Enterprise AMI
+  <br>
+  Select a GitHub Enterprise AMI based on the [AWS Region](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html) you would like to launch the instance into.
+  <br>
+
+  Region ID       | | AMI ID
+  :-------------  | :-: | :-------------
+  ap-northeast-1  |	| ami-4d240e23
+  ap-southeast-1  |	| ami-0818db6b
+  ap-southeast-2  |	| ami-d84d16bb
+  eu-central-1    |	| ami-abd2cec7
+  eu-west-1       |	| ami-35319246
+  sa-east-1       |	| ami-0ade5966
+  us-east-1       |	| ami-0ec38964
+  us-west-1       |	| ami-bd741fdd
+  us-west-2       |	| ami-28617e49
+  us-gov-west-1   |	| ami-2075c841
+  <br>
+  GovCloud Support:
+    - AMIs for GitHub Enterprise are available in the [AWS GovCloud (US) region](http://aws.amazon.com/govcloud-us/). This allows US customers with specific regulatory requirements to run GitHub Enterprise in a federally compliant cloud environment.
+    - For more information on AWS's compliance with federal and other standards, see [AWS's compliance page](https://aws.amazon.com/compliance/).
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: center, middle
+
+  <img src="/images/EC2-AMI.png" width=900 height=502>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  # Choose an Instance
+  <br>
+  For on-premises deployments, based on your seat count we recommend this hardware configuration:
+  <br>
+
+  Seats |	vCPUs	 | Memory |	Storage |	Root
+  :-------------:  | :-------------:  | :-------------:  | :-------------:  | :-------------:
+  0-500 |	2	| 16 GB |	100 GB	| 80 GB
+  500-3000 |	4 |	32 GB |	250 GB |	80 GB
+  3000-5000 |	8	| 64 GB |	500 GB |	80 GB
+
+  <br>
+  For AWS deployments, based on your seat count we recommend these instance types::
+  <br>
+
+  Seat Range       | | Recommended Type
+  :-------------  | :-: | :-------------
+  0 - 499  |	| r3.large
+  500 - 2999  |	| r3.xlarge
+  3000 - 5000  |	| r3.2xlarge
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: center, middle
+
+  <img src="/images/EC2-Select-Instance.png" width=900 height=501>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: center, middle
+
+  <img src="/images/EC2-Review.png" width=900 height=474>
 
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
