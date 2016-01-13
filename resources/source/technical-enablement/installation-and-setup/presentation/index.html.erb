@@ -137,7 +137,37 @@ title: Installation and Setup
 
   <img src="/images/EC2-Review.png" width=900 height=474>
 
-  Once your instance is running, copy the VM's public DNS name and paste it into a web browser
+  Once your instance is running, copy the VM's public DNS name and paste it into a web browser.  If the page doesn't load, try updating the AWS security group for your EC2 instance to allow https connections (port 443).
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: center, middle
+
+  <img src="/images/EC2-Volume.png" width=900 height=438>
+
+  Once you've verified the instance, attach block storage of at least 10GB from the AWS EC2 Console.
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: center, middle
+
+  <img src="/images/EC2-EBS-Review.png" width=900 height=461>
+
+  Make sure the EBS volume is in the same availability zone as your EC2 instance.
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: center, middle
+
+  <img src="/images/EC2-EBS-Attach.png" width=900 height=459>
+
+  Attach the EBS volume to your EC2 instance.
 
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
@@ -157,7 +187,97 @@ title: Installation and Setup
 
   <img src="/images/GHE-Download.png" width=700 height=483>
 
-  Download License (and optionally appliance for an on-premises install)
+  Download License (or appliance for an on-premises install)
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: center, middle
+
+  <img src="/images/GHE-Setup.png" width=700 height=469>
+
+  Navigate to the public DNS of your EC2 VM in a Browser and continue to Setup, bypassing any certificate warnings.
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: center, middle
+
+  <img src="/images/GHE-License.png" width=700 height=465>
+
+  Upload the GitHub Enterprise License file and create a Site Administrator password.
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: center, middle
+
+  <img src="/images/GHE-New.png" width=700 height=465>
+
+  Select a New Install.
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: center, middle
+
+  <img src="/images/GHE-Test.png" width=700 height=467>
+
+  Under Hostname, test the domain settings.
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: center, middle
+
+  <img src="/images/GHE-Done.png" width=700 height=468>
+
+  Save settings and the instance will be configured.
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: center, middle
+
+  <img src="/images/GHE-Admin.png" width=700 height=466>
+
+  Create an Admin Account.
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: center, middle
+
+  <img src="/images/GHE-Org.png" width=700 height=446>
+
+  Create an Organization.
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: center, middle
+
+  <img src="/images/GHE-Members.png" width=700 height=446>
+
+  Add Organization Members (optional).
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: center, middle
+
+  <img src="/images/GHE-Home.png" width=700 height=449>
+
+  Setup is complete!
 
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
