@@ -7,3 +7,8 @@ title: Technical Enablement Agenda
 [Documentation](installation-and-setup/documentation)
 [Presentation](installation-and-setup/presentation)
 [Lab](installation-and-setup/lab)
+
+# Migrating to GitHub Enterprise
+[Documentation](migrations/documentation)
+[Presentation](migrations/presentation)
+[Lab](migrations/lab)

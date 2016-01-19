@@ -111,8 +111,10 @@ body {
   }
 
   .mega-octicon {
-    float: left;
-    margin-left: -20%;
+    font-size: 10em;
+    padding: 10px;
+    border: 10px solid $theme-octicon-color;
+    border-radius: 50%;
     color: $theme-octicon-color;
   }
 }
@@ -139,6 +141,14 @@ body {
       border: 1px solid $theme-border-color;
       border-radius: 100%;
     }
+  }
+
+  .mega-octicon {
+    font-size: 10em;
+    padding: 10px;
+    border: 10px solid $theme-octicon-color;
+    border-radius: 50%;
+    color: $theme-octicon-color;
   }
 }
 
