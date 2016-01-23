@@ -41,7 +41,7 @@
 ---
 15m - **Expecatations**  
 
-## Business Enablement Agenda
+## Sales Enablement Agenda
 
 Coming Soon ...
 
