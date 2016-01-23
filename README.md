@@ -1,5 +1,11 @@
 # Partner Enablement Project
 
+## Pre- Requisties
+- GitHub Handle
+- AWS Account
+- [GitHub basics](https://try.github.io/levels/1/challenges/1)
+
+
 ## Technical Enablement Agenda  
 30m - **Business Concept Setting**
 
@@ -31,6 +37,9 @@
 ---
 30m - **GitHub Advanced Administration**  
 1h - **Advanced Administration Lab**
+
+---
+15m - **Expecatations**  
 
 ## Business Enablement Agenda
 
