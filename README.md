@@ -1,9 +1,9 @@
 # Partner Enablement Project
 
-## Pre- Requisties
+## Prerequisites
 - GitHub Handle
 - AWS Account
-- [GitHub basics](https://try.github.io/levels/1/challenges/1)
+- [GitHub Basics](https://try.github.io/levels/1/challenges/1)
 
 
 ## Technical Enablement Agenda  
