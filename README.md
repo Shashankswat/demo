@@ -39,7 +39,7 @@
 1h - **Advanced Administration Lab**
 
 ---
-15m - **Expecatations**  
+15m - **Expectations**  
 
 ## Sales Enablement Agenda
 
