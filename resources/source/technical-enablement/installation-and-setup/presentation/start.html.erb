@@ -743,4 +743,67 @@ title: Installation and Setup
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
+  ---
+  class: title-top
+
+  # Upload New SSH Key
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title"><span class="mega-octicon octicon-mark-github"></span>&nbsp;Add your SSH public key to the list of authorized keys on the Management Console's settings page. </br>Open <code>https://{host}/setup/settings</code> in a browser and add your key to the list:</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="/images/SSH-Keys.png" class="img-resize">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # SSH Administration
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text">SSH access allows you to run the <a href="https://help.github.com/enterprise/2.4/admin/articles/command-line-utilities/" target="_blank">GitHub Enterprise command line utilities</a> and is useful for troubleshooting, running backups with the GitHub Enterprise Backup Utilities, and for configuring replication.  Administrative SSH access is managed separately from Git SSH access and is accessible only via port 122.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text">Once your SSH key has been added to the list, connect to the instance over SSH as the "admin" user:</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text"><code>$ ssh -p 122 admin@github.example.com</br>Last login: Sun Nov  9 07:53:29 2014 from 169.254.1.1</br>admin@github-example-com:~$ █</code></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
 </textarea>
