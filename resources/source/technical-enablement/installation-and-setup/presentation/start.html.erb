@@ -831,4 +831,58 @@ title: Installation and Setup
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
+  ---
+  class: title-top
+
+  # Promote Site Admin
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text">Site administrators can promote any normal user account to a site administrator, as well as demote other site administrators to regular users. <a href="https://help.github.com/enterprise/2.4/admin/guides/user-management/promoting-or-demoting-a-site-administrator/" target="_blank">Refer to the Enterprise 2.4 documentation</a> for full instructions.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text">SSH into your appliance and run ghe-user-promote with the username to promote:</div>
+            <div class="card-text"><code>$ ghe-user-promote username</code></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <img src="/images/SITE-Admin.png" class="img-responsive">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <ul class="card-text">
+              <li>Sign in to your GitHub Enterprise instance</li>
+              <li>In the upper-right corner of any page, click <span class="octicon octicon-rocket" aria-label="The rocket ship " title="The rocket ship "></span></li>
+              <li>Search for the name of the user</li>
+              <li>In the left sidebar, click 'Admin'</li>
+              <li>Site admin > Danger Zone, click 'Promote'</li>
+              <li>Type a reason for promoting the user</li>
+              <li>Click 'Promote'</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
 </textarea>
