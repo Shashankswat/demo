@@ -183,6 +183,27 @@ body {
       border-radius: 100%;
     }
   }
+}
+
+.columns {
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  margin: 36px;
+  text-align: center;
+
+  .mega-octicon {
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid $theme-border-color;
+    margin: -4px 0;
+    border-radius: 100%;
+  }
 
   h2 {
     font-weight: bold !important;
