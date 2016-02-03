@@ -23,4 +23,28 @@ title: Installation and Setup Lab
 - Create a password
 - Upload the license file
 
-## Adding Users and Teams with LDAP/SYNC
+# Adding Users and Teams with LDAP/SYNC
+
+## LDAP Settings
+- `host` - `ldap.gitaboard.com`
+- `port` - `389`
+- `domain search user` - `cn=admin,dc=gitaboard,dc=com`
+- `domain search password` - `G1t@B0@rd`
+- `administrators group` - `cn=site-admins,o=engineering,dc=gitaboard,dc=com`
+- `domain base`:
+  - `o=engineering,dc=gitaboard,dc=com`
+  - `o=operations,dc=gitaboard,dc=com`
+
+## Setting Up LDAP
+- [LDAP Configuration](https://help.github.com/enterprise/2.4/admin/guides/user-management/using-ldap/)
+
+## Additional Settings
+- [Basic Configuration](https://help.github.com/enterprise/2.4/admin/guides/installation/basic-configuration/)
+- Check `Synchronization`
+- Check `Synchronize Emails`
+- Uncheck `SSL Only`
+- Check `Enable Pages`
+- Check `Public Pages`
+- Login to appliance `http://{hostname}/login`
+  - Username - `chewbacca`
+  - Password - `P@ssw0rd`

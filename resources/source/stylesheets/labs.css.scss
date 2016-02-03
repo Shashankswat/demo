@@ -21,7 +21,7 @@ body {
   font-family: $normal-font;
   color: $theme-text-color;
   font-size: 12pt;
-  padding-top: 75px;
+  padding-top: 50px;
 }
 
 .huge-logo {
@@ -38,6 +38,11 @@ h1, h2, h3, h4, h5 {
   font-family: $normal-font;
   font-weight: 400;
   margin: 0;
+}
+
+h1 {
+  border-bottom: $theme-text-color thin solid;
+  margin-bottom: 10px;
 }
 
 .doc {
