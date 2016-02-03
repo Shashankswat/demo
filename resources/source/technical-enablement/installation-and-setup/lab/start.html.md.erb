@@ -1,0 +1,26 @@
+---
+layout: labs
+title: Installation and Setup Lab
+---
+
+# Installation and Setup
+
+## Prerequisites
+- Make sure you have a GitHub.com User ID
+- Ensure you GitHub.com User ID is added to the [Partners Enablement Repository](https://github.com/githubpartners/enablement)
+- Download the [GitHub Enterprise License](https://github.com/githubpartners/enablement/license.ghl)
+
+## Provisioning Your AWS Instance
+- [Directions](https://help.github.com/enterprise/admin/guides/installation/installing-github-enterprise-on-aws/#requirements)
+- Provision an `m3.xlarge` instance
+- Choose the [AMI ID](https://help.github.com/enterprise/admin/guides/installation/installing-github-enterprise-on-aws/#selecting-the-github-enterprise-ami) closest to your location
+- Make sure you add the Secondary EBS Volume (10G)
+- Add the corresponding [Security Group](https://help.github.com/enterprise/admin/guides/installation/installing-github-enterprise-on-aws/#creating-a-security-group)
+- Download your `***.pem` file to you `${home_directory}/.ssh` folder **don't lose this**
+- [Verify your server is up and running](https://help.github.com/enterprise/admin/guides/installation/installing-github-enterprise-on-aws/#starting-the-instance)
+
+## Basic Configuration
+- Create a password
+- Upload the license file
+
+## Adding Users and Teams with LDAP/SYNC
