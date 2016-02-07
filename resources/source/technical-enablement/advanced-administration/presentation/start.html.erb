@@ -101,4 +101,47 @@ title: Advanced Administration
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
+  ---
+  class: title-top
+
+  # Audit Logs
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text">GitHub Enterprise keeps logs of audited user, repository, and system events. You can use these logs to debug your installation as well as to comply with internal security mandates and external regulations. A number of user-initiated actions are audited, including:</div>
+            <ul class="card-text">
+              <li>creating or deleting a repository</li>
+              <li>creating or deleting an organization</li>
+              <li>adding or removing an email address</li>
+              <li>adding or removing an SSH key</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text">All audited system events—including all pushes and pulls—are logged to <code>/var/log/github/audit.log</code>.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text">All audit information is logged to the <code>audit.log</code> file in the <code>github-logs</code> directory of any <a href="https://help.github.com/enterprise/2.4/admin/guides/installation/troubleshooting/#support-bundle" target="_blank">Support Bundle</a>. If <a href="https://help.github.com/enterprise/2.4/admin/articles/log-forwarding/" target="_blank">log forwarding</a> is enabled, you can stream this data to an external syslog stream consumer such as Splunk or logstash. All entries from this log use the "github_audit" keyword and can be filtered using that.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
 </textarea>
