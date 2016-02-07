@@ -60,4 +60,45 @@ title: Advanced Administration
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
+  ---
+  class: title-top
+
+  # Useful Commands
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text"><strong>Connect to <a href="https://help.github.com/enterprise/2.4/admin/guides/installation/administrative-shell-ssh-access/" target="_blank">SSH</a> using port 122:</strong></div>
+            <ul class="card-text">
+              <li><code>ghe-announce</code> - sets a banner at the top of every GitHub Enterprise page</li>
+              <li><code>ghe-maintenance</code> - put the instance into maintenance mode</li>
+              <li><code>ghe-user-csv</code> - dumps a list of all the users in the installation in CSV format</li>
+              <li><code>ghe-system-info</code> - responds with JSON of instance health stats</li>
+              <li><code>ghe-license-info</code> - responds with JSON of of the currently installed license</li>
+              <li><code>ghe-set-password</code> - set a new password to log into the Management Console</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text"><strong>Not available when LDAP sync is enabled:</strong></div>
+            <ul class="card-text">
+              <li><code>ghe-user-promote</code></li>
+              <li><code>ghe-user-demote</code></li>
+              <li><code>ghe-user-suspend</code></li>
+              <li><code>ghe-user-unsuspend</code></li>
+              <li><code>ghe⇥⇥</code> - view all commands</li></br>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
 </textarea>
