@@ -4,7 +4,7 @@ activate :autoprefixer
 # Page options, layouts, aliases and proxies
 ###
 set :markdown_engine, :redcarpet
-set :markdown, :fenced_code_blocks => true, :smartypants => true
+set :markdown, :fenced_code_blocks => true, :smartypants => true, :autolink => true
 
 # Per-page layout changes:
 #
@@ -45,4 +45,7 @@ configure :build do
 
   # Minify Javascript on build
   activate :minify_javascript
+
+  # Relative Links
+  activate :relative_assets
 end
