@@ -16,5 +16,41 @@ title: Integrations
   - `gem install pg -- --with-pg-config=/Applications/Postgres.app/Contents/Versions/9.5/bin/pg_config`
   - `psql`
     - `create database notifications_development;`
+- Create a new directory called `integrations`
 
-#
+# Webhook Server Sample
+
+# OAuth Sample Application
+- Change working directory to `integrations`
+- `git pull http://{serverurl}/developer/notifications`
+- Change working directory to `notifications`
+- `bundle install`
+- `rails s`
+- Open a browser to `http://localhost:3000`
+- `ctrl-c` to stop rails
+
+## OAuth Setup
+- `git checkout oauth-example`
+- `heroku login`
+- `heroku create`
+- There should be two urls returned
+  - Add an application to your GitHub Enterprise instance with the chewbacca user
+    - Application Name: **OAuth Sample**
+    - Homepage URL: **{heroku_url_1}**
+    - Authorization Callback URL: **{heroku_url_1}/users/auth/github/callback**
+    - Click `Register application`
+- Copy the `Client ID` to enter it in the `config/initializers/devise.rb`
+- Copy the `Client Secret` to enter it in the `config/initializers/devise.rb`
+- Enter your `http://{server_url}` in the `config/initializers/devise.rb`
+- `git commit -a -m "modified oauth server"`
+- `git push heroku oauth-example:master`
+- `heroku run rake db:migrate`
+- `heroku open`
+- `add /users/sign_in` after the URL
+  - Click on the **Sign In with GitHub** link
+  - Login as an LDAP user
+  - You should be passed back to webapp
+
+## Simple Scripts with Octokit
+- `git checkout simple-scripts`
+- run the two scripts against your GitHub Enterprise instance
