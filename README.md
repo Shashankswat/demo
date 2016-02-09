@@ -1,4 +1,6 @@
-# Partner Enablement Project
+# GitHub Partner Enablement
+
+ - [Technical Collateral](https://gh-enablement.herokuapp.com/)
 
 ## Prerequisites
  - [GitHub account](https://github.com/join)
@@ -9,7 +11,7 @@
 - Install Git
 - Install Ruby
 
-## Technical Enablement Agenda  
+## Agenda  
 30m - **Business Concept Setting**
 
 ---  
@@ -44,11 +46,15 @@
 ---
 15m - **Expectations**  
 
-## Sales Enablement Agenda
+## Acknowledgements
+- built with [middleman](https://middlemanapp.com/)
+- rendered for slide shows through [remark](http://remarkjs.com/)
+- responsive formatting via [bootstrap](http://v4-alpha.getbootstrap.com/)  
+- exported to PDF using [decktape](https://github.com/astefanutti/decktape)  
 
-Coming Soon ...
+Access to published collateral is limited to members of the [GitHub Partners](https://github.com/githubpartners) repository by [jekyll auth](https://github.com/benbalter/jekyll-auth).
 
-## Using this Repository
+## Building this Repository
 - Install [Ruby](https://github.com/rbenv/rbenv), [RubyGems](https://github.com/rubygems/rubygems), and [Bundler](https://github.com/bundler/bundler)
 - `git clone https://github.com/githubpartners/enablement`
 - `gem install middleman`
