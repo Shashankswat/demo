@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Integrations</title>
+    <meta charset="utf-8">
+    <link href="../../../stylesheets/labs.css" rel="stylesheet" />
+    
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pre-requisites</h1>
+
+<ul>
+<li>Heroku Toolchain
+
+<ul>
+<li><a href="https://devcenter.heroku.com/articles/getting-started-with-rails5">https://devcenter.heroku.com/articles/getting-started-with-rails5</a></li>
+</ul></li>
+<li>Ruby
+
+<ul>
+<li>Mac/Linux - <a href="https://github.com/rbenv/rbenv#readme">https://github.com/rbenv/rbenv#readme</a></li>
+<li>Windows - <a href="http://rubyinstaller.org/">http://rubyinstaller.org/</a></li>
+<li>Need Ruby <code>2.2.4</code></li>
+</ul></li>
+<li>Postgres
+
+<ul>
+<li>Mac - <a href="http://postgresapp.com/">http://postgresapp.com/</a></li>
+<li>Windows - <a href="http://www.enterprisedb.com/products-services-training/pgdownload#windows">http://www.enterprisedb.com/products-services-training/pgdownload#windows</a></li>
+<li><code>gem install pg -- --with-pg-config=/Applications/Postgres.app/Contents/Versions/9.5/bin/pg_config</code></li>
+<li><code>psql</code></li>
+<li><code>create database notifications_development;</code></li>
+</ul></li>
+<li>Create a new directory called <code>integrations</code></li>
+</ul>
+
+<h1>OAuth Sample Application</h1>
+
+<ul>
+<li>Change working directory to <code>integrations</code></li>
+<li><code>git pull http://{serverurl}/developer/notifications</code></li>
+<li>Change working directory to <code>notifications</code></li>
+<li><code>bundle install</code></li>
+<li><code>rails s</code></li>
+<li>Open a browser to <code>http://localhost:3000</code></li>
+<li><code>ctrl-c</code> to stop rails</li>
+</ul>
+
+<h2>OAuth Setup</h2>
+
+<ul>
+<li><code>git checkout oauth-example</code></li>
+<li><code>heroku login</code></li>
+<li><code>heroku create</code></li>
+<li>There should be two urls returned
+
+<ul>
+<li>Add an application to your GitHub Enterprise instance with the chewbacca user</li>
+<li>Application Name: <strong>OAuth Sample</strong></li>
+<li>Homepage URL: <strong>{heroku<em>url</em>1}</strong></li>
+<li>Authorization Callback URL: <strong>{heroku<em>url</em>1}/users/auth/github/callback</strong></li>
+<li>Click <code>Register application</code></li>
+</ul></li>
+<li>Copy the <code>Client ID</code> to enter it in the <code>config/initializers/devise.rb</code></li>
+<li>Copy the <code>Client Secret</code> to enter it in the <code>config/initializers/devise.rb</code></li>
+<li>Enter your <code>http://{server_url}</code> in the <code>config/initializers/devise.rb</code></li>
+<li><code>git commit -a -m &quot;modified oauth server&quot;</code></li>
+<li><code>git push heroku oauth-example:master</code></li>
+<li><code>heroku run rake db:migrate</code></li>
+<li><code>heroku open</code></li>
+<li><code>add /users/sign_in</code> after the URL
+
+<ul>
+<li>Click on the <strong>Sign In with GitHub</strong> link</li>
+<li>Login as an LDAP user</li>
+<li>You should be passed back to webapp</li>
+</ul></li>
+</ul>
+
+<h2>Simple Scripts with Octokit</h2>
+
+<ul>
+<li><code>git checkout simple-scripts</code></li>
+<li>run the two scripts against your GitHub Enterprise instance</li>
+</ul>
+
+    </div>
+  </body>
+</html>
