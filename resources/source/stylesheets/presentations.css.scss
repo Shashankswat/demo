@@ -14,6 +14,10 @@ $theme-code-border-color: #D9DCDF;
 $theme-code-dots-color: #FFF;
 $theme-octicon-color: #52575E;
 
+
+.container {
+  margin-top: 2em;
+}
 .img-responsive {
   max-width: 100%;
   height: auto;
@@ -110,8 +114,8 @@ body {
   .mega-octicon {
     font-size: 10em;
     padding: 10px;
-    border: 10px solid $theme-octicon-color;
-    border-radius: 50%;
+    // border: 10px solid $theme-octicon-color;
+    // border-radius: 50%;
     color: $theme-octicon-color;
   }
 }
@@ -180,17 +184,12 @@ body {
       float: right;
       padding: 18px;
       margin: -4px 0;
-
-      border: 1px solid $theme-border-color;
-      border-radius: 100%;
     }
   }
 
   .mega-octicon {
     font-size: 10em;
     padding: 10px;
-    border: 10px solid $theme-octicon-color;
-    border-radius: 50%;
     color: $theme-octicon-color;
   }
 }
