@@ -5,7 +5,9 @@
  - [Enterprise license](https://enterprise.github.com/login)
  - [AWS account](https://aws.amazon.com/)
  - [Basic Git Knowledge](https://try.github.io/levels/1/challenges/1)
-
+- Install Subversion
+- Install Git
+- Install Ruby
 
 ## Technical Enablement Agenda  
 30m - **Business Concept Setting**
