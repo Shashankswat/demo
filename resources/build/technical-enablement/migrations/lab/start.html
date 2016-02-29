@@ -8,41 +8,68 @@
   </head>
   <body>
     <div class="container">
-      # Prepare
-- Ruby
-  - Mac/Linux - https://github.com/rbenv/rbenv#readme
-  - Windows - http://rubyinstaller.org/
-  - Need Ruby `2.2.4`
-- `gem install svn2git`
-- Create a new directory called `migrations`
+      <h1>Prepare</h1>
 
-# GitHub as an SVN Repository
-- Change the working directory to `migrations`
-- Create a directory called `notifications-svn`
-- Change the working directory to `notifications-svn`
-- `svn checkout https://github.com/leefaus/notifications`
+<ul>
+<li>Ruby
 
-# Converting an existing SVN Repository to Git
-- Change the working directory to `migrations`
-- Create a file called `authors.txt`
-  - Edit the file and add a line
-  - `lee.faus = Luke Skywalker <luke@gitaboard.com>`
-  - Save the file
-- Create a directory called `notifications-git`
-- Change the working direcotry to `notifications-git`
-- Perform an SVN migration
-  - `svn2git https://github.com/leefaus/notifications`
-  - Press `p` to accept the certificate for `github.com`
-- Add a remote to your GitHub Enterprise URL
-  - `git remote add origin http://luke@{serverurl}/development/notifications`
-  - `git push --force --all origin`
+<ul>
+<li>Mac/Linux - <a href="https://github.com/rbenv/rbenv#readme">https://github.com/rbenv/rbenv#readme</a></li>
+<li>Windows - <a href="http://rubyinstaller.org/">http://rubyinstaller.org/</a></li>
+<li>Need Ruby <code>2.2.4</code></li>
+</ul></li>
+<li><code>gem install svn2git</code></li>
+<li>Create a new directory called <code>migrations</code></li>
+</ul>
 
-# Validate
-- Open a browser to your GitHub Enterprise instance
-  - `http://{serverurl}/development/notifications`
-  - Click on the dropdown for branches, list out the branches
-  - Who are all of the commits listed as in `https://github.com/leefaus/notifications`
-  - Who are all of the commits listed as in `http://{serverurl}/development/notifications`
+<h1>GitHub as an SVN Repository</h1>
+
+<ul>
+<li>Change the working directory to <code>migrations</code></li>
+<li>Create a directory called <code>notifications-svn</code></li>
+<li>Change the working directory to <code>notifications-svn</code></li>
+<li><code>svn checkout https://github.com/leefaus/notifications</code></li>
+</ul>
+
+<h1>Converting an existing SVN Repository to Git</h1>
+
+<ul>
+<li>Change the working directory to <code>migrations</code></li>
+<li>Create a file called <code>authors.txt</code>
+
+<ul>
+<li>Edit the file and add a line</li>
+<li><code>lee.faus = Luke Skywalker &lt;luke@gitaboard.com&gt;</code></li>
+<li>Save the file</li>
+</ul></li>
+<li>Create a directory called <code>notifications-git</code></li>
+<li>Change the working direcotry to <code>notifications-git</code></li>
+<li>Perform an SVN migration
+
+<ul>
+<li><code>svn2git https://github.com/leefaus/notifications --authors authors.txt</code></li>
+<li>Press <code>p</code> to accept the certificate for <code>github.com</code></li>
+</ul></li>
+<li>Add a remote to your GitHub Enterprise URL
+
+<ul>
+<li><code>git remote add origin http://luke@{serverurl}/development/notifications.git</code></li>
+<li><code>git push --force --all origin</code></li>
+</ul></li>
+</ul>
+
+<h1>Validate</h1>
+
+<ul>
+<li>Open a browser to your GitHub Enterprise instance
+
+<ul>
+<li><code>http://{serverurl}/development/notifications</code></li>
+<li>Click on the dropdown for branches, list out the branches</li>
+<li>Who are all of the commits listed as in <code>https://github.com/leefaus/notifications</code></li>
+<li>Who are all of the commits listed as in <code>http://{serverurl}/development/notifications</code></li>
+</ul></li>
+</ul>
 
     </div>
   </body>
