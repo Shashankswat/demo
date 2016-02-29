@@ -10,36 +10,67 @@ title: Integrations
   - Mac/Linux - https://github.com/rbenv/rbenv#readme
   - Windows - http://rubyinstaller.org/
   - Need Ruby `2.2.4`
-- Postgres
-  - Mac - http://postgresapp.com/
-  - Windows - http://www.enterprisedb.com/products-services-training/pgdownload#windows
-  - `gem install pg -- --with-pg-config=/Applications/Postgres.app/Contents/Versions/9.5/bin/pg_config`
-  - `psql`
-    - `create database notifications_development;`
 - Create a new directory called `integrations`
+
+# Webhook Sample Application
+- Change working directory to `integrations`
+- `git pull http://{serverurl}/developer/notifications`
+- Change working directory to `notifications`
+- `heroku login`
+- `heroku create`
+- There should be two urls returned
+  - `{heroku_url_1}` application access
+  - `{heroku_url_2}` git remote setup
+
+## Webhook Setup
+- `git checkout webhook-example`
+- Modify the `config/environments/production.rb` file
+  - Change the `config.action_cable.url` to use **{heroku_url_1}**
+  - Change the `config.action_cable.allowed_request_origins` to use **{heroku_url_1}**
+- `git commit -a -m "modified websocket server url"`
+- `git push heroku webhook-example:master`
+- `heroku open`
+- go to `https://{{heroku_url_1}}/webhooks`
+
+## Webhook Configuration
+- Login as `chewbacca`
+- Open your `notifications` repository on your GitHub server
+- Click on the `Settings` tab
+- Click on the `Webhooks` tab
+- Add a webhook
+  - The URL should be `https://{{heroku_url_1}}/webhooks`
+  - Click the events you would like to be notified on
+
+## Testing Webhooks
+- Trigger an event by adding an issue, doing a new push, or creating a pull request
+- Was there an update to `https://{{heroku_url_1}}/webhooks`?
+
+## Extra Credit
+- Modify the application to show some additional context for the webhook
+  - If a PR or Push
+    - What is the SHA?
+    - What files were modified?
+    - Who performed the push?
+  - If an Issue
+    - Title of the Issue?
+    - Who created the Issue?
+    - What labels are associated?
 
 # OAuth Sample Application
 - Change working directory to `integrations`
 - `git pull http://{serverurl}/developer/notifications`
 - Change working directory to `notifications`
-- `bundle install`
-- `rails s`
-- Open a browser to `http://localhost:3000`
-- `ctrl-c` to stop rails
 
 ## OAuth Setup
 - `git checkout oauth-example`
-- `heroku login`
-- `heroku create`
-- There should be two urls returned
-  - Add an application to your GitHub Enterprise instance with the chewbacca user
-    - Application Name: **OAuth Sample**
-    - Homepage URL: **{heroku_url_1}**
-    - Authorization Callback URL: **{heroku_url_1}/users/auth/github/callback**
-    - Click `Register application`
+- Add an application to your GitHub Enterprise instance with the chewbacca user
+  - Application Name: **OAuth Sample**
+  - Homepage URL: `{heroku_url_1}`
+  - Authorization Callback URL: `{heroku_url_1}/users/auth/github/callback`
+  - Click `Register application`
 - Copy the `Client ID` to enter it in the `config/initializers/devise.rb`
 - Copy the `Client Secret` to enter it in the `config/initializers/devise.rb`
-- Enter your `http://{server_url}` in the `config/initializers/devise.rb`
+- Enter your `http://{github_server_url}` in the `config/initializers/devise.rb`
 - `git commit -a -m "modified oauth server"`
 - `git push heroku oauth-example:master`
 - `heroku run rake db:migrate`
@@ -48,6 +79,24 @@ title: Integrations
   - Click on the **Sign In with GitHub** link
   - Login as an LDAP user
   - You should be passed back to webapp
+
+# Using the GitHub API
+- `git checkout api-example`
+- open `app/controllers/status_controller.rb`
+- modify `target_url` to be **{heroku_url_1}**
+- modify `c.api_endpoint` to be **{ghe_dns}**
+- `git commit -a -m "modified api servers"`
+- `git push heroku api-example:master`
+- `heroku open`
+- go to **{heroku_url_1}**/status
+- go to **{ghe_dns}** and modify a file to create a `sha`
+- copy the `sha` to the text field and hit the `create` button
+
+## Extra Credit
+- now make the status succeed
+  - How is this represented in GitHub?
+- now create a deployment through the API
+  - How is this represented in GitHub?
 
 ## Simple Scripts with Octokit
 - `git checkout simple-scripts`
