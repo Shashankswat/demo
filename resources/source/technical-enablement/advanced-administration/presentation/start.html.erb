@@ -70,7 +70,7 @@ title: Advanced Administration
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-            <div class="card-text"><strong>Connect to <a href="https://help.github.com/enterprise/2.4/admin/guides/installation/administrative-shell-ssh-access/" target="_blank">SSH</a> using port 122:</strong></div>
+            <div class="card-text"><strong>Connect to <a href="https://help.github.com/enterprise/admin/guides/installation/administrative-shell-ssh-access/" target="_blank">SSH</a> using port 122:</strong></div>
             <ul class="card-text">
               <li><code>ghe-announce</code> - sets a banner at the top of every GitHub Enterprise page</li>
               <li><code>ghe-maintenance</code> - put the instance into maintenance mode</li>
@@ -135,7 +135,7 @@ title: Advanced Administration
       <div class="col-md-12">
         <div class="card">
           <div class="card-block">
-            <div class="card-text">All audit information is logged to the <code>audit.log</code> file in the <code>github-logs</code> directory of any <a href="https://help.github.com/enterprise/2.4/admin/guides/installation/troubleshooting/#support-bundle" target="_blank">Support Bundle</a>. If <a href="https://help.github.com/enterprise/2.4/admin/articles/log-forwarding/" target="_blank">log forwarding</a> is enabled, you can stream this data to an external syslog stream consumer such as Splunk or logstash. All entries from this log use the "github_audit" keyword and can be filtered using that.</div>
+            <div class="card-text">All audit information is logged to the <code>audit.log</code> file in the <code>github-logs</code> directory of any <a href="https://help.github.com/enterprise/admin/guides/installation/troubleshooting/#support-bundle" target="_blank">Support Bundle</a>. If <a href="https://help.github.com/enterprise/admin/articles/log-forwarding/" target="_blank">log forwarding</a> is enabled, you can stream this data to an external syslog stream consumer such as Splunk or logstash. All entries from this log use the "github_audit" keyword and can be filtered using that.</div>
           </div>
         </div>
       </div>
@@ -154,7 +154,7 @@ title: Advanced Administration
       <div class="col-md-12">
         <div class="card">
           <div class="card-block">
-            <div class="card-text">You can <a href="https://help.github.com/enterprise/2.4/admin/guides/installation/troubleshooting/#support-bundle" target="_blank">suspend</a> users GitHub Enterprise accounts to open up seats in your site license while preserving the issues, comments, repositories, gists, and other data they created. Suspended users cannot sign into your instance, nor can they push or pull code.  When you suspend a user, the change takes effect immediately with no notification to the user. <strong>If the user attempts to pull or push to a repository, they'll receive this error:</strong></div>
+            <div class="card-text">You can <a href="https://help.github.com/enterprise/admin/guides/installation/troubleshooting/#support-bundle" target="_blank">suspend</a> users GitHub Enterprise accounts to open up seats in your site license while preserving the issues, comments, repositories, gists, and other data they created. Suspended users cannot sign into your instance, nor can they push or pull code.  When you suspend a user, the change takes effect immediately with no notification to the user. <strong>If the user attempts to pull or push to a repository, they'll receive this error:</strong></div>
           </div>
         </div>
       </div>
@@ -188,7 +188,7 @@ title: Advanced Administration
       <div class="col-md-12">
         <div class="card">
           <div class="card-block">
-            <div class="card-text">In this <a href="https://help.github.com/enterprise/2.4/admin/guides/installation/high-availability-cluster-configuration/" target="_blank">configuration</a>, a fully redundant secondary GitHub Enterprise instance is kept in sync with the primary instance via replication of all major datastores.</div>
+            <div class="card-text">In this <a href="https://help.github.com/enterprise/admin/guides/installation/high-availability-cluster-configuration/" target="_blank">configuration</a>, a fully redundant secondary GitHub Enterprise instance is kept in sync with the primary instance via replication of all major datastores.</div>
             <ul class="card-text">
               <li>Fully redundant GitHub Enterprise instance</li>
               <li>Automated setup of one-way, asynchronous replication of all datastores</li>
@@ -228,7 +228,7 @@ title: Advanced Administration
       <div class="col-md-12">
         <div class="card">
           <div class="card-block">
-            <div class="card-text">Before you begin using GitHub Enterprise in a production capacity, you should set up a backup host, schedule automated backups, and develop a recovery plan as part of an overall <a href="https://help.github.com/enterprise/2.4/admin/guides/installation/backups-and-disaster-recovery/" target="_blank">automated backups plan.</a></div>
+            <div class="card-text">Before you begin using GitHub Enterprise in a production capacity, you should set up a backup host, schedule automated backups, and develop a recovery plan as part of an overall <a href="https://help.github.com/enterprise/admin/guides/installation/backups-and-disaster-recovery/" target="_blank">automated backups plan.</a></div>
           </div>
         </div>
       </div>
@@ -238,7 +238,7 @@ title: Advanced Administration
         <div class="card">
           <div class="card-block">
             <ul class="card-text">
-              <li>Download the latest <a href="https://help.github.com/enterprise/2.4/admin/guides/installation/backups-and-disaster-recovery/" target="_blank">github/backup-utils</a> release and extract on the backup host</li>
+              <li>Download the latest <a href="https://help.github.com/enterprise/admin/guides/installation/backups-and-disaster-recovery/" target="_blank">github/backup-utils</a> release and extract on the backup host</li>
               <li>Copy the included <code>backup.config-example</code> file to <code>backup.config</code> and open in an editor</li>
               <li>Set the <code>GHE_HOSTNAME</code> value and the <code>GHE_DATA_DIR</code> value</li>
               <li>Open <code>https://[hostname]/setup/settings</code> and add the backup host's SSH key</li>
@@ -264,7 +264,7 @@ title: Advanced Administration
       <div class="col-md-12">
         <div class="card">
           <div class="card-block">
-            <div class="card-text">In the event of prolonged outage or catastrophic event at the primary site, basic operations of your GitHub Enterprise environment can be <a href="https://help.github.com/enterprise/2.4/admin/guides/installation/backups-and-disaster-recovery/#backup-scheduling-and-recovery-point-objective" target="_blank">restored</a> by performing a restore from the backup host.</div>
+            <div class="card-text">In the event of prolonged outage or catastrophic event at the primary site, basic operations of your GitHub Enterprise environment can be <a href="https://help.github.com/enterprise/admin/guides/installation/backups-and-disaster-recovery/#backup-scheduling-and-recovery-point-objective" target="_blank">restored</a> by performing a restore from the backup host.</div>
             <code>
               $ ghe-restore 169.154.1.1</br>
               Starting restore of 169.154.1.1 from snapshot 20141111T174152</br>
