@@ -1,1 +1,5 @@
-resources/build
+_site
+.env
+/Gemfile.lock
+.sass-cache
+.jekyll-metadata
