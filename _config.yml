@@ -16,3 +16,4 @@ github_username:  leefaus
 
 # Build settings
 markdown: kramdown
+exclude: [vendor]
