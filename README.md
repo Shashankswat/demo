@@ -1,12 +1,11 @@
 # GitHub Partner Enablement
-
- - [Technical Collateral](https://gh-enablement.herokuapp.com/)
+- [Technical Collateral](https://github-partner-enablement.herokuapp.com/)
 
 ## Prerequisites
- - [GitHub account](https://github.com/join)
- - [Enterprise license](https://enterprise.github.com/login)
- - [AWS account](https://aws.amazon.com/)
- - [Basic Git Knowledge](https://try.github.io/levels/1/challenges/1)
+- [GitHub account](https://github.com/join)
+- [Enterprise license](https://enterprise.github.com/login)
+- [AWS account](https://aws.amazon.com/)
+- [Basic Git Knowledge](https://try.github.io/levels/1/challenges/1)
 - Install Subversion
 - Install Git
 - Install Ruby
@@ -47,7 +46,7 @@
 15m - **Expectations**  
 
 ## Acknowledgements
-- built with [middleman](https://middlemanapp.com/)
+- built with [jekyll](https://jekyllrb.com/)
 - rendered for slide shows through [remark](http://remarkjs.com/)
 - responsive formatting via [bootstrap](http://v4-alpha.getbootstrap.com/)  
 - exported to PDF using [decktape](https://github.com/astefanutti/decktape)  
@@ -57,11 +56,7 @@ Access to published collateral is limited to members of the [GitHub Partners](ht
 ## Building this Repository
 - Install [Ruby](https://github.com/rbenv/rbenv), [RubyGems](https://github.com/rubygems/rubygems), and [Bundler](https://github.com/bundler/bundler)
 - `git clone https://github.com/githubpartners/enablement`
-- `gem install middleman`
-- `cd resources`
-- `bundle install`
-- `bundle exec middleman server`
-- Open Browser to [http://localhost:4567](http://localhost:4567)
-
-## Known Issues
- - For OSX 10.11 El Capitan, if Middleman fails to install or run properly it may be an [issue](https://github.com/eventmachine/eventmachine/issues/643) with the eventmachine gem.  If you have [Homebrew](http://brew.sh/) installed this command should correct the problem: `brew link openssl --force`
+- `gem install jekyll`
+- `cd enablement`
+- `jekyll serve`
+- Open Browser to [http://localhost:4000](http://localhost:4000)
