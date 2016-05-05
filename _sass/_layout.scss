@@ -1,3 +1,42 @@
+@import 'octicons';
+@import 'bootstrap/bootstrap';
+
+/* Create a step size.*/
+/* This is the percentage each heading will be reduced by. */
+$step-size-heading: 0.25;
+/* The mixin */
+@mixin heading-size($size) {
+    font-size: $size * $step-size-heading + em;
+}
+h1 {
+    @include heading-size(6);
+}
+h2 {
+    @include heading-size(5);
+}
+h3 {
+    @include heading-size(4);
+}
+h4 {
+    @include heading-size(3);
+}
+h5 {
+    @include heading-size(2);
+}
+h6 {
+    @include heading-size(1);
+}
+
+.table-of-contents {
+  margin-top: 10px;
+  border-top: thin black solid;
+  padding-top: 10px;
+
+  .btn {
+    margin-bottom: 10px;
+  }
+}
+
 /**
  * Site header
  */
