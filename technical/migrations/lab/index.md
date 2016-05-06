@@ -23,6 +23,8 @@ title: Migrating from SVN to Git
 - Create a file called `authors.txt`
   - Edit the file and add a line
   - `lee.faus = Luke Skywalker <luke@gitaboard.com>`
+  - `nicolas.byl = Chewbacca <chewbacca@gitaboard.com>`
+  - `matthias.wiesen = Leia <leia@gitaboard.com>`
   - Save the file
 - Create a directory called `notifications-git`
 - Change the working direcotry to `notifications-git`
