@@ -29,7 +29,7 @@ title: Migrating from SVN to Git
 - Create a directory called `notifications-git`
 - Change the working direcotry to `notifications-git`
 - Perform an SVN migration
-  - `svn2git https://github.com/leefaus/notifications --authors authors.txt`
+  - `svn2git https://github.com/leefaus/notifications --authors ../authors.txt`
   - Press `p` to accept the certificate for `github.com`
 - Add a remote to your GitHub Enterprise URL
   - `git remote add origin http://luke@{serverurl}/development/notifications.git`
