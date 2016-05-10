@@ -239,7 +239,8 @@ permalink: /technical/installation-configuration/
    <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <b>Sometimes customers ask for clustering. Let's create an explanation of why and when clustering conversations are important</b>
+          <b>Many GitHub enterprise customers run instances with well over 1,000 active users, with some single instances serving between 4,000-5,000 users.</b>
+          <b>GitHub will work closely with the customer to enable clustering, and ensure the best performing development environment for customers</b>
         </div>
       </div>
     </div>
