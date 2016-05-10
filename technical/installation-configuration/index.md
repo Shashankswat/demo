@@ -234,19 +234,19 @@ permalink: /technical/installation-configuration/
   ---
   class: title-top
 
-  # Select the AMI
+   # Clustering
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <img src="/images/EC2-AMI.png" class="img-responsive">
+   <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <b>Sometimes customers ask for clustering. Let's create an explanation of why and when clustering conversations are important</b>
+        </div>
       </div>
     </div>
-  </div>
 
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-  </footer>
+   <footer>
+     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+   </footer>
   ---
   class: title-top
 
@@ -358,6 +358,7 @@ permalink: /technical/installation-configuration/
       </div>
     </div>
   </div>
+
 
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
