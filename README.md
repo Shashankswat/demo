@@ -56,7 +56,6 @@ Access to published collateral is limited to members of the [GitHub Partners](ht
 ## Building this Repository
 - Install [Ruby](https://github.com/rbenv/rbenv), [RubyGems](https://github.com/rubygems/rubygems), and [Bundler](https://github.com/bundler/bundler)
 - `git clone https://github.com/githubpartners/enablement`
-- `gem install jekyll`
-- `cd enablement`
-- `jekyll serve`
+- `script/bootstrap`
+- `script/server`
 - Open Browser to [http://localhost:4000](http://localhost:4000)
