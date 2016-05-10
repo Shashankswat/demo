@@ -87,7 +87,7 @@ permalink: /technical/installation-configuration/
           <div class="card-block">
             <div class="card-text"><strong>Installation Instructions:</strong></div>
             <ul class="card-text">
-              <li><a href="https://help.github.com/enterprise/admin/guides/installation/installing-github-enterprise-on-aws/" target="_blank">Enterprise 2.4 AWS Installation Guide</a></li>
+              <li><a href="https://help.github.com/enterprise/admin/guides/installation/installing-github-enterprise-on-aws/" target="_blank">GitHub Enterprise AWS Installation Guide</a></li>
             </ul>
           </div>
         </div>
@@ -97,7 +97,7 @@ permalink: /technical/installation-configuration/
           <div class="card-block">
             <div class="card-text"><strong>Configuration Instructions:</strong></div>
             <ul class="card-text">
-              <li><a href="https://help.github.com/enterprise/admin/guides/installation/" target="_blank">Enterprise 2.4 Configuration Guide</a></li>
+              <li><a href="https://help.github.com/enterprise/admin/guides/installation/" target="_blank">GitHub Enterprise Configuration Guide</a></li>
             </ul>
           </div>
         </div>
@@ -817,7 +817,7 @@ permalink: /technical/installation-configuration/
       <div class="col-md-12">
         <div class="card">
           <div class="card-block">
-            <div class="card-text">LDAP lets you authenticate GitHub Enterprise against your existing accounts and centrally manage repository access. <a href="https://help.github.com/enterprise/admin/guides/user-management/using-ldap/" target="_blank">Refer to the Enterprise 2.4 documentation</a> for instructions to configure LDAP Synchronization:</div>
+            <div class="card-text">LDAP lets you authenticate GitHub Enterprise against your existing accounts and centrally manage repository access. <a href="https://help.github.com/enterprise/admin/guides/user-management/using-ldap/" target="_blank">Refer to the GitHub Enterprise documentation</a> for instructions to configure LDAP Synchronization:</div>
           </div>
         </div>
       </div>
@@ -842,7 +842,7 @@ permalink: /technical/installation-configuration/
       <div class="col-md-12">
         <div class="card">
           <div class="card-block">
-            <div class="card-text">Site administrators can promote any normal user account to a site administrator, as well as demote other site administrators to regular users. <a href="https://help.github.com/enterprise/admin/guides/user-management/promoting-or-demoting-a-site-administrator/" target="_blank">Refer to the Enterprise 2.4 documentation</a> for full instructions.</div>
+            <div class="card-text">Site administrators can promote any normal user account to a site administrator, as well as demote other site administrators to regular users. <a href="https://help.github.com/enterprise/admin/guides/user-management/promoting-or-demoting-a-site-administrator/" target="_blank">Refer to the GitHub Enteprise documentation</a> for full instructions.</div>
           </div>
         </div>
       </div>
