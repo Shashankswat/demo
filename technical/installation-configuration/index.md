@@ -143,7 +143,7 @@ permalink: /technical/installation-configuration/
   ---
   class: title-top
 
-  # GitHub Enterprise AMI
+  # GitHub Enterprise AMI 2.6.1
 
   <div class="container">
     <div class="row">
@@ -175,11 +175,11 @@ permalink: /technical/installation-configuration/
           <div class="card-block">
             <div class="card-text">AMI ID </div>
             <ul class="card-text">
-              <li>ami-4d240e23</li>
-              <li>ami-0818db6b</li>
-              <li>ami-d84d16bb</li>
-              <li>ami-abd2cec7</li>
-              <li>ami-35319246</li>
+              <li>ami-57b9a339</li>
+              <li>ami-ca3deaa9</li>
+              <li>ami-e2391581</li>
+              <li>ami-ee779581</li>
+              <li>ami-7264ec01</li>
             </ul>
           </div>
         </div>
@@ -203,11 +203,11 @@ permalink: /technical/installation-configuration/
           <div class="card-block">
             <div class="card-text">AMI ID </div>
             <ul class="card-text">
-              <li>ami-0ade5966</li>
-              <li>ami-0ec38964</li>
-              <li>ami-bd741fdd</li>
-              <li>ami-28617e49</li>
-              <li>ami-2075c841</li>
+              <li>ami-f545cc99</li>
+              <li>ami-8fc525e2</li>
+              <li>ami-7f146d1f</li>
+              <li>ami-9e897bfe</li>
+              <li>ami-879d22e6</li>
             </ul>
           </div>
         </div>
