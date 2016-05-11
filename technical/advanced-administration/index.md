@@ -204,7 +204,7 @@ permalink: /technical/advanced-administration/
       <div class="col-md-12">
         <div class="card">
           <div class="card-block">
-            <div class="card-text">The replication and failover features included in GitHub Enterprise 2.4 should <strong>only</strong> be used for:</div>
+            <div class="card-text">The replication and failover features included in GitHub Enterprise should <strong>only</strong> be used for:</div>
             <ul class="card-text">
               <li>Software crashes</li>
               <li>Primary system hardware failures</li>
