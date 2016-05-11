@@ -1,0 +1,18 @@
+#!/bin/sh
+
+set -e
+export CC=gcc
+
+echo "==> Checking gem dependencies…"
+
+if [[ $(bundle check) == "The Gemfile's dependencies are satisfied" ]]; then
+  echo "==> Dependencies are up to date."
+  jekyll serve
+else
+  read -p "It looks like you didn't run script/bootstrap. Do you want to run it now?" yn
+  case $yn in
+    [Yy]* ) script/bootstrap; break;;
+    [Nn]* ) exit;;
+  esac
+  jekyll serve
+fi
