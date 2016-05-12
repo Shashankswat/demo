@@ -87,7 +87,7 @@ permalink: /technical/installation-configuration/
           <div class="card-block">
             <div class="card-text"><strong>Installation Instructions:</strong></div>
             <ul class="card-text">
-              <li><a href="https://help.github.com/enterprise/admin/guides/installation/installing-github-enterprise-on-aws/" target="_blank">Enterprise 2.4 AWS Installation Guide</a></li>
+             <li><a href="https://help.github.com/enterprise/admin/guides/installation/installing-github-enterprise-on-aws/" target="_blank">Enterprise AWS Installation Guide</a></li>
             </ul>
           </div>
         </div>
@@ -97,7 +97,7 @@ permalink: /technical/installation-configuration/
           <div class="card-block">
             <div class="card-text"><strong>Configuration Instructions:</strong></div>
             <ul class="card-text">
-              <li><a href="https://help.github.com/enterprise/admin/guides/installation/" target="_blank">Enterprise 2.4 Configuration Guide</a></li>
+             <li><a href="https://help.github.com/enterprise/admin/guides/installation/" target="_blank">Enterprise Configuration Guide</a></li>
             </ul>
           </div>
         </div>
@@ -143,7 +143,7 @@ permalink: /technical/installation-configuration/
   ---
   class: title-top
 
-  # GitHub Enterprise AMI
+  # GitHub Enterprise AMI 2.6.1
 
   <div class="container">
     <div class="row">
@@ -175,11 +175,11 @@ permalink: /technical/installation-configuration/
           <div class="card-block">
             <div class="card-text">AMI ID </div>
             <ul class="card-text">
-              <li>ami-4d240e23</li>
-              <li>ami-0818db6b</li>
-              <li>ami-d84d16bb</li>
-              <li>ami-abd2cec7</li>
-              <li>ami-35319246</li>
+              <li>ami-57b9a339</li>
+              <li>ami-ca3deaa9</li>
+              <li>ami-e2391581</li>
+              <li>ami-ee779581</li>
+              <li>ami-7264ec01</li>
             </ul>
           </div>
         </div>
@@ -203,11 +203,11 @@ permalink: /technical/installation-configuration/
           <div class="card-block">
             <div class="card-text">AMI ID </div>
             <ul class="card-text">
-              <li>ami-0ade5966</li>
-              <li>ami-0ec38964</li>
-              <li>ami-bd741fdd</li>
-              <li>ami-28617e49</li>
-              <li>ami-2075c841</li>
+              <li>ami-f545cc99</li>
+              <li>ami-8fc525e2</li>
+              <li>ami-7f146d1f</li>
+              <li>ami-9e897bfe</li>
+              <li>ami-879d22e6</li>
             </ul>
           </div>
         </div>
@@ -234,19 +234,20 @@ permalink: /technical/installation-configuration/
   ---
   class: title-top
 
-  # Select the AMI
+   # Clustering
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <img src="/images/EC2-AMI.png" class="img-responsive">
+   <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <b>Many GitHub enterprise customers run instances with well over 1,000 active users, with some single instances serving between 4,000-5,000 users.</b>
+          <b>GitHub will work closely with the customer to enable clustering, and ensure the best performing development environment for customers</b>
+        </div>
       </div>
     </div>
-  </div>
 
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-  </footer>
+   <footer>
+     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+   </footer>
   ---
   class: title-top
 
@@ -358,6 +359,7 @@ permalink: /technical/installation-configuration/
       </div>
     </div>
   </div>
+
 
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
@@ -817,8 +819,8 @@ permalink: /technical/installation-configuration/
       <div class="col-md-12">
         <div class="card">
           <div class="card-block">
-            <div class="card-text">LDAP lets you authenticate GitHub Enterprise against your existing accounts and centrally manage repository access. <a href="https://help.github.com/enterprise/admin/guides/user-management/using-ldap/" target="_blank">Refer to the Enterprise 2.4 documentation</a> for instructions to configure LDAP Synchronization:</div>
-          </div>
+           <div class="card-text">LDAP lets you authenticate GitHub Enterprise against your existing accounts and centrally manage repository access. <a href="https://help.github.com/enterprise/admin/guides/user-management/using-ldap/" target="_blank">Refer to the Enterprise documentation</a> for instructions to configure LDAP Synchronization:</div>
+         </div>
         </div>
       </div>
     </div>
@@ -842,8 +844,8 @@ permalink: /technical/installation-configuration/
       <div class="col-md-12">
         <div class="card">
           <div class="card-block">
-            <div class="card-text">Site administrators can promote any normal user account to a site administrator, as well as demote other site administrators to regular users. <a href="https://help.github.com/enterprise/admin/guides/user-management/promoting-or-demoting-a-site-administrator/" target="_blank">Refer to the Enterprise 2.4 documentation</a> for full instructions.</div>
-          </div>
+           <div class="card-text">Site administrators can promote any normal user account to a site administrator, as well as demote other site administrators to regular users. <a href="https://help.github.com/enterprise/admin/guides/user-management/promoting-or-demoting-a-site-administrator/" target="_blank">Refer to the Enterprise documentation</a> for full instructions.</div>
+         </div>
         </div>
       </div>
     </div>
