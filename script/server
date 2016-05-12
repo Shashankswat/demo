@@ -1,8 +1,5 @@
 #!/bin/sh
 
-<<<<<<< HEAD
-jekyll serve
-=======
 set -e
 export CC=gcc
 
@@ -19,4 +16,3 @@ else
   esac
   jekyll serve
 fi
->>>>>>> 6c092acfc3500387011dc2dade5029f880ea6fc4
