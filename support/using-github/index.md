@@ -532,9 +532,10 @@ permalink: /support/using-github/
       <div class="col-md-4">
         <div class="card">
           <div class="card-block">
-            <div class="card-text">Integration</div>
+            <div class="card-text"></div>
             <ul class="card-text">
-            <li>#7</li>
+            <center><img src="/images/vso.png" height="50px" width="50px" alt="VSO">
+            <br><small>GitHub for VSO</small></center>
             </ul>
           </div>
         </div>
@@ -542,9 +543,10 @@ permalink: /support/using-github/
       <div class="col-md-4">
         <div class="card">
           <div class="card-block">
-            <div class="card-text">Integration </div>
+            <div class="card-text"></div>
+            <center><img src="/images/sonarqube.png" height="50px" width="50px" alt="SonarQube">
+            <br><small>SonarQube</small></center>
             <ul class="card-text">
-              <li>#8</li>
             </ul>
           </div>
         </div>
@@ -552,9 +554,10 @@ permalink: /support/using-github/
       <div class="col-md-4">
         <div class="card">
           <div class="card-block">
-            <div class="card-text">Integration </div>
+          <div class="card-text"></div>
+          <center><img src="/images/myget.png" height="50px" width=50px" alt="MyGet">
+          <br><small>MyGet</small></center>
             <ul class="card-text">
-              <li>#9</li>
             </ul>
           </div>
         </div>
