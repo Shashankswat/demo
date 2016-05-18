@@ -239,7 +239,7 @@ permalink: /support/using-github/
             <div class="card-block">
               <div class="card-img-top text-center"><span class="mega-octicon octicon-mark-github"></span> <span class="mega-octicon octicon-server"></span> <span class="mega-octicon octicon-database"></span></div>
               <div class="card-title"><a href="https://enterprise.github.com" target="_blank"><h3>IBM Bluemix</h3></a></div>
-              <p class="card-text"><strong>GitHub Enterprise on Bluemix</strong> is IBM's managed version of GitHub Enterprise, which you can deploy and manage in IBM's Bluemix environment. <a href="https://developer.ibm.com/bluemix/2016/02/22/github-enterprise-service/">Learn more ...</a></p>
+              <p class="card-text"><strong>GitHub Enterprise on Bluemix</strong> is IBM's managed version of GitHub Enterprise, which you can deploy in IBM's Bluemix environment. <a href="https://developer.ibm.com/bluemix/2016/02/22/github-enterprise-service/">Learn more ...</a></p>
             </div>
           </div>
         </div>  
