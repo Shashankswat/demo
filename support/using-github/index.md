@@ -1,6 +1,6 @@
 ---
 layout: slides
-title: How Developers Use GitHub
+title: Why Developers choose GitHub
 permalink: /support/using-github/
 ---
 
@@ -8,7 +8,7 @@ permalink: /support/using-github/
   class: title-slide
 
   <span class="mega-octicon octicon-mark-github"></span>
-  <h1>How Developers use GitHub</h1>
+  <h1>Why Developers choose GitHub</h1>
 
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
