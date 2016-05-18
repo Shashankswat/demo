@@ -38,6 +38,7 @@ permalink: /support/using-github/
               <li>GitHub Overview</li>
               <li>Key Product Features</li>
               <li>Platform - Capability Matrix</li>
+              <li>Integrations</li>
             </ul>
           </div>
         </div>
@@ -269,7 +270,7 @@ permalink: /support/using-github/
       <div class="col-md-12">
         <div class="card">
           <div class="card-block">
-            <div class="card-text"><strong>The GitHub Flow: Enables Developer and Application Flow </strong></div>
+            <div class="card-text"><strong>Tools and Features Developers can not live without </strong></div>
           </div>
         </div>
       </div>
@@ -413,6 +414,18 @@ permalink: /support/using-github/
           <div class="card-block">
             <div class="card-title">Integrations to Boost Developer Productivity</div>
             <div class="card-text">
+            <center><img src="/images/integrations-directory-graphic.svg" height='60%' width='60%'></center> 
+            </div>
+          </div>
+        </div>
+      </div>     
+     </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">Integrations to Boost Developer Productivity</div>
+            <div class="card-text">
                <ul>
                   <li>Developers use their favorite tools with GitHub</li>
                   <li>Continuous Integration and Continuous Delivery automate build and delivery of releases</li>
@@ -422,8 +435,8 @@ permalink: /support/using-github/
               </div>
           </div>
         </div>
-      </div>
-     </div>
+      </div>     
+     </div> 
     </div>
   </div>
 
@@ -433,7 +446,7 @@ permalink: /support/using-github/
   ---
   class: title-top
 
-  #Integrations
+  #Integrations-Detailed
 
   <div class="container">
     <div class="row">
@@ -449,9 +462,10 @@ permalink: /support/using-github/
       <div class="col-md-4">
         <div class="card">
           <div class="card-block">
-            <div class="card-text">Integration </div>
+            <div class="card-text"></div>
+            <center><img border="1px" src="/images/cloudbees.png" height="50px" width="50px" alt="Cloudbees">
+            <br><small>Jenkins in the Cloud</small></center>
             <ul class="card-text">
-              <li>#1</li>
             </ul>
           </div>
         </div>
@@ -459,9 +473,10 @@ permalink: /support/using-github/
       <div class="col-md-4">
         <div class="card">
           <div class="card-block">
-            <div class="card-text">Integration </div>
+            <div class="card-text"></div>
+            <center><img src="/images/travis.png" height="50px" width="50px">
+            <br><small>Travis CI</small></center>
             <ul class="card-text">
-              <li>#2</li>
             </ul>
           </div>
         </div>
@@ -469,9 +484,10 @@ permalink: /support/using-github/
       <div class="col-md-4">
         <div class="card">
           <div class="card-block">
-            <div class="card-text">Integration </div>
+            <div class="card-text"></div>
+            <center><img src="/images/circleci.png" alt="Circle CI" height="50px" width="50px">
+            <br><small>Circle CIi</small></center>
             <ul class="card-text">
-              <li>#3</li>
             </ul>
           </div>
         </div>
@@ -481,9 +497,10 @@ permalink: /support/using-github/
       <div class="col-md-4">
         <div class="card">
           <div class="card-block">
-            <div class="card-text">Integration</div>
+            <div class="card-text"></div>
+            <center><img src="/images/jira.png" height="50px" width="50px" alt="JIRA">
+            <br><small>JIRA</small></center>
             <ul class="card-text">
-              <li>#4</li>
             </ul>
           </div>
         </div>
@@ -491,9 +508,10 @@ permalink: /support/using-github/
       <div class="col-md-4">
         <div class="card">
           <div class="card-block">
-            <div class="card-text">Integration </div>
+            <div class="card-text"></div>
+            <center><img src="/images/slack.png" height="50px" width="50px" alt="Slack">
+            <br><small>Slack</small></center>
             <ul class="card-text">
-              <li>#5</li>
             </ul>
           </div>
         </div>
@@ -501,9 +519,10 @@ permalink: /support/using-github/
       <div class="col-md-4">
         <div class="card">
           <div class="card-block">
-            <div class="card-text">Integration </div>
+            <div class="card-text"></div>
+            <center><img src="/images/zenhub.png" height="50px" width="50px" alt="ZenHub">
+            <br><small>ZenHub</small></center>
             <ul class="card-text">
-              <li>#6</li>
             </ul>
           </div>
         </div>
