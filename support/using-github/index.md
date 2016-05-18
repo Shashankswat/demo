@@ -405,6 +405,63 @@ permalink: /support/using-github/
   </footer>
   ---
   class: title-top
+  #GitHub Flow
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">The GitHub Flow</div>
+            <div class="card-text">
+            <center><img src="/images/gflow.png"></center> 
+            </div>
+          </div>
+        </div>
+      </div>     
+     </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">Why Developers Love GitHub Flow</div>
+            <div class="card-text">
+            <ul>
+            <small>
+            <li>A streamlined way to Work</li>
+            <li>Breeds collaboration</li>
+            <li>Bugs are found at time of Pull Request</li>
+            <li>Decrease number of meetings</li>
+            </small>
+            </ul> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">Why Leadership Loves GitHub Flow</div>
+            <div class="card-text">
+            <ul>
+            <small>
+            <li>Accelerate release cycles</li>
+            <li>Decrease the value/cost of bugs</li>
+            <li>Build community your teams</li>
+            <li>Visbility breeds code-reuse</li>
+            </small>
+            </ul> 
+            </div>
+          </div>
+        </div>
+      </div>     
+     </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
   #Integrations
 
   <div class="container">
