@@ -193,6 +193,58 @@ permalink: /support/supporting-github/
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
+  ---
+  class: title-top
+
+  # Site Admin
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Site Admin</strong></div>
+            <ul class="card-text">
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Features</strong></div>
+            <ul class="card-text">
+            <li>Used to manage the GitHub Enterprise installation</li>
+            <li>Audit Logging for activity on the instance </li>
+            <li>Run Reports to gather user, org and repository metrics</li>
+            <li>Indexing gives view into ElasticSearch internal custer</li>
+            <li>Manage custom applications that access the instance</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Features</strong></div>
+            <ul class="card-text">
+            <li>File Storage - See usage, and GitLFS store</li>
+            <li>Admin Center - Manage global settings</li>
+            <li>Manage/Invite/Suspend Users</li>
+            <li>Promote/Remove users at Site Admins</li>
+            <li>Enterprise Admin API exposes some of these features</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
 
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
