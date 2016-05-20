@@ -309,14 +309,14 @@ permalink: /support/supporting-github/
   ---
   class: title-top
 
-  # Support Bundles and Diagnostics
+  # Support Bundles
 
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Support Bundles and Diagnostics</strong></div>
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Support Bundles</strong></div>
             <ul class="card-text">
             </ul>
           </div>
