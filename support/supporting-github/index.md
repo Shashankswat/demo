@@ -23,11 +23,11 @@ permalink: /support/supporting-github/
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Level 1 Agenda:</strong></div>
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Support Agenda:</strong></div>
             <ul class="card-text">
               <li>GitHub Enterprise Appliance</li>
               <li>Site Admins</li>
-              <li>Gathering Support Bundles</li>
+              <li>Gathering Support Bundles and Diagnostics</li>
               <li>Integrations and WebHooks</li>
               <li>Documentation</li>
             </ul>
@@ -37,12 +37,12 @@ permalink: /support/supporting-github/
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Level 2 Agenda:</strong></div>
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Support Agenda (Cont'd):</strong></div>
             <ul class="card-text">
               <li>GitHub Enterprise Appliance Deep-Dive</li>
               <li>Management Console</li>
               <li>Shell Access</li>
-              <li>Reading Support Bundles</li>
+              <li>Reading Support Bundles and Diagnostics</li>
               <li>Upgrading GitHub Enterprise</li>
             </ul>
           </div>
@@ -57,7 +57,7 @@ permalink: /support/supporting-github/
             <ul class="card-text">
               <li>GitHub's Support Structure</li>
               <li>Creating a Knowledge Base</li>
-              <li>Escalating to GitHub Support (L3)</li>
+              <li>Escalating tickets and issues</li>
             </ul>
           </div>
         </div>
