@@ -133,6 +133,37 @@ permalink: /support/supporting-github/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Appliance Deep Dive</strong></div>
             <ul class="card-text">
+            <li>Note: Information up-to-date as of May 2016</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Appliance Deep Dive</strong></div>
+            <ul class="card-text">
+            <li>Server based on Ubuntu Server 12.04 LTS</li>
+            <li>Two filesystems: User and Application, logically separated</li>
+            <li>Variety of internal monitoring systems in place to feed external SNMP monitoring</li>
+            <li>GitHub Enterprise is patched and updated regularly, pro-active</li>
+            <li>Major releases every 3-4 months</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Appliance Deep Dive</strong></div>
+            <ul class="card-text">
+            <li>A variety of TCP/UDP protocols</li>
+            <li>Monitoring set up via SNMP (+collectd)</li>
+            <li>GitLFS natively supported (Encourage customers to enable this when onboarding!)</li>
+            <li>Robust backup-utilities available to backup customer data</li>
+            <li>Proxy server support available (Useful if customer is VIP'ing to Bluemix)</li>
             </ul>
           </div>
         </div>
