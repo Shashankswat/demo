@@ -37,7 +37,7 @@ permalink: /support/supporting-github/
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Support Agenda (Cont'd):</strong></div>
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Support Agenda - Deep Dive:</strong></div>
             <ul class="card-text">
               <li>GitHub Enterprise Appliance Deep-Dive</li>
               <li>Management Console</li>
