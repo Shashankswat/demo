@@ -297,6 +297,67 @@ permalink: /support/supporting-github/
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
+  ---
+  class: title-slide
+
+  <span class="mega-octicon octicon-mark-github"></span>
+  <h1>Support Bundles and Diagnostics</h1>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Support Bundles and Diagnostics
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Support Bundles and Diagnostics</strong></div>
+            <ul class="card-text">
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Use Cases</strong></div>
+            <ul class="card-text">
+            <li>Key for troubleshooting the appliance</li>
+            <li>Sometimes user's issues will be system based</li>
+            <li>Will need when escalating to L2/GitHub</li>
+            <li>Useful to become comfortable with core components</li>
+            <li>Helpful to share with customer</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;How to Gather</strong></div>
+            <ul class="card-text">
+            <li>Two ways</li>
+            <li>From Staff Tools -> Support</li>
+            <li>From command line: 'ghe-support-bundle'</li>
+            <li>Can take several minutes to gather and compile</li>
+            <li>On large appliances, can be several hundred megs in size</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+   </footer>
 
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
