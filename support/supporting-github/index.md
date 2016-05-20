@@ -245,6 +245,58 @@ permalink: /support/supporting-github/
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
+  ---
+  class: title-top
+
+  # Site Admin
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Management Console</strong></div>
+            <ul class="card-text">
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Features</strong></div>
+            <ul class="card-text">
+            <li>Used to manage high-level GitHub Enterprise Settings</li>
+            <li>Commonly referred to as 'Staff Tools'</li>
+            <li>Manage Shell Access for Admins</li>
+            <li>Configure DNS/NTP/IdP</li>
+            <li>Check for Updates</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Features</strong></div>
+            <ul class="card-text">
+            <li>Monitoring Dashboard</li>
+            <li>Maintenance Mode</li>
+            <li>GitHub Pages Accessibility</li>
+            <li>Subdomain Isolation</li>
+            <li>Enable log/collectd forwarding</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
 
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
