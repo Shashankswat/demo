@@ -41,8 +41,8 @@ permalink: /support/supporting-github/
             <ul class="card-text">
               <li>GitHub Enterprise Appliance Deep-Dive</li>
               <li>Management Console</li>
-              <li>Shell Access</li>
               <li>Reading Support Bundles and Diagnostics</li>
+              <li>Reading Webhooks and API Messags</li>
               <li>Upgrading GitHub Enterprise</li>
             </ul>
           </div>
