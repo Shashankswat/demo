@@ -1,5 +1,5 @@
 ---
-layout: slides
+:layout: slides
 title: Why Developers choose GitHub
 permalink: /support/using-github/
 ---
@@ -38,6 +38,7 @@ permalink: /support/using-github/
               <li>GitHub Overview</li>
               <li>Key Product Features</li>
               <li>Platform - Capability Matrix</li>
+              <li>Exploring the platform</li>
               <li>Integrations</li>
             </ul>
           </div>
