@@ -29,7 +29,7 @@ permalink: /support/supporting-github/
               <li>Site Admins</li>
               <li>Gathering Support Bundles and Diagnostics</li>
               <li>Integrations and WebHooks</li>
-              <li>Documentation</li>
+              <li>Documentation and Resources</li>
             </ul>
           </div>
         </div>
@@ -42,7 +42,7 @@ permalink: /support/supporting-github/
               <li>GitHub Enterprise Appliance Deep-Dive</li>
               <li>Management Console</li>
               <li>Reading Support Bundles and Diagnostics</li>
-              <li>Understanding webhooks, API, and applications</li>
+              <li>Understanding webhooks, API, and apps</li>
               <li>Upgrading GitHub Enterprise</li>
             </ul>
           </div>
@@ -762,6 +762,66 @@ permalink: /support/supporting-github/
           </div>
         </div>
       </div> 
+    </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+   </footer>
+  ---
+  class: title-slide
+
+  <span class="mega-octicon octicon-mark-github"></span>
+  <h1>Documentation and Resources</h1>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Documentation and Resources
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Documentation and Resources</strong></div>
+            <ul class="card-text">
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Using GitHub</strong></div>
+            <ul class="card-text">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Supporting GitHub</strong></div>
+            <ul class="card-text">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <footer>
