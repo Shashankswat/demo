@@ -481,7 +481,7 @@ permalink: /support/supporting-github/
       <div class="col-md-12">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Support Bundles</strong></div>
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Diagnostics</strong></div>
             <ul class="card-text">
             </ul>
           </div>
@@ -492,7 +492,7 @@ permalink: /support/supporting-github/
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Use Cases</strong></div>
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Items</strong></div>
             <ul class="card-text">
             <li></li>
             <li></li>
@@ -506,7 +506,7 @@ permalink: /support/supporting-github/
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;How to Gather</strong></div>
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Considerations</strong></div>
             <ul class="card-text">
             <li></li>
             <li></li>
