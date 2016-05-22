@@ -3,26 +3,29 @@ layout: labs
 title: Why Developers Choose GitHub Lab
 ---
 
-# Why Developers Choose GitHub
+# Support GitHub Enterprise
 
 ## Prerequisites
 - Make sure you have an account on the Bluemix GHE Instance at <ADDRESSS>
 - Make sure you are a Site Admin
 
 ## Familiarize yourself with GitHub Enterprise
-- Create an Organization
-- Create a Team
-- Create a new repository
- - Initialize with a README file
- - Pick a partner, and add your partner to that repository
- - Open a new branch
- - Edit the README file
- - Commit the change
- - Create a Pull Request, and @mention your partner
- - Check your notifications for the @mention
- - Have your partner review your change
- - Merge the Pull Request
-- Explore github.com/atom to see GitHub used in the Open-Source Community
-- Review https://guides.github.com/activities/hello-world/
-- Review https://help.github.com/enterprise/
-
+- Create a Support Bundle
+- Read the Support Bundle
+- User Management
+ - Invite a New User
+ - Suspend a User
+ - Create a custom sign-in message
+ - Create a custom suspsension message
+ - Impersonate a User
+ - Create an event to trigger the audit log
+ - Read the audit log
+ - Promote a basic user to Site Admin
+ 
+- Management Console
+ - Use the Monitoring Dashboard
+ - Create an SSH key for yourself
+ - Add it to the authorized users list
+ - Check for an Update
+ - Put GitHub in Maintenance Mode
+ - Try to login 
