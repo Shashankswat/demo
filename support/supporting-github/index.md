@@ -42,7 +42,7 @@ permalink: /support/supporting-github/
               <li>GitHub Enterprise Appliance Deep-Dive</li>
               <li>Management Console</li>
               <li>Reading Support Bundles and Diagnostics</li>
-              <li>Reading Webhooks and API Messags</li>
+              <li>Understanding webhooks, API, and applications</li>
               <li>Upgrading GitHub Enterprise</li>
             </ul>
           </div>
