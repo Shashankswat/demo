@@ -42,7 +42,7 @@ permalink: /support/supporting-github/
               <li>GitHub Enterprise Appliance Deep-Dive</li>
               <li>Management Console</li>
               <li>Reading Support Bundles and Diagnostics</li>
-              <li>Understanding webhooks, API, and apps</li>
+              <li>Understanding webhooks, API, and applications</li>
               <li>Upgrading GitHub Enterprise</li>
             </ul>
           </div>
@@ -519,11 +519,67 @@ permalink: /support/supporting-github/
       </div>
     </div>
   </div>
-
+  
     <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
     </footer>
+  ---
+  class: title-slide
 
+  <span class="mega-octicon octicon-mark-github"></span>
+  <h1>Integrations+Webhooks, The GitHub API, and custom applications</h1>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Integrations
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Integrations</strong></div>
+            <ul class="card-text">
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Reasons Why</strong></div>
+            <ul class="card-text">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Setting up integrations</strong></div>
+            <ul class="card-text">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
    <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
    </footer>
