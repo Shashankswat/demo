@@ -606,11 +606,11 @@ permalink: /support/supporting-github/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Reasons Why</strong></div>
             <ul class="card-text">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Trigger on event criteria</li>
+            <li>Help enforce quality</li>
+            <li>Auditing for large files</li>
+            <li>Assist in scanning code after the commit</li>
+            <li>Infrastructure automation</li>
             </ul>
           </div>
         </div>
@@ -620,9 +620,9 @@ permalink: /support/supporting-github/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Anatomy</strong></div>
             <ul class="card-text">
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>JSON formatted</li>
+            <li>Always delivered via HTTP POST</li>
+            <li>Easy to digest headers</li>
             <li></li>
             <li></li>
             </ul>
