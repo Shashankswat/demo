@@ -555,11 +555,11 @@ permalink: /support/supporting-github/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Reasons Why</strong></div>
             <ul class="card-text">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Continous Integration</li>
+            <li>Project Management</li>
+            <li>ChatOps</li>
+            <li>Approval gates</li>
+            <li>Accelerate work in IDEs</li>
             </ul>
           </div>
         </div>
@@ -569,11 +569,11 @@ permalink: /support/supporting-github/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Setting up integrations</strong></div>
             <ul class="card-text">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Simple and straightforward</li>
+            <li>Organization vs Repository</li>
+            <li>Standardized format for messaging</li>
+            <li>Easy to re-trigger messaging</li>
+            <li>Easy to setup authentication</li>
             </ul>
           </div>
         </div>
