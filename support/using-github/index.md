@@ -38,6 +38,7 @@ permalink: /support/using-github/
               <li>GitHub Overview</li>
               <li>Key Product Features</li>
               <li>Platform - Capability Matrix</li>
+              <li>Exploring the platform  (Demonstration)</li>
               <li>Integrations</li>
             </ul>
           </div>
