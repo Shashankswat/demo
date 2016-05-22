@@ -657,11 +657,11 @@ permalink: /support/supporting-github/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Ways to access</strong></div>
             <ul class="card-text">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>http(s)://instancename/api/v3/</li>
+            <li>cURL for testing</li>
+            <li>Libraries in major languages</li>
+            <li>Auth at user level</li>
+            <li>Tokens allow for scoped access</li>
             </ul>
           </div>
         </div>
@@ -671,11 +671,11 @@ permalink: /support/supporting-github/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Troubleshooting</strong></div>
             <ul class="card-text">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>We handle a lot of API support</li>
+            <li>Always attempt to re-recreate</li>
+            <li>Sometimes issues are environmental</li>
+            <li>Go the extra step for our customers</li>
+            <li>You may receive customer feedback. Yay!</li>
             </ul>
           </div>
         </div>
