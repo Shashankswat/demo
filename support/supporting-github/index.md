@@ -708,7 +708,7 @@ permalink: /support/supporting-github/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Applications vs API</strong></div>
             <ul class="card-text">
-            <li></li>
+            <li>Accessing user data</li>
             <li></li>
             <li></li>
             <li></li>
@@ -722,9 +722,9 @@ permalink: /support/supporting-github/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Authentication</strong></div>
             <ul class="card-text">
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Done via OAuth Flow</li>
+            <li>User gives permission via redirect</li>
+            <li>:</li>
             <li></li>
             <li></li>
             </ul>
@@ -746,7 +746,7 @@ permalink: /support/supporting-github/
       <div class="col-md-12">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Understanding OAuth Flow </strong></div>
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>Understanding OAuth Flow </strong></div>
             <ul class="card-text">
             </ul>
           </div>
