@@ -695,7 +695,7 @@ permalink: /support/supporting-github/
       <div class="col-md-12">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;The GitHub API</strong></div>
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Applications</strong></div>
             <ul class="card-text">
             </ul>
           </div>
