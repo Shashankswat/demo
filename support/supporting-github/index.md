@@ -826,5 +826,65 @@ permalink: /support/supporting-github/
   </div>
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+   </footer>
+  ---
+  class: title-slide
+
+  <span class="mega-octicon octicon-mark-github"></span>
+  <h1>Upgrading GitHub Enterprise</h1>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Documentation and Resources
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Upgrading GitHub Enterprise</strong></div>
+            <ul class="card-text">
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Customer Communication</strong></div>
+            <ul class="card-text">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Best Practices</strong></div>
+            <ul class="card-text">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
    </footer>   
 </textarea>
