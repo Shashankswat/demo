@@ -492,13 +492,13 @@ permalink: /support/supporting-github/
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Items</strong></div>
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;What they contain</strong></div>
             <ul class="card-text">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Lightweight compared to support bunlde</li>
+            <li>CPU Performance snapshot</li>
+            <li>Licensing information</li>
+            <li>Various system/network settings</li>
+            <li>Infrastructure settings related to the VM</li>
             </ul>
           </div>
         </div>
@@ -508,11 +508,11 @@ permalink: /support/supporting-github/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Considerations</strong></div>
             <ul class="card-text">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Good for auditing the instance</li>
+            <li>See customer utilization</li>
+            <li>Audit the license count</li>
+            <li>GitHub (L3) may request periodically</li>
+            <li>Customer probably won't request</li>
             </ul>
           </div>
         </div>
