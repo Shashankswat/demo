@@ -972,11 +972,11 @@ permalink: /support/supporting-github/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Customer-Facing</strong></div>
             <ul class="card-text">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Create a series of how-tos for common issues</li>
+            <li>Use your expertise to win our customers</li>
+            <li>Reguarly update software release pages</li>
+            <li>Update with trends seen for proactive support</li>
+            <li>Reach out to our customers</li>
             </ul>
           </div>
         </div>
@@ -986,11 +986,11 @@ permalink: /support/supporting-github/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Internal</strong></div>
             <ul class="card-text">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Run metrics regularly against issue tracker and each instance</li>
+            <li>Create canned replies for customers</li>
+            <li>Define escalation paths</li>
+            <li>Define support time and handoff</li>
+            <li>Keep GitHub Escalation info handy</li>
             </ul>
           </div>
         </div>
