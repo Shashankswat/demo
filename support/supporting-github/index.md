@@ -440,13 +440,13 @@ permalink: /support/supporting-github/
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Use Cases</strong></div>
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;What bundles contain</strong></div>
             <ul class="card-text">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Metadata and Diagnostics of GHE</li>
+            <li>System logs</li>
+            <li>Services supporting GHE</li>
+            <li>Apps supporting the platform</li>
+            <li>Database logging</li>
             </ul>
           </div>
         </div>
@@ -454,13 +454,13 @@ permalink: /support/supporting-github/
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;How to Gather</strong></div>
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Notable Logs</strong></div>
             <ul class="card-text">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>production.log</li>
+            <li>gitauth.log</li>
+            <li>auth.log</li>
+            <li>resque.log</li>
+            <li>audit.log</li>
             </ul>
           </div>
         </div>
