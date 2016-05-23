@@ -760,7 +760,7 @@ permalink: /support/supporting-github/
         <div class="card">
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;</strong></div>
-           <!--<img src="/images/ouath_flow.png"-->          
+           <img src="/images/oauth2_flow.png" height="50%" width="50%">          
           </div>
         </div>
       </div> 
@@ -801,11 +801,11 @@ permalink: /support/supporting-github/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Using GitHub</strong></div>
             <ul class="card-text">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li><a href="http://git-scm.com/">Learning git</a></li>
+            <li><a href="http://learngitbranching.js.org/">git Branching</a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLg7s6cbtAD16MZFt8waA38gATo5jxcDEp">GitHub Integrations Playlist</a></li>
+            <li><a href="https://guides.github.com/introduction/flow/">GitHub Flow</a></li>
+            <li><a href="https://guides.github.com/activities/forking/">Introduction to Forking</a></li>
             </ul>
           </div>
         </div>
@@ -815,11 +815,11 @@ permalink: /support/supporting-github/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Supporting GitHub</strong></div>
             <ul class="card-text">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li><a href="https://developer.github.com/v3/">GitHub API Guides</a></li>
+            <li><a href="https://github.zendesk.com/">ZenDesk (Contacting us)</a></li>
+            <li><a href="https://help.github.com/enterprise/2.6/admin/">GitHub Enterprise Admin Guide</a></li>
+            <li><a href="https://help.github.com/enterprise/2.6/user/">GitHub Enterprise User Guides</a></li>
+            <li><a href="https://help.github.com/enterprise/2.6/admin/guides/user-management/">GitHub Enterprise User Management</a></li>
             </ul>
           </div>
         </div>
