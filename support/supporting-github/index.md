@@ -859,13 +859,13 @@ permalink: /support/supporting-github/
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Customer Communication</strong></div>
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Consideratiosn</strong></div>
             <ul class="card-text">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Upgrades typically take minutes</li>
+            <li>Longest effort involves backups</li>
+            <li>Check for upgrades in Management Console</li>
+            <li>Prioritize security patches over all</li>
+            <li>Customer has no access during upgrade</li>
             </ul>
           </div>
         </div>
@@ -875,11 +875,11 @@ permalink: /support/supporting-github/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Best Practices</strong></div>
             <ul class="card-text">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Define an outage period</li>
+            <li>Encourage customers to run backup-utils</li>
+            <li>Experiment with major releases in labs</li>
+            <li>Stagger upgrades across customer base</li>
+            <li>No customer more than 2 major releases behind</li>
             </ul>
           </div>
         </div>
