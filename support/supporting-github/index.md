@@ -671,7 +671,7 @@ permalink: /support/supporting-github/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Troubleshooting</strong></div>
             <ul class="card-text">
-            <li>We handle a lot of API support</li>
+            <li>L1 handles a lot of API support</li>
             <li>Always attempt to re-recreate</li>
             <li>Sometimes issues are environmental</li>
             <li>Go the extra step for our customers</li>
@@ -706,13 +706,13 @@ permalink: /support/supporting-github/
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Applications vs API</strong></div>
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Applications vs tokenized API</strong></div>
             <ul class="card-text">
-            <li>Accessing user data</li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Applications need to be registered</li>
+            <li>OAuth2 via web flow/oauth api (Preview mode)</li>
+            <li>Access private data with user permission</li>
+            <li>Preferred over Basic Authentication</li>
+            <li>Access can be scoped</li>
             </ul>
           </div>
         </div>
@@ -720,13 +720,15 @@ permalink: /support/supporting-github/
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Authentication</strong></div>
+            <div>
+              <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Considerations</strong></div>
+            </div>
             <ul class="card-text">
-            <li>Done via OAuth Flow</li>
-            <li>User gives permission via redirect</li>
-            <li>:</li>
-            <li></li>
-            <li></li>
+            <li>Sizable portion of L1 Support</li>
+            <li>We provide excellent documentation</li>
+            <li>Experiment for familiarity</li>
+            <li>GitHub Support has your back!</li>
+            <li>Please provide customer feedback to us</li>
             </ul>
           </div>
         </div>
