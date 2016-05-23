@@ -921,11 +921,11 @@ permalink: /support/supporting-github/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Strategic</strong></div>
             <ul class="card-text">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>World Class Support</li>
+            <li>Respond + Resolve Quickly</li>
+            <li>As few emails as possible</li>
+            <li>Bring in help early</li>
+            <li>Own customer feedback</li>
             </ul>
           </div>
         </div>
@@ -935,11 +935,11 @@ permalink: /support/supporting-github/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Tactical</strong></div>
             <ul class="card-text">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>24x5 Support</li>
+            <li>Urgent response: 10-30 minutes</li>
+            <li>Urgent requests response time 10-30 minutes</li>
+            <li>Contribute to release QA</li>
+            <li>3 Levels of Support</li>            
             </ul>
           </div>
         </div>
