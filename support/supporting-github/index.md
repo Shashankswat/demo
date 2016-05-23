@@ -622,9 +622,9 @@ permalink: /support/supporting-github/
             <ul class="card-text">
             <li>JSON formatted</li>
             <li>Always delivered via HTTP POST</li>
-            <li>Easy to digest headers</li>
-            <li></li>
-            <li></li>
+            <li>Split between headers and payload</li>
+            <li>Headers "X-GitHub" contain SHA and event type</li>
+            <li>Payload mix of git and GitHub data</li>
             </ul>
           </div>
         </div>
