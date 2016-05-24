@@ -269,7 +269,7 @@ permalink: /support/supporting-github/
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Features</strong></div>
             <ul class="card-text">
             <li>Used to manage high-level GitHub Enterprise Settings</li>
-            <li>Commonly referred to as 'Staff Tools'</li>
+            <li>Managed by IBM Bluemix Support</li>
             <li>Manage Shell Access for Admins</li>
             <li>Configure DNS/NTP/IdP</li>
             <li>Check for Updates</li>
