@@ -1,0 +1,21 @@
+---
+layout: slides
+title: Why Developers choose GitHub
+permalink: /support/q_n_a//
+---
+
+<textarea id="source">
+  class: title-slide
+
+  <span class="mega-octicon octicon-mark-github"></span>
+  <h1>Q & A</h1>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+</textarea>
