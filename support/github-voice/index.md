@@ -140,7 +140,7 @@ permalink: /support/github-voice/
             <li>Drives consistency</li>
             <li>Developer Love</li>
             <li>Encourages use</li>
-            <li>Helps everyone suceed</li>
+            <li>Helps everyone succeed</li>
             </ul>
           </div>
         </div>
