@@ -24,7 +24,7 @@ permalink: /support/github-voice/
         <div class="card">
           <div class="card-block">
             <div class="card-text"><strong>Section Goal:</strong></div>
-            <div class="card-text">How to use the GitHub voice when supporting our mutual, awesome customers</div>
+            <div class="card-text">How to use the GitHub voice when supporting customers using GitHub Enterprise</div>
           </div>
         </div>
       </div>
@@ -38,7 +38,6 @@ permalink: /support/github-voice/
               <li>The Voice</li>
               <li>Why it matters</li>
               <li>Customer Expectations</li>
-              <li>What the GitHub voice is not</li>
             </ul>
           </div>
         </div>
