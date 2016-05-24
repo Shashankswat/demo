@@ -175,7 +175,7 @@ permalink: /support/github-voice/
             <ul class="card-text">
             <li>Our customers know our product inside/out</li>
             <li>Provide lots of feedback</li>
-            <li>Our super-excited to talk to us</li>
+            <li>Are super-excited to talk to us</li>
             <li>Best developers around</li>
             <li>Are tough because they want us to suceed</li>
             </ul>
