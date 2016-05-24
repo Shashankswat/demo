@@ -495,7 +495,7 @@ permalink: /support/supporting-github/
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;What they contain</strong></div>
             <ul class="card-text">
             <li>Lightweight compared to support bunlde</li>
-            <li>CPU Performance snapshot</li>
+            <li>Appliance Performance Snapshot</li>
             <li>Licensing information</li>
             <li>Various system/network settings</li>
             <li>Infrastructure settings related to the VM</li>
