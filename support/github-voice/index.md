@@ -136,7 +136,7 @@ permalink: /support/github-voice/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;</strong></div>
             <ul class="card-text">
-            <li>Builds loyalty to GitHub</li>
+            <li>Builds loyalty to using GitHub on Bluemix</li>
             <li>Drives consistency</li>
             <li>Developer Love</li>
             <li>Encourages use</li>
