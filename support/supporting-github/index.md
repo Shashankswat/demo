@@ -1021,13 +1021,13 @@ permalink: /support/supporting-github/
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Internal</strong></div>
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;L1 -> L2</strong></div>
             <ul class="card-text">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Customer cannot resolve</li>
+            <li>Documentation cannot resolve</li>
+            <li>Is actively preventing development</li>
+            <li>Appliance setting may need change</li>
+            <li>Infrastructure work needed</li>
             </ul>
           </div>
         </div>
@@ -1035,13 +1035,13 @@ permalink: /support/supporting-github/
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;GitHub Escalation</strong></div>
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;L2 -> GitHub</strong></div>
             <ul class="card-text">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Typically code related</li>
+            <li>Issue internal to appliance</li>
+            <li>Infrastructure ruled out</li>
+            <li>Can not resolve within reasonable time</li>
+            <li>Always provide Support Bundles!</li>
             </ul>
           </div>
         </div>
