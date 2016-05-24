@@ -171,7 +171,7 @@ permalink: /support/supporting-github/
             <ul class="card-text">
             <li>A variety of TCP/UDP protocols</li>
             <li>Monitoring set up via SNMP (+collectd)</li>
-            <li>GitLFS natively supported (Encourage customers to enable this when onboarding!)</li>
+            <li>GitLFS optionally supported</li>
             <li>Robust backup-utilities available to backup customer data</li>
             <li>Proxy server support available (Useful if customer is VIP'ing to Bluemix)</li>
             </ul>
