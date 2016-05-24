@@ -190,7 +190,7 @@ permalink: /support/github-voice/
             <li>Will view you as 'GitHub'</li>
             <li>Will want same support they get on GitHub.com</li>
             <li>Love being taken a step-forward</li>
-            <li>Will help you help then</li>
+            <li>Will help you help them</li>
             <li>Ask lots of questions</li>
             </ul>
           </div>
