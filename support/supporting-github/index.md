@@ -935,8 +935,8 @@ permalink: /support/supporting-github/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Tactical</strong></div>
             <ul class="card-text">
-            <li>24x5 Support</li>
-            <li>Urgent response: 10-30 minutes</li>
+            <li>Shift-based around the clock support</li>
+            <li>Defined urgent/non-urgent response times</li>
             <li>Contribute to release QA</li>
             <li>3 Levels of Support</li>            
             </ul>
