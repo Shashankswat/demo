@@ -35,7 +35,7 @@ permalink: /support/github-voice/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Topics and Agenda:</strong></div>
             <ul class="card-text">
-              <li>Branding</li>
+              <li>The Voice</li>
               <li>Why it matters</li>
               <li>Customer Expectations</li>
               <li>What the GitHub voice is not</li>
@@ -59,7 +59,7 @@ permalink: /support/github-voice/
       <div class="col-md-12">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon acticon-checklist"></span><strong>&nbsp;Branding</strong></div>
+            <div class="card-img-top text-left"><span class="mega-octicon acticon-checklist"></span><strong>&nbsp;The Voice</strong></div>
             <ul class="card-text">
             </ul>
           </div>
@@ -70,13 +70,13 @@ permalink: /support/github-voice/
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;What our brand is</strong></div>
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;What our voice is:</strong></div>
             <ul class="card-text">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>How we communicate</li>
+            <li>When in doubt: Be classy</li>
+            <li>Technical, but approachable</li>
+            <li>Show humanity</li>
+            <li>We are patient and warm</li>
             </ul>
           </div>
         </div>
@@ -86,11 +86,11 @@ permalink: /support/github-voice/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Our goals</strong></div>
             <ul class="card-text">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Approachable, not simple</li>
+            <li>Concise, but useful</li>
+            <li>Confident, not superior</li>
+            <li>Honest, not negative</li>
+            <li>Conversational, not colloquial</li>
             </ul>
           </div>
         </div>
@@ -123,11 +123,11 @@ permalink: /support/github-voice/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;</strong></div>
             <ul class="card-text">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Reduces "lost-in-translation" issues</li>
+            <li>Avoids conflict with our customers</li>
+            <li>Breeds honesty</li>
+            <li>Maintains our expertise</li>
+            <li>Promotes an inclusive atmosphere</li>
             </ul>
           </div>
         </div>
@@ -137,11 +137,11 @@ permalink: /support/github-voice/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;</strong></div>
             <ul class="card-text">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Builds loyalty to GitHub</li>
+            <li>Drives consistency</li>
+            <li>Developer Love</li>
+            <li>Encourages use</li>
+            <li>Helps everyone suceed</li>
             </ul>
           </div>
         </div>
