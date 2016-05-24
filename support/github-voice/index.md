@@ -52,7 +52,7 @@ permalink: /support/github-voice/
   ---
   class: title-top
 
-  # GitHub Branding
+  # The GitHub Voice
 
   <div class="container">
     <div class="row">
@@ -174,11 +174,11 @@ permalink: /support/github-voice/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Tough but Fair</strong></div>
             <ul class="card-text">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Our customers know our product inside/out</li>
+            <li>Provide lots of feedback</li>
+            <li>Our super-excited to talk to us</li>
+            <li>Best developers around</li>
+            <li>Are tough because they want us to suceed</li>
             </ul>
           </div>
         </div>
@@ -188,11 +188,11 @@ permalink: /support/github-voice/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Our customers using GitHub on IBM</strong></div>
             <ul class="card-text">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Will view you as 'GitHub'</li>
+            <li>Will want same support they get on GitHub.com</li>
+            <li>Love being taken a step-forward</li>
+            <li>Will help you help then</li>
+            <li>Ask lots of questions</li>
             </ul>
           </div>
         </div>
