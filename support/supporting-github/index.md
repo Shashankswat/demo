@@ -937,7 +937,6 @@ permalink: /support/supporting-github/
             <ul class="card-text">
             <li>24x5 Support</li>
             <li>Urgent response: 10-30 minutes</li>
-            <li>Non-urgent: Within 60 minutes</li>
             <li>Contribute to release QA</li>
             <li>3 Levels of Support</li>            
             </ul>
