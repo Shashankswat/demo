@@ -185,7 +185,7 @@ permalink: /support/github-voice/
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Our customers using GitHub on IBM</strong></div>
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Our customers using GitHub on IBM Bluemix</strong></div>
             <ul class="card-text">
             <li>Will view you as 'GitHub'</li>
             <li>Will want same support they get on GitHub.com</li>
