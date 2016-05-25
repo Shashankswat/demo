@@ -456,6 +456,8 @@ permalink: /support/supporting-github/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Notable Logs</strong></div>
             <ul class="card-text">
+            <li>babeld.log</li>
+            <li>exceptions.log</li>
             <li>production.log</li>
             <li>gitauth.log</li>
             <li>auth.log</li>
