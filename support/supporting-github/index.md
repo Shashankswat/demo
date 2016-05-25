@@ -333,6 +333,7 @@ permalink: /support/supporting-github/
             <li>Sometimes user's issues will be system based</li>
             <li>Will need when escalating to L2/GitHub</li>
             <li>Useful to become comfortable with core components</li>
+            <li>Determining webhook/polling issues</li>
             <li>Helpful to share with customer</li>
             </ul>
           </div>
@@ -383,7 +384,6 @@ permalink: /support/supporting-github/
             <ul class="card-text">
             <li>Key for troubleshooting the appliance</li>
             <li>Finding performance issues</li>
-            <li>Determining webhook/polling issues</li>
             <li>Report on core components</li>
             <li>Logfile size reporting</li>
             </ul>
