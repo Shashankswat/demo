@@ -51,7 +51,7 @@
 - responsive formatting via [bootstrap](http://v4-alpha.getbootstrap.com/)  
 - exported to PDF using [decktape](https://github.com/astefanutti/decktape)  
 
-Access to published collateral is limited to members of the [GitHub Partners](https://github.com/githubpartners) repository by [jekyll auth](https://github.com/benbalter/jekyll-auth).
+Access to published collateral is limited to members of the [Enablement Beta](https://github.com/orgs/githubpartners/teams/enablement-beta) team by [jekyll auth](https://github.com/benbalter/jekyll-auth).
 
 ## Building this Repository
 - Install [Ruby](https://github.com/rbenv/rbenv), [RubyGems](https://github.com/rubygems/rubygems), and [Bundler](https://github.com/bundler/bundler)
