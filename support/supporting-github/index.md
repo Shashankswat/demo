@@ -1051,5 +1051,101 @@ permalink: /support/supporting-github/
   </div>
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-   </footer> 
+   </footer>
+  ---
+  class: title-top
+
+  # Escalating to GitHub Enterprise Support
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Escalation</strong></div>
+            <ul class="card-text">
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>Opening Tickets</strong></div>
+            <ul class="card-text">
+            <li>Open a new ticket in GitHub ZenDesk https://support.enterprise.github.com/tickets/new</li>
+            <li>Describe the issue, and steps taken to reproduce and troubleshoot</li>
+            <li>Full error messages and screenshots are useful</li>
+            <li>"Urgent" is reserved for production outages.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>Generate a support bundle</strong></div>
+            <ul class="card-text">
+            <li>Download Support Bundle from http(s)://[your-hostname]/setup/support</li>
+            <li>Upload bundle to https://enterprise.github.com/support/bundles/new?ticket=ticket# using the new ticket number</li>
+            <li>Alternatively, upload directly via SSH: <strong>ghe-support-bundle  -t ticket#</strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+   </footer>
+     ---
+  class: title-top
+
+  # Escalating to GitHub Enterprise Support
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Escalation</strong></div>
+            <ul class="card-text">
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>Opening Tickets with Enterprise Support</strong></div>
+            <ul class="card-text">
+            <li>Open a new ticket in GitHub Enterprise Support Portal: https://enterprise.github.com/support</li>
+            <li>Describe the issue, and steps taken to troubleshoot</li>
+            <li>Full error messages and screenshots</li>
+            <li>"Urgent" is reserved for production outages.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>Upload a support bundle</strong></div>
+            <ul class="card-text">
+            <li>Download Support Bundle from http(s)://[hostname]/setup/suppor</li>
+            <li>Using your ticket number, upload bundle to https://enterprise.github.com/support/bundles/new?ticket=ticket#</li>
+            <li>Alternatively, upload directly via command line: ghe-support-bundle  -t ticket#</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+   </footer>    
 </textarea>
