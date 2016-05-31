@@ -6,7 +6,28 @@
   <body>
     {% include header.html %}
 
-    {{content}}
+    {% assign current = page.url | downcase | split: '/' %}
+
+    <div class="container">
+      <ul class="nav nav-tabs">
+        <li class="nav-item" role="presentation">
+          <a class="nav-link {% if current[1] == null %}active{% endif %}" href="{{ site.baseurl }}/">Overview</a></li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link {% if current[1] == 'technical-enablement.html' %}active{% endif %}" href="technical-enablement.html">Technical Agenda</a></li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link {% if current[1] == 'business-enablement.html' %}active{% endif %}" href="business-enablement.html">Business Agenda</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link {% if current[1] == 'support-enablement.html' %}active{% endif %}" href="support-enablement.html">Support Agenda</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link {% if current[1] == 'workflows.html' %}active{% endif %}" href="workflows.html">Workflow Agenda</a>
+        </li>
+      </ul>
+      <div class="container tab-content">
+        {{content}}
+      </div>
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
