@@ -442,7 +442,13 @@ permalink: /technical/installation-configuration/
     </div>
     <div class="row">
       <div class="col-md-12">
-        <img src="/images/EC2-Review.png" class="img-resize">
+       <div class="card">
+        <div class="card-block">
+         <div class="card-title">
+          <img src="/images/EC2-Review.png" class="img-resize">
+         </div>
+        </div>
+       </div> 
       </div>
     </div>
   </div>
