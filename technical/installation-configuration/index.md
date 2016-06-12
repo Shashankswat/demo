@@ -386,6 +386,48 @@ permalink: /technical/installation-configuration/
   ---
   class: title-top
 
+  # Creating a Security Group
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+       <div class="card">
+        <div class="card-block">
+         <div class="card-title">
+          <ul>
+           <li>8443 - HTTPS</li>
+           <li>8080 - HTTP</li>
+           <li>122 - SSH</li>
+           <li>1194/UDP - VPN</li>
+           <li>161/UDP - SNMP</li>
+          </ul>
+          </div>
+         </div>
+         </div>
+      </div>
+    <div class="col-md-6">
+     <div class="card">
+      <div class="card-block">
+        <div class="card-title">
+          <ul>
+            <li>443 - HTTPS</li>
+            <li>80 - HTTP</li>
+            <li>22 - SSH</li>
+            <li>9418 - GIT</li>
+            <li>25 - SMTP</li>
+          </ul>
+        </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
   # Launch the Instance
 
   <div class="container">
