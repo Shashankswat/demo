@@ -60,6 +60,7 @@ permalink: /technical/migrations/
   ---
   class: title-top
 
+  #Common Migration Tools
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -69,21 +70,41 @@ permalink: /technical/migrations/
       </div>
     </div>
   </div>
-
-  # Migration Tools
-  - CVS
-      - [git-cvsimport command](https://github.com/git/git/blob/master/git-cvsimport.perl)
-  - Clearcase
-      - [git-cc tool](https://github.com/charleso/git-cc)
-  - Subversion
-      - [git-svn command](https://github.com/git/git/blob/master/git-svn.perl)
-      - [svn2git tool](https://github.com/nirvdrum/svn2git) (adds tag conversion)
-      - [`gh-migrator`](https://help.github.com/enterprise/admin/guides/migrations/importing-migration-data-to-github-enterprise/)
-  - Perforce
-      - [git-p4 command](https://github.com/git/git/blob/master/git-p4.py)
-  - Agnostic
-      - [git-import GitHub CLI tool](https://github.com/github/git-import) (TFS, Mercurial, Subversion)
-      - [GitHub.com Importer](https://importer.github.com) (TFS, Mercurial, Subversion)
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Common migration paths</strong></div>
+              <dl>
+               <dt><b>CVS</b></dt>
+                <dd> - <a href="https://github.com/git/git/blob/master/git-cvsimport.perl">git-cvsimport</a></dd>
+               <dt><b>Clearcase</b></dt>
+                <dd> - <a href="https://github.com/charleso/git-cc">git-cc</a></dd>
+               <dt><b>Subversion</b></dt>
+                <dd> - <a href="https://github.com/git/git/blob/master/git-svn.perl">git-svn</a></dd>
+                <dd> - <a href="https://github.com/nirvdrum/svn2git">svn2git</a>(adds tag conversion)</dd>
+                <dd> - <a href="https://help.github.com/enterprise/admin/guides/migrations/importing-migration-data-to-github-enterprise/">gh-migrator</a></dd>
+              </dl>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Common migration paths</strong></div>
+              <dl>
+               <dt><b>Perforce</b></dt>
+                <dd> - <a href="https://github.com/git/git/blob/master/git-p4.py">git-p4</a></dd>
+               <dt><b>Agnostic</b></dt>
+                <dd> - <a href="https://github.com/github/git-import">git-import GitHub CLI tool</a>(TFS, Mercurial, Subversion)</dd>
+                <dd> - <a href="https://importer.github.com">GitHub.com Importer</a> (TFS, Mercurial, Subversion)</dd>
+              </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
