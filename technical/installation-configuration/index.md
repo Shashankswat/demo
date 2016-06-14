@@ -239,8 +239,11 @@ permalink: /technical/installation-configuration/
    <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <b>Many GitHub enterprise customers run instances with well over 1,000 active users, with some single instances serving between 4,000-5,000 users.</b>
-          <b>GitHub will work closely with the customer to enable clustering, and ensure the best performing development environment for customers</b>
+          <div class="card">
+           <div class="card-block">
+             <div class="card-text"><b>Many GitHub enterprise customers run instances with well over 1,000 active users, with some single instances serving between 4,000-5,000 users. GitHub will work closely with the customer to enable clustering, and ensure the best performing development environment for customers.</b></div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -383,6 +386,48 @@ permalink: /technical/installation-configuration/
   ---
   class: title-top
 
+  # Creating a Security Group
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+       <div class="card">
+        <div class="card-block">
+         <div class="card-title">
+          <ul>
+           <li>8443 - HTTPS</li>
+           <li>8080 - HTTP</li>
+           <li>122 - SSH</li>
+           <li>1194/UDP - VPN</li>
+           <li>161/UDP - SNMP</li>
+          </ul>
+          </div>
+         </div>
+         </div>
+      </div>
+    <div class="col-md-6">
+     <div class="card">
+      <div class="card-block">
+        <div class="card-title">
+          <ul>
+            <li>443 - HTTPS</li>
+            <li>80 - HTTP</li>
+            <li>22 - SSH</li>
+            <li>9418 - GIT</li>
+            <li>25 - SMTP</li>
+          </ul>
+        </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
   # Launch the Instance
 
   <div class="container">
@@ -397,7 +442,13 @@ permalink: /technical/installation-configuration/
     </div>
     <div class="row">
       <div class="col-md-12">
-        <img src="/images/EC2-Review.png" class="img-resize">
+       <div class="card">
+        <div class="card-block">
+         <div class="card-title">
+          <img src="/images/EC2-Review.png" class="img-resize">
+         </div>
+        </div>
+       </div> 
       </div>
     </div>
   </div>
