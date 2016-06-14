@@ -16,7 +16,7 @@ permalink: /technical/migrations/
   ---
   class: title-top
 
-  # Migration Strategies
+  # Migrations 
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -28,14 +28,29 @@ permalink: /technical/migrations/
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
-        <div class="card-block">
-          <ul class="card-text">
-           <li>All history, all branches, all tags</li>
-           <li>Branch and tag HEADs only</li>
-           <li>Production HEAD only</li>
-         </ul>
-       </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Common migration paths</strong></div>
+            <ul class="card-text">
+              <li>All history, all branches, all tags</li>
+              <li>Branch and tag HEADS only</li>
+              <li>Production HEAD only</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Effort and Use Case</strong></div>
+            <ul class="card-text">
+              <li>HIGH. Common use case for firms with lots of regulation and compliance</li>
+              <li>MEDIUM. Common use case when firm may need to roll back code, but may still license previous VCS to retain history</li>
+              <li>LOW-MEDIUM. Common use case when customer isn't concerned about code that isn't HEAD, or for meta-data </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </div>
