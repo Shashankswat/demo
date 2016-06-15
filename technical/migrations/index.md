@@ -272,18 +272,27 @@ permalink: /technical/migrations/
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;About Subversion</strong></div>
-              <dl>
-              </dl>
+          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;History</strong></div>
+              <ul>
+                <li>Released by CollabNet in 2000</li>
+                <li>Released as an improvement to CVS</li>
+                <li>Accepted in Apache Incubator in 2004</li>
+              </ul>
           </div>
         </div>
       </div>
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;About the tools</strong></div>
-              <dl>              
-              </dl>
+          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Common reasons for migrating</strong></div>
+              <ul>
+                <li>Renaming Files/Dirs not consistent (Copy + Delete)</li>
+                <li>No modification time of files</li> 
+                <li>Centralized Version Control Model</li>
+                <li>No idea of committing locally</li>
+                <li>Support for tagging limited</li>
+                <li></li>
+              </ul> 
           </div>
         </div>
       </div>
@@ -304,17 +313,27 @@ permalink: /technical/migrations/
         <div class="card">
           <div class="card-block">
           <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;About Perforce</strong></div>
-              <dl>
-              </dl>
+              <ul>
+                <li>Originally released in 1995</li>
+                <li>Can be configured as a CVS/DVCS</li> 
+                <li>Underlying revision control is proprietary, option for git</li>
+                <li>Branching is inter-file like SVN</li>
+                <li>Used considerably in the gaming industry</li>
+              </ul>
           </div>
         </div>
       </div>
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;About the tools</strong></div>
-              <dl>              
-              </dl>
+          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Common reasons for migrating</strong></div>
+              <ul>
+                <li>Automerging of merge-conflicts results in lost work</li>
+                <li>Every branch is a heavyweight copy</li>
+                <li>Branching requires user-defined-mapping</li>
+                <li>No support for stashing/cherry-picking</li>
+                <li>Result of merge in Perforce has no relation to merged items</li>
+              </ul>
           </div>
         </div>
       </div>
