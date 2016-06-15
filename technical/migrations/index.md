@@ -41,8 +41,8 @@ permalink: /technical/migrations/
           <div class="card-block">
             <dl class="card-text">
             <dt>Production HEAD Only</dt>
-              <dd>No use for previous version</dd>
-              <dd>No use for any other branches</dd>
+              <dd>Less need for historical revisions</dd>
+              <dd>Less need for other branches</dd>
               <dd>May maintain legacy VCS for N time</dd>
             </dl>
           </div>
@@ -55,7 +55,7 @@ permalink: /technical/migrations/
             <ul class="card-text">
               <li>HIGH.  Compliance and regulation consideration</li>
               <li>MEDIUM. May continue to license legacy VCS</li>
-              <li>LOW-MEDIUM. Firm isn't concerned about code that isn't HEAD</li>
+              <li>LOW-MEDIUM. May have no need for non-HEAD code</li>
             </ul>
           </div>
         </div>
@@ -68,7 +68,7 @@ permalink: /technical/migrations/
   ---
   class: title-top
 
-  #Common Migration Tools
+  #Migration Tools
   <div class="container">
     <div class="row">
       <div class="col-md-6">
@@ -120,14 +120,58 @@ permalink: /technical/migrations/
           <div class="card-block">
           <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;About CVS</strong></div>
               <dl>
-               </dl>
+              <dt>History</dt>
+                <dd>OSS - Released in 1990, released under GNU</dd>
+                <dd>Latest revision of CVS -- July 2006</dd>
+              <dt>Architecture</dt>
+                <dd>Client-Server Model</dd>
+                <dd>Support for branching</dd>
+                <dd>Delta Compression like git</dd>              
+              </dl>
           </div>
         </div>
       </div>
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;About cvs-import</strong></div>
+          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Common reasons for migrating</strong></div>
+          <ul>
+            <li>Legacy, no active development</li>
+            <li>No collaboration features for developers</li>
+            <li>Revisions in a commit are per-file, forcing use of tags for relation</li>
+            <li>Commits are non-atomic by design</li>
+            <li>Branching not encouraged in CVS</li>
+            <li>No support for distributed version control</li>
+          </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Using cvs-import
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Using cvs-import</strong></div>
+              <dl>
+              </dl>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Using cvs-import</strong></div>
               <dl>              
               </dl>
           </div>
