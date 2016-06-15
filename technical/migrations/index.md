@@ -195,6 +195,13 @@ permalink: /technical/migrations/
           <div class="card-block">
           <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;About ClearCase</strong></div>
               <dl>
+                <dt>History</dt>
+                  <dd>Initial release 1992</dd>
+                  <dd>Acquired by IBM in 2003</dd>
+                <dt>Architecture</dt>
+                  <dd>Centralized VCS</dd>
+                  <dd>Windows based UI</dd>
+                  <dd>Multi-Server Deployment</dd>
               </dl>
           </div>
         </div>
@@ -202,7 +209,47 @@ permalink: /technical/migrations/
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;About cc-import</strong></div>
+          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Common reasons for migrating</strong></div>
+              <dl>
+              <dt>End-User Reasons</dt>
+                <dd>Very Slow</dd>
+                <dd>Non Atomic Commits</dd>
+                <dd>Hard to Create new files</dd>
+                <dd>Branching/Views are heavyweight</dd>
+              <dt>Administrator Reasons</dt>
+                <dd>Expensive -- 360k annual cost assuming 90 users</dd>
+                <dd>Poor 3rd party integrations</dd>
+                <dd>Time investment to teach significant</dd>             
+              </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Using git-cc
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Using git-cc</strong></div>
+              <dl>
+              </dl>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Using git-cc</strong></div>
               <dl>              
               </dl>
           </div>
@@ -214,6 +261,7 @@ permalink: /technical/migrations/
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
+
   ---
   class: title-top
 
