@@ -23,22 +23,39 @@ permalink: /technical/migrations/
         <div class="card">
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Common migration paths</strong></div>
-            <ul class="card-text">
-              <li>All history, all branches, all tags</li>
-              <li>Branch and tag HEADS only</li>
-              <li>Production HEAD only</li>
-            </ul>
+            <dl class="card-text">
+              <dt>All history, all branches, all tags</dt>
+                <dd>With Meta Data</dd>
+                <dd>SCM Tags</dd>
+                <dd>Could spin down previous SCM tool after completion</dd>
+              <dt>Branch and tag HEADS</dt>
+                <dd>Latest revision in repository</dd>
+                <dd>Client could be using a multi-branching strategy</dd>
+                <dd>May keep legacy VCS server running for legacy applications</dd>
+            </dl>
           </div>
         </div>
       </div>
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Effort and Use Case</strong></div>
+            <dl class="card-text">
+            <dt>Production HEAD Only</dt>
+              <dd>No use for previous version</dd>
+              <dd>No use for any other branches</dd>
+              <dd>May maintain legacy VCS for N time</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Effort</strong></div>
             <ul class="card-text">
-              <li>HIGH. Common use case for firms with lots of regulation and compliance</li>
-              <li>MEDIUM. Common use case when firm may need to roll back code, but may still license previous VCS to retain history</li>
-              <li>LOW-MEDIUM. Common use case when customer isn't concerned about code that isn't HEAD, or for meta-data </li>
+              <li>HIGH.  Compliance and regulation consideration</li>
+              <li>MEDIUM. May continue to license legacy VCS</li>
+              <li>LOW-MEDIUM. Firm isn't concerned about code that isn't HEAD</li>
             </ul>
           </div>
         </div>
@@ -242,6 +259,15 @@ permalink: /technical/migrations/
       </div>
     </div>
   </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-slide
+
+  <span class="mega-octicon octicon-mark-github"></span>
+  <h1>Migration Tools Deep Dive</h1>
 
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
