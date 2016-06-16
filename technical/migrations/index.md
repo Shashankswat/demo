@@ -486,9 +486,7 @@ permalink: /technical/migrations/
 
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-  </footer>
-
-  
+  </footer> 
   ---
   class: title-top
 
@@ -519,6 +517,37 @@ permalink: /technical/migrations/
             <li>If using a committer's file, every committer must be mapped, otherwise will fail</li>
             <li>Only allows default tag directory</li>       
           </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  #Using svn2git
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Common Flags</strong></div>
+             <ul>
+              <li>--rebase : Rebases the existing project against SVN</li>
+              <li>--trunk PATH : Define the path for TRUNK</li>
+              <li>--branches PATH : Define the path for Branches</li>
+              <li>--tags PATH : Define the tags path</li> 
+              <li>--rootistrunk : Use if root of the repo is TRUNK and there are no tags or branches</li>
+              <li>--notrunk : Do not import trunk</li>
+              <li>--nobranches : Do not import branches</li>
+              <li>--notags: Do not import tags</li>
+              <li>--no-minimize-url : Accept URLs as-is</li>             
+            </ul>
           </div>
         </div>
       </div>
