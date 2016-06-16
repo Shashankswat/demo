@@ -367,11 +367,11 @@ permalink: /technical/migrations/
         <div class="card">
           <div class="card-block">
           <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Reasons for migrating</strong></div>
-              <dl>              
+              <ul>              
                 <li>Branches require all prior history</li>
                 <li>Branch management isn't unified -- Separate repos vs branches w/in repo</li>
                 <li>Learning curve is higher with Hg</li>
-              </dl>
+              </ul>
           </div>
         </div>
       </div>
@@ -393,15 +393,22 @@ permalink: /technical/migrations/
   ---
   class: title-top
 
-  # Using cvs-import
+  #Migration Documentation
   
   <div class="container">
     <div class="row">
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Using git-cc</strong></div>
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Documentation</strong></div>
               <dl>
+                 <dt>CVS</dt>
+                  <dd><a href="http://git-scm.com/docs/git-cvsimport">git-cvsimport</a></dd>
+                  <dd><a href="http://git-scm.com/docs/gitcvs-migration">Git CVS Migration</a></dd>
+                 <dt>ClearCase</dt>
+                  <dd><a href="http://therub.org/2013/07/19/clearcase-to-git/">ClearCase to git migration</a></dd>
+                 <dt>Subversion</dt>
+                  <dd><a href="http://git-scm.com/docs/git-svn">git-svn documentation</a></dd>
               </dl>
           </div>
         </div>
@@ -409,50 +416,25 @@ permalink: /technical/migrations/
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Using git-cc</strong></div>
-              <dl>              
+          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Documentation</strong></div>
+              <dl>
+                 <dt>Perforce</dt>
+                  <dd><a href="http://www.perforce.com/perforce/doc.current/manuals/git-fusion/">Git-Fusion Perforce Sync</a></dd>
+                  <dd><a href="http://www.perforce.com/blog/120113/git-perforce-client">Git as a Perforce client</a></dd>
+                  <dd><a href="http://answers.perforce.com/articles/KB/2790/?q=git-p4&l=en_US&fs=Search&pn=1">git-p4 documentation</a></dd>
+                 <dt>Agnostic</dt>
+                  <dd><a href="http://git-scm.com/book/en/v2/Git-and-Other-Systems-Migrating-to-Git">Migrating to git</a></dd>
+                  <dd><a href="https://help.github.com/articles/importing-from-subversion/#importing-a-subversion-project-using-githubs-importer">Importing from SVN with GitHub importer</a></dd>
               </dl>
           </div>
         </div>
       </div>
     </div>
   </div>
-
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
 
-  ---
-  class: title-top
-  # Migration Documentation
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card-block">
-        </br>
-       </div>
-      </div>
-    </div>
-  </div>
-
-  - CVS
-    - [git-cvsimport documentation](http://git-scm.com/docs/git-cvsimport)
-    - [Git CVS migration documentation](http://git-scm.com/docs/gitcvs-migration)
-  - Clearcase
-    - [Clearcase to Git migration blog post](http://therub.org/2013/07/19/clearcase-to-git/)
-  - Subversion
-    - [git-svn documentation](http://git-scm.com/docs/git-svn)
-  - Perforce
-    - [Git Fusion Perforce sync feature](http://www.perforce.com/perforce/doc.current/manuals/git-fusion/)
-    - [Git as a Perforce client](http://www.perforce.com/blog/120113/git-perforce-client)
-    - [Perforce git-p4 documentation](http://answers.perforce.com/articles/KB/2790/?q=git-p4&l=en_US&fs=Search&pn=1)
-  - Agnostic
-    - [Migrating to Git](http://git-scm.com/book/en/v2/Git-and-Other-Systems-Migrating-to-Git)
-    - [From `svn` (Subversion)](https://help.github.com/articles/importing-from-subversion/#importing-a-subversion-project-using-githubs-importer)
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-  </footer>
   ---
   class: title-top
 
