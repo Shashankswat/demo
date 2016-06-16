@@ -414,7 +414,48 @@ permalink: /technical/migrations/
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
+  ---
+  class: title-top
 
+  #cvs2git
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;About the tool</strong></div>
+             <ul>
+               <li>3rd party import tool</li>
+               <li>Needs direct (Not just remote) access to CVS Repo</li>
+               <li>Dependent on Python 2.4 or later (Incompatible with Python 3</li>
+               <li>Better for clean-cut situation</li>
+               <li>Requires git 1.5.4.4 or later</li>
+             </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Considerations</strong></div>
+          <ul>
+            <li>Cannot represent a CVS Repo 100% faithfully</li>
+            <li>Tool will attempt to create a branch off a single source, but will use a merge from multiple sources if not</li>
+            <li>If cvs2git can't create a tag from a single revision, will create a separate branch to fix, but does not delete</li>
+            <li>Does not check for legal branch names</li>
+            <li>Only converts one project at a time</li>
+            <li>Does not convert ignore files</li>          
+          </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
 
   ---
   class: title-top
