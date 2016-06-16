@@ -456,6 +456,37 @@ permalink: /technical/migrations/
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
+  ---
+  class: title-top
+
+  #ClearCase Migration
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Considerations</strong></div>
+             <ul>
+              <li>History should be imported separately from code</li>
+              <li>Base Clearcase vs UCM</li>
+              <li>Base ClearCase does not have atomic commits</li>
+              <li>ClearCase history does not have transactional integrity</li>
+              <li>History will routinely be inconsistent</li>
+              <li>Each file change is an individual commit</li>
+              <li>Combine commits by time if no conflicts, and author is matched against the CQ record</li>
+              <li>Find and ignore incomplete labels. Will break git commands</li>
+              <li>Branch hierarchy may need to be manually built</li>
+             </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
 
   ---
   class: title-top
