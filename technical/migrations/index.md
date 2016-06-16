@@ -372,6 +372,48 @@ permalink: /technical/migrations/
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
+  ---
+  class: title-top
+
+  # Using git-cvsimport
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Common Flags</strong></div>
+            <ul>
+              <li>-d CVSROOT CVS_Module: Specifies root dir and module to import</li>
+              <li>-C TARGET_DIR: Specifies target dir, PWD if blankt</li> 
+              <li>-r REMOTE Remote to import this CVS repo into</li>
+              <li>Note: Moves all CVS branches into remotes/:remote/:branch akin to way git clone uses origin by default</li>
+              <li>-o BRANCH_FOR_HEAD - Use if you want to import into a different branch if you want to import HEAD elsewhere</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Common Flags Cont'd</strong></div>
+          <ul>
+            <li>-i No checkout. Keeps working dir and index untouched and does not create if not existent</li>
+            <li>-k - Kill keywords. Extracts files with -kk from CVS archive. Recommended, but off by default</li>
+            <li>-s Substitutes slashes with a string char of choice</li>
+            <li>-a Import all commits, otherwise commits that have a timestamp of less than 10 minutes previous</li>
+            <li>-L Limit commits imported by N factor</li>
+            <li>-v Verbose mode</li>
+          </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
 
 
   ---
