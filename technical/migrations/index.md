@@ -488,6 +488,46 @@ permalink: /technical/migrations/
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
 
+  
+  ---
+  class: title-top
+
+  #Subversion - svn2git
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;About the tool</strong></div>
+             <ul>
+              <li>Open-sourced importing tool</li>
+              <li>Dependent on git-svn, and ruby</li>
+              <li>Ensures branches and tags are imported meaningfully</li>
+              <li>Ensures trunk is HEAD, not based on last commit in repo</li>
+             </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Considerations</strong></div>
+          <ul>
+            <li>Tags are tied to commit in SVN, thus may not show up in master</li>
+            <li>May have issues authenticating on command line for protected repos (Use stored pwd)</li>
+            <li>If using a committer's file, every committer must be mapped, otherwise will fail</li>
+            <li>Only allows default tag directory</li>       
+          </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
   ---
   class: title-top
 
@@ -529,45 +569,6 @@ permalink: /technical/migrations/
       </div>
     </div>
   </div>
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-  </footer>
-  ---
-  class: title-top
-
-  #Subversion - svn2git
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <div class="card">
-          <div class="card-block">
-          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;About the tool</strong></div>
-             <ul>
-              <li>Open-sourced importing tool</li>
-              <li>Dependent on git-svn, and ruby</li>
-              <li>Ensures branches and tags are imported meaningfully</li>
-              <li>Ensures trunk is HEAD, not based on last commit in repo</li>
-             </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="card">
-          <div class="card-block">
-          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Considerations</strong></div>
-          <ul>
-            <li>Tags are tied to commit in SVN, thus may not show up in master</li>
-            <li>May have issues authenticating on command line for protected repos (Use stored pwd)</li>
-            <li>If using a committer's file, every committer must be mapped, otherwise will fail</li>
-            <li>Only allows default tag directory</li>       
-          </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
