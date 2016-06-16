@@ -587,6 +587,42 @@ permalink: /technical/migrations/
   ---
   class: title-top
 
+  #Perforce - P4
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;About the tool</strong></div>
+             <ul>
+              <li>Tool built into git</li>
+              <li>Used to create git repositories from P4 repos</li> 
+              <li>Can be used as a bridge for P4 users as well moving to git</li>
+              <li>A separate client needed to utilize the above functionality</li>
+             </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Considerations</strong></div>
+          <ul>
+            <li>Client needed for options other than cloning or syncing</li>
+            <li>Changesets from p4 are imported using git fast-import</li>
+            <li>Each commit imported by the tool indicates P4 location and change number. Used by P4 sync</li>
+            <li>Branches is different in Perforce, thus use --detect-branches if repo has clean subdirs</li>
+            <li>git p4 creates one pack file for each invocation of p4 sync</li>
+          </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  ---
+  class: title-top
+
   #Migration Documentation
   
   <div class="container">
