@@ -152,37 +152,7 @@ permalink: /technical/migrations/
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
-  ---
-  class: title-top
 
-  # Using cvs-import
-  
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <div class="card">
-          <div class="card-block">
-          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Using cvs-import</strong></div>
-              <dl>
-              </dl>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="card">
-          <div class="card-block">
-          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Using cvs-import</strong></div>
-              <dl>              
-              </dl>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-  </footer>
   ---
   class: title-top
 
@@ -230,38 +200,7 @@ permalink: /technical/migrations/
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
-  ---
-  class: title-top
-
-  # Using git-cc
-  
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <div class="card">
-          <div class="card-block">
-          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Using git-cc</strong></div>
-              <dl>
-              </dl>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="card">
-          <div class="card-block">
-          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Using git-cc</strong></div>
-              <dl>              
-              </dl>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-  </footer>
-
+ 
   ---
   class: title-top
 
@@ -291,7 +230,6 @@ permalink: /technical/migrations/
                 <li>Centralized Version Control Model</li>
                 <li>No idea of committing locally</li>
                 <li>Support for tagging limited</li>
-                <li></li>
               </ul> 
           </div>
         </div>
