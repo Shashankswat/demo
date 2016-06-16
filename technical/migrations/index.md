@@ -623,6 +623,51 @@ permalink: /technical/migrations/
   ---
   class: title-top
 
+  #Using git-p4
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Common Commands</strong></div>
+          <ul>
+            <li>Clone - Creates new git dir from existing p4 directory (HEAD from p4 represented as one commmit)</li>
+            <li>Sync - Sync the local git repo for changes from the remote p4 depot. Represented as commits</li>
+            <li>Rebase - Merges changes from p4 from remote depot into local. Local commits placed on top</li>
+            <li>Submit - Submits changes from local repot to P4 remote depot</li>
+          </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  ---
+  class: title-top
+
+  #Using git-p4 cont'd
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Useful flags</strong></div>
+          <ul>
+            <li>--branch REF : (Sync) Specify a new ref to sync into, instead of master</li>
+            <li>--detect-branches : (Sync) Execute the branch detection algorithm in a given p4 depot</li>
+            <li>--bare : (Clone) Perform a bare clone of a p4 depot</li>
+            <li>-M: (Submit) Detects renamed files</li>
+            <li>--preserve-user : (Submit) - Re-author the change. Requires p4 admin access</li>
+          </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  ---
+  class: title-top
+
   #Migration Documentation
   
   <div class="container">
