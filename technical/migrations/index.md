@@ -533,7 +533,7 @@ permalink: /technical/migrations/
 
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-12">
         <div class="card">
           <div class="card-block">
           <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Common Flags</strong></div>
@@ -547,6 +547,33 @@ permalink: /technical/migrations/
               <li>--nobranches : Do not import branches</li>
               <li>--notags: Do not import tags</li>
               <li>--no-minimize-url : Accept URLs as-is</li>             
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  #Using svn2git cont'd
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Common Flags</strong></div>
+             <ul>
+              <li>--revision START_REV[:END_REV] : Start importing from SVN at a certain start and end</li>
+              <li>--metadata : Include metadata in git logs (svn-git-id)</li>
+              <li>--authors : Include an optional file for author mapping (Otherwise use ~/.svn2git/authors)</li>
+              <li>--exclude : Regex pattern to exclude directories</li>
+              <li>--verbose : Verbose logging</li>        
             </ul>
           </div>
         </div>
