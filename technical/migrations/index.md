@@ -331,6 +331,52 @@ permalink: /technical/migrations/
   ---
   class: title-top
 
+  #git-cvsimport
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;About the tool</strong></div>
+             <ul>
+               <li>Built into git</li>
+               <li>Uses cvsps2, not cvsps3</li>
+               <li>Imports CVS repository to Git repo, or incrementally import into existing git repo</li>
+               <li>Targeted towards an incremental update from CVS</li>
+               <li>Splitting cvs log into patchsets is done by cvsps2</li>
+             </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Considerations</strong></div>
+          <ul>
+            <li>Initial import creates master off of main CVS branch</li>
+            <li><i>git merge</i> needs to be run on branches</li>
+            <li>Protect imports by using a named remote</li>
+            <li>Successful import exits 0</li>
+            <li>If code was previously imported, HEAD can contain wrong information</li>
+            <li>Refer to documentation for known issues with timestamps</li>
+            <li>Empty branches are not imported</li>
+            <li>Mulitple tags on same revision are not imported</li>
+          </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+
+
+  ---
+  class: title-top
+
   #Migration Documentation
   
   <div class="container">
