@@ -346,24 +346,31 @@ permalink: /technical/migrations/
   ---
   class: title-top
 
-  # Other tools
+  # Mercurial (Hg)
   
   <div class="container">
     <div class="row">
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;The Tools</strong></div>
-              <dl>
-              </dl>
+          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;About Mecurial</strong></div>
+              <ul>
+                <li>Released in 2005 due to BitKeeper changes</li>
+                <li>Platform is Python Based</li>
+                <li>Similar history to git</li>
+                <li>BitBucket was originally Hg under-the-hood</li>
+              </ul>
           </div>
         </div>
       </div>
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Things to Consider</strong></div>
+          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Reasons for migrating</strong></div>
               <dl>              
+                <li>Branches require all prior history</li>
+                <li>Branch management isn't unified -- Separate repos vs branches w/in repo</li>
+                <li>Learning curve is higher with Hg</li>
               </dl>
           </div>
         </div>
@@ -383,6 +390,38 @@ permalink: /technical/migrations/
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
+  ---
+  class: title-top
+
+  # Using cvs-import
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Using git-cc</strong></div>
+              <dl>
+              </dl>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+          <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Using git-cc</strong></div>
+              <dl>              
+              </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+
   ---
   class: title-top
   # Migration Documentation
