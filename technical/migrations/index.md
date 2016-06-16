@@ -82,8 +82,7 @@ permalink: /technical/migrations/
                 <dd> - <a href="https://github.com/charleso/git-cc">git-cc</a></dd>
                <dt><b>Subversion</b></dt>
                 <dd> - <a href="https://github.com/git/git/blob/master/git-svn.perl">git-svn</a></dd>
-                <dd> - <a href="https://github.com/nirvdrum/svn2git">svn2git</a>(adds tag conversion)</dd>
-                <dd> - <a href="https://help.github.com/enterprise/admin/guides/migrations/importing-migration-data-to-github-enterprise/">gh-migrator</a></dd>
+                <dd> - <a href="https://github.com/nirvdrum/svn2git">svn2git</a>(adds tag conversion)</dd>                
               </dl>
           </div>
         </div>
@@ -98,6 +97,7 @@ permalink: /technical/migrations/
                <dt><b>Agnostic</b></dt>
                 <dd> - <a href="https://github.com/github/git-import">git-import GitHub CLI tool</a>(TFS, Mercurial, Subversion)</dd>
                 <dd> - <a href="https://importer.github.com">GitHub.com Importer</a> (TFS, Mercurial, Subversion)</dd>
+                <dd> - <a href="https://help.github.com/enterprise/admin/guides/migrations/importing-migration-data-to-github-enterprise/">gh-migrator</a></dd>
               </dl>
           </div>
         </div>
