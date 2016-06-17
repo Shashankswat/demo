@@ -708,27 +708,5 @@ permalink: /technical/migrations/
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
-  ---
-  class: title-top
 
-  # Customer Story
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card-block">
-        </br>
-       </div>
-      </div>
-    </div>
-  </div>
-
-  - Software Company in Washington, DC
-  - 12yrs of history in Clearcase, Clearquest
-  - Multiple VOB Servers
-  - Global presence with Clearcase Multi-site
-
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-  </footer>
 </textarea>
