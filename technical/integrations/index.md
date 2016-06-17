@@ -168,6 +168,169 @@ permalink: /technical/integrations/
       </div>
     </div>
   </div>
+  ---
+  class: title-top
+  #Integrations
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">Integrations to Boost Developer Productivity</div>
+            <div class="card-text">
+            <center><img src="/images/integrations-directory-graphic.svg" height='60%' width='60%'></center> 
+            </div>
+          </div>
+        </div>
+      </div>     
+     </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">Integrations to Boost Developer Productivity</div>
+            <div class="card-text">
+               <ul>
+                  <li>Developers use their favorite tools with GitHub</li>
+                  <li>Continuous Integration and Continuous Delivery automate build and delivery of releases</li>
+                  <li>Project Management tools give insight to all parts of the development chain</li>
+                  <li>We list "best-of-breed" integrations on our integrations page</li>
+                </ul>
+              </div>
+          </div>
+        </div>
+      </div>     
+     </div> 
+    </div>
+  </div>
+
+  <footer>
+   <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  #Integrations-Detailed
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text"><strong>Commonly Seen and Used Integrations</strong> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text"></div>
+            <center><img border="1px" src="/images/cloudbees.png" height="50px" width="50px" alt="Cloudbees">
+            <br><small>Jenkins in the Cloud</small></center>
+            <ul class="card-text">
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text"></div>
+            <center><img src="/images/travis.png" height="50px" width="50px">
+            <br><small>Travis CI</small></center>
+            <ul class="card-text">
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text"></div>
+            <center><img src="/images/circleci.png" alt="Circle CI" height="50px" width="50px">
+            <br><small>Circle CIi</small></center>
+            <ul class="card-text">
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text"></div>
+            <center><img src="/images/jira.png" height="50px" width="50px" alt="JIRA">
+            <br><small>JIRA</small></center>
+            <ul class="card-text">
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text"></div>
+            <center><img src="/images/slack.png" height="50px" width="50px" alt="Slack">
+            <br><small>Slack</small></center>
+            <ul class="card-text">
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text"></div>
+            <center><img src="/images/zenhub.png" height="50px" width="50px" alt="ZenHub">
+            <br><small>ZenHub</small></center>
+            <ul class="card-text">
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text"></div>
+            <ul class="card-text">
+            <center><img src="/images/vso.png" height="50px" width="50px" alt="VSO">
+            <br><small>GitHub for VSO</small></center>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text"></div>
+            <center><img src="/images/sonarqube.png" height="50px" width="50px" alt="SonarQube">
+            <br><small>SonarQube</small></center>
+            <ul class="card-text">
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-block">
+          <div class="card-text"></div>
+          <center><img src="/images/myget.png" height="50px" width=50px" alt="MyGet">
+          <br><small>MyGet</small></center>
+            <ul class="card-text">
+            </ul>
+          </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+  </div>
 
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
