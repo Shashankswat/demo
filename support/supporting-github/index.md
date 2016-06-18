@@ -1075,7 +1075,7 @@ permalink: /support/supporting-github/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>Opening Tickets</strong></div>
             <ul class="card-text">
-            <li>Open a new ticket in GitHub ZenDesk https://support.enterprise.github.com/tickets/new</li>
+            <li>Open a new ticket in GitHub ZenDesk https://git.io/voaUg</li>
             <li>Describe the issue, and steps taken to reproduce and troubleshoot</li>
             <li>Full error messages and screenshots are useful</li>
             <li>"Urgent" is reserved for production outages.</li>
@@ -1089,7 +1089,7 @@ permalink: /support/supporting-github/
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>Generate a support bundle</strong></div>
             <ul class="card-text">
             <li>Download Support Bundle from http(s)://[your-hostname]/setup/support</li>
-            <li>Upload bundle to https://enterprise.github.com/support/bundles/new?ticket=ticket# using the new ticket number</li>
+            <li>Upload bundle to https://git.io/voaUK using the new ticket number</li>
             <li>Alternatively, upload directly via SSH: <strong>ghe-support-bundle  -t ticket#</strong></li>
             </ul>
           </div>
@@ -1100,7 +1100,7 @@ permalink: /support/supporting-github/
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
    </footer>
-     ---
+  ---
   class: title-top
 
   # Escalating to GitHub Enterprise Support
@@ -1123,7 +1123,7 @@ permalink: /support/supporting-github/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>Opening Tickets with Enterprise Support</strong></div>
             <ul class="card-text">
-            <li>Open a new ticket in GitHub Enterprise Support Portal: https://enterprise.github.com/support</li>
+            <li>Open a new ticket in GitHub Enterprise Support Portal: https://git.io/voaUgt</li>
             <li>Describe the issue, and steps taken to troubleshoot</li>
             <li>Full error messages and screenshots</li>
             <li>"Urgent" is reserved for production outages.</li>
@@ -1137,7 +1137,7 @@ permalink: /support/supporting-github/
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>Upload a support bundle</strong></div>
             <ul class="card-text">
             <li>Download Support Bundle from http(s)://[hostname]/setup/suppor</li>
-            <li>Using your ticket number, upload bundle to https://enterprise.github.com/support/bundles/new?ticket=ticket#</li>
+            <li>Using your ticket number, upload bundle to https://git.io/voaUK</li>
             <li>Alternatively, upload directly via command line: ghe-support-bundle  -t ticket#</li>
             </ul>
           </div>
