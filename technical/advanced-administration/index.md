@@ -18,204 +18,27 @@ permalink: /technical/advanced-administration/
 
   # Advanced Administration
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-text"><strong>Section Goal:</strong></div>
-            <div class="card-text">Understand Advanced GitHub Enterprise administration topics.</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Topics and Agenda:</strong></div>
-            <ul class="card-text">
-              <li>Publish logs</li>
-              <li>Search auditing for users actions</li>
-              <li>Suspend users</li>
-              <li>User impersonation</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Topics and Agenda:</strong></div>
-            <ul class="card-text">
-              <li>Validate git-lfs</li>
-              <li>Access audit logging via API</li>
-              <li>Enable GitHub replication</li>
-              <li>GitHub backup and DR</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-  </footer>
-  ---
-  class: title-top
+  .container[
+  .row[
+  .col-md-12[.card[.card-block[.card-text[**Section Goal:**]
+  .card-text[Understand Advanced GitHub Enterprise administration topics.]
+  ]]]]
+  .row[
+  .col-md-6[.card[.card-block[**Topics and Agenda**
+  .card-text[
+  - Backups
+  - Restores
+  - High Availability
+  - Disaster Recovery
+  - Clustering]]]]
+  .col-md-6[.card[.card-block[**...**
+  .card-text[
+  - Site Admin Console
+  - Command Line Access
+  - Upgrades
+  - Auditing Usage
+  - Creating A Support Pack]]]]]]
 
-  # Useful Commands
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-text"><strong>Connect to <a href="https://help.github.com/enterprise/admin/guides/installation/administrative-shell-ssh-access/" target="_blank">SSH</a> using port 122:</strong></div>
-            <ul class="card-text">
-              <li><code>ghe-announce</code> - sets a banner at the top of every GitHub Enterprise page</li>
-              <li><code>ghe-maintenance</code> - put the instance into maintenance mode</li>
-              <li><code>ghe-user-csv</code> - dumps a list of all the users in the installation in CSV format</li>
-              <li><code>ghe-system-info</code> - responds with JSON of instance health stats</li>
-              <li><code>ghe-license-info</code> - responds with JSON of of the currently installed license</li>
-              <li><code>ghe-set-password</code> - set a new password to log into the Management Console</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-text"><strong>Not available when LDAP sync is enabled:</strong></div>
-            <ul class="card-text">
-              <li><code>ghe-user-promote</code></li>
-              <li><code>ghe-user-demote</code></li>
-              <li><code>ghe-user-suspend</code></li>
-              <li><code>ghe-user-unsuspend</code></li>
-              <li><code>ghe⇥⇥</code> - view all commands</li></br>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-  </footer>
-  ---
-  class: title-top
-
-  # Audit Logs
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-text">GitHub Enterprise keeps logs of audited user, repository, and system events. You can use these logs to debug your installation as well as to comply with internal security mandates and external regulations. A number of user-initiated actions are audited, including:</div>
-            <ul class="card-text">
-              <li>creating or deleting a repository</li>
-              <li>creating or deleting an organization</li>
-              <li>adding or removing an email address</li>
-              <li>adding or removing an SSH key</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-text">All audited system events—including all pushes and pulls—are logged to <code>/var/log/github/audit.log</code>.</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-text">All audit information is logged to the <code>audit.log</code> file in the <code>github-logs</code> directory of any <a href="https://help.github.com/enterprise/admin/guides/installation/troubleshooting/#support-bundle" target="_blank">Support Bundle</a>. If <a href="https://help.github.com/enterprise/admin/articles/log-forwarding/" target="_blank">log forwarding</a> is enabled, you can stream this data to an external syslog stream consumer such as Splunk or logstash. All entries from this log use the "github_audit" keyword and can be filtered using that.</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-  </footer>
-  ---
-  class: title-top
-
-  # Suspending Users
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-text">You can <a href="https://help.github.com/enterprise/admin/guides/installation/troubleshooting/#support-bundle" target="_blank">suspend</a> users GitHub Enterprise accounts to open up seats in your site license while preserving the issues, comments, repositories, gists, and other data they created. Suspended users cannot sign into your instance, nor can they push or pull code.  When you suspend a user, the change takes effect immediately with no notification to the user. <strong>If the user attempts to pull or push to a repository, they'll receive this error:</strong></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-text">
-              <div class="card-text"><code>
-                $ git clone git@[hostname]:john-doe/test-repo.git</br>
-                Cloning into 'test-repo'...</br>
-                ERROR: Your account is suspended. Please check with your installation administrator.</br>
-                fatal: The remote end hung up unexpectedly</br></code></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-  </footer>
-  ---
-  class: title-top
-
-  # High Availability Cluster Configuration
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-text">In this <a href="https://help.github.com/enterprise/admin/guides/installation/high-availability-cluster-configuration/" target="_blank">configuration</a>, a fully redundant secondary GitHub Enterprise instance is kept in sync with the primary instance via replication of all major datastores.</div>
-            <ul class="card-text">
-              <li>Fully redundant GitHub Enterprise instance</li>
-              <li>Automated setup of one-way, asynchronous replication of all datastores</li>
-              <li>Active/Passive cluster configuration</li>
-              <li>DNS failover</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-text">The replication and failover features included in GitHub Enterprise should <strong>only</strong> be used for:</div>
-            <ul class="card-text">
-              <li>Software crashes</li>
-              <li>Primary system hardware failures</li>
-              <li>Virtualization host system failures</li>
-              <li>Logically or physically severed network at the primary site</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
@@ -224,34 +47,75 @@ permalink: /technical/advanced-administration/
 
   # Backups
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-text">Before you begin using GitHub Enterprise in a production capacity, you should set up a backup host, schedule automated backups, and develop a recovery plan as part of an overall <a href="https://help.github.com/enterprise/admin/guides/installation/backups-and-disaster-recovery/" target="_blank">automated backups plan.</a></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <ul class="card-text">
-              <li>Download the latest <a href="https://help.github.com/enterprise/admin/guides/installation/backups-and-disaster-recovery/" target="_blank">github/backup-utils</a> release and extract on the backup host</li>
-              <li>Copy the included <code>backup.config-example</code> file to <code>backup.config</code> and open in an editor</li>
-              <li>Set the <code>GHE_HOSTNAME</code> value and the <code>GHE_DATA_DIR</code> value</li>
-              <li>Open <code>https://[hostname]/setup/settings</code> and add the backup host's SSH key</li>
-              <li>Run <code>bin/ghe-host-check</code> to verify SSH connectivity</li>
-              <li>Run <code>bin/ghe-backup</code> to perform an initial full backup</li>
-              <li>Schedule regular backups on the host using <code>cron(8)</code> or similar</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  .container[
+  .row[
+  .col-md-12[.card[
+  .card-block[
+  .card-text[Before you begin using **GitHub Enterprise** in a production capacity, you should set up a backup host, schedule automated backups, and develop a recovery plan as part of an overall [automated backups plan.](https://help.github.com/enterprise/admin/guides/installation/backups-and-disaster-recovery/")]]]]
+  .col-md-12[
+  ```sh
+  git clone https://github.com/github/backup-utils && cd backup-utils
+  cp backup.config-example backup.config
+  atom backup.config
+  bin/ghe-host-check
+  bin/ghe-backup
+  ```
+  ]]]
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+
+  ---
+  class: title-top
+
+  # Backup Continued
+
+  .container[
+  .row[
+  .col-md-12[.card[
+  .card-block[
+  .card-text[
+  - Edit `GHE_HOSTNAME`
+  - Edit `GHE_DATA_DIR`
+  - Add SSH Key for Backup Server
+  - Add a `cron` job for backup
+  ]]]]
+  .col-md-12[
+  ```sh
+  sudo atom /etc/crontab
+  0 * * * * /opt/backup-utils/bin/ghe-backup
+  ```
+  ]]]
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Restoring Data
+
+  .container[
+  .row[
+  .col-md-12[
+  ```sh
+  $ ghe-restore 169.154.1.1
+  Starting restore of 169.154.1.1 from snapshot 20141111T174152
+  Connect 169.154.1.1 OK (v2.0.0)
+  Enabling maintenance mode on 169.154.1.1 ...
+  Restoring Git repositories ...
+  Restoring GitHub Pages ...
+  Restoring MySQL database ...
+  Restoring Redis database ...
+  Restoring SSH authorized keys ...
+  Restoring Elasticsearch indices ...
+  Restoring SSH host keys ...
+  Completed restore of 169.154.1.1 from snapshot 20141111T174152
+  Visit https://169.154.1.1/setup/settings to configure the recovered appliance.
+  ```
+  ]]]
+
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
@@ -260,33 +124,208 @@ permalink: /technical/advanced-administration/
 
   # Disaster Recovery
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-text">In the event of prolonged outage or catastrophic event at the primary site, basic operations of your GitHub Enterprise environment can be <a href="https://help.github.com/enterprise/admin/guides/installation/backups-and-disaster-recovery/#backup-scheduling-and-recovery-point-objective" target="_blank">restored</a> by performing a restore from the backup host.</div>
-            <code>
-              $ ghe-restore 169.154.1.1</br>
-              Starting restore of 169.154.1.1 from snapshot 20141111T174152</br>
-              Connect 169.154.1.1 OK (v2.0.0)</br>
-              Enabling maintenance mode on 169.154.1.1 ...</br>
-              Restoring Git repositories ...</br>
-              Restoring GitHub Pages ...</br>
-              Restoring MySQL database ...</br>
-              Restoring Redis database ...</br>
-              Restoring SSH authorized keys ...</br>
-              Restoring Elasticsearch indices ...</br>
-              Restoring SSH host keys ...</br>
-              Completed restore of 169.154.1.1 from snapshot 20141111T174152</br>
-              Visit https://169.154.1.1/setup/settings to configure the recovered appliance.
-            </code>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  .container[
+  .row[
+  .col-md-12[.card[
+  .card-block[
+  .card-text[
+  - [Disaster Recovery](https://help.github.com/enterprise/admin/guides/installation/backups-and-disaster-recovery/#backup-scheduling-and-recovery-point-objective)
+  - Edit `GHE_RESTORE_HOST`
+  - Add SSH Key for Backup Server
+  - Add a `cron` job for backup
+  ]]]]
+  .col-md-12[
+  ```sh
+  sudo atom /etc/crontab
+  0 */4 * * * /opt/backup-utils/bin/ghe-restore
+  ```
+  ]]]
+
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
+  ---
+  class: title-top
+
+  # High Availability Overview
+
+  .container[.img-responsive[![high availability](/images/github-ha.png)]]
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # High Availability Configuration
+
+  .container[
+  .row[
+  .col-md-12[
+  .card[.card-block[.card-text[
+  In this [configuration](https://help.github.com/enterprise/admin/guides/installation/high-availability-cluster-configuration/), a fully redundant secondary GitHub Enterprise instance is kept in sync with the primary instance via replication of all major datastores.
+  - Fully redundant GitHub Enterprise instance
+  - Automated setup of one-way, asynchronous replication of all datastores
+  - Active/Passive HA configuration
+  - Manual DNS failover
+
+  The replication and failover features included in GitHub Enterprise should **only** be used for:
+  - Software crashes
+  - Primary system hardware failures
+  - Virtualization host system failures
+  - Logically or physically severed network at the primary site
+  ]]]]]]
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Sample Configuration Steps
+
+  .container[
+  .row[
+  .col-md-12[
+  ```sh
+  $ ghe-repl-setup 169.254.1.1
+  $ ghe-repl-start
+  $ ghe-repl-status
+  $ ghe-repl-status -v
+  $ ghe-repl-stop
+  $ ghe-repl-promote
+  ```
+  ]]]
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # GitHub Clustering
+
+  .container[
+  .row[
+  .col-md-12[
+  .card[.card-block[.card-text[
+  This [configuration](https://help.github.com/enterprise/admin/guides/clustering/initializing-the-cluster/) is only for customers with over 10.000 users.  This requires your sales representative to work with the GitHub Product team to generate a clustering license to be used.
+  - Only for companies with > 10.000 developers
+  - Get you updated license from GitHub
+  - Deploy the appliance a minimum of 3 times
+  - Configure the `cluster.conf` on the first node
+  - Run the `ghe-cluster-config-init` command to copy the `cluster.conf` to the other nodes
+  ]]]]]]
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Site Admin Overview
+
+  .container[.img-responsive[![site admin](/images/site-admin-overview.png)]]
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Useful Commands
+
+  .container[
+  .row[
+  .col-md-6[
+  .card[.card-block[.card-text[
+  Connect via [**SSH**](https://help.github.com/enterprise/admin/guides/installation/administrative-shell-ssh-access/) to perform administrative tasks
+  - `ghe-announce` - sets a banner at the top of every GitHub Enterprise page
+  - `ghe-maintenance` - put the instance into maintenance mode
+  - `ghe-upgrade` - upgrade the appliance
+  - `ghe-set-password` - set a new password to log into the Management Console
+  - `ghe-storage-extend` - extend the data volume to a larger size
+  - `ghe-support-bundle` - prepare a compressed upload of stats of the virtual appliance for support
+  - `ghe⇥⇥` - view all commands
+  ]]]]
+  .col-md-6[
+  .card[.card-block[.card-text[
+  Not available when **LDAP sync** is _enabled_:
+  - `ghe-user-promote`
+  - `ghe-user-demote`
+  - `ghe-user-suspend`
+  - `ghe-user-unsuspend`
+  ]]]]
+  ]]
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Upgrading the Appliance
+
+  .container[
+  .row[
+  .col-md-12[
+  .card[.card-block[.card-text[
+  GitHub produces fixes every 3 weeks for _z_ releases, every 3 months for _y_ releases and every 18mo-2y for _x_ releases.  In the case of a security vulnerability, we will update the codebase and ask customers to update their appliances immediately.  You will receive this email notification if you are listed as a GitHub appliance administrator in the [GitHub Enterprise Dashboard](https://enterprise.github.com/).  This is also the location you go to for getting the [latest release information and package downloads](https://enterprise.github.com/releases/) for an [upgrade](https://help.github.com/enterprise/2.6/admin/guides/installation/upgrading-the-github-enterprise-virtual-machine/#preparing-to-upgrade).
+  ]]]]
+  .col-md-12[
+  ```sh
+  $ cd /tmp
+  $ wget \
+    https://github-enterprise.s3.amazonaws.com/esx/updates/github-enterprise-esx-2.6.3.pkg
+  $ ghe-upgrade github-enterprise-esx-2.6.3.pkg
+  ```
+  ]]]
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Audit Logs
+
+  .container[
+  .row[
+  .col-md-12[
+  .card[.card-block[.card-text[
+  GitHub Enterprise keeps logs of audited user, repository, and system events. You can use these logs to debug your installation as well as to comply with internal security mandates and external regulations. A number of user-initiated actions are audited, including:
+  - Creating or deleting a repository
+  - Creating or deleting an organization
+  - Adding or removing an email address
+  - Adding or removing an SSH key
+
+  All audited system events, **including all pushes and pulls**, are logged to `/var/log/github/audit.log`  You can also choose to [forward these logs](https://help.github.com/enterprise/admin/articles/log-forwarding/) to a third party system like Splunk or Logstash.
+  ]]]]]]
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Getting Support
+
+  .container[
+  .row[
+  .col-md-12[
+  .card[.card-block[.card-text[
+  With the purchase of GitHub Enterprise, the customer is entitled to support.  Customers contact GitHub via our [GitHub Enterprise Dashboard](https://support.enterprise.github.com/anonymous_requests/new).  One of the common requests users will get is to generate a support pack.  This is a collection of resources from the appliance that helps us to troubleshoot what problems the appliance the having.  **No repository source code is sent to GitHub in the Support Pack**.
+  ]]]]
+  .col-md-12[
+  ```sh
+  $ ghe-support-bundle
+  --> Saving support bundle to '/tmp/github-support-bundle-20160621094833.tgz'...
+  --> Done.
+  ```
+  ]]]
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+
 </textarea>
