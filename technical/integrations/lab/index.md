@@ -14,7 +14,7 @@ title: Integrating with GitHub Enterprise
 
 ## Labs
 
-Please see [**leefaus/notifications**](https://github.com/leefaus/notifications) **README.md** for directions
+Please see [**enablement/notifications**](https://github.com/githubpartners/notifications) **README.md** for directions
 
 ## Extra Credit
 - now make the status succeed
