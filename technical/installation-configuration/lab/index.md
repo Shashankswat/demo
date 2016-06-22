@@ -8,7 +8,7 @@ title: Installation and Setup Lab
 ## Prerequisites
 - Make sure you have a GitHub.com User ID
 - Ensure you GitHub.com User ID is added to the [Partners Enablement Repository](https://github.com/githubpartners/enablement)
-- Download the [GitHub Enterprise License](https://github.com/githubpartners/enablement/license/github-enterprise.ghl)
+- Download the [GitHub Enterprise License](https://github-partner-enablement.herokuapp.com/license/github-enterprise.ghl)
 
 ## Provisioning Your AWS Instance
 - [Directions](https://help.github.com/enterprise/admin/guides/installation/installing-github-enterprise-on-aws/#requirements)
