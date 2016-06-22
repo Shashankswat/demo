@@ -211,7 +211,7 @@ permalink: /technical/advanced-administration/
   .card[.card-block[.card-text[
   This [configuration](https://help.github.com/enterprise/admin/guides/clustering/initializing-the-cluster/) is only for customers with over 10.000 users.  This requires your sales representative to work with the GitHub Product team to generate a clustering license to be used.
   - Only for companies with > 10.000 developers
-  - Get you updated license from GitHub
+  - Get your updated license from GitHub
   - Deploy the appliance a minimum of 3 times
   - Configure the `cluster.conf` on the first node
   - Run the `ghe-cluster-config-init` command to copy the `cluster.conf` to the other nodes
