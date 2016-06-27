@@ -1062,7 +1062,7 @@ permalink: /support/supporting-github/
       <div class="col-md-12">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Escalation</strong></div>
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Escalating to GitHub Enterprise Support</strong></div>
             <ul class="card-text">
             </ul>
           </div>
@@ -1086,65 +1086,20 @@ permalink: /support/supporting-github/
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>Generate a support bundle</strong></div>
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>Generate/Upload a support bundle</strong></div>
             <ul class="card-text">
             <li>Download Support Bundle from http(s)://[your-hostname]/setup/support</li>
-            <li>Upload bundle to https://git.io/voaUK using the new ticket number</li>
-            <li>Alternatively, upload directly via SSH: <strong>ghe-support-bundle  -t ticket#</strong></li>
+            <li>Upload directly via SSH: <strong>ssh -p 122 admin@hostname -- 'ghe-support-bundle -t ticket-id'</strong></li>
             </ul>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <footer>
+   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
    </footer>
-  ---
-  class: title-top
-
-  # Escalating to GitHub Enterprise Support
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Escalating to GitHub Enterprise Support</strong></div>
-            <ul class="card-text">
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>Opening Tickets with Enterprise Support</strong></div>
-            <ul class="card-text">
-            <li>Open a new ticket in GitHub Enterprise Support Portal: https://git.io/voaUgt</li>
-            <li>Describe the issue, and steps taken to troubleshoot</li>
-            <li>Full error messages and screenshots</li>
-            <li>"Urgent" is reserved for production outages.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>Upload a support bundle</strong></div>
-            <ul class="card-text">
-            <li>Download Support Bundle from http(s)://[hostname]/setup/suppor</li>
-            <li>Using your ticket number, upload bundle to https://git.io/voaUK</li>
-            <li>Alternatively, upload directly via command line: ghe-support-bundle  -t ticket#</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
    </footer>    
