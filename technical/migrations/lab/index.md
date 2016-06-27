@@ -27,13 +27,20 @@ title: Migrating from SVN to Git
   - `matthias.wiesen = Leia <leia@gitaboard.com>`
   - Save the file
 - Create a directory called `notifications-git`
-- Change the working direcotry to `notifications-git`
+- Change the working directory to `notifications-git`
 - Perform an SVN migration
   - `svn2git https://github.com/leefaus/notifications --authors ../authors.txt`
   - Press `p` to accept the certificate for `github.com`
 - Add a remote to your GitHub Enterprise URL
   - `git remote add origin http://luke@{serverurl}/development/notifications.git`
   - `git push --force --all origin`
+
+## If you are having problems with the self signed certificate
+If you are getting a certificate error when trying to perform the above `git push` command, you can disable SSL certificate checking for the `notifications-git` repository only, or for all repositories within your local `git` installation. For this lab we recommend you change only for the `notifications-git` repository:
+- Change the working directory to `notifications-git`
+- Issue the command `git config http.sslVerify "false"`
+- Try the affected `git push` command again.
+
 
 # Validate
 - Open a browser to your GitHub Enterprise instance
