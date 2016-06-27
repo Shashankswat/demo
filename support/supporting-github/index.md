@@ -1051,5 +1051,56 @@ permalink: /support/supporting-github/
   </div>
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-   </footer> 
+   </footer>
+  ---
+  class: title-top
+
+  # Escalating to GitHub Enterprise Support
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Escalating to GitHub Enterprise Support</strong></div>
+            <ul class="card-text">
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>Opening Tickets</strong></div>
+            <ul class="card-text">
+            <li>Open a new ticket in GitHub ZenDesk https://git.io/voaUg</li>
+            <li>Describe the issue, and steps taken to reproduce and troubleshoot</li>
+            <li>Full error messages and screenshots are useful</li>
+            <li>"Urgent" is reserved for production outages.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>Generate/Upload a support bundle</strong></div>
+            <ul class="card-text">
+            <li>Download Support Bundle from http(s)://[your-hostname]/setup/support</li>
+            <li>Upload directly via SSH: <strong>ssh -p 122 admin@hostname -- 'ghe-support-bundle -t ticket-id'</strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+   </footer>
+  
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+   </footer>    
 </textarea>
