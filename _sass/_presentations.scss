@@ -5,7 +5,7 @@ $theme-header-background-color: #FFF;
 $theme-header-text-color: #969696;
 $theme-border-color: #50A952;
 $theme-code-border-color: #D9DCDF;
-$theme-code-dots-color: #FFF;
+$theme-code-dots-color: #969696;
 $theme-octicon-color: #52575E;
 
 
@@ -138,7 +138,10 @@ body {
 
 .title-top {
   padding-top: 64px;
-
+  ul {
+    padding-top: 30px;
+    font-size: 2em;
+  }
   .card-img-top {
     max-height: 75px;
     margin-bottom: 10px;
@@ -185,6 +188,10 @@ body {
     font-size: 10em;
     padding: 10px;
     color: $theme-octicon-color;
+  }
+
+  pre {
+    margin-top: 50px;
   }
 }
 
