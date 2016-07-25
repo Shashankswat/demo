@@ -51,7 +51,9 @@ permalink: /workflows/short-lived/
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
   ---
-  class: full-screen
+  class: title-top
+
+  # Task-Based Workflow
 
   <img src="/images/devops-flow.png" class="img-responsive">
 
