@@ -24,6 +24,11 @@ h6 {
     @include heading-size(1);
 }
 
+div.tab-content {
+  margin-top: 5px;
+  margin-left: 25px;
+}
+
 .table-of-contents {
   margin-top: 10px;
   border-top: thin black solid;

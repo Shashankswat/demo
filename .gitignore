@@ -2,6 +2,6 @@ _site
 .env
 .sass-cache
 .jekyll-metadata
-.bundle/config
+.bundle
 bin
 vendor
