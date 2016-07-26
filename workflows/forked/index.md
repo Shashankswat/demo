@@ -247,6 +247,50 @@ permalink: /workflows/forked/
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>	
+  ---
+  class: title-top
+
+  # Peer Review of Contributions
+  .container[
+  	.row[
+  		.col-md-6[
+  			.card[
+  				.card-text[
+  					.card-block[
+						<section>
+							<h3>Why?</h3>
+								<ul>
+									<li>Find bugs early and often</li>
+									<li>Generate collaboration immediately</li>
+									<li>Build fresh perspective</li>
+									<li>Utilize the entire sum of your team's knowledge</li>
+								</ul>
+						</section>
+  					]
+  				]
+  			]
+  		]
+  		.col-md-6[
+  			.card[
+  				.card-text[
+  					.card-block[
+						<section>
+							<h3>How?</h3>
+								<ul>
+									<li>Pull Requests opened on the first commit in a branch</li>
+									<li>Allow outside teams to subscribe and comment on issues</li>
+									<li>Break code within a branch</li>
+									<li>Encourage other teams to write new unit-tests</li>
+								</ul>
+						</section>
+  					]
+  				]
+  			]
+  		]
+  	]]
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>	
 
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
