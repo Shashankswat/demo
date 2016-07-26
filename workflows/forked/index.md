@@ -191,7 +191,7 @@ permalink: /workflows/forked/
 							<h3>How?</h3>
 								<ul>
 									<li>Repositories public by default</li>
-									<li>Allow cross-organiziational users to join</li>
+									<li>Allow anyone to contribute via fork and pull if repo is public</li>
 									<li>Allow organic team creation</li>
 									<li>Allow Read-Write Access for Users Across Repositories</li>
 								</ul>
