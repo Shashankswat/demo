@@ -291,6 +291,91 @@ permalink: /workflows/forked/
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>	
+  ---
+  class: title-top
+
+  # Informal Communication Channels
+  .container[
+  	.row[
+  		.col-md-6[
+  			.card[
+  				.card-text[
+  					.card-block[
+						<section>
+							<h3>Why?</h3>
+								<ul>
+									<li>Move away from Daily Stand-Ups</li>
+									<li>Less reliance on caverns of email</li>
+									<li>Maintain flow when developer is in the groove</li>
+									<li>Maintain team-feel even w/remote employees</li>
+								</ul>
+						</section>
+  					]
+  				]
+  			]
+  		]
+  		.col-md-6[
+  			.card[
+  				.card-text[
+  					.card-block[
+						<section>
+							<h3>How?</h3>
+								<ul>
+									<li>Use line comments on code in PRs</li>
+									<li>Use Chat for team communication</li>
+									<li>Use video chat for hangouts</li>
+								</ul>
+						</section>
+  					]
+  				]
+  			]
+  		]
+  	]]
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Self-Selected Motivated Contributors
+  .container[
+  	.row[
+  		.col-md-6[
+  			.card[
+  				.card-text[
+  					.card-block[
+						<section>
+							<h3>Why?</h3>
+								<ul>
+									<li>Teams identify leaders vs experts</li>
+									<li>Sometimes leaders != experts. That's okay!</li>
+									<li>Expertise identified in the day-to-day</li>
+								</ul>
+						</section>
+  					]
+  				]
+  			]
+  		]
+  		.col-md-6[
+  			.card[
+  				.card-text[
+  					.card-block[
+						<section>
+							<h3>Why?</h3>
+								<ul>
+									<li>Encourages equality among team-members</li>
+									<li>Encourages organic team creation and growth</li>
+									<li>Teams already have an idea of who is a leader and/or expert</li>
+								</ul>
+						</section>
+  					]
+  				]
+  			]
+  		]
+  	]]
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
 
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
