@@ -111,4 +111,46 @@ permalink: /workflows/forked/
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
+  ---
+  class: title-top
+
+  # Tenets of Open Source
+  .container[
+  	.row[
+  		.col-md-6[
+  			.card[
+  				.card-text[
+  					.card-block[
+						<section>
+								<ul>
+									<li>Open access to Source Code</li>
+									<li>Transparent Dev Environments</li>
+									<li>Peer Review of Contributions</li>
+									<li>Informal Communication</li>
+								</ul>
+						</section>
+  					]
+  				]
+  			]
+  		]
+  		.col-md-6[
+  			.card[
+  				.card-text[
+  					.card-block[
+						<section>
+								<ul>
+									<li>Self-Selected Motivated Contributors</li>
+									<li>Frequent Release Cycle w/Early Feedback</li>
+									<li>Around the Clock Development</li>
+								</ul>
+						</section>
+  					]
+  				]
+  			]
+  		]
+  	]]	
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
 </textarea>
