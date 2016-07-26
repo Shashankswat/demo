@@ -469,6 +469,33 @@ permalink: /workflows/forked/
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
+  ---
+  class: title-top
+
+  # Around the clock development
+  .container[
+  	.row[
+  		.col-md-12[
+  			.card[
+  				.card-text[
+  					.card-block[
+						<section>
+							<h3>Why?</h3>
+								<ul>
+									<li>This encourages Inner Source Ideals and Philosophy</li>
+									<li>Give Developers Code to Explore</li>
+									<li>Encourages experimentation</li>
+									<li>Fresh ideas and perspective</li>
+								</ul>
+						</section>
+  					]
+  				]
+  			]
+  		]
+  	]]
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
 
 
   <footer>
