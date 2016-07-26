@@ -376,6 +376,91 @@ permalink: /workflows/forked/
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
+  ---
+  class: title-top
+
+  # Frequent Release Cycle with Early Feedback
+  .container[
+  	.row[
+  		.col-md-6[
+  			.card[
+  				.card-text[
+  					.card-block[
+						<section>
+							<h3>Why?</h3>
+								<ul>
+									<li>Increase delivery frequency</li>
+									<li>Decrease time spent idle</li>
+									<li>Bring team into release conversations</li>
+								</ul>
+						</section>
+  					]
+  				]
+  			]
+  		]
+  		.col-md-6[
+  			.card[
+  				.card-text[
+  					.card-block[
+						<section>
+							<h3>How?</h3>
+								<ul>
+									<li>Utilize tools like Jenkins/TeamCity/Etc for CI</li>
+									<li>Use post/pre-receive hooks to trigger builds instead of polling</li>
+									<li>Code and build iteratively</li>
+								</ul>
+						</section>
+  					]
+  				]
+  			]
+  		]
+  	]]
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Around the clock development
+  .container[
+  	.row[
+  		.col-md-6[
+  			.card[
+  				.card-text[
+  					.card-block[
+						<section>
+							<h3>Why?</h3>
+								<ul>
+									<li>Developers may be geo-distributed</li>
+									<li>Developers work better at different times</li>
+									<li>'9-5' can hinder efficiency</li>
+								</ul>
+						</section>
+  					]
+  				]
+  			]
+  		]
+  		.col-md-6[
+  			.card[
+  				.card-text[
+  					.card-block[
+						<section>
+							<h3>How?</h3>
+								<ul>
+									<li>Allow/Encourage Developers to WFH/Alternative Hours</li>
+									<li>Give 24 hours of PR Reviews and Feedback</li>
+									<li>Use a system of async slow/fast and sync for comms</li>
+									<li>PR Review, Slack, Phone/In-Person</li>
+								</ul>
+						</section>
+  					]
+  				]
+  			]
+  		]
+  	]]
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
 
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
