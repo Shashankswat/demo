@@ -148,7 +148,63 @@ permalink: /workflows/forked/
   				]
   			]
   		]
-  	]]	
+  	]]
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-slide
+
+  .mega-octicon.octicon-mark-github[# Inner Source Applied]
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Open Access to Source Code and Artifacts
+  .container[
+  	.row[
+  		.col-md-6[
+  			.card[
+  				.card-text[
+  					.card-block[
+						<section>
+							<h3>Why?</h3>
+								<ul>
+									<li>Developers are solving the same problems</li>
+									<li>Curb re-invention of the wheel</li>
+									<li>See other technologies and tools in-use</li>
+									<li>Encourages collaboration</li>
+								</ul>
+						</section>
+  					]
+  				]
+  			]
+  		]
+  		.col-md-6[
+  			.card[
+  				.card-text[
+  					.card-block[
+						<section>
+							<h3>How?</h3>
+								<ul>
+									<li>Repositories public by default</li>
+									<li>Allow cross-organiziational users to join</li>
+									<li>Allow organic team creation</li>
+									<li>Allow Read-Write Access for Users Across Repositories</li>
+								</ul>
+						</section>
+  					]
+  				]
+  			]
+  		]
+  	]]
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+	
 
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
