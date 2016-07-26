@@ -204,7 +204,49 @@ permalink: /workflows/forked/
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
-	
+  ---
+  class: title-top
+
+  # Transparent Development Environments
+  .container[
+  	.row[
+  		.col-md-6[
+  			.card[
+  				.card-text[
+  					.card-block[
+						<section>
+							<h3>Why?</h3>
+								<ul>
+									<li>See how other teams manage</li>
+									<li>Do all have DEV/QA/UAT Environments?</li>
+									<li>Are some teams utilizing IoC?</li>
+									<li>What tools are other teams using?</li>
+								</ul>
+						</section>
+  					]
+  				]
+  			]
+  		]
+  		.col-md-6[
+  			.card[
+  				.card-text[
+  					.card-block[
+						<section>
+							<h3>How?</h3>
+								<ul>
+									<li>Utilize Infrastructure Automation as much as possible</li>
+									<li>Maxmise freedom on workstations, not release/prelease env</li>
+									<li>Enforce standards in the pipeline</li>
+								</ul>
+						</section>
+  					]
+  				]
+  			]
+  		]
+  	]]
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>	
 
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
