@@ -16,14 +16,16 @@ permalink: /workflows/long-lived/
   ---
   class: title-top
 
-  # Why Long Running Branch Based Workflows
+  # Long Running Branch Based Workflows (> 10 Person Teams)
 
+  .nocard[
   - Map branch to a set of tasks, sprint or environment
   - Long running is *time based*, not *task based*
   - CI on integration branch creates multi-team, integrated packages
   - History tracked on *integration* branch
-  - Merge from integration to master through squash commits for clean releases
+  - Merge/Rebase from integration to master through squash commits for clean releases
   - Tag/Release off *master*
+  ]
 
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>

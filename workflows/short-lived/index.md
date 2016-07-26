@@ -16,14 +16,17 @@ permalink: /workflows/short-lived/
   ---
   class: title-top
 
-  # Why Task Based Workflows
-
+  # Why Task Based Workflows (5-10 Person Teams)
+  
+  .nocard[
   - Map branch to task
-  - Short lived branches don't need to be merged
+  - Short lived branches can be merged or closed
+  - Share between a subset of team members
   - Short lived branches allow for experimentation
   - CI on tracking branches provides automated reviews
   - Quick peer reviews
-  - History tracked on *master*
+  - History maintained on *master* [merge]
+  ]
 
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
