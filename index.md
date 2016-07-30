@@ -3,14 +3,14 @@ layout: raw
 ---
 
 ## GitHub Partner Enablement
-- [Technical Collateral](https://github-partner-enablement.herokuapp.com/)
+
 
 ### Technical Prerequisites
 - [GitHub account](https://github.com/join)
 - [Enterprise license](https://enterprise.github.com/login)
 - [AWS account](https://aws.amazon.com/)
 - [Basic Git Knowledge](https://try.github.io/levels/1/challenges/1)
-- [Install Subversion(https://subversion.apache.org/packages.html)
+- [Install Subversion](https://subversion.apache.org/packages.html)
 - [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - [Install Ruby](https://www.ruby-lang.org/en/documentation/installation/)
 
