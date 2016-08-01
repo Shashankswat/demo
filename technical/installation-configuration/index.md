@@ -234,7 +234,7 @@ permalink: /technical/installation-configuration/
   ---
   class: title-top
 
-  # Choose an Instance
+  # Choosing an Instance
 
   <div class="container">
     <div class="row">
@@ -350,12 +350,12 @@ permalink: /technical/installation-configuration/
   ---
   class: title-top
 
-  # Select an Instance
+  # Creating a security group
 
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <img src="/images/EC2-Select-Instance.png" class="img-responsive">
+        <img src="/images/EC2-security-group.png" class="img-responsive" height="75%" width="75%">
       </div>
     </div>
   </div>
@@ -366,21 +366,27 @@ permalink: /technical/installation-configuration/
   ---
   class: title-top
 
-  # Creating a Security Group
+  # Ports and Communications
 
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
-       <div class="card">
-        <div class="card-block">
+      <div class="col-md-6" align="left">
+       <div class="card" align="left">
+        <div class="card-block" align="left">
          <div class="card-title">
-          <ul>
-           <li>8443 - HTTPS</li>
-           <li>8080 - HTTP</li>
-           <li>122 - SSH</li>
-           <li>1194/UDP - VPN</li>
-           <li>161/UDP - SNMP</li>
+          <section>
+            <h4>TCP</h4>
+         <ul>
+          <li>8443 - Management Console</li>
+           <li>8080 - Unsecured Management Console</li>
+           <li>122 - Shell Access</li>
+           <li>443 - WebApp + Git over HTTPS</li>
+           <li>80 - Web App (Requests redirected to HTTPS w/SSL)</li>
+           <li>22 - Git over SSH. Clone/Fetch/Push</li>
+           <li>9418 - Simple Git Protocol. Clone/Fetch to public repos only</li>
+           <li>SMTP (Encryption supported)</li>
           </ul>
+          </section>
           </div>
          </div>
          </div>
@@ -389,19 +395,35 @@ permalink: /technical/installation-configuration/
      <div class="card">
       <div class="card-block">
         <div class="card-title">
+          <section>
+            <h4>UDP</h4>
           <ul>
-            <li>443 - HTTPS</li>
-            <li>80 - HTTP</li>
-            <li>22 - SSH</li>
-            <li>9418 - GIT</li>
-            <li>25 - SMTP</li>
+            <li>1194 - Network tunnel for replication in HA configuration</li>
+            <li>161 - Port for SNMP traffic</li>
           </ul>
+          </section>
         </div>
       </div>
      </div>
     </div>
    </div>
   </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Select an Instance
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <img src="/images/EC2-Select-Instance.png" class="img-responsive">
+      </div>
+    </div>
+  </div>
+
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
