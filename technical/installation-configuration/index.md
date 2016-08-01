@@ -234,26 +234,6 @@ permalink: /technical/installation-configuration/
   ---
   class: title-top
 
-   # Clustering
-
-   <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="card">
-           <div class="card-block">
-             <div class="card-text"><b>Many GitHub enterprise customers run instances with well over 1,000 active users, with some single instances serving between 4,000-5,000 users. GitHub will work closely with the customer to enable clustering, and ensure the best performing development environment for customers.</b></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-   <footer>
-     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-   </footer>
-  ---
-  class: title-top
-
   # Choose an Instance
 
   <div class="container">
