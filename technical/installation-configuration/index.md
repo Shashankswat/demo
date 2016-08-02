@@ -24,7 +24,7 @@ permalink: /technical/installation-configuration/
         <div class="card">
           <div class="card-block">
             <div class="card-text"><strong>Section Goal:</strong></div>
-            <div class="card-text">Understand the basics for installing GitHub Enterprise in the cloud and on premise.</div>
+            <div class="card-text">Understand the basics for installing GitHub Enterprise in the cloud and on-premise.</div>
           </div>
         </div>
       </div>
@@ -367,46 +367,35 @@ permalink: /technical/installation-configuration/
   class: title-top
 
   # Ports and Communications
-
   <div class="container">
-    <div class="row">
-      <div class="col-md-6" align="left">
-       <div class="card" align="left">
-        <div class="card-block" align="left">
-         <div class="card-title">
-          <section>
-            <h4>TCP</h4>
-         <ul>
-          <li>8443 - Management Console</li>
-           <li>8080 - Unsecured Management Console</li>
-           <li>122 - Shell Access</li>
-           <li>443 - WebApp + Git over HTTPS</li>
-           <li>80 - Web App (Requests redirected to HTTPS w/SSL)</li>
-           <li>22 - Git over SSH. Clone/Fetch/Push</li>
-           <li>9418 - Simple Git Protocol. Clone/Fetch to public repos only</li>
-           <li>SMTP (Encryption supported)</li>
+    <div class="col-md-12">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">TCP</h4>
+          <ul class="card-text">
+            <li>8443 - Secured web-based Management Console</li>
+            <li>8080 - Plain-text web-based Management Console</li>
+            <li>122 - Instance shell access</li>
+            <li>443 - Web-Application and git via HTTPS</li>
+            <li>80 - Web Application Access (Redirected to https port above when SSL is enabled)</li>
+            <li>22 - Git via SSH (Clone, Fetch, Push to Public/Private Repos)</li>
+            <li>9418 - Simple Git Protocol (Clone, Fetch to Public Repos)</li>
+            <li>25 - SMTP (Encryption supported)</li>
           </ul>
-          </section>
-          </div>
-         </div>
-         </div>
-      </div>
-    <div class="col-md-6">
-     <div class="card">
-      <div class="card-block">
-        <div class="card-title">
-          <section>
-            <h4>UDP</h4>
-          <ul>
-            <li>1194 - Network tunnel for replication in HA configuration</li>
-            <li>161 - Port for SNMP traffic</li>
-          </ul>
-          </section>
         </div>
       </div>
-     </div>
+        <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">UDP</h4>
+          <ul class="card-text">
+            <li>1194 - Secure network tunnel for replication in High Availability setup</li>
+            <li>161 - Required for network monitoring (SNMP)</li>
+          </ul>
+        </div>
+      </div>
     </div>
-   </div>
+  </div>
   </div>
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
