@@ -926,6 +926,15 @@ permalink: /technical/installation-configuration/
       </div>
     </div>
   </div>
+  ---
+  class: title-slide
+
+  <span class="mega-octicon octicon-mark-github"></span>
+  <h1><a href="/technical/installation-configuration/lab/">Installation and Configuration Lab</a></h1>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
 
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
