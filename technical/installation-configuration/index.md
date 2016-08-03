@@ -657,6 +657,31 @@ permalink: /technical/installation-configuration/
       <div class="col-md-12">
         <div class="card">
           <div class="card-block">
+            <div class="card-title">Your AWS key will auto-fill. This gives limited shell access to GitHub Enterprise</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="/images/ghe-ssh.png" class="img-responsive">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # GitHub Enterprise Setup
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
             <div class="card-title">Under Hostname, test the domain settings.</div>
           </div>
         </div>
@@ -665,6 +690,31 @@ permalink: /technical/installation-configuration/
     <div class="row">
       <div class="col-md-12">
         <img src="/images/GHE-Test.png" class="img-responsive">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Enable LDAP
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+           <div class="card-text">LDAP lets you authenticate GitHub Enterprise against your existing accounts and centrally manage repository access. <a href="https://help.github.com/enterprise/admin/guides/user-management/using-ldap/" target="_blank">Refer to the Enterprise documentation</a> for instructions to configure LDAP Synchronization:</div>
+         </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="/images/LDAP-Sync.png" class="img-responsive">
       </div>
     </div>
   </div>
@@ -844,31 +894,6 @@ permalink: /technical/installation-configuration/
             <div class="card-text"><code>$ ssh -p 122 admin@github.example.com</br>Last login: Sun Nov  9 07:53:29 2014 from 169.254.1.1</br>admin@github-example-com:~$ █</code></div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-  </footer>
-  ---
-  class: title-top
-
-  # Enable LDAP
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-           <div class="card-text">LDAP lets you authenticate GitHub Enterprise against your existing accounts and centrally manage repository access. <a href="https://help.github.com/enterprise/admin/guides/user-management/using-ldap/" target="_blank">Refer to the Enterprise documentation</a> for instructions to configure LDAP Synchronization:</div>
-         </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <img src="/images/LDAP-Sync.png" class="img-responsive">
       </div>
     </div>
   </div>
