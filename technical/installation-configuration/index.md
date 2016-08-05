@@ -700,6 +700,31 @@ permalink: /technical/installation-configuration/
   ---
   class: title-top
 
+  # NTP Setup
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">Defaults to System-defined NTP Servers. Change here if another NTP server is required</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="/images/ghe-ntp.png" class="img-responsive">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
   # Enable LDAP
 
   <div class="container">
