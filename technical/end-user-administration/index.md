@@ -202,9 +202,12 @@ permalink: /technical/end-user-administration/
     <div class="card-group">
       <div class="card">
         <div class="card-block">
-          <h4 class="card-title">What are Orgs?</h4>
+          <h4 class="card-title">What and Why Orgs?</h4>
           <ul class="card-text">
-            <li></li>
+            <li>A collection of user accounts that own repositories</li>
+            <li>Logically silo users at business-unit level, or team leve</li>
+            <li>Helps manage the collaboration within the scope of an org</li>
+            <li>Can use org-level webhooks</li> 
           </ul>
         </div>
       </div>
