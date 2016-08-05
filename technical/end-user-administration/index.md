@@ -40,6 +40,7 @@ permalink: /technical/end-user-administration/
               <li>Create a Team</li>
               <li>Create a Repository</li>
               <li>Secure a Repository</li>
+              <li></li>
             </ul>
           </div>
         </div>
@@ -290,6 +291,15 @@ permalink: /technical/end-user-administration/
       </div>
     </div>
   </div>
+  ---
+  class: title-slide
+
+  <span class="mega-octicon octicon-mark-github"></span>
+  <h1><a href="/technical/end-user-administration/lab/">End User Administration Lab</a></h1>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
 
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
