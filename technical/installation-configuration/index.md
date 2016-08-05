@@ -750,14 +750,14 @@ permalink: /technical/installation-configuration/
   ---
   class: title-top
 
-  # Enable LDAP
+  # Enable LDAP/LDAP Sync
 
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="card">
           <div class="card-block">
-           <div class="card-text">LDAP lets you authenticate GitHub Enterprise against your existing accounts and centrally manage repository access. <a href="https://help.github.com/enterprise/admin/guides/user-management/using-ldap/" target="_blank">Refer to the Enterprise documentation</a> for instructions to configure LDAP Synchronization:</div>
+           <div class="card-text">LDAP lets you authenticate GitHub Enterprise against your existing accounts and centrally manage repository access. <a href="https://help.github.com/enterprise/admin/guides/user-management/using-ldap/" target="_blank">Refer to the Enterprise documentation</a> for instructions to configure LDAP Synchronization. Allows for Role-Based Access Control for team members and team roles</div>
          </div>
         </div>
       </div>
