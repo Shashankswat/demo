@@ -40,7 +40,6 @@ permalink: /technical/end-user-administration/
               <li>Create a Team</li>
               <li>Create a Repository</li>
               <li>Secure a Repository</li>
-              <li></li>
             </ul>
           </div>
         </div>
@@ -162,6 +161,31 @@ permalink: /technical/end-user-administration/
     <div class="row">
       <div class="col-md-12">
         <img src="/images/ghe-org-admin-2.png" class="img-resize">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Organization Users and Teams
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">Manage users and teams in the Organization Admin Screen</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="/images/ghe-org-users-and-teams.png" class="img-resize">
       </div>
     </div>
   </div>
