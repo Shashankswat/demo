@@ -264,6 +264,32 @@ permalink: /technical/end-user-administration/
   ---
   class: title-top
 
+  # Team Admin
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">Have a high level overview of members of teams</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="/images/ghe-team-admin.png" class="img-resize">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+
+  ---
+  class: title-top
+
   # Create a Repository
 
   <div class="container">
