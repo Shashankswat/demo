@@ -725,6 +725,31 @@ permalink: /technical/installation-configuration/
   ---
   class: title-top
 
+  # Authentication Setup
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">Choose an authentication method. Best practice avoiding built-in authentication</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="/images/ec2-auth.png" class="img-responsive">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
   # Enable LDAP
 
   <div class="container">
