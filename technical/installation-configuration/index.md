@@ -775,6 +775,52 @@ permalink: /technical/installation-configuration/
   ---
   class: title-top
 
+  # LDAP Considerations
+
+  <div class="container">
+    <div class="col-md-12">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">Considerations</h4>
+          <ul class="card-text">
+            <li>Usernames can only be alphanumeric</li>
+            <li>Non-alphanumeric characters are normalized to dashes</li>
+            <li>Changes to LDAP accounts are not automatic, unless sync is enabled</li>
+            <li>Manually sync via the console or via API trigger</li>
+            <li>With LDAP sync enabled, any user can search the LDAP tree</li>
+            <li>Restrict this functionality with restricting the permissions of the DSU</li>
+            <li>Support for the following group classes: group, groupOfNames, groupOfUniqueNames, posixGroup</li>
+            <li>These classes can be nested</li>
+          </ul>
+        </div>
+      </div>
+        <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">Settings and Attributes</h4>
+          <ul class="card-text">
+            <li>Encryption - Plain, SSDL/LDAPS, or StartTLS</li>
+            <li>Domain Search User - LDAP User that performs lookups</li>
+            <li>Domain Search Password - Password for the above account</li>
+            <li>Administrators Groupd</li>
+            <li>Domain base</li>
+            <li>Restricted User Group </li>
+            <li>User ID - Typically uid, or sAMAccountName</li>
+            <li>Profile Name - Name to appear on the profile page</li>
+            <li>SSH keys</li>
+            <li>GPG Keys</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
   # GitHub Enterprise Setup
 
   <div class="container">
