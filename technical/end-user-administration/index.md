@@ -97,6 +97,65 @@ permalink: /technical/end-user-administration/
   ---
   class: title-top
 
+  # Organization Settings
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">As a Site Admin, you have a high level overview of the repository</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="/images/ghe-org-settings.png" class="img-resize">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Thinking about Organizations
+  <div class="container">
+    <div class="col-md-12">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">What are Orgs?</h4>
+          <ul class="card-text">
+            <li></li>
+          </ul>
+        </div>
+      </div>
+        <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">Ideas for Organization Creation</h4>
+          <ul class="card-text">
+            <li>Allow users to create organizations</li>
+            <li>Orgs are relatively silo'd - No @mentions</li>
+            <li>Decide early how Orgs are to be created</li>
+            <li>By Application group? By technology? By department?</li>
+            <li>Best of both worlds: Allow users to create orgs, but have defined orgs</li>
+            <li>User accounts can be converted to orgs</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
   # Create a Team
 
   <div class="container">
