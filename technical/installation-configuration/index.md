@@ -24,7 +24,7 @@ permalink: /technical/installation-configuration/
         <div class="card">
           <div class="card-block">
             <div class="card-text"><strong>Section Goal:</strong></div>
-            <div class="card-text">Understand the basics for installing GitHub Enterprise in the cloud and on premise.</div>
+            <div class="card-text">Understand the basics for installing GitHub Enterprise in the cloud and on-premise.</div>
           </div>
         </div>
       </div>
@@ -234,27 +234,7 @@ permalink: /technical/installation-configuration/
   ---
   class: title-top
 
-   # Clustering
-
-   <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="card">
-           <div class="card-block">
-             <div class="card-text"><b>Many GitHub enterprise customers run instances with well over 1,000 active users, with some single instances serving between 4,000-5,000 users. GitHub will work closely with the customer to enable clustering, and ensure the best performing development environment for customers.</b></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-   <footer>
-     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-   </footer>
-  ---
-  class: title-top
-
-  # Choose an Instance
+  # Choosing an Instance
 
   <div class="container">
     <div class="row">
@@ -370,12 +350,12 @@ permalink: /technical/installation-configuration/
   ---
   class: title-top
 
-  # Select an Instance
+  # Creating a security group
 
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <img src="/images/EC2-Select-Instance.png" class="img-responsive">
+        <img src="/images/EC2-security-group.png" class="img-responsive" height="75%" width="75%">
       </div>
     </div>
   </div>
@@ -386,42 +366,53 @@ permalink: /technical/installation-configuration/
   ---
   class: title-top
 
-  # Creating a Security Group
-
+  # Ports and Communications
   <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-       <div class="card">
+    <div class="col-md-12">
+    <div class="card-group">
+      <div class="card">
         <div class="card-block">
-         <div class="card-title">
-          <ul>
-           <li>8443 - HTTPS</li>
-           <li>8080 - HTTP</li>
-           <li>122 - SSH</li>
-           <li>1194/UDP - VPN</li>
-           <li>161/UDP - SNMP</li>
-          </ul>
-          </div>
-         </div>
-         </div>
-      </div>
-    <div class="col-md-6">
-     <div class="card">
-      <div class="card-block">
-        <div class="card-title">
-          <ul>
-            <li>443 - HTTPS</li>
-            <li>80 - HTTP</li>
-            <li>22 - SSH</li>
-            <li>9418 - GIT</li>
-            <li>25 - SMTP</li>
+          <h4 class="card-title">TCP</h4>
+          <ul class="card-text">
+            <li>8443 - Secured web-based Management Console</li>
+            <li>8080 - Plain-text web-based Management Console</li>
+            <li>122 - Instance shell access</li>
+            <li>443 - Web-Application and git via HTTPS</li>
+            <li>80 - Web Application Access (Redirected to https port above when SSL is enabled)</li>
+            <li>22 - Git via SSH (Clone, Fetch, Push to Public/Private Repos)</li>
+            <li>9418 - Simple Git Protocol (Clone, Fetch to Public Repos)</li>
+            <li>25 - SMTP (Encryption supported)</li>
           </ul>
         </div>
       </div>
-     </div>
+        <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">UDP</h4>
+          <ul class="card-text">
+            <li>1194 - Secure network tunnel for replication in High Availability setup</li>
+            <li>161 - Required for network monitoring (SNMP)</li>
+          </ul>
+        </div>
+      </div>
     </div>
-   </div>
   </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Select an Instance
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <img src="/images/EC2-Select-Instance.png" class="img-responsive">
+      </div>
+    </div>
+  </div>
+
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
@@ -666,6 +657,31 @@ permalink: /technical/installation-configuration/
       <div class="col-md-12">
         <div class="card">
           <div class="card-block">
+            <div class="card-title">Your AWS key will auto-fill. This gives limited shell access to GitHub Enterprise</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="/images/ghe-ssh.png" class="img-responsive">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # GitHub Enterprise Setup
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
             <div class="card-title">Under Hostname, test the domain settings.</div>
           </div>
         </div>
@@ -674,6 +690,227 @@ permalink: /technical/installation-configuration/
     <div class="row">
       <div class="col-md-12">
         <img src="/images/GHE-Test.png" class="img-responsive">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # NTP Setup
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">Defaults to System-defined NTP Servers. Change here if another NTP server is required</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="/images/ghe-ntp.png" class="img-responsive">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Authentication Setup
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">Choose an authentication method. Best practice avoiding built-in authentication</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="/images/ec2-auth.png" class="img-responsive">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Enable LDAP/LDAP Sync
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+           <div class="card-text">LDAP lets you authenticate GitHub Enterprise against your existing accounts and centrally manage repository access. <a href="https://help.github.com/enterprise/admin/guides/user-management/using-ldap/" target="_blank">Refer to the Enterprise documentation</a> for instructions to configure LDAP Synchronization. Allows for Role-Based Access Control for team members and team roles</div>
+         </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="/images/LDAP-Sync.png" class="img-responsive">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # LDAP Considerations
+
+  <div class="container">
+    <div class="col-md-12">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">Considerations</h4>
+          <ul class="card-text">
+            <li>Usernames can only be alphanumeric</li>
+            <li>Non-alphanumeric characters are normalized to dashes</li>
+            <li>Changes to LDAP accounts are not automatic, unless sync is enabled</li>
+            <li>Manually sync via the console or via API trigger</li>
+            <li>With LDAP sync enabled, any user can search the LDAP tree</li>
+            <li>Restrict this functionality with restricting the permissions of the DSU</li>
+            <li>Support for the following group classes: group, groupOfNames, groupOfUniqueNames, posixGroup</li>
+            <li>These classes can be nested</li>
+          </ul>
+        </div>
+      </div>
+        <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">Settings and Attributes</h4>
+          <ul class="card-text">
+            <li>Encryption - Plain, SSDL/LDAPS, or StartTLS</li>
+            <li>Domain Search User - LDAP User that performs lookups</li>
+            <li>Domain Search Password - Password for the above account</li>
+            <li>Administrators Groupd</li>
+            <li>Domain base</li>
+            <li>Restricted User Group </li>
+            <li>User ID - Typically uid, or sAMAccountName</li>
+            <li>Profile Name - Name to appear on the profile page</li>
+            <li>SSH keys</li>
+            <li>GPG Keys</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Privacy Settings and Private/Public Mode
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">SSL is heavily encouraged. If GHE is accessible via the internet, public mode can not be turned on.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="/images/ghe-privacy.png" class="img-resize">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Privacy Settings and Private/Public Mode
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">Enable/Disable GitHub Pages. Pages can also be Public, so users don't need a license to see the website</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="/images/ghe-pages.png" class="img-resize">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Email setup
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">Required for email notifications</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="/images/ghe-email.png" class="img-resize">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Monitoring setup
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">Various logging methods supported</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="/images/ghe-monitoring.png" class="img-resize">
       </div>
     </div>
   </div>
@@ -863,31 +1100,6 @@ permalink: /technical/installation-configuration/
   ---
   class: title-top
 
-  # Enable LDAP
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-           <div class="card-text">LDAP lets you authenticate GitHub Enterprise against your existing accounts and centrally manage repository access. <a href="https://help.github.com/enterprise/admin/guides/user-management/using-ldap/" target="_blank">Refer to the Enterprise documentation</a> for instructions to configure LDAP Synchronization:</div>
-         </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <img src="/images/LDAP-Sync.png" class="img-responsive">
-      </div>
-    </div>
-  </div>
-
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-  </footer>
-  ---
-  class: title-top
-
   # Promote Site Admin
 
   <div class="container">
@@ -935,6 +1147,15 @@ permalink: /technical/installation-configuration/
       </div>
     </div>
   </div>
+  ---
+  class: title-slide
+
+  <span class="mega-octicon octicon-mark-github"></span>
+  <h1><a href="/technical/installation-configuration/lab/">Installation and Configuration Lab</a></h1>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
 
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
