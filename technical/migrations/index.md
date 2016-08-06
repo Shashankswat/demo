@@ -772,5 +772,14 @@ permalink: /technical/migrations/
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
+  ---
+  class: title-slide
+
+  <span class="mega-octicon octicon-mark-github"></span>
+  <h1><a href="/technical/migrations/lab/">Migrations Lab</a></h1>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
 
 </textarea>
