@@ -437,13 +437,13 @@ permalink: /technical/end-user-administration/
     <div class="row">
       <div class="col-md-12">
         <div class="card-block">
-          <div class="card-text">You can choose to receive <a href="https://github.com/blog/821-mention-somebody-they-re-notified" target="_blank">@ mentions</a>, which notifies you via email, or through the Notifications section on GitHub.com. Support for personal and team mentions. Note: Cross-organizational @mentiosn are not supported</div>
+          <div class="card-text">You can choose to receive <a href="https://github.com/blog/821-mention-somebody-they-re-notified" target="_blank">@mentions</a>, which notifies you via email, or through the Notifications section on GitHub.com. Support for personal and team mentions. Note: Cross-organizational @mentions are not supported</div>
         </div>
       </div>
     </div>
     <div class="row">
       <div class="col-md-12">
-        <img src="/images/NOTIFICATION_Emails.png" class="img-resize">
+        <img src="/images/ghe-mentions.png">
       </div>
     </div>
   </div>
