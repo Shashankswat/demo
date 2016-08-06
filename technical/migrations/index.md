@@ -16,6 +16,37 @@ permalink: /technical/migrations/
   ---
   class: title-top
 
+  # Migrating to GitHub Enterprise
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text"><strong>Section Goal:</strong></div>
+            <div class="card-text">Migrations to GitHub Enterprise.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Topics and Agenda:</strong></div>
+            <ul class="card-text">
+              <li>Understand common legacy version control systems</li>
+              <li>Understand commonly used tools</li>
+              <li>Perform a migration</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  ---
+  class: title-top
+
   # Migrations 
   <div class="container">
     <div class="row">
