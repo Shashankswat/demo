@@ -517,21 +517,46 @@ permalink: /technical/end-user-administration/
     <div class="row">
       <div class="col-md-6">
         <div class="card-block">
-          <div class="card-text">You can enable or disable <a href="https://help.github.com/enterprise/admin/articles/configuring-git-large-file-storage-for-a-repository/" target="_blank">Git LFS</a> on a per-repository basis: </div></br>
+          <div class="card-text">You can enable or disable <a href="https://help.github.com/enterprise/admin/articles/configuring-git-large-file-storage-for-a-repository/" target="_blank">Git LFS</a> on a per-repository or organization basis: </div></br>
+          <b>For a Repository:</b>
           <ul class="card-text">
             <li>As a site admin, sign in to your GitHub Enterprise instance at <code>http(s)://[hostname]/login</code></li>
             <li>In the upper-right corner of any page, click <span class="octicon octicon-rocket" aria-label="The rocket ship " title="The rocket ship "></span></li>
             <li>Search for the name of the repository</li>
-            <li>In the left sidebar, click 'Advanced Settings'</li>
-            <li>In the Key field, type <code>git-lfs</code></li>
-            <li>In the Value field, type <code>true</code> or <code>false</code></li>
+            <li>In the right sidebar, click 'Git-LFS'</li>
+            <li>Toggle the <code>disable</code> button</li>
           </ul>
         </div>
       </div>
       <div class="col-md-6">
         </br>
-        <img src="/images/ADVANCED-Settings.png" class="img-resize"></br>
-        <img src="/images/GIT-LFS.png" class="img-resize">
+        <img src="/images/ghe-repo-lfs.png"></br>
+      </div>
+    </div>
+  </div>
+  ---
+  class: title-top
+
+  # Configure Git Large File Storage
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card-block">
+          <div class="card-text">You can enable or disable <a href="https://help.github.com/enterprise/admin/articles/configuring-git-large-file-storage-for-a-repository/" target="_blank">Git LFS</a> on a per-repository or organization basis: </div></br>
+          <b>For an Organzation:</b>
+          <ul class="card-text">
+            <li>As a site admin, sign in to your GitHub Enterprise instance at <code>http(s)://[hostname]/login</code></li>
+            <li>In the upper-right corner of any page, click <span class="octicon octicon-rocket" aria-label="The rocket ship " title="The rocket ship "></span></li>
+            <li>Click on <code>Organizations</code> in the left sidebar and click the link to your org</li>
+            <li>In the left sidebar, click <code>Admin</code></li>
+            <li>Toggle the <code>disable</code> button</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6">
+        </br>
+        <img src="/images/ghe-org-lfs.png"></br>
       </div>
     </div>
   </div>
