@@ -42,6 +42,7 @@ permalink: /technical/migrations/
           </div>
         </div>
       </div>
+    </div>
   </div>
   ---
   class: title-top
