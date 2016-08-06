@@ -370,6 +370,44 @@ permalink: /technical/end-user-administration/
   ---
   class: title-top
 
+  # Securing a Repository
+  <div class="container">
+    <div class="col-md-12">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">Reasons to Secure a Repository</h4>
+          <ul class="card-text">
+            <li>Protect your code</li>
+            <li>Prevent bad code being introduced</li>
+            <li>Disable history-destroying force pushes and merges</li>
+            <li>Helps new employees feel empowered to experiment</li>
+            <li>Prevent IP/API keys from being stored in code</li>
+          </ul>
+        </div>
+      </div>
+        <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">Methods to Secure a Repository</h4>
+          <ul class="card-text">
+            <li>Protected Branches</li>
+            <li>Required Statuses</li>
+            <li>Branch Permissions</li>
+            <li>GPG Signed Commits</li>
+            <li>Outside Collaborators</li>
+            <li>Pre-Receive Hooks</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
   # Notification Emails
 
   <div class="container">
