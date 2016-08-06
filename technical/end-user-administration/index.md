@@ -96,6 +96,143 @@ permalink: /technical/end-user-administration/
   ---
   class: title-top
 
+  # Organization Settings
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">As a Site Admin, you have a high level overview of the repository</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="/images/ghe-org-settings.png" class="img-resize">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Organization Admin
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">The Org Admins screen provides various functionality</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="/images/ghe-org-admin-1.png" class="img-resize">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Organization Admin
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">Scope things such as GitLFS and Git SSH on a per-org basis</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="/images/ghe-org-admin-2.png" class="img-resize">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Organization Users and Teams
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">Manage users and teams in the Organization Admin Screen</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="/images/ghe-org-users-and-teams.png" class="img-resize">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Thinking about Organizations
+  <div class="container">
+    <div class="col-md-12">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">What and Why Orgs?</h4>
+          <ul class="card-text">
+            <li>A collection of user accounts that own repositories</li>
+            <li>Logically silo users at business-unit level, or team leve</li>
+            <li>Helps manage the collaboration within the scope of an org</li>
+            <li>Can use org-level webhooks</li> 
+          </ul>
+        </div>
+      </div>
+        <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">Ideas for Organization Creation</h4>
+          <ul class="card-text">
+            <li>Allow users to create organizations</li>
+            <li>Orgs are relatively silo'd - No @mentions</li>
+            <li>Decide early how Orgs are to be created</li>
+            <li>By Application group? By technology? By department?</li>
+            <li>Best of both worlds: Allow users to create orgs, but have defined orgs</li>
+            <li>User accounts can be converted to orgs</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
   # Create a Team
 
   <div class="container">
@@ -124,6 +261,82 @@ permalink: /technical/end-user-administration/
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
+  ---
+  class: title-top
+
+  # Team Admin
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">Have a high level overview of members of teams</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="/images/ghe-team-admin.png" class="img-resize">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Team Admin
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">Easy access to your team from the org homepage</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="/images/ghe-team-tab.png" class="img-resize">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Team Homepage
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">A team page, in action</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="/images/ghe-team-page.png" class="img-resize">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+
   ---
   class: title-top
 
@@ -157,29 +370,38 @@ permalink: /technical/end-user-administration/
   ---
   class: title-top
 
-  # Private Mode
-
+  # Securing a Repository
   <div class="container">
-    <div class="row">
-      <div class="col-md-6">
+    <div class="col-md-12">
+    <div class="card-group">
+      <div class="card">
         <div class="card-block">
-          <div class="card-text">In <a href="https://help.github.com/enterprise/admin/guides/installation/enabling-private-mode/" target="_blank">private mode</a>, GitHub Enterprise requires every user to sign in to access the installation. To enable private mode: </div></br>
+          <h4 class="card-title">Reasons to Secure a Repository</h4>
           <ul class="card-text">
-            <li><a href="https://help.github.com/enterprise/admin/articles/accessing-the-management-console/" target="_blank">Access the Management Console</a></li>
-            <li>click 'Settings'</li>
-            <li>click 'Privacy'</li>
-            <li>Select 'Private mode'</li>
+            <li>Protect your code</li>
+            <li>Prevent bad code being introduced</li>
+            <li>Disable history-destroying force pushes and merges</li>
+            <li>Helps new employees feel empowered to experiment</li>
+            <li>Prevent IP/API keys from being stored in code</li>
           </ul>
         </div>
       </div>
-      <div class="col-md-6">
-        </br>
-        <img src="/images/SIDEBAR-Privacy.png" class="img-resize"></br>
-        <img src="/images/PRIVATE-Mode.png" class="img-resize">
+        <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">Methods to Secure a Repository</h4>
+          <ul class="card-text">
+            <li>Protected Branches</li>
+            <li>Required Statuses</li>
+            <li>Branch Permissions</li>
+            <li>GPG Signed Commits</li>
+            <li>Outside Collaborators</li>
+            <li>Pre-Receive Hooks</li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
-
+  </div>
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
@@ -199,6 +421,29 @@ permalink: /technical/end-user-administration/
     <div class="row">
       <div class="col-md-12">
         <img src="/images/NOTIFICATION_Emails.png" class="img-resize">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # @mentions
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card-block">
+          <div class="card-text">You can choose to receive <a href="https://github.com/blog/821-mention-somebody-they-re-notified" target="_blank">@mentions</a>, which notifies you via email, or through the Notifications section on GitHub.com. Support for personal and team mentions. Note: Cross-organizational @mentions are not supported</div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="/images/ghe-mentions.png">
       </div>
     </div>
   </div>
@@ -272,24 +517,58 @@ permalink: /technical/end-user-administration/
     <div class="row">
       <div class="col-md-6">
         <div class="card-block">
-          <div class="card-text">You can enable or disable <a href="https://help.github.com/enterprise/admin/articles/configuring-git-large-file-storage-for-a-repository/" target="_blank">Git LFS</a> on a per-repository basis: </div></br>
+          <div class="card-text">You can enable or disable <a href="https://help.github.com/enterprise/admin/articles/configuring-git-large-file-storage-for-a-repository/" target="_blank">Git LFS</a> on a per-repository or organization basis: </div></br>
+          <b>For a Repository:</b>
           <ul class="card-text">
             <li>As a site admin, sign in to your GitHub Enterprise instance at <code>http(s)://[hostname]/login</code></li>
             <li>In the upper-right corner of any page, click <span class="octicon octicon-rocket" aria-label="The rocket ship " title="The rocket ship "></span></li>
             <li>Search for the name of the repository</li>
-            <li>In the left sidebar, click 'Advanced Settings'</li>
-            <li>In the Key field, type <code>git-lfs</code></li>
-            <li>In the Value field, type <code>true</code> or <code>false</code></li>
+            <li>In the right sidebar, click 'Git-LFS'</li>
+            <li>Toggle the <code>disable</code> button</li>
           </ul>
         </div>
       </div>
       <div class="col-md-6">
         </br>
-        <img src="/images/ADVANCED-Settings.png" class="img-resize"></br>
-        <img src="/images/GIT-LFS.png" class="img-resize">
+        <img src="/images/ghe-repo-lfs.png"></br>
       </div>
     </div>
   </div>
+  ---
+  class: title-top
+
+  # Configure Git Large File Storage
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card-block">
+          <div class="card-text">You can enable or disable <a href="https://help.github.com/enterprise/admin/articles/configuring-git-large-file-storage-for-a-repository/" target="_blank">Git LFS</a> on a per-repository or organization basis: </div></br>
+          <b>For an Organzation:</b>
+          <ul class="card-text">
+            <li>As a site admin, sign in to your GitHub Enterprise instance at <code>http(s)://[hostname]/login</code></li>
+            <li>In the upper-right corner of any page, click <span class="octicon octicon-rocket" aria-label="The rocket ship " title="The rocket ship "></span></li>
+            <li>Click on <code>Organizations</code> in the left sidebar and click the link to your org</li>
+            <li>In the left sidebar, click <code>Admin</code></li>
+            <li>Toggle the <code>disable</code> button</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6">
+        </br>
+        <img src="/images/ghe-org-lfs.png"></br>
+      </div>
+    </div>
+  </div>
+  ---
+  class: title-slide
+
+  <span class="mega-octicon octicon-mark-github"></span>
+  <h1><a href="/technical/end-user-administration/lab/">End User Administration Lab</a></h1>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
 
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
