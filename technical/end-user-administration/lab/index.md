@@ -16,7 +16,8 @@ title: End User Administration
 - [Create a new team](https://help.github.com/enterprise/user/articles/setting-up-teams/)
 - Call this team `ruby developers`
 - Use this LDAP Path `cn=ruby-experts,ou=developers,o=engineering,dc=gitaboard,dc=com`
-- Create another team
+
+- [Import a Team](https://help.github.com/enterprise/user/articles/setting-up-teams)
 - Click import team
 - In the search box, type `team`
 - Click on `team-leads`, then press the `Import` button
@@ -36,7 +37,6 @@ title: End User Administration
 # Additional Tasks
 - Create another organziation called operations
 - Add the team `ansible-experts`
-- Add the user `leia` as an `outside collaborator`
 
 # Creating Repositories
 - [Create a new repository](https://help.github.com/enterprise/user/articles/create-a-repo/) in `development`
@@ -49,12 +49,13 @@ title: End User Administration
   - Click on the `Collaborators and teams` tab
   - In the drop down, choose the `ruby developers` team
   - Give the `ruby developers` write access to the repository
+  - Add the user `leia` as an `outside collaborator`
 
 # Testing Access
 - Sign out as `chewbacca`
 - Sign in as `leia`
   - Go to the `development` organization
-  - What repositories does `leia` have access to?  why?
+  - What repositories does `leia` have access to? why?
 
 # Changing Default Permissions
 - Sign out as `leia`
