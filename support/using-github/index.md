@@ -323,7 +323,7 @@ permalink: /support/using-github/
         <div class="card">
           <div class="card-block">
             <div class="card-img-top text-center"><span class="mega-octicon octicon-checklist"></span></div>
-            <div class="card-title">Increase Developer Efficiency</div>
+            <div class="card-title">Increase Efficiency</div>
           </div>
         </div>
       </div>
@@ -336,12 +336,10 @@ permalink: /support/using-github/
             <h4 class="card-text">
               <span class="label label-primary">ALM - Application Lifecycle Management</span>
               <span class="label label-primary">Agile Transformation</span>
-              <span class="label label-primary">Cloud Native Design</span>
               <span class="label label-primary">DevOps - CI/CD</span>
               <span class="label label-primary">VCS Migration</span>
               <span class="label label-primary">Microservices Architecture</span>
               <span class="label label-primary">Big Data Analytics</span>
-              <span class="label label-primary">Custom Application Development</span>
             </h4>
           </div>
         </div>
