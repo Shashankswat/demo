@@ -568,7 +568,7 @@ permalink: /support/using-github/
           <div class="card-block">
             <div class="card-text"></div>
             <center><img src="/images/circleci.png" alt="Circle CI" height="50px" width="50px">
-            <br><small>Circle CIi</small></center>
+            <br><small>Circle CI</small></center>
             <ul class="card-text">
             </ul>
           </div>
