@@ -247,25 +247,13 @@ permalink: /support/using-github/
   ---
   class: title-top
 
-  #Key Product Features
-
+  # Features Developers Can't Live Without
   <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-text"><strong>Tools and Features Developers can not live without </strong></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-img-top text-center"><span class="mega-octicon octicon-comment-discussion"></span></div>
+    <div class="col-md-12">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-block">
+        <div class="card-img-top text-center"><span class="mega-octicon octicon-comment-discussion"></span></div>
             <div class="card-title">Boost Team Productivity</div>
             <ul class="card-text">
               <li>@ mentions</li>
@@ -274,13 +262,11 @@ permalink: /support/using-github/
               <li>fuzzy file search</li>
               <li>pulse &amp; graphs</li>
             </ul>
-          </div>
         </div>
-      </div>
-      <div class="col-md-4">
+       </div>
         <div class="card">
-          <div class="card-block">
-            <div class="card-img-top text-center"><span class="mega-octicon octicon-git-pull-request"></span></div>
+        <div class="card-block">
+        <div class="card-img-top text-center"><span class="mega-octicon octicon-git-pull-request"></span></div>
             <div class="card-title">Improve Code Quality</div>
             <ul class="card-text">
               <li>pull requests</li>
@@ -289,14 +275,12 @@ permalink: /support/using-github/
               <li>split differences</li>
               <li>integrations</li>
             </ul>
-          </div>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-img-top text-center"><span class="mega-octicon octicon-checklist"></span></div>
-            <div class="card-title">Increase Developer Efficiency</div>
+      <div class="card">
+        <div class="card-block">
+        <div class="card-img-top text-center"><span class="mega-octicon octicon-checklist"></span></div>
+            <div class="card-title">Increase Efficiency</div>
             <ul class="card-text">
               <li>pull requests</li>
               <li>search</li>
@@ -304,12 +288,11 @@ permalink: /support/using-github/
               <li>releases</li>
               <li>integrations</li>
             </ul>
-          </div>
         </div>
       </div>
     </div>
   </div>
-
+  </div>
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
