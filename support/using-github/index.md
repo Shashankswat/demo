@@ -103,7 +103,7 @@ permalink: /support/using-github/
           <div class="card-block">
             <div class="card-text">Employees </div>
             <ul class="card-text">
-              <li>500+</li>
+              <li>550+</li>
             </ul>
           </div>
         </div>
@@ -147,14 +147,13 @@ permalink: /support/using-github/
 
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-  </footer>
+  </footer>  
   ---
   class: title-top
 
-  #GitHub Overview
-
+  # GitHub Overview - A Brief History
   <div class="container">
-    <div class="row">
+      <div class="row">
       <div class="col-md-12">
         <div class="card">
           <div class="card-block">
@@ -163,50 +162,51 @@ permalink: /support/using-github/
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-3">
+    <div class="col-md-12">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-block">
+          <h5 class="card-title">2008. Social Coding</h5>
+          <section>
+          <ul class="card-text">
+          <li>GitHub launches a social software platform that makes it easy for anyone to share code </li>
+          </ul>
+          </section>
+        </div>
+       </div>
         <div class="card">
-          <div class="card-block">
-            <div class="card-text">2008. Social Coding </div>
-            <ul class="card-text">
-              <li>GitHub launches a social software platform that makes it easy for anyone to share code </li>
-            </ul>
-          </div>
+        <div class="card-block">
+          <h5 class="card-title">2010. Corp Teams</h5>
+          <section>
+          <ul class="card-text">
+          <li>Usage expands to include working groups and project teams within corporations </li>
+          </ul>
+          </section>
         </div>
       </div>
-      <div class="col-md-3">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-text">2010. Corporate Teams </div>
-            <ul class="card-text">
-              <li>Usage expands to include working groups and project teams within corporations </li>
-            </ul>
-          </div>
+      <div class="card">
+        <div class="card-block">
+          <h5 class="card-title">2010. Enterprise</h5>
+          <section>
+          <ul class="card-text">
+          <li>Major enterprises begin to leverage the GitHub approach to software development </li>
+          </ul>
+          </section>
         </div>
       </div>
-      <div class="col-md-3">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-text">2010. Enterprise. </div>
-            <ul class="card-text">
-              <li>Major enterprises begin to leverage the GitHub approach to software development </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    <div class="col-md-3">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-text">2016. Bluemix. </div>
-            <ul class="card-text">
-              <li>IBM Partners with GitHub to offer GitHub Enterprise as part of its Bluemix platform </li>
-            </ul>
-          </div>
+      <div class="card">
+        <div class="card-block">
+          <h5 class="card-title">2016. Bluemix</h5>
+          <section>
+          <ul class="card-text">
+          <li>IBM Partners with GitHub to offer GitHub Enterprise as part of its Bluemix platform </li>
+          </ul>
+          </section>
         </div>
       </div>
     </div>
   </div>
-
+  </div>
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
