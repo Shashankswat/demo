@@ -31,6 +31,7 @@ title: Migrating from SVN to Git
 - Perform an SVN migration
   - `svn2git https://github.com/leefaus/notifications --authors ../authors.txt`
   - Press `p` to accept the certificate for `github.com`
+  - NOTE: There is a [known issue](https://github.com/nirvdrum/svn2git/issues/51) with svn2git in the certificate acceptance process. If the process hangs after typing `p`, continue to hit `p` + `enter` until the process starts.
 - Add a remote to your GitHub Enterprise URL
   - `git remote add origin http://luke@{serverurl}/development/notifications.git`
   - `git push --force --all origin`
