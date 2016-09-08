@@ -2,8 +2,11 @@
 layout: raw
 ---
 
-## GitHub Partner Enablement
+## GitHub Partner Enablement  
 
+### User Prerequisites
+- Confirm [membership](https://github.com/orgs/githubpartners/teams#) of teams: Your organization's team, and the `enablement-beta` team
+- Download your GHE trial license from [Enterprise Web](https://enterprise.github.com) prior to training day
 
 ### Technical Prerequisites
 - [GitHub account](https://github.com/join)
