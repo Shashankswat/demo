@@ -12,11 +12,11 @@ title: Migrating from SVN to Git
 - `gem install svn2git`
 - Create a new directory called `migrations`
 
-# GitHub as an SVN Repository
+# Downloading an SVN Repository
 - Change the working directory to `migrations`
 - Create a directory called `notifications-svn`
 - Change the working directory to `notifications-svn`
-- `svn checkout https://github.com/leefaus/notifications`
+- `svn checkout https://ldap.gitaboard:8090/notifications`
 
 # Converting an existing SVN Repository to Git
 - Change the working directory to `migrations`
@@ -42,6 +42,9 @@ If you are getting a certificate error when trying to perform the above `git pus
 - Issue the command `git config http.sslVerify "false"`
 - Try the affected `git push` command again.
 
+## Optional/Extra Credit
+- Run some `svn` commands in your `git` repositories
+ - What happens? Why?
 
 # Validate
 - Open a browser to your GitHub Enterprise instance
