@@ -12,26 +12,24 @@ title: Migrating from SVN to Git
 - `gem install svn2git`
 - Create a new directory called `migrations`
 
-# GitHub as an SVN Repository
+# Downloading an SVN Repository
 - Change the working directory to `migrations`
 - Create a directory called `notifications-svn`
 - Change the working directory to `notifications-svn`
-- `svn checkout https://github.com/leefaus/notifications`
+- `svn checkout https://ldap.gitaboard:8090/svn/SampleProject --username gitaboard` (Password same as username)
 
-# Converting an existing SVN Repository to Git
+# Converting an SVN Repository to Git
 - Change the working directory to `migrations`
 - Create a file called `authors.txt`
-  - Edit the file and add a line
+  - Edit the file and add the following 3 lines
   - `lee.faus = Luke Skywalker <luke@gitaboard.com>`
   - `nicolas.byl = Chewbacca <chewbacca@gitaboard.com>`
   - `matthias.wiesen = Leia <leia@gitaboard.com>`
   - Save the file
-- Create a directory called `notifications-git`
-- Change the working directory to `notifications-git`
+- Create a directory called `notifications`
+- Change the working directory to `notifications`
 - Perform an SVN migration
-  - `svn2git https://github.com/leefaus/notifications --authors ../authors.txt`
-  - Press `p` to accept the certificate for `github.com`
-  - NOTE: There is a [known issue](https://github.com/nirvdrum/svn2git/issues/51) with svn2git in the certificate acceptance process. If the process hangs after typing `p`, continue to hit `p` + `enter` until the process starts.
+  - `svn2git https://ldap.gitaboard:8090/svn/SampleProject --authors ../authors.txt --rootistrunk --username gitaboard`
 - Add a remote to your GitHub Enterprise URL
   - `git remote add origin http://luke@{serverurl}/development/notifications.git`
   - `git push --force --all origin`
@@ -42,6 +40,9 @@ If you are getting a certificate error when trying to perform the above `git pus
 - Issue the command `git config http.sslVerify "false"`
 - Try the affected `git push` command again.
 
+## Optional/Extra Credit
+- Run some `svn` commands in your `git` repositories
+ - What happens? Why?
 
 # Validate
 - Open a browser to your GitHub Enterprise instance
