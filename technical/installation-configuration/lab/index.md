@@ -12,7 +12,7 @@ title: Installation and Setup Lab
 
 ## Provisioning Your AWS Instance
 - [Directions](https://help.github.com/enterprise/admin/guides/installation/installing-github-enterprise-on-aws/#requirements)
-- Provision an `m3.xlarge` instance
+- Provision an `r3.large` instance
 - Choose the [AMI ID](https://help.github.com/enterprise/admin/guides/installation/installing-github-enterprise-on-aws/#selecting-the-github-enterprise-ami) closest to your location
 - Make sure you add the Secondary EBS Volume (10G)
 - Add the corresponding [Security Group](https://help.github.com/enterprise/admin/guides/installation/installing-github-enterprise-on-aws/#creating-a-security-group)
