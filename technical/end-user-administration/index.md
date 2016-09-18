@@ -49,10 +49,10 @@ permalink: /technical/end-user-administration/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Topics and Agenda:</strong></div>
             <ul class="card-text">
-              <li>Notifications and @ Mentions</li>
+              <li>Notification Emals</li>
+              <li>GPG Keys - Signed Commits</li>
               <li>Git Large File Storage</li>
-              <li>Benefits of git-lfs</li>
-              <li>Enable git-lfs</li>
+              <li>Benefits/Enabling git-lfs</li>
             </ul>
           </div>
         </div>
@@ -423,6 +423,50 @@ permalink: /technical/end-user-administration/
         <img src="/images/NOTIFICATION_Emails.png" class="img-resize">
       </div>
     </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # GPG Keys - User Configuration
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">Reasons for Using GPG Keys</h4>
+          <ul class="card-text">
+            <li>Validate Contributor for a Commit/Tag</li>
+            <li>Traceability</li>
+            <li>Compliance</li>
+            <li>Maintain provenance</li>
+          </ul>
+        </div>
+      </div>
+        <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">Things to Consider</h4>
+          <ul class="card-text">
+            <li>GPG may need to be entered per-commit</li>
+            <li>GitHub stores the public key</li>
+            <li>User is responsible for maintaing private key</li>
+            <li>Site Admin provides Audit Logging of GPG keys</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+        <div class="card-block">
+          <img src="/images/ghe-gpg-user.png" class="img-resize">
+        </div>
+    </div>
+  </div>
+  </div>
   </div>
 
   <footer>
