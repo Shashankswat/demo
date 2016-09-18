@@ -143,7 +143,7 @@ permalink: /technical/installation-configuration/
   ---
   class: title-top
 
-  # GitHub Enterprise AMI 2.6.1
+  # GitHub Enterprise AMI 2.7.0
 
   <div class="container">
     <div class="row">
@@ -175,11 +175,11 @@ permalink: /technical/installation-configuration/
           <div class="card-block">
             <div class="card-text">AMI ID </div>
             <ul class="card-text">
-              <li>ami-57b9a339</li>
-              <li>ami-ca3deaa9</li>
-              <li>ami-e2391581</li>
-              <li>ami-ee779581</li>
-              <li>ami-7264ec01</li>
+              <li>ami-521dda33</li>
+              <li>ami-c5ad73a6</li>
+              <li>ami-99ac99fa</li>
+              <li>ami-ee19ee81</li>
+              <li>ami-deeb85ad</li>
             </ul>
           </div>
         </div>
@@ -203,10 +203,10 @@ permalink: /technical/installation-configuration/
           <div class="card-block">
             <div class="card-text">AMI ID </div>
             <ul class="card-text">
-              <li>ami-f545cc99</li>
-              <li>ami-8fc525e2</li>
-              <li>ami-7f146d1f</li>
-              <li>ami-9e897bfe</li>
+              <li>ami-24138448</li>
+              <li>ami-59fc6f4e</li>
+              <li>ami-7bc7871b</li>
+              <li>ami-6e04cd0e</li>
               <li>ami-879d22e6</li>
             </ul>
           </div>
@@ -363,43 +363,7 @@ permalink: /technical/installation-configuration/
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
-  ---
-  class: title-top
 
-  # Ports and Communications
-  <div class="container">
-    <div class="col-md-12">
-    <div class="card-group">
-      <div class="card">
-        <div class="card-block">
-          <h4 class="card-title">TCP</h4>
-          <ul class="card-text">
-            <li>8443 - Secured web-based Management Console</li>
-            <li>8080 - Plain-text web-based Management Console</li>
-            <li>122 - Instance shell access</li>
-            <li>443 - Web-Application and git via HTTPS</li>
-            <li>80 - Web Application Access (Redirected to https port above when SSL is enabled)</li>
-            <li>22 - Git via SSH (Clone, Fetch, Push to Public/Private Repos)</li>
-            <li>9418 - Simple Git Protocol (Clone, Fetch to Public Repos)</li>
-            <li>25 - SMTP (Encryption supported)</li>
-          </ul>
-        </div>
-      </div>
-        <div class="card">
-        <div class="card-block">
-          <h4 class="card-title">UDP</h4>
-          <ul class="card-text">
-            <li>1194 - Secure network tunnel for replication in High Availability setup</li>
-            <li>161 - Required for network monitoring (SNMP)</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-  </footer>
   ---
   class: title-top
 
