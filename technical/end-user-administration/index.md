@@ -495,32 +495,6 @@ permalink: /technical/end-user-administration/
       <div class="col-md-6">
         <div class="card-block">
           <div class="card-text">You can enable or disable <a href="https://help.github.com/enterprise/admin/articles/configuring-git-large-file-storage-for-a-repository/" target="_blank">Git LFS</a> on a per-repository or organization basis: </div></br>
-          <b>For a Repository:</b>
-          <ul class="card-text">
-            <li>As a site admin, sign in to your GitHub Enterprise instance at <code>http(s)://[hostname]/login</code></li>
-            <li>In the upper-right corner of any page, click <span class="octicon octicon-rocket" aria-label="The rocket ship " title="The rocket ship "></span></li>
-            <li>Search for the name of the repository</li>
-            <li>In the right sidebar, click 'Git-LFS'</li>
-            <li>Toggle the <code>disable</code> button</li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-6">
-        </br>
-        <img src="/images/ghe-repo-lfs.png"></br>
-      </div>
-    </div>
-  </div>
-  ---
-  class: title-top
-
-  # Configure Git Large File Storage
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <div class="card-block">
-          <div class="card-text">You can enable or disable <a href="https://help.github.com/enterprise/admin/articles/configuring-git-large-file-storage-for-a-repository/" target="_blank">Git LFS</a> on a per-repository or organization basis: </div></br>
           <b>For an Organzation:</b>
           <ul class="card-text">
             <li>As a site admin, sign in to your GitHub Enterprise instance at <code>http(s)://[hostname]/login</code></li>
@@ -532,10 +506,19 @@ permalink: /technical/end-user-administration/
         </div>
       </div>
       <div class="col-md-6">
-        </br>
-        <img src="/images/ghe-org-lfs.png"></br>
+        <div class="card-block">
+          <div class="card-text"></div><br><br><br>
+          <b>For a Repository:</b>
+          <ul class="card-text">
+            <li>As a site admin, sign in to your GitHub Enterprise instance at <code>http(s)://[hostname]/login</code></li>
+            <li>In the upper-right corner of any page, click <span class="octicon octicon-rocket" aria-label="The rocket ship " title="The rocket ship "></span></li>
+            <li>Search for the name of the repository</li>
+            <li>In the right sidebar, click 'Git-LFS'</li>
+            <li>Toggle the <code>disable</code> button</li>
+          </ul>
+        </div>
       </div>
-    </div>
+      </div>
   </div>
   ---
   class: title-slide
