@@ -16,7 +16,7 @@ title: Migrating from SVN to Git
 - Change the working directory to `migrations`
 - Create a directory called `notifications-svn`
 - Change the working directory to `notifications-svn`
-- `svn checkout https://ldap.gitaboard:8090/svn/SampleProject --username gitaboard` (Password same as username)
+- `svn checkout http://ldap.gitaboard.com:8090/svn/SampleProject --username gitaboard` (Password same as username)
 
 # Converting an SVN Repository to Git
 - Change the working directory to `migrations`
