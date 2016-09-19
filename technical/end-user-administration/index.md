@@ -49,10 +49,10 @@ permalink: /technical/end-user-administration/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Topics and Agenda:</strong></div>
             <ul class="card-text">
-              <li>Notifications and @ Mentions</li>
+              <li>Notification Emals</li>
+              <li>GPG Keys - Signed Commits</li>
               <li>Git Large File Storage</li>
-              <li>Benefits of git-lfs</li>
-              <li>Enable git-lfs</li>
+              <li>Benefits/Enabling git-lfs</li>
             </ul>
           </div>
         </div>
@@ -431,21 +431,90 @@ permalink: /technical/end-user-administration/
   ---
   class: title-top
 
-  # @mentions
+  # GPG Keys - User Configuration
 
   <div class="container">
     <div class="row">
       <div class="col-md-12">
+    <div class="card-group">
+      <div class="card">
         <div class="card-block">
-          <div class="card-text">You can choose to receive <a href="https://github.com/blog/821-mention-somebody-they-re-notified" target="_blank">@mentions</a>, which notifies you via email, or through the Notifications section on GitHub.com. Support for personal and team mentions. Note: Cross-organizational @mentions are not supported</div>
+          <h4 class="card-title">Reasons for Using GPG Keys</h4>
+          <ul class="card-text">
+            <li>Validate Contributor for a Commit/Tag</li>
+            <li>Traceability</li>
+            <li>Compliance</li>
+            <li>Maintain provenance</li>
+          </ul>
+        </div>
+      </div>
+        <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">Things to Consider</h4>
+          <ul class="card-text">
+            <li>GPG may need to be entered per-commit</li>
+            <li>GitHub stores the public key</li>
+            <li>User is responsible for maintaing private key</li>
+            <li>Site Admin provides Audit Logging of GPG keys</li>
+          </ul>
         </div>
       </div>
     </div>
+    <div class="card">
+        <div class="card-block">
+          <img src="/images/ghe-gpg-user.png" class="img-resize">
+        </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # GPG Signed Commit
+
+  <div class="container">
     <div class="row">
-      <div class="col-md-12">
-        <img src="/images/ghe-mentions.png">
+    <div class="col-md-12">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-block">
+          <ul class="card-text">
+          <img src="/images/gpg-commit-1.png">
+          </ul>
+        </div>
       </div>
     </div>
+  </div>
+  </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # GPG Signed Commit
+
+  <div class="container">
+  <div class="row">
+    <div class="col-md-12">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-block">
+          <ul class="card-text">
+          <img src="/images/gpg-commit-2.png" class="img-resize">
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
   </div>
 
   <footer>
@@ -518,32 +587,6 @@ permalink: /technical/end-user-administration/
       <div class="col-md-6">
         <div class="card-block">
           <div class="card-text">You can enable or disable <a href="https://help.github.com/enterprise/admin/articles/configuring-git-large-file-storage-for-a-repository/" target="_blank">Git LFS</a> on a per-repository or organization basis: </div></br>
-          <b>For a Repository:</b>
-          <ul class="card-text">
-            <li>As a site admin, sign in to your GitHub Enterprise instance at <code>http(s)://[hostname]/login</code></li>
-            <li>In the upper-right corner of any page, click <span class="octicon octicon-rocket" aria-label="The rocket ship " title="The rocket ship "></span></li>
-            <li>Search for the name of the repository</li>
-            <li>In the right sidebar, click 'Git-LFS'</li>
-            <li>Toggle the <code>disable</code> button</li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-6">
-        </br>
-        <img src="/images/ghe-repo-lfs.png"></br>
-      </div>
-    </div>
-  </div>
-  ---
-  class: title-top
-
-  # Configure Git Large File Storage
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <div class="card-block">
-          <div class="card-text">You can enable or disable <a href="https://help.github.com/enterprise/admin/articles/configuring-git-large-file-storage-for-a-repository/" target="_blank">Git LFS</a> on a per-repository or organization basis: </div></br>
           <b>For an Organzation:</b>
           <ul class="card-text">
             <li>As a site admin, sign in to your GitHub Enterprise instance at <code>http(s)://[hostname]/login</code></li>
@@ -555,10 +598,19 @@ permalink: /technical/end-user-administration/
         </div>
       </div>
       <div class="col-md-6">
-        </br>
-        <img src="/images/ghe-org-lfs.png"></br>
+        <div class="card-block">
+          <div class="card-text"></div><br><br><br>
+          <b>For a Repository:</b>
+          <ul class="card-text">
+            <li>As a site admin, sign in to your GitHub Enterprise instance at <code>http(s)://[hostname]/login</code></li>
+            <li>In the upper-right corner of any page, click <span class="octicon octicon-rocket" aria-label="The rocket ship " title="The rocket ship "></span></li>
+            <li>Search for the name of the repository</li>
+            <li>In the right sidebar, click 'Git-LFS'</li>
+            <li>Toggle the <code>disable</code> button</li>
+          </ul>
+        </div>
       </div>
-    </div>
+      </div>
   </div>
   ---
   class: title-slide
