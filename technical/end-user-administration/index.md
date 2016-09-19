@@ -475,6 +475,54 @@ permalink: /technical/end-user-administration/
   ---
   class: title-top
 
+  # GPG Signed Commit
+
+  <div class="container">
+    <div class="row">
+    <div class="col-md-12">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-block">
+          <ul class="card-text">
+          <img src="/images/gpg-commit-1.png">
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # GPG Signed Commit
+
+  <div class="container">
+  <div class="row">
+    <div class="col-md-12">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-block">
+          <ul class="card-text">
+          <img src="/images/gpg-commit-2.png" class="img-resize">
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
   # Git Large File Storage
 
   <div class="container">
