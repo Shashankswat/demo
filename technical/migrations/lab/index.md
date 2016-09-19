@@ -29,7 +29,7 @@ title: Migrating from SVN to Git
 - Create a directory called `notifications`
 - Change the working directory to `notifications`
 - Perform an SVN migration
-  - `svn2git https://ldap.gitaboard:8090/svn/SampleProject --authors ../authors.txt --rootistrunk --username gitaboard`
+  - `svn2git http://ldap.gitaboard.com:8090/svn/SampleProject --authors ../authors.txt --rootistrunk --username gitaboard`
 - Add a remote to your GitHub Enterprise URL
   - `git remote add origin http://luke@{serverurl}/development/notifications.git`
   - `git push --force --all origin`
