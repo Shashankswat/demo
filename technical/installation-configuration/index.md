@@ -8,7 +8,7 @@ permalink: /technical/installation-configuration/
   class: title-slide
 
   <span class="mega-octicon octicon-mark-github"></span>
-  <h1>Installation and Setup</h1>
+  <h1>GitHub Enterpise Architecture and Installation</h1>
 
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
@@ -16,7 +16,7 @@ permalink: /technical/installation-configuration/
   ---
   class: title-top
 
-  # Installation and Setup
+  # GitHub Enterprise Architecture and Installation
 
   <div class="container">
     <div class="row">
@@ -24,7 +24,7 @@ permalink: /technical/installation-configuration/
         <div class="card">
           <div class="card-block">
             <div class="card-text"><strong>Section Goal:</strong></div>
-            <div class="card-text">Understand the basics for installing GitHub Enterprise in the cloud and on-premise.</div>
+            <div class="card-text">Understand GitHub Enterprise's architecture and Installation (On-Prem/Cloud)</div>
           </div>
         </div>
       </div>
@@ -35,10 +35,10 @@ permalink: /technical/installation-configuration/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Topics and Agenda:</strong></div>
             <ul class="card-text">
-              <li>Install GitHub Enterprise</li>
-              <li>Obtain and Upload a new license</li>
-              <li>Upload a new SSH key</li>
-              <li>Add LDAP Sync</li>
+              <li>The GitHub Enterprise Appliance</li>
+              <li>Components of the Appliance</li>
+              <li>Installation Offerings</li>
+              <li>Licensing</li>
             </ul>
           </div>
         </div>
@@ -48,10 +48,10 @@ permalink: /technical/installation-configuration/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Topics and Agenda:</strong></div>
             <ul class="card-text">
-              <li>Login as an LDAP User</li>
-              <li>Access Org and Repo</li>
-              <li>See Sync'd Teams</li>
-              <li>Promote a User to Site Admin</li>
+              <li>Provisioning and Configuration</li>
+              <li>Authentication</li>
+              <li>GitHub Pages</li>
+              <li>Monitoring</li>
             </ul>
           </div>
         </div>
