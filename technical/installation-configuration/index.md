@@ -65,6 +65,52 @@ permalink: /technical/installation-configuration/
   ---
   class: title-top
 
+  # GitHub Enterprise Appliance
+
+  <div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-block">
+          <div class="card-text">
+            <span class="octicon octicon-organization card-img-top"></span><b>GitHub Enterprise: How businesses build software</b>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">Features</h4>
+          <ul class="card-text" style="list-style: none;">
+          <li><span class="octicon octicon-heart"></span> Delivered as a single virtual image</li>
+          <li><span class="octicon octicon-heart"></span> No public internet access needed</li>
+          <li><span class="octicon octicon-heart"></span> Behind the firewall</li>
+          <li><span class="octicon octicon-heart"></span> Take advantage of OSS Collaboration</li>
+          <li><span class="octicon octicon-heart"></span> Choose your authentication</li>
+          </ul>
+        </div>
+      </div>
+        <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">Benefits</h4>
+          <ul class="card-text">
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
   # Install GitHub Enterprise
 
   <div class="container">
