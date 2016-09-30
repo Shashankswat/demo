@@ -98,6 +98,11 @@ permalink: /technical/installation-configuration/
         <div class="card-block">
           <h4 class="card-title">Benefits</h4>
           <ul class="card-text">
+            <li>Streamlined Installation</li>
+            <li>Less overhead for Admins</li>
+            <li>Lightweight Infrastructure</li>
+            <li>Industry-Standard Install Stack</li>
+            <li>Single-appliance scaling</li>  
           </ul>
         </div>
       </div>
