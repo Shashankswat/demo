@@ -135,6 +135,57 @@ permalink: /technical/installation-configuration/
   ---
   class: title-top
 
+  # Installation Offerings
+
+  <div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-block">
+          <div class="card-text">
+            <span class="octicon octicon-organization card-img-top"></span><b>GitHub Enterprise Installation Offerrings</b>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">Platforms</h4>
+          <ul class="card-text" style="list-style: none;">
+          <li><span class="octicon octicon-checklist"></span> VMWare</li>
+          <li><span class="octicon octicon-checklist"></span> Xen/KVM</li>
+          <li><span class="octicon octicon-checklist"></span> Amazon Web Services</li>
+          <li><span class="octicon octicon-checklist"></span> Microsoft Azure</li>
+          <li><span class="octicon octicon-checklist"></span> IBM Bluemix</li>
+          </ul>
+        </div>
+      </div>
+        <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">Things to ask 🤔</h4>
+          <ul class="card-text">
+            <li>Do you currently run a virtualized environment?</li>
+            <li>Do you currently host in the cloud?</li>
+            <li>Have you designated an internal Product Owner for GHE?</li>
+            <li>Are you consdering GHE as a SaaS Product?</li>
+            <li>How are you planning to manage support?</li>  
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
   # Install GitHub Enterprise
 
   <div class="container">
