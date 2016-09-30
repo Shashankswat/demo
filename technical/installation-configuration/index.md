@@ -116,6 +116,25 @@ permalink: /technical/installation-configuration/
   ---
   class: title-top
 
+  # GitHub Enterprise Components
+
+  <div class="container">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-block">
+          <div class="card-text">
+            <img src="/images/enterprise-deep-dive.png" style="max-width: 90%; height: auto;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
   # Install GitHub Enterprise
 
   <div class="container">
