@@ -186,6 +186,57 @@ permalink: /technical/installation-configuration/
   ---
   class: title-top
 
+  # Licensing
+
+  <div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-block">
+          <div class="card-text">
+            <span class="octicon octicon-organization card-img-top"></span><b>GitHub Enterprise Licensing</b>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">License Offerings</h4>
+          <ul class="card-text">
+            <li>Annual license</li>
+            <li>Multi-Year license</li>
+            <li>Minimum 10 users per license</li>
+            <li>No value-adding of services -- All In</li>
+            <li>Base price: $250 pp/py</li>
+          </ul>
+        </div>
+      </div>
+        <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">Obtaining a License</h4>
+          <ul class="card-text">
+            <li>Trial License - 45 days</li>
+            <li>enterprise.github.com</li>
+            <li>Links for appliance download</li>
+            <li>Links to Support Portal</li>
+            <li>Resources/Cases Studies/Knowledge Base</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
   # Install GitHub Enterprise
 
   <div class="container">
