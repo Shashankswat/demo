@@ -294,6 +294,17 @@ permalink: /technical/installation-configuration/
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
   ---
+  class: title-slide
+
+  <span class="mega-octicon octicon-mark-github"></span>
+  <h1>Amazon Web Services</h1>
+  <h1>Azure (Coming Soon)</h1>
+  <h1>On-Prem (Coming Soon)</h1>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
   class: title-top
 
   # Install GitHub Enterprise
