@@ -237,6 +237,65 @@ permalink: /technical/installation-configuration/
   ---
   class: title-top
 
+  # enterprise.github.com login
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">Login or sign up for a trial at <a href="https://enterprise.github.com/login" target="_blank">enterprise.github.com/login</a> to obtain your license.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="/images/GHE-Login.png" class="img-resize">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # GitHub Enterprise License
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">Download License (or appliance for an on-premises install).</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="/images/GHE-Download.png" class="img-resize">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-slide
+
+  <span class="mega-octicon octicon-mark-github"></span>
+  <h1>Provisioning and Installation</h1>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
   # Install GitHub Enterprise
 
   <div class="container">
@@ -658,56 +717,7 @@ permalink: /technical/installation-configuration/
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
-  ---
-  class: title-top
 
-  # GitHub Enterprise Login
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-title">Login or sign up for a trial at <a href="https://enterprise.github.com/login" target="_blank">enterprise.github.com/login</a> to obtain your license.</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <img src="/images/GHE-Login.png" class="img-resize">
-      </div>
-    </div>
-  </div>
-
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-  </footer>
-  ---
-  class: title-top
-
-  # GitHub Enterprise License
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-title">Download License (or appliance for an on-premises install).</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <img src="/images/GHE-Download.png" class="img-resize">
-      </div>
-    </div>
-  </div>
-
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-  </footer>
   ---
   class: title-top
 
