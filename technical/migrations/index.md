@@ -126,7 +126,7 @@ permalink: /technical/migrations/
                <dt><b>Perforce</b></dt>
                 <dd> - <a href="https://github.com/git/git/blob/master/git-p4.py">git-p4</a></dd>
                <dt><b>Agnostic</b></dt>
-                <dd> - <a href="https://importer.github.com">GitHub.com Importer</a> (TFS, Mercurial, Subversion)</dd>
+                <dd> - <a href="https://import.github.com">GitHub.com Importer</a> (TFS, Mercurial, Subversion)</dd>
                 <dd> - <a href="https://help.github.com/enterprise/admin/guides/migrations/importing-migration-data-to-github-enterprise/">gh-migrator</a></dd>
               </dl>
           </div>
