@@ -8,7 +8,7 @@ permalink: /technical/installation-configuration/
   class: title-slide
 
   <span class="mega-octicon octicon-mark-github"></span>
-  <h1>Installation and Setup</h1>
+  <h1>GitHub Enterpise Architecture and Installation</h1>
 
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
@@ -16,7 +16,7 @@ permalink: /technical/installation-configuration/
   ---
   class: title-top
 
-  # Installation and Setup
+  # GitHub Enterprise Architecture and Installation
 
   <div class="container">
     <div class="row">
@@ -24,7 +24,7 @@ permalink: /technical/installation-configuration/
         <div class="card">
           <div class="card-block">
             <div class="card-text"><strong>Section Goal:</strong></div>
-            <div class="card-text">Understand the basics for installing GitHub Enterprise in the cloud and on-premise.</div>
+            <div class="card-text">Understand GitHub Enterprise's architecture and Installation (On-Prem/Cloud)</div>
           </div>
         </div>
       </div>
@@ -35,10 +35,10 @@ permalink: /technical/installation-configuration/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Topics and Agenda:</strong></div>
             <ul class="card-text">
-              <li>Install GitHub Enterprise</li>
-              <li>Obtain and Upload a new license</li>
-              <li>Upload a new SSH key</li>
-              <li>Add LDAP Sync</li>
+              <li>The GitHub Enterprise Appliance</li>
+              <li>Components of the Appliance</li>
+              <li>Installation Offerings</li>
+              <li>Licensing</li>
             </ul>
           </div>
         </div>
@@ -48,10 +48,10 @@ permalink: /technical/installation-configuration/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Topics and Agenda:</strong></div>
             <ul class="card-text">
-              <li>Login as an LDAP User</li>
-              <li>Access Org and Repo</li>
-              <li>See Sync'd Teams</li>
-              <li>Promote a User to Site Admin</li>
+              <li>Provisioning and Configuration</li>
+              <li>Authentication</li>
+              <li>GitHub Pages</li>
+              <li>Monitoring</li>
             </ul>
           </div>
         </div>
@@ -65,7 +65,250 @@ permalink: /technical/installation-configuration/
   ---
   class: title-top
 
-  # Install GitHub Enterprise
+  # GitHub Enterprise Appliance
+
+  <div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-block">
+          <div class="card-text">
+            <span class="octicon octicon-organization card-img-top"></span><b>GitHub Enterprise: How businesses build software</b>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">Features</h4>
+          <ul class="card-text" style="list-style: none;">
+          <li><span class="octicon octicon-heart"></span> Delivered as a single virtual image</li>
+          <li><span class="octicon octicon-heart"></span> No public internet access needed</li>
+          <li><span class="octicon octicon-heart"></span> Behind the firewall</li>
+          <li><span class="octicon octicon-heart"></span> Take advantage of OSS Collaboration</li>
+          <li><span class="octicon octicon-heart"></span> Choose your authentication</li>
+          </ul>
+        </div>
+      </div>
+        <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">Benefits</h4>
+          <ul class="card-text">
+            <li>Streamlined Installation</li>
+            <li>Less overhead for Admins</li>
+            <li>Lightweight Infrastructure</li>
+            <li>Industry-Standard Install Stack</li>
+            <li>Single-appliance scaling</li>  
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # GitHub Enterprise Components
+
+  <div class="container">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-block">
+          <div class="card-text">
+            <img src="/images/enterprise-deep-dive.png" style="max-width: 90%; height: auto;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Installation Offerings
+
+  <div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-block">
+          <div class="card-text">
+            <span class="octicon octicon-organization card-img-top"></span><b>GitHub Enterprise Installation Offerrings</b>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">Platforms</h4>
+          <ul class="card-text" style="list-style: none;">
+          <li><span class="octicon octicon-checklist"></span> VMWare</li>
+          <li><span class="octicon octicon-checklist"></span> Xen/KVM</li>
+          <li><span class="octicon octicon-checklist"></span> Amazon Web Services</li>
+          <li><span class="octicon octicon-checklist"></span> Microsoft Azure</li>
+          <li><span class="octicon octicon-checklist"></span> IBM Bluemix</li>
+          </ul>
+        </div>
+      </div>
+        <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">Things to ask 🤔</h4>
+          <ul class="card-text">
+            <li>Do you currently run a virtualized environment?</li>
+            <li>Do you currently host in the cloud?</li>
+            <li>Have you designated an internal Product Owner for GHE?</li>
+            <li>Are you consdering GHE as a SaaS Product?</li>
+            <li>How are you planning to manage support?</li>  
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Licensing
+
+  <div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-block">
+          <div class="card-text">
+            <span class="octicon octicon-organization card-img-top"></span><b>GitHub Enterprise Licensing</b>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">License Offerings</h4>
+          <ul class="card-text">
+            <li>Annual license</li>
+            <li>Multi-Year license</li>
+            <li>Minimum 10 users per license</li>
+            <li>No value-adding of services -- All In</li>
+            <li>Base price: $250 pp/py</li>
+          </ul>
+        </div>
+      </div>
+        <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">Obtaining a License</h4>
+          <ul class="card-text">
+            <li>Trial License - 45 days</li>
+            <li>enterprise.github.com</li>
+            <li>Links for appliance download</li>
+            <li>Links to Support Portal</li>
+            <li>Resources/Cases Studies/Knowledge Base</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # enterprise.github.com login
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">Login or sign up for a trial at <a href="https://enterprise.github.com/login" target="_blank">enterprise.github.com/login</a> to obtain your license.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="/images/GHE-Login.png" class="img-resize">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # GitHub Enterprise License
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">Download License (or appliance for an on-premises install).</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="/images/GHE-Download.png" class="img-resize">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  
+  ---
+  class: title-slide
+
+  <span class="mega-octicon octicon-mark-github"></span>
+  <h1>Provisioning and Installation</h1>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-slide
+
+  <span class="mega-octicon octicon-mark-github"></span>
+  <h1>Amazon Web Services</h1>
+  <h1>Azure (Coming Soon)</h1>
+  <h1>On-Prem (Coming Soon)</h1>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Install GitHub Enterprise - AWS
 
   <div class="container">
     <div class="row">
@@ -111,7 +354,7 @@ permalink: /technical/installation-configuration/
   ---
   class: title-top
 
-  # Select EC2
+  # Install GitHub Enterprise - AWS
 
   <div class="container">
     <div class="row">
@@ -127,7 +370,7 @@ permalink: /technical/installation-configuration/
   ---
   class: title-top
 
-  # Launch Instance
+  # Install GitHub Enterprise - AWS
 
   <div class="container">
     <div class="row">
@@ -486,56 +729,7 @@ permalink: /technical/installation-configuration/
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
-  ---
-  class: title-top
 
-  # GitHub Enterprise Login
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-title">Login or sign up for a trial at <a href="https://enterprise.github.com/login" target="_blank">enterprise.github.com/login</a> to obtain your license.</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <img src="/images/GHE-Login.png" class="img-resize">
-      </div>
-    </div>
-  </div>
-
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-  </footer>
-  ---
-  class: title-top
-
-  # GitHub Enterprise License
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-title">Download License (or appliance for an on-premises install).</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <img src="/images/GHE-Download.png" class="img-resize">
-      </div>
-    </div>
-  </div>
-
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-  </footer>
   ---
   class: title-top
 
@@ -736,52 +930,7 @@ permalink: /technical/installation-configuration/
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
-  ---
-  class: title-top
-
-  # LDAP Considerations
-
-  <div class="container">
-    <div class="col-md-12">
-    <div class="card-group">
-      <div class="card">
-        <div class="card-block">
-          <h4 class="card-title">Considerations</h4>
-          <ul class="card-text">
-            <li>Usernames can only be alphanumeric</li>
-            <li>Non-alphanumeric characters are normalized to dashes</li>
-            <li>Changes to LDAP accounts are not automatic, unless sync is enabled</li>
-            <li>Manually sync via the console or via API trigger</li>
-            <li>With LDAP sync enabled, any user can search the LDAP tree</li>
-            <li>Restrict this functionality with restricting the permissions of the DSU</li>
-            <li>Support for the following group classes: group, groupOfNames, groupOfUniqueNames, posixGroup</li>
-            <li>These classes can be nested</li>
-          </ul>
-        </div>
-      </div>
-        <div class="card">
-        <div class="card-block">
-          <h4 class="card-title">Settings and Attributes</h4>
-          <ul class="card-text">
-            <li>Encryption - Plain, SSDL/LDAPS, or StartTLS</li>
-            <li>Domain Search User - LDAP User that performs lookups</li>
-            <li>Domain Search Password - Password for the above account</li>
-            <li>Administrators Groupd</li>
-            <li>Domain base</li>
-            <li>Restricted User Group </li>
-            <li>User ID - Typically uid, or sAMAccountName</li>
-            <li>Profile Name - Name to appear on the profile page</li>
-            <li>SSH keys</li>
-            <li>GPG Keys</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-  </footer>
+  
   ---
   class: title-top
 
@@ -1111,6 +1260,231 @@ permalink: /technical/installation-configuration/
       </div>
     </div>
   </div>
+  ---
+  class: title-slide
+
+  <span class="mega-octicon octicon-mark-github"></span>
+  <h1>Authentication</h1>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # External Authentication
+  <div class="container">
+    <div class="col-md-12">
+    <div class="row">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-block">
+        <div class="card-title"><h3>CAS</h3></div>
+        <p class="card-text"><strong>CAS</strong> is an SSO Protocol for the internet. Services like Apereo provide CAS as a means of a single source of truth for user authentication</p>
+        </div>
+       </div>
+        <div class="card">
+        <div class="card-block">
+          <div class="card-title"><h3>LDAP</h3></div>
+          <p class="card-text"><strong>LDAP</strong> is a directory service protocol commonly used in enterprise organizationss. Active Directory supports LDAP to GHE</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-block">
+        <div class="card-title"><h3>SAML</h3></div>
+        <p class="card-text"><strong>SAML</strong> is an XML based language for exchanging authentication. Commonly, users of SAML will federate multiple idPs into a single SAML source.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="row">
+    <div class="card">
+        <div class="card-block">
+        <div class="card-title"><h3>Built in Authentication</h3></div>
+        <p class="card-text">GitHub Enterprise ships with authentication, but it is strongly encouraged to integrate with a customer's existing idP</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # CAS Considerations
+
+  <div class="container">
+    <div class="col-md-12">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">Considerations</h4><br />
+          <ul class="card-text" style="font-size: 24px;">
+            <li>Usernames are alphanumeric w/dashes</li>
+            <li>Usernames created from email address</li>
+            <li>If multiple usernames normalize, 1st one wins</li>
+            <li>Strongly recommended to use SSL</li>
+            <li>SSL cert installed on GHE</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # LDAP Considerations
+
+  <div class="container">
+    <div class="col-md-12">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">Considerations</h4>
+          <ul class="card-text">
+            <li>Usernames can only be alphanumeric</li>
+            <li>Non-alphanumeric characters are normalized to dashes</li>
+            <li>Changes to LDAP accounts are not automatic, unless sync is enabled</li>
+            <li>Manually sync via the console or via API trigger</li>
+            <li>With LDAP sync enabled, any user can search the LDAP tree</li>
+            <li>Restrict this functionality with restricting the permissions of the DSU</li>
+            <li>Support for the following group classes: group, groupOfNames, groupOfUniqueNames, posixGroup</li>
+            <li>These classes can be nested</li>
+          </ul>
+        </div>
+      </div>
+        <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">Settings and Attributes</h4>
+          <ul class="card-text">
+            <li>Encryption - Plain, SSDL/LDAPS, or StartTLS</li>
+            <li>Domain Search User - LDAP User that performs lookups</li>
+            <li>Domain Search Password - Password for the above account</li>
+            <li>Administrators Groupd</li>
+            <li>Domain base</li>
+            <li>Restricted User Group </li>
+            <li>User ID - Typically uid, or sAMAccountName</li>
+            <li>Profile Name - Name to appear on the profile page</li>
+            <li>SSH keys</li>
+            <li>GPG Keys</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # SAML Considerations
+
+  <div class="container">
+    <div class="col-md-12">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">Considerations</h4>
+          <ul class="card-text" style="font-size: 24px;">
+            <li>GitHub Enterprise utilizes SAML 2.0</li>
+            <li>Usernames must be alphanumeric, dashes allowed</li>
+            <li>Metadata available at <code>http(s)://[hostname]/saml/metadata</code></li>
+            <li>SSH/GPG keys can be stored via SAML for GHE</li>
+            <li>Site Admins can be granted through SAML admin tag</li>
+            <li>SAML users must be suspended from GHE if suspended from idP</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-slide
+
+  <span class="mega-octicon octicon-mark-github"></span>
+  <h1>GitHub Pages</h1>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # GitHub Pages Overview
+
+  <div class="container">
+    <div class="col-md-12">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">Considerations</h4>
+          <ul class="card-text" style="font-size: 24px;">
+            <li>Static sites hosted on GitHub Enterprise</li>
+            <li>Can be public or private</li>
+            <li>Built on Jekyll</li>
+            <li>Can use pre-built template</li>
+            <li>Can also use markdown</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Types of GitHub Pages
+  <div class="container">
+    <div class="col-md-12">
+    <div class="row">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-block">
+        <div class="card-title"><h3>User</h3></div>
+        <p class="card-text">Users can have a GH Pages site setup tied to their username. Always hosted under the <code>[username]/[username]</code> location on the account. Hosted on the master branch</p>
+        </div>
+       </div>
+        <div class="card">
+        <div class="card-block">
+          <div class="card-title"><h3>Organization</h3></div>
+          <p class="card-text">Similar to a User Page, but this is scoped to an Organization on GitHub Enterprise</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-block">
+        <div class="card-title"><h3>Project</h3></div>
+        <p class="card-text">A project repo can also have it's own GH Pages, hosted under the <code>gh-pages</code> branch in the project</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="row">
+    <div class="card">
+        <div class="card-block">
+        <div class="card-title"><h3>Thinking about GH Pages</h3></div>
+        <p class="card-text">Customers use GitHub Pages to level-up documentation, enhance projects, and help give insight to organizations. Encourage your customers to experiment!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
   ---
   class: title-slide
 
