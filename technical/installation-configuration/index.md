@@ -1445,6 +1445,47 @@ permalink: /technical/installation-configuration/
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
   ---
+  class: title-top
+
+  # Types of GitHub Pages
+  <div class="container">
+    <div class="col-md-12">
+    <div class="row">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-block">
+        <div class="card-title"><h3>User</h3></div>
+        <p class="card-text">Users can have a GH Pages site setup tied to their username. Always hosted under the <code>[username]/[username]</code> location on the account. Hosted on the master branch</p>
+        </div>
+       </div>
+        <div class="card">
+        <div class="card-block">
+          <div class="card-title"><h3>Organization</h3></div>
+          <p class="card-text">Similar to a User Page, but this is scoped to an Organization on GitHub Enterprise</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-block">
+        <div class="card-title"><h3>Project</h3></div>
+        <p class="card-text">A project repo can also have it's own GH Pages, hosted under the <code>gh-pages</code> branch in the project</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="row">
+    <div class="card">
+        <div class="card-block">
+        <div class="card-title"><h3>Thinking about GH Pages</h3></div>
+        <p class="card-text">Customers use GitHub Pages to level-up documentation, enhance projects, and help give insight to organizations. Encourage your customers to experiment!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
   class: title-slide
 
   <span class="mega-octicon octicon-mark-github"></span>
