@@ -284,6 +284,7 @@ permalink: /technical/installation-configuration/
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
+  
   ---
   class: title-slide
 
@@ -307,7 +308,7 @@ permalink: /technical/installation-configuration/
   ---
   class: title-top
 
-  # Install GitHub Enterprise
+  # Install GitHub Enterprise - AWS
 
   <div class="container">
     <div class="row">
@@ -353,7 +354,7 @@ permalink: /technical/installation-configuration/
   ---
   class: title-top
 
-  # Select EC2
+  # Install GitHub Enterprise - AWS
 
   <div class="container">
     <div class="row">
@@ -369,7 +370,7 @@ permalink: /technical/installation-configuration/
   ---
   class: title-top
 
-  # Launch Instance
+  # Install GitHub Enterprise - AWS
 
   <div class="container">
     <div class="row">
@@ -929,52 +930,7 @@ permalink: /technical/installation-configuration/
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
-  ---
-  class: title-top
-
-  # LDAP Considerations
-
-  <div class="container">
-    <div class="col-md-12">
-    <div class="card-group">
-      <div class="card">
-        <div class="card-block">
-          <h4 class="card-title">Considerations</h4>
-          <ul class="card-text">
-            <li>Usernames can only be alphanumeric</li>
-            <li>Non-alphanumeric characters are normalized to dashes</li>
-            <li>Changes to LDAP accounts are not automatic, unless sync is enabled</li>
-            <li>Manually sync via the console or via API trigger</li>
-            <li>With LDAP sync enabled, any user can search the LDAP tree</li>
-            <li>Restrict this functionality with restricting the permissions of the DSU</li>
-            <li>Support for the following group classes: group, groupOfNames, groupOfUniqueNames, posixGroup</li>
-            <li>These classes can be nested</li>
-          </ul>
-        </div>
-      </div>
-        <div class="card">
-        <div class="card-block">
-          <h4 class="card-title">Settings and Attributes</h4>
-          <ul class="card-text">
-            <li>Encryption - Plain, SSDL/LDAPS, or StartTLS</li>
-            <li>Domain Search User - LDAP User that performs lookups</li>
-            <li>Domain Search Password - Password for the above account</li>
-            <li>Administrators Groupd</li>
-            <li>Domain base</li>
-            <li>Restricted User Group </li>
-            <li>User ID - Typically uid, or sAMAccountName</li>
-            <li>Profile Name - Name to appear on the profile page</li>
-            <li>SSH keys</li>
-            <li>GPG Keys</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-  </footer>
+  
   ---
   class: title-top
 
@@ -1304,6 +1260,92 @@ permalink: /technical/installation-configuration/
       </div>
     </div>
   </div>
+  ---
+  class: title-slide
+
+  <span class="mega-octicon octicon-mark-github"></span>
+  <h1>Authentication</h1>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # External Authentication
+  <div class="container">
+    <div class="col-md-12">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-block">
+        <div class="card-title"><h3>CAS</h3></div>
+        <p class="card-text"><strong>CAS</strong> is an SSO Protocol for the internet. Services like Okta provide CAS as a means of a single source of truth for user authentication</p>
+        </div>
+       </div>
+        <div class="card">
+        <div class="card-block">
+          <div class="card-title"><h3>LDAP</h3></div>
+          <p class="card-text"><strong>LDAP</strong> is a directory service protocol commonly used in enterprise organizationss. Active Directory supports LDAP to GHE</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-block">
+        <div class="card-title"><h3>SAML</h3></div>
+        <p class="card-text"><strong>SAML</strong> is an XML based language for exchanging authentication. Commonly, users of SAML will federate multiple idPs into a single SAML source</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # LDAP Considerations
+
+  <div class="container">
+    <div class="col-md-12">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">Considerations</h4>
+          <ul class="card-text">
+            <li>Usernames can only be alphanumeric</li>
+            <li>Non-alphanumeric characters are normalized to dashes</li>
+            <li>Changes to LDAP accounts are not automatic, unless sync is enabled</li>
+            <li>Manually sync via the console or via API trigger</li>
+            <li>With LDAP sync enabled, any user can search the LDAP tree</li>
+            <li>Restrict this functionality with restricting the permissions of the DSU</li>
+            <li>Support for the following group classes: group, groupOfNames, groupOfUniqueNames, posixGroup</li>
+            <li>These classes can be nested</li>
+          </ul>
+        </div>
+      </div>
+        <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">Settings and Attributes</h4>
+          <ul class="card-text">
+            <li>Encryption - Plain, SSDL/LDAPS, or StartTLS</li>
+            <li>Domain Search User - LDAP User that performs lookups</li>
+            <li>Domain Search Password - Password for the above account</li>
+            <li>Administrators Groupd</li>
+            <li>Domain base</li>
+            <li>Restricted User Group </li>
+            <li>User ID - Typically uid, or sAMAccountName</li>
+            <li>Profile Name - Name to appear on the profile page</li>
+            <li>SSH keys</li>
+            <li>GPG Keys</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
   ---
   class: title-slide
 
