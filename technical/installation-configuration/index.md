@@ -1394,7 +1394,47 @@ permalink: /technical/installation-configuration/
         <div class="card-block">
           <h4 class="card-title">Considerations</h4>
           <ul class="card-text" style="font-size: 24px;">
-            <li></li>
+            <li>GitHub Enterprise utilizes SAML 2.0</li>
+            <li>Usernames must be alphanumeric, dashes allowed</li>
+            <li>Metadata available at <code>http(s)://[hostname]/saml/metadata</code></li>
+            <li>SSH/GPG keys can be stored via SAML for GHE</li>
+            <li>Site Admins can be granted through SAML admin tag</li>
+            <li>SAML users must be suspended from GHE if suspended from idP</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-slide
+
+  <span class="mega-octicon octicon-mark-github"></span>
+  <h1>GitHub Pages</h1>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # GitHub Pages Overview
+
+  <div class="container">
+    <div class="col-md-12">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">Considerations</h4>
+          <ul class="card-text" style="font-size: 24px;">
+            <li>Static sites hosted on GitHub Enterprise</li>
+            <li>Can be public or private</li>
+            <li>Built on Jekyll</li>
+            <li>Can use pre-built template</li>
+            <li>Can also use markdown</li>
           </ul>
         </div>
       </div>
