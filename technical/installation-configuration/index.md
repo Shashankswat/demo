@@ -1275,6 +1275,7 @@ permalink: /technical/installation-configuration/
   # External Authentication
   <div class="container">
     <div class="col-md-12">
+    <div class="row">
     <div class="card-group">
       <div class="card">
         <div class="card-block">
@@ -1292,6 +1293,41 @@ permalink: /technical/installation-configuration/
         <div class="card-block">
         <div class="card-title"><h3>SAML</h3></div>
         <p class="card-text"><strong>SAML</strong> is an XML based language for exchanging authentication. Commonly, users of SAML will federate multiple idPs into a single SAML source</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="row">
+    <div class="card">
+        <div class="card-block">
+        <div class="card-title"><h3>Built in Authentication</h3></div>
+        <p class="card-text">GitHub Enterprise ships with authentication, but it is strongly encouraged to integrate with a customer's existing idP</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # CAS Considerations
+
+  <div class="container">
+    <div class="col-md-12">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">Considerations</h4><br />
+          <ul class="card-text" style="font-size: 24px;">
+            <li>Usernames are alphanumeric w/dashes</li>
+            <li>Usernames created from email address</li>
+            <li>If multiple usernames normalize, 1st one wins</li>
+            <li>Strongly recommended to use SSL</li>
+            <li>SSL cert installed on GHE</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -1337,6 +1373,34 @@ permalink: /technical/installation-configuration/
             <li>Profile Name - Name to appear on the profile page</li>
             <li>SSH keys</li>
             <li>GPG Keys</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # SAML Considerations
+
+  <div class="container">
+    <div class="col-md-12">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">Considerations</h4>
+          <ul class="card-text">
+          </ul>
+        </div>
+      </div>
+        <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">Settings and Attributes</h4>
+          <ul class="card-text">
           </ul>
         </div>
       </div>
