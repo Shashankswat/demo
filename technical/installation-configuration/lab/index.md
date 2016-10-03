@@ -47,3 +47,7 @@ title: Installation and Setup Lab
 - Login to appliance `http://{hostname}/login`
   - Username - `chewbacca`
   - Password - `P@ssw0rd`
+
+## Extra Credit
+- Create a github pages site for your personal account
+- Create a github pages site for project in your personal account
