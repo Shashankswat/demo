@@ -1280,7 +1280,7 @@ permalink: /technical/installation-configuration/
       <div class="card">
         <div class="card-block">
         <div class="card-title"><h3>CAS</h3></div>
-        <p class="card-text"><strong>CAS</strong> is an SSO Protocol for the internet. Services like Okta provide CAS as a means of a single source of truth for user authentication</p>
+        <p class="card-text"><strong>CAS</strong> is an SSO Protocol for the internet. Services like Apereo provide CAS as a means of a single source of truth for user authentication</p>
         </div>
        </div>
         <div class="card">
@@ -1292,7 +1292,7 @@ permalink: /technical/installation-configuration/
       <div class="card">
         <div class="card-block">
         <div class="card-title"><h3>SAML</h3></div>
-        <p class="card-text"><strong>SAML</strong> is an XML based language for exchanging authentication. Commonly, users of SAML will federate multiple idPs into a single SAML source</p>
+        <p class="card-text"><strong>SAML</strong> is an XML based language for exchanging authentication. Commonly, users of SAML will federate multiple idPs into a single SAML source.</p>
         </div>
       </div>
     </div>
@@ -1393,14 +1393,8 @@ permalink: /technical/installation-configuration/
       <div class="card">
         <div class="card-block">
           <h4 class="card-title">Considerations</h4>
-          <ul class="card-text">
-          </ul>
-        </div>
-      </div>
-        <div class="card">
-        <div class="card-block">
-          <h4 class="card-title">Settings and Attributes</h4>
-          <ul class="card-text">
+          <ul class="card-text" style="font-size: 24px;">
+            <li></li>
           </ul>
         </div>
       </div>
