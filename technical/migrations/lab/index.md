@@ -10,6 +10,19 @@ title: Migrating from SVN to Git
   - Windows - http://rubyinstaller.org/
   - Need Ruby `2.2.4`
 - `gem install svn2git`
+
+**Windows users:** if the `gem` command does not work, it is likely that you do not have the appropriate certificate on your system. 
+  This will be evidenced by an error message containng something similar to the following:
+  `Gem::RemoteFetcher::FetchError: SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed`
+This is fixed by:
+  - Downloading the cacert.pem file from: http://curl.haxx.se/docs/caextract.html,
+  - Placing it an appropriate area on your hard drive
+  - Issuing the following command in a command prompt:`SET SSL_CERT_FILE=<PATH TO .pem FILE>`
+  - Try the gem command again.
+  
+For example, with `cacert.pem` downloaded as `C:\Ruby200\cacert.pem`, issue `SET SSL_CERT_FILE=C:\Ruby200\cacert.pem`
+See http://help.rubygems.org/discussions/problems/11732-ssl-problems-with-rubygems-on-windows for more information.
+
 - Create a new directory called `migrations`
 
 # Downloading an SVN Repository
