@@ -317,7 +317,6 @@ permalink: /technical/installation-configuration/
           <div class="card-block">
             <div class="card-text"><strong>What you will need:</strong></div>
             <ul class="card-text">
-            <a name="aws"></a>
               <li>An <a href="https://aws.amazon.com/" target="_blank">AWS account</a> capable of launching EC2 instances and creating EBS volumes.</li>
               <li>A GitHub Enterprise license file. To download an existing license file or request a trial license, visit <a href="https://enterprise.github.com/" target="_blank">enterprise.github.com</a>.</li>
             </ul>
