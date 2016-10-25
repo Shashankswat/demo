@@ -298,8 +298,8 @@ permalink: /technical/installation-configuration/
   class: title-slide
 
   <span class="mega-octicon octicon-mark-github"></span>
-  <h1>Amazon Web Services</h1>
-  <h1>Azure (Coming Soon)</h1>
+  <h1><a href="install-guides/aws/">Amazon Web Services</a></h1>
+  <h1><a href="install-guides/azure/">Microsoft Azure</a></h1>
   <h1>On-Prem (Coming Soon)</h1>
 
   <footer>
@@ -317,6 +317,7 @@ permalink: /technical/installation-configuration/
           <div class="card-block">
             <div class="card-text"><strong>What you will need:</strong></div>
             <ul class="card-text">
+            <a name="aws"></a>
               <li>An <a href="https://aws.amazon.com/" target="_blank">AWS account</a> capable of launching EC2 instances and creating EBS volumes.</li>
               <li>A GitHub Enterprise license file. To download an existing license file or request a trial license, visit <a href="https://enterprise.github.com/" target="_blank">enterprise.github.com</a>.</li>
             </ul>
