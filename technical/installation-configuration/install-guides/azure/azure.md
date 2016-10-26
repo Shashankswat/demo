@@ -390,11 +390,60 @@ permalink: /technical/installation-configuration/install-guides/azure/
       <div class="col-md-12">
         <div class="card">
           <div class="card-block">
-            <div class="card-text"><strong>Disk Encryption: </strong>An encrypted data volume provides an extra level of security by ensuring that any data you write to your instance is protected. There's a slight peformance impact when using encrypted disks. If you decide to encrypt your volume, we strongly recommend doing so before starting your instance for the first time. For more information, see <a href="https://azure.microsoft.com/en-us/documentation/articles/key-vault-manage-with-cli/">the guide on using Azure's Key Value encryption.</a> Instead of creating a new resource group, you can <a href="https://help.github.com/enterprise/2.7/admin/guides/installation/installing-github-enterprise-on-azure/#creating-a-new-resource-group-for-the-vm-and-data-disk">provide the name of the resource group you created earlier.</a></div>
+            <div class="card-text"><strong>Disk Encryption: </strong>An encrypted data volume provides an extra level of security by ensuring that any data you write to your instance is protected. There's a slight peformance impact when using encrypted disks. If you decide to encrypt your volume, we strongly recommend doing so before starting your instance for the first time. For more information, see <a href="https://azure.microsoft.com/en-us/documentation/articles/key-vault-manage-with-cli/">the guide on using Azure's Key Value encryption.</a> Instead of creating a new resource group, you can <a href="https://help.github.com/enterprise/2.7/admin/guides/installation/installing-github-enterprise-on-azure/#creating-a-new-resource-group-for-the-vm-and-data-disk">provide the name of the resource group you created earlier.</a>z</div>
           </div>
         </div>
       </div>
     </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Creating the VM in the command line
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text"><strong>Creation via the Command Line</strong></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <ul class="card-text">
+            <li>Ensure aws cli is running in asm mode: <code>azure config mode asm</code></li>
+            <li>Create a <code>Premium LRS</code> storage account: <code>azure storage account create NAME -l REGION --type PLRS</code></li>
+            <li>Find the latest GitHub VM: <code>azure vm image list | grep GitHub</code></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+            <div class="card-block"> 
+            <ul class="card-text">
+            <li>Create the VM: <code><br />azure vm create \<br />
+                                 --vm-size vm_size \<br />
+                                 --location "region" \<br />
+                                 --userName ignoreduser \<br />
+                                 --password ign0redP@ss \<br />
+                                 vm_name \<br />
+                                 appliance_image_name</code></li>
+            </ul> 
+          </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
