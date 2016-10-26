@@ -17,7 +17,6 @@ permalink: /technical/installation-configuration/install-guides/azure/
           <div class="card-block">
             <div class="card-text"><strong>What you will need:</strong></div>
             <ul class="card-text">
-            <a name="aws"></a>
               <li>An <a href="https://azure.microsoft.com/" target="_blank">Azure account</a> capable of provisioning new machines</li>
               <li>A GitHub Enterprise license file. To download an existing license file or request a trial license, visit <a href="https://enterprise.github.com/" target="_blank">enterprise.github.com</a>.</li>
               <li>If you're setting up instances via the command line, you'll need <a href="http://azure.microsoft.com/en-us/documentation/articles/xplat-cli/">Azure CLI</a> installed locally on your machine</li>
@@ -227,7 +226,7 @@ permalink: /technical/installation-configuration/install-guides/azure/
       <div class="col-md-12">
         <div class="card">
           <div class="card-block">
-            <div class="card-text">For AWS deployments, based on your seat count we recommend these instance types:</div>
+            <div class="card-text">For Azure deployments, based on your seat count we recommend these instance types:</div>
           </div>
         </div>
       </div>
@@ -248,9 +247,9 @@ permalink: /technical/installation-configuration/install-guides/azure/
         <div class="card">
           <div class="card-block">
             <ul class="card-text">
-              <li>r3.large</li>
-              <li>r3.xlarge</li>
-              <li>r3.2xlarge</li>
+              <li>Standard_DS3</li>
+              <li>Standard_DS12</li>
+              <li>Standard_DS14</li>
             </ul>
           </div>
         </div>
@@ -258,6 +257,46 @@ permalink: /technical/installation-configuration/install-guides/azure/
     </div>
   </div>
 
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Obtaining the Virtual Machine
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text"><strong>To deploy to Azure, you can deploy from the GitHub Enterprise portal, the Azure dashboard, or the command line</strong></div>
+            <ul class="card-text">
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <img class="card-text" class="img-responsive" src="/images/vm-download.png">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block"> 
+            <div class="card-block"> 
+            <img class="card-text" class="img-responsive" src="/images/vm-azure.png">
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
