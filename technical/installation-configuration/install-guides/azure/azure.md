@@ -271,7 +271,7 @@ permalink: /technical/installation-configuration/install-guides/azure/
       <div class="col-md-12">
         <div class="card">
           <div class="card-block">
-            <div class="card-text"><strong>To deploy to Azure, you can deploy from the GitHub Enterprise portal, the Azure dashboard, or the command lie</strong></div>
+            <div class="card-text"><strong>To deploy to Azure, you can deploy from the GitHub Enterprise portal, the Azure dashboard, or the command line</strong></div>
             <ul class="card-text">
             </ul>
           </div>
@@ -291,6 +291,97 @@ permalink: /technical/installation-configuration/install-guides/azure/
           <div class="card-block"> 
             <div class="card-block"> 
             <img class="card-text" class="img-responsive" src="/images/vm-azure.png">
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Creating the VM in the Azure Dashboard
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text"><strong>Creation via the Dashboard</strong></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <ul class="card-text">
+            <li>On the Azure Template page click <code>Save</code></li>
+            <li>To configure, click <code>Edit Parameters</code></li>
+            <li>In the <i>Account Prefix</i> field, create a name for the instance</li>
+            <li>Select the Region</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+            <div class="card-block"> 
+            <ul class="card-text">
+            <li>Select the VM Size as per the recommendations</li>
+            <li>Enter the disk size for your expected seat count</li>
+            <li>Click <code>OK</code> ✨</li>
+            </ul> 
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Creating/Saving a resource group for the VM
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text"><strong>Creating a Resource Group</strong></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <ul class="card-text">
+            <li>Click <code>"Or create new"</code> under "Configure Required Settings</li>
+            <li>Create a name for the group</li>
+            <li>Select the Region for your group. Does not need to match VM region</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+        <div class="col-md-6">
+        <div class="card">
+            <div class="card-block"> 
+            <ul class="card-text">
+            <li>Click <code>Pin to Starboard</code></li>
+            <li>Click <code>Create</code></li>
+            <li>Wait approx 5 minutes for the VM to show up</li>
+            </ul> 
           </div>
           </div>
         </div>
