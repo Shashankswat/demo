@@ -264,14 +264,14 @@ permalink: /technical/installation-configuration/install-guides/azure/
   ---
   class: title-top
 
-  # Obtaining the Virtual Machine
+  # Deploying the Virtual Machine
 
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="card">
           <div class="card-block">
-            <div class="card-text"><strong>To deploy to Azure, you can deploy from the GitHub Enterprise portal, the Azure dashboard, or the command line</strong></div>
+            <div class="card-text"><strong>To deploy to Azure, you can deploy from the GitHub Enterprise portal, the Azure dashboard, or the command lie</strong></div>
             <ul class="card-text">
             </ul>
           </div>
