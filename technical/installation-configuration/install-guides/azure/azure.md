@@ -453,6 +453,48 @@ permalink: /technical/installation-configuration/install-guides/azure/
   ---
   class: title-top
 
+  # Configuring the security group
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text"><strong>Creation via the Command Line</strong></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <ul class="card-text">
+            <li><code>azure vm endpoint/<br /> 
+                               create-multiple vm_name/ <br /> 
+                               122,<br />
+                               80,<br />
+                               8080,<br />
+                               443,<br />
+                               8443,<br />
+                               9418,<br />
+                               25,<br />
+                               161:161:udp,<br />
+                               1194:1194:udp</code></li> 
+            </ul>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
   # Creating a security group
 
   <div class="container">
