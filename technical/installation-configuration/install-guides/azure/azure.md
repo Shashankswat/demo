@@ -304,6 +304,37 @@ permalink: /technical/installation-configuration/install-guides/azure/
   ---
   class: title-top
 
+  # Deploying the Virtual Machine
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text"><strong>To deploy to Azure, you can deploy from the GitHub Enterprise portal, the Azure dashboard, or the command line</strong></div>
+            <ul class="card-text">
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <img class="card-text" class="img-resize" src="/images/ghe-azure-template.png">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
   # Creating the VM in the Azure Dashboard
 
   <div class="container">
@@ -495,135 +526,12 @@ permalink: /technical/installation-configuration/install-guides/azure/
   ---
   class: title-top
 
-  # Creating a security group
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <img src="/images/EC2-security-group.png" class="img-responsive" height="75%" width="75%">
-      </div>
-    </div>
-  </div>
-
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-  </footer>
-
-  ---
-  class: title-top
-
   # Select an Instance
 
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <img src="/images/EC2-Select-Instance.png" class="img-responsive">
-      </div>
-    </div>
-  </div>
-
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-  </footer>
-  ---
-  class: title-top
-
-  # Launch the Instance
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-title">Once your instance is running, copy the VM's public DNS name and paste it into a web browser.  If the page doesn't load, try updating the AWS security group for your EC2 instance to allow https connections (port 443).</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-       <div class="card">
-        <div class="card-block">
-         <div class="card-title">
-          <img src="/images/EC2-Review.png" class="img-resize">
-         </div>
-        </div>
-       </div> 
-      </div>
-    </div>
-  </div>
-
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-  </footer>
-  ---
-  class: title-top
-
-  # Attach Block Storage
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-title">After you've verified the instance, attach block storage of at least 10GB from the AWS EC2 Console.</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <img src="/images/EC2-Volume.png" class="img-responsive">
-      </div>
-    </div>
-  </div>
-
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-  </footer>
-  ---
-  class: title-top
-
-  # EBS Volume
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-title">Make sure the EBS volume is in the same availability zone as your EC2 instance.</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <img src="/images/EC2-EBS-Review.png" class="img-responsive">
-      </div>
-    </div>
-  </div>
-
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-  </footer>
-  ---
-  class: title-top
-
-  # Attach to EC2
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-title">Attach the EBS volume to your EC2 instance.</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <img src="/images/EC2-EBS-Attach.png" class="img-responsive">
+        <img src="/images/ghe-azure-hostname.png" class="img-responsive">
       </div>
     </div>
   </div>
