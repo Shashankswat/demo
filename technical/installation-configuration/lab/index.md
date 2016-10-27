@@ -19,6 +19,12 @@ title: Installation and Setup Lab
 - Download your `***.pem` file to you `${home_directory}/.ssh` folder **don't lose this**
 - Access `https://{hostname}/setup` from your browser
 
+## Provisioning Your Azure Instance
+- [Directions](https://help.github.com/enterprise/admin/guides/installation/installing-github-enterprise-on-azure/)
+- Use the template link from [enterprise.github.com](https://enterprise.github.com)
+- Create an SSH keypair to shell into the appliance
+- Access `https://{hostname}/setup` from your browser
+
 ## Basic Configuration
 - Create a password
 - Upload the license file

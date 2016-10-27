@@ -3,7 +3,6 @@ layout: slides
 title: Installation and Configuration
 permalink: /technical/installation-configuration/enterprise-setup/
 ---
-
 <textarea id="source">
   ---
   class: title-top
@@ -15,7 +14,7 @@ permalink: /technical/installation-configuration/enterprise-setup/
       <div class="col-md-12">
         <div class="card">
           <div class="card-block">
-            <div class="card-title">Navigate to the public DNS of the EC2 VM and continue to Setup, bypassing browser certificate warnings.</div>
+            <div class="card-title">Navigate to the public DNS of the VM and continue to Setup, bypassing browser certificate warnings.</div>
           </div>
         </div>
       </div>
