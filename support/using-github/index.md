@@ -102,7 +102,7 @@ permalink: /support/using-github/
           <div class="card-block">
             <div class="card-text">Total Registered Users </div>
             <ul class="card-text">
-              <li>14M</li>
+              <li>18M</li>
             </ul>
           </div>
         </div>
@@ -112,7 +112,7 @@ permalink: /support/using-github/
           <div class="card-block">
             <div class="card-text">Total Repositories </div>
             <ul class="card-text">
-              <li>35M</li>
+              <li>48M</li>
             </ul>
           </div>
         </div>
@@ -124,7 +124,7 @@ permalink: /support/using-github/
           <div class="card-block">
             <div class="card-text">Employees </div>
             <ul class="card-text">
-              <li>550+</li>
+              <li>600+</li>
             </ul>
           </div>
         </div>
