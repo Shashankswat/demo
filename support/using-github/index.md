@@ -30,17 +30,38 @@ permalink: /support/using-github/
       </div>
     </div>
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Topics and Agenda:</strong></div>
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Why Developers ❤️ GitHub</strong></div>
             <ul class="card-text">
               <li>GitHub Overview</li>
               <li>Key Product Features</li>
               <li>Platform - Capability Matrix</li>
-              <li>Exploring the platform  (Demonstration)</li>
               <li>Integrations</li>
             </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>Why Enterprise ❤️ GitHub</strong></div>
+            <ul class="card-text">
+              <li>Project Management</li>
+              <li>Security</li>
+              <li>Recruitment and Retention</li>
+              <li>Exploring the Platform</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+        <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text"><em>"Every business will be a software business"</em> - Satya Nadella</div>
           </div>
         </div>
       </div>
