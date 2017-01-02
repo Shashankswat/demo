@@ -218,10 +218,10 @@ permalink: /support/using-github/
       </div>
       <div class="card">
         <div class="card-block">
-          <h5 class="card-title">2016. Bluemix</h5>
+          <h5 class="card-title">2016. Managed GHE</h5>
           <section>
           <ul class="card-text">
-          <li>IBM Partners with GitHub to offer GitHub Enterprise as part of its Bluemix platform </li>
+          <li>GitHub partners with MSPs to provide GitHub Enterprise for customers</li>
           </ul>
           </section>
         </div>
