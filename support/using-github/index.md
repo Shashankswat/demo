@@ -670,6 +670,65 @@ permalink: /support/using-github/
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
   ---
+  class: title-top
+
+  # Recruitment and Retention
+  <div class="container">
+      <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text"><strong>GitHub as a long-term investment for Enterprise Success</strong></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+    <div class="col-md-12">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-block">
+          <h5 class="card-title">Recruitment</h5>
+          <section>
+          <ul class="card-text">
+            <li>GitHub Student Pack</li>
+            <li>GitHub as part of Higher Education</li>
+            <li><code>git</code> has won the SCM battle</li>
+            <li>GitHub Education Pack</li>
+          </ul>
+          </section>
+        </div>
+       </div>
+        <div class="card">
+        <div class="card-block">
+          <h5 class="card-title">Retention</h5>
+          <section>
+          <ul class="card-text">
+            <li>New hires learning git</li>
+            <li>Average Software Developer age is 25-31</li>
+            <li>Developers already using GitHub for fun</li>
+            <li>Software Developing w/collaboration</li>
+          </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div><br />
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text"><a href="https://hbr.org/2016/04/how-i-hired-an-entirely-remote-workforce"><i>I’m not interested in traditional résumés — everything I need to know about someone’s skill set can be learned from his or her LinkedIn or GitHub profile.</i></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
   class: title-slide
 
   <span class="mega-octicon octicon-mark-github"></span>
