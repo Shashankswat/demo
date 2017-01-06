@@ -270,7 +270,7 @@ permalink: /support/using-github/
   ---
   class: title-top
 
-  # Features Developers Can't Live Without
+  # Features Developers and Leaders Can't Live Without
   <div class="container">
     <div class="col-md-12">
     <div class="card-group">
@@ -279,11 +279,12 @@ permalink: /support/using-github/
         <div class="card-img-top text-center"><span class="mega-octicon octicon-comment-discussion"></span></div>
             <div class="card-title">Boost Team Productivity</div>
             <ul class="card-text">
-              <li>@ mentions</li>
+              <li>@mentions</li>
               <li>issues</li>
+              <li>projects</li>
               <li>file editor</li>
               <li>fuzzy file search</li>
-              <li>pulse &amp; graphs</li>
+              <li>news feed</li>
             </ul>
         </div>
        </div>
@@ -293,9 +294,11 @@ permalink: /support/using-github/
             <div class="card-title">Improve Code Quality</div>
             <ul class="card-text">
               <li>pull requests</li>
-              <li>protected branches</li>
+              <li>code review</li>
+              <li>protected branches + permissions</li>
               <li>line comments</li>
               <li>split differences</li>
+              <li>signed commits</li>
               <li>integrations</li>
             </ul>
         </div>
@@ -305,11 +308,12 @@ permalink: /support/using-github/
         <div class="card-img-top text-center"><span class="mega-octicon octicon-checklist"></span></div>
             <div class="card-title">Increase Efficiency</div>
             <ul class="card-text">
-              <li>pull requests</li>
-              <li>search</li>
+              <li>code search</li>
               <li>continuous integration</li>
-              <li>releases</li>
+              <li>releases + tags</li>
+              <li>pulse &amp; graphs</li>
               <li>integrations</li>
+              <li>Seamless API</li>
             </ul>
         </div>
       </div>
