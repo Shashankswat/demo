@@ -561,6 +561,55 @@ permalink: /support/using-github/
   class: title-slide
 
   <span class="mega-octicon octicon-mark-github"></span>
+  <h1>Why Enterprise ❤️ GitHub</h1>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+  #Projects
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title"></div>
+            <div class="card-text">
+            <center><img src="/images/projects.gif" height="40%" width="40%"></center>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">Manage Projects directly on GitHub</div>
+            <div class="card-text">
+               <ul>
+                  <li>Developers can apply Agile techniques to Issue Management</li>
+                  <li>Can replace, or work in tandem with other Project Mgt Software</li>
+                  <li>Allows developers to focus on what they do best</li>
+                  <li>WebHooks + API give infinite extensibility to projects</li>
+                </ul>
+              </div>
+          </div>
+        </div>
+      </div>
+     </div>
+    </div>
+  </div>
+
+  <footer>
+   <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-slide
+
+  <span class="mega-octicon octicon-mark-github"></span>
   <h1>Exploring the Platform</h1>
 
   <footer>
