@@ -607,6 +607,69 @@ permalink: /support/using-github/
    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
   ---
+  class: title-top
+
+  # Security from all angles
+  <div class="container">
+      <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text"><strong>Infrastructure, Code, Platform</strong></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+    <div class="col-md-12">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-block">
+          <h5 class="card-title">Infrastructure</h5>
+          <section>
+          <ul class="card-text">
+            <li>Single appliance</li>
+            <li>Hosted in chosen environment</li>
+            <li>Maintain existing compliance</li>
+            <li>Simple licensing</li>
+          </ul>
+          </section>
+        </div>
+       </div>
+        <div class="card">
+        <div class="card-block">
+          <h5 class="card-title">Code</h5>
+          <section>
+          <ul class="card-text">
+            <li>GPG Signed Commits</li>
+            <li>Code Review</li>
+            <li>Protected Branches</li>
+            <li>Branch Permissions</li>
+          </ul>
+          </section>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-block">
+          <h5 class="card-title">Security</h5>
+          <section>
+          <ul class="card-text">
+            <li>Flexible API</li>
+            <li>Monitoring via SNMP</li>
+            <li>Audit Logging</li>
+            <li>3rd party logging services</li>
+          </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
   class: title-slide
 
   <span class="mega-octicon octicon-mark-github"></span>
