@@ -396,123 +396,6 @@ permalink: /support/using-github/
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
   ---
-  class: title-slide
-
-  <span class="mega-octicon octicon-mark-github"></span>
-  <h1>Exploring the Platform</h1>
-
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-  </footer>
-  ---
-  class: title-top
-
-  # Exploring the Platform
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon acticon-checklist"></span><strong>&nbsp;Live Demonstration</strong></div>
-            <ul class="card-text">
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Well-Thought Out</strong></div>
-            <ul class="card-text">
-            <li>Designed around developer-love</li>
-            <li>Carefully considered UX</li>
-            <li>The sum is greater than the parts</li>
-            <li>Collaboration breeds creativity</li>
-            <li>Developers don't have to work in a vacuum</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;InnerSourcing</strong></div>
-            <ul class="card-text">
-            <li>These tools enable Inner Source</li>
-            <li>Developers share and reuse</li>
-            <li>We encourage open-communication</li>
-            <li>Pull Request as a key concepts</li>
-            <li>Code Review and Continuous Integration</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-   </footer>
-  ---
-  class: title-top
-  #GitHub Flow
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-title">The GitHub Flow</div>
-            <div class="card-text">
-            <center><img src="/images/gflow.png"></center> 
-            </div>
-          </div>
-        </div>
-      </div>     
-     </div>
-    <div class="row">
-      <div class="col-md-6">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-title">Why Developers Love GitHub Flow</div>
-            <div class="card-text">
-            <ul>
-            <small>
-            <li>A streamlined way to Work</li>
-            <li>Breeds collaboration</li>
-            <li>Bugs are found at time of Pull Request</li>
-            <li>Decrease number of meetings</li>
-            </small>
-            </ul> 
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-title">Why Leadership Loves GitHub Flow</div>
-            <div class="card-text">
-            <ul>
-            <small>
-            <li>Accelerate release cycles</li>
-            <li>Decrease the value/cost of bugs</li>
-            <li>Build community your teams</li>
-            <li>Visbility breeds code-reuse</li>
-            </small>
-            </ul> 
-            </div>
-          </div>
-        </div>
-      </div>     
-     </div>
-  </div>
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-  </footer>
-  ---
   class: title-top
   #Integrations
 
@@ -523,11 +406,11 @@ permalink: /support/using-github/
           <div class="card-block">
             <div class="card-title">Integrations to Boost Developer Productivity</div>
             <div class="card-text">
-            <center><img src="/images/integrations-directory-graphic.svg" height='60%' width='60%'></center> 
+            <center><img src="/images/integrations-directory-graphic.svg" height='60%' width='60%'></center>
             </div>
           </div>
         </div>
-      </div>     
+      </div>
      </div>
     <div class="row">
       <div class="col-md-12">
@@ -544,8 +427,8 @@ permalink: /support/using-github/
               </div>
           </div>
         </div>
-      </div>     
-     </div> 
+      </div>
+     </div>
     </div>
   </div>
 
@@ -673,8 +556,125 @@ permalink: /support/using-github/
        </div>
       </div>
      </div>
+  </div>
+  ---
+  class: title-slide
+
+  <span class="mega-octicon octicon-mark-github"></span>
+  <h1>Exploring the Platform</h1>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Exploring the Platform
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon acticon-checklist"></span><strong>&nbsp;Live Demonstration</strong></div>
+            <ul class="card-text">
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Well-Thought Out</strong></div>
+            <ul class="card-text">
+            <li>Designed around developer-love</li>
+            <li>Carefully considered UX</li>
+            <li>The sum is greater than the parts</li>
+            <li>Collaboration breeds creativity</li>
+            <li>Developers don't have to work in a vacuum</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;InnerSourcing</strong></div>
+            <ul class="card-text">
+            <li>These tools enable Inner Source</li>
+            <li>Developers share and reuse</li>
+            <li>We encourage open-communication</li>
+            <li>Pull Request as a key concepts</li>
+            <li>Code Review and Continuous Integration</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+   </footer>
+  ---
+  class: title-top
+  #GitHub Flow
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">The GitHub Flow</div>
+            <div class="card-text">
+            <center><img src="/images/gflow.png"></center> 
+            </div>
+          </div>
+        </div>
+      </div>     
+     </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">Why Developers Love GitHub Flow</div>
+            <div class="card-text">
+            <ul>
+            <small>
+            <li>A streamlined way to Work</li>
+            <li>Breeds collaboration</li>
+            <li>Bugs are found at time of Pull Request</li>
+            <li>Decrease number of meetings</li>
+            </small>
+            </ul> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">Why Leadership Loves GitHub Flow</div>
+            <div class="card-text">
+            <ul>
+            <small>
+            <li>Accelerate release cycles</li>
+            <li>Decrease the value/cost of bugs</li>
+            <li>Build community your teams</li>
+            <li>Visbility breeds code-reuse</li>
+            </small>
+            </ul> 
+            </div>
+          </div>
+        </div>
+      </div>     
+     </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+
 
 
   <footer>
