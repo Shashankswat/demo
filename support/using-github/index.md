@@ -30,17 +30,38 @@ permalink: /support/using-github/
       </div>
     </div>
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Topics and Agenda:</strong></div>
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Why Developers ❤️ GitHub</strong></div>
             <ul class="card-text">
               <li>GitHub Overview</li>
               <li>Key Product Features</li>
               <li>Platform - Capability Matrix</li>
-              <li>Exploring the platform  (Demonstration)</li>
               <li>Integrations</li>
             </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>Why Enterprise ❤️ GitHub</strong></div>
+            <ul class="card-text">
+              <li>Project Management</li>
+              <li>Security</li>
+              <li>Recruitment and Retention</li>
+              <li>Exploring the Platform</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+        <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text"><em>"Every business will be a software business"</em> - Satya Nadella</div>
           </div>
         </div>
       </div>
@@ -81,7 +102,7 @@ permalink: /support/using-github/
           <div class="card-block">
             <div class="card-text">Total Registered Users </div>
             <ul class="card-text">
-              <li>14M</li>
+              <li>18M</li>
             </ul>
           </div>
         </div>
@@ -91,7 +112,7 @@ permalink: /support/using-github/
           <div class="card-block">
             <div class="card-text">Total Repositories </div>
             <ul class="card-text">
-              <li>35M</li>
+              <li>48M</li>
             </ul>
           </div>
         </div>
@@ -103,7 +124,7 @@ permalink: /support/using-github/
           <div class="card-block">
             <div class="card-text">Employees </div>
             <ul class="card-text">
-              <li>550+</li>
+              <li>600+</li>
             </ul>
           </div>
         </div>
@@ -162,6 +183,7 @@ permalink: /support/using-github/
         </div>
       </div>
     </div>
+    <div class="row">
     <div class="col-md-12">
     <div class="card-group">
       <div class="card">
@@ -196,15 +218,16 @@ permalink: /support/using-github/
       </div>
       <div class="card">
         <div class="card-block">
-          <h5 class="card-title">2016. Bluemix</h5>
+          <h5 class="card-title">2016. Managed GHE</h5>
           <section>
           <ul class="card-text">
-          <li>IBM Partners with GitHub to offer GitHub Enterprise as part of its Bluemix platform </li>
+          <li>GitHub partners with MSPs to provide GitHub Enterprise for customers</li>
           </ul>
           </section>
         </div>
       </div>
     </div>
+  </div>
   </div>
   </div>
   <footer>
@@ -221,22 +244,22 @@ permalink: /support/using-github/
         <div class="card-block">
         <div class="card-img-top text-center"><span class="mega-octicon octicon-logo-github"></span></div>
         <div class="card-title"><a href="https://github.com" target="_blank"><h3>GitHub.com</h3></a></div>
-        <p class="card-text"><strong>GitHub.com</strong> is the <i>hosted</i> version of GitHub, which is fully managed for you in our datacenter.  We currently host over 20m repositories and 10m users in our infrastructure. <a href="https://enterprise.github.com/downloads/en/comvsenterprise-082415.pdf">Learn more ...</a></p>
+        <p class="card-text"><strong>GitHub.com</strong> is the <i>hosted</i> version of GitHub, which is fully managed for you in our datacenter.  We currently host over 48m repositories and 18m users in our infrastructure. GitHub.com proudly hosts the largest collection and community of Open Source software development, and allows developers to easily collaborate on code. <a href="https://enterprise.github.com/downloads/en/comvsenterprise-082415.pdf">Learn more ...</a></p>
         </div>
        </div>
         <div class="card">
-        <div class="card-block">
-          <div class="card-img-top text-center"><span class="mega-octicon octicon-mark-github"></span> <span class="mega-octicon octicon-server"></span> <span class="mega-octicon octicon-database"></span></div>
-          <div class="card-title"><a href="https://enterprise.github.com" target="_blank"><h3>IBM Bluemix</h3></a></div>
-          <p class="card-text"><strong>GitHub Enterprise on Bluemix</strong> is IBM's managed version of GitHub Enterprise, which you can deploy in IBM's Bluemix environment. <a href="https://developer.ibm.com/bluemix/2016/02/22/github-enterprise-service/">Learn more ...</a></p>
-        </div>
-      </div>
-      <div class="card">
         <div class="card-block">
         <div class="card-img-top text-center"><span class="mega-octicon octicon-mark-github"></span> <span class="mega-octicon octicon-server"></span> <span class="mega-octicon octicon-database"></span></div>
         <div class="card-title"><a href="https://enterprise.github.com" target="_blank"><h3>GitHub Enterprise</h3></a></div>
         <p class="card-text"><strong>GitHub Enterprise</strong> is the <i>on-premises</i> version of GitHub, which you can deploy and manage in your own, secure environment. <a href="https://enterprise.github.com/downloads/en/comvsenterprise-082415.pdf">Learn more ...</a></p>
         </div>
+        <div class="card">
+        <div class="card-block">
+          <div class="card-img-top text-center"><span class="mega-octicon octicon-mark-github"></span> <span class="mega-octicon octicon-server"></span> <span class="mega-octicon octicon-database"></span></div>
+          <div class="card-title"><a href="https://enterprise.github.com" target="_blank"><h3>Hosted GHE</h3></a></div>
+          <p class="card-text"><strong>GitHub Enterprise</strong> can be offered as a hosted solution with Managed Service Providers like IBM Bluemix. <a href="https://developer.ibm.com/bluemix/2016/02/22/github-enterprise-service/">Learn more ...</a></p>
+        </div>
+      </div>
       </div>
     </div>
   </div>
@@ -247,7 +270,7 @@ permalink: /support/using-github/
   ---
   class: title-top
 
-  # Features Developers Can't Live Without
+  # Features Developers and Leaders Can't Live Without
   <div class="container">
     <div class="col-md-12">
     <div class="card-group">
@@ -256,11 +279,12 @@ permalink: /support/using-github/
         <div class="card-img-top text-center"><span class="mega-octicon octicon-comment-discussion"></span></div>
             <div class="card-title">Boost Team Productivity</div>
             <ul class="card-text">
-              <li>@ mentions</li>
+              <li>@mentions</li>
               <li>issues</li>
+              <li>projects</li>
               <li>file editor</li>
               <li>fuzzy file search</li>
-              <li>pulse &amp; graphs</li>
+              <li>news feed</li>
             </ul>
         </div>
        </div>
@@ -270,9 +294,11 @@ permalink: /support/using-github/
             <div class="card-title">Improve Code Quality</div>
             <ul class="card-text">
               <li>pull requests</li>
-              <li>protected branches</li>
+              <li>code review</li>
+              <li>protected branches + permissions</li>
               <li>line comments</li>
               <li>split differences</li>
+              <li>signed commits</li>
               <li>integrations</li>
             </ul>
         </div>
@@ -282,40 +308,18 @@ permalink: /support/using-github/
         <div class="card-img-top text-center"><span class="mega-octicon octicon-checklist"></span></div>
             <div class="card-title">Increase Efficiency</div>
             <ul class="card-text">
-              <li>pull requests</li>
-              <li>search</li>
+              <li>code search</li>
               <li>continuous integration</li>
-              <li>releases</li>
+              <li>releases + tags</li>
+              <li>pulse &amp; graphs</li>
               <li>integrations</li>
+              <li>Seamless API</li>
             </ul>
         </div>
       </div>
     </div>
   </div>
   </div>
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-  </footer>
-  ---
-  class: title-top
-
-  # @mentions 
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card-block">
-          <div class="card-text">You can choose to receive <a href="https://github.com/blog/821-mention-somebody-they-re-notified" target="_blank">@mentions</a>, which notifies you via email, or through the Notifications section on GitHub.com. Support for personal and team mentions. Note: Cross-organizational @mentions are not supported</div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <img src="/images/ghe-mentions.png">
-      </div>
-    </div>
-  </div>
-
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
@@ -392,123 +396,6 @@ permalink: /support/using-github/
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
   ---
-  class: title-slide
-
-  <span class="mega-octicon octicon-mark-github"></span>
-  <h1>Exploring the Platform</h1>
-
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-  </footer>
-  ---
-  class: title-top
-
-  # Exploring the Platform
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon acticon-checklist"></span><strong>&nbsp;Live Demonstration</strong></div>
-            <ul class="card-text">
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Well-Thought Out</strong></div>
-            <ul class="card-text">
-            <li>Designed around developer-love</li>
-            <li>Carefully considered UX</li>
-            <li>The sum is greater than the parts</li>
-            <li>Collaboration breeds creativity</li>
-            <li>Developers don't have to work in a vacuum</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;InnerSourcing</strong></div>
-            <ul class="card-text">
-            <li>These tools enable Inner Source</li>
-            <li>Developers share and reuse</li>
-            <li>We encourage open-communication</li>
-            <li>Pull Request as a key concepts</li>
-            <li>Code Review and Continuous Integration</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-   </footer>
-  ---
-  class: title-top
-  #GitHub Flow
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-title">The GitHub Flow</div>
-            <div class="card-text">
-            <center><img src="/images/gflow.png"></center> 
-            </div>
-          </div>
-        </div>
-      </div>     
-     </div>
-    <div class="row">
-      <div class="col-md-6">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-title">Why Developers Love GitHub Flow</div>
-            <div class="card-text">
-            <ul>
-            <small>
-            <li>A streamlined way to Work</li>
-            <li>Breeds collaboration</li>
-            <li>Bugs are found at time of Pull Request</li>
-            <li>Decrease number of meetings</li>
-            </small>
-            </ul> 
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-title">Why Leadership Loves GitHub Flow</div>
-            <div class="card-text">
-            <ul>
-            <small>
-            <li>Accelerate release cycles</li>
-            <li>Decrease the value/cost of bugs</li>
-            <li>Build community your teams</li>
-            <li>Visbility breeds code-reuse</li>
-            </small>
-            </ul> 
-            </div>
-          </div>
-        </div>
-      </div>     
-     </div>
-  </div>
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-  </footer>
-  ---
   class: title-top
   #Integrations
 
@@ -519,11 +406,11 @@ permalink: /support/using-github/
           <div class="card-block">
             <div class="card-title">Integrations to Boost Developer Productivity</div>
             <div class="card-text">
-            <center><img src="/images/integrations-directory-graphic.svg" height='60%' width='60%'></center> 
+            <center><img src="/images/integrations-directory-graphic.svg" height='60%' width='60%'></center>
             </div>
           </div>
         </div>
-      </div>     
+      </div>
      </div>
     <div class="row">
       <div class="col-md-12">
@@ -540,8 +427,8 @@ permalink: /support/using-github/
               </div>
           </div>
         </div>
-      </div>     
-     </div> 
+      </div>
+     </div>
     </div>
   </div>
 
@@ -669,8 +556,296 @@ permalink: /support/using-github/
        </div>
       </div>
      </div>
+  </div>
+  ---
+  class: title-slide
+
+  <span class="mega-octicon octicon-mark-github"></span>
+  <h1>Why Enterprise ❤️ GitHub</h1>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+  #Projects
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title"></div>
+            <div class="card-text">
+            <center><img src="/images/projects.gif" height="40%" width="40%"></center>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">Manage Projects directly on GitHub</div>
+            <div class="card-text">
+               <ul>
+                  <li>Developers can apply Agile techniques to Issue Management</li>
+                  <li>Can replace, or work in tandem with other Project Mgt Software</li>
+                  <li>Allows developers to focus on what they do best</li>
+                  <li>WebHooks + API give infinite extensibility to projects</li>
+                </ul>
+              </div>
+          </div>
+        </div>
+      </div>
+     </div>
     </div>
   </div>
+
+  <footer>
+   <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Security from all angles
+  <div class="container">
+      <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text"><strong>Infrastructure, Code, Platform</strong></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+    <div class="col-md-12">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-block">
+          <h5 class="card-title">Infrastructure</h5>
+          <section>
+          <ul class="card-text">
+            <li>Single appliance</li>
+            <li>Hosted in chosen environment</li>
+            <li>Maintain existing compliance</li>
+            <li>Simple licensing</li>
+          </ul>
+          </section>
+        </div>
+       </div>
+        <div class="card">
+        <div class="card-block">
+          <h5 class="card-title">Code</h5>
+          <section>
+          <ul class="card-text">
+            <li>GPG Signed Commits</li>
+            <li>Code Review</li>
+            <li>Protected Branches</li>
+            <li>Branch Permissions</li>
+          </ul>
+          </section>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-block">
+          <h5 class="card-title">Security</h5>
+          <section>
+          <ul class="card-text">
+            <li>Flexible API</li>
+            <li>Monitoring via SNMP</li>
+            <li>Audit Logging</li>
+            <li>3rd party logging services</li>
+          </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Recruitment and Retention
+  <div class="container">
+      <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text"><strong>GitHub as a long-term investment for Enterprise Success</strong></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+    <div class="col-md-12">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-block">
+          <h5 class="card-title">Recruitment</h5>
+          <section>
+          <ul class="card-text">
+            <li>GitHub Student Pack</li>
+            <li>GitHub as part of Higher Education</li>
+            <li><code>git</code> has won the SCM battle</li>
+            <li>GitHub Education Pack</li>
+          </ul>
+          </section>
+        </div>
+       </div>
+        <div class="card">
+        <div class="card-block">
+          <h5 class="card-title">Retention</h5>
+          <section>
+          <ul class="card-text">
+            <li>New hires learning git</li>
+            <li>Average Software Developer age is 25-31</li>
+            <li>Developers already using GitHub for fun</li>
+            <li>Software Developing w/collaboration</li>
+          </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div><br />
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text"><a href="https://hbr.org/2016/04/how-i-hired-an-entirely-remote-workforce"><i>I’m not interested in traditional résumés — everything I need to know about someone’s skill set can be learned from his or her LinkedIn or GitHub profile.</i></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-slide
+
+  <span class="mega-octicon octicon-mark-github"></span>
+  <h1>Exploring the Platform</h1>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Exploring the Platform
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon acticon-checklist"></span><strong>&nbsp;Live Demonstration</strong></div>
+            <ul class="card-text">
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Well-Thought Out</strong></div>
+            <ul class="card-text">
+            <li>Designed around developer-love</li>
+            <li>Carefully considered UX</li>
+            <li>The sum is greater than the parts</li>
+            <li>Collaboration breeds creativity</li>
+            <li>Developers don't have to work in a vacuum</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;InnerSourcing</strong></div>
+            <ul class="card-text">
+            <li>These tools enable Inner Source</li>
+            <li>Developers share and reuse</li>
+            <li>We encourage open-communication</li>
+            <li>Pull Request as a key concepts</li>
+            <li>Code Review and Continuous Integration</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+   </footer>
+  ---
+  class: title-top
+  #GitHub Flow
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">The GitHub Flow</div>
+            <div class="card-text">
+            <center><img src="/images/gflow.png"></center> 
+            </div>
+          </div>
+        </div>
+      </div>     
+     </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">Why Developers Love GitHub Flow</div>
+            <div class="card-text">
+            <ul>
+            <small>
+            <li>A streamlined way to Work</li>
+            <li>Breeds collaboration</li>
+            <li>Bugs are found at time of Pull Request</li>
+            <li>Decrease number of meetings</li>
+            </small>
+            </ul> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">Why Leadership Loves GitHub Flow</div>
+            <div class="card-text">
+            <ul>
+            <small>
+            <li>Accelerate release cycles</li>
+            <li>Decrease the value/cost of bugs</li>
+            <li>Build community your teams</li>
+            <li>Visbility breeds code-reuse</li>
+            </small>
+            </ul> 
+            </div>
+          </div>
+        </div>
+      </div>     
+     </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+
 
 
   <footer>
