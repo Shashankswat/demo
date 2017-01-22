@@ -740,14 +740,14 @@ permalink: /support/using-github/
   ---
   class: title-top
 
-  # Exploring the Platform
+  # About the Platform
 
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon acticon-checklist"></span><strong>&nbsp;Live Demonstration</strong></div>
+            <div class="card-img-top text-left"><span class="mega-octicon acticon-checklist"></span><strong>&nbsp;Our philosophy</strong></div>
             <ul class="card-text">
             </ul>
           </div>
@@ -776,7 +776,7 @@ permalink: /support/using-github/
             <ul class="card-text">
             <li>These tools enable Inner Source</li>
             <li>Developers share and reuse</li>
-            <li>We encourage open-communication</li>
+            <li>Encourage open-communication</li>
             <li>Pull Request as a key concepts</li>
             <li>Code Review and Continuous Integration</li>
             </ul>
@@ -833,7 +833,7 @@ permalink: /support/using-github/
             <li>Accelerate release cycles</li>
             <li>Decrease the value/cost of bugs</li>
             <li>Build community your teams</li>
-            <li>Visbility breeds code-reuse</li>
+            <li>Visibility breeds code-reuse</li>
             </small>
             </ul> 
             </div>
