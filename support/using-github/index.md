@@ -51,7 +51,7 @@ permalink: /support/using-github/
               <li>Project Management</li>
               <li>Security</li>
               <li>Recruitment and Retention</li>
-              <li>Exploring the Platform</li>
+              <li>About the Platform</li>
             </ul>
           </div>
         </div>
