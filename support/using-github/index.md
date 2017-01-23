@@ -48,10 +48,10 @@ permalink: /support/using-github/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>Why Enterprise ❤️ GitHub</strong></div>
             <ul class="card-text">
-              <li>Project Management</li>
+              <li>Features to Drive Enterprise Growth</li>
               <li>Security</li>
               <li>Recruitment and Retention</li>
-              <li>Exploring the Platform</li>
+              <li>About the Platform</li>
             </ul>
           </div>
         </div>
@@ -568,32 +568,35 @@ permalink: /support/using-github/
   </footer>
   ---
   class: title-top
-  #Projects
+  #Features to drive Enterprise growth
 
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-            <div class="card-title"></div>
+            <div class="card-title">Features</div>
             <div class="card-text">
-            <center><img src="/images/projects.gif" height="40%" width="40%"></center>
-            </div>
+               <ul>
+                  <li>GitHub Projects</li>
+                  <li>Code Review</li>
+                  <li>Pull Requests</li>
+                  <li>Integrations and API</li>
+                </ul>
+              </div>
           </div>
         </div>
       </div>
-     </div>
-    <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-            <div class="card-title">Manage Projects directly on GitHub</div>
+            <div class="card-title">Benefit</div>
             <div class="card-text">
                <ul>
-                  <li>Developers can apply Agile techniques to Issue Management</li>
-                  <li>Can replace, or work in tandem with other Project Mgt Software</li>
-                  <li>Allows developers to focus on what they do best</li>
-                  <li>WebHooks + API give infinite extensibility to projects</li>
+                  <li>Apply PM techniques directly on GitHub</li>
+                  <li>Approval gates, eyes on code</li>
+                  <li>A tried and true workflow</li>
+                  <li>No reinvention of the wheel</li>
                 </ul>
               </div>
           </div>
@@ -740,14 +743,14 @@ permalink: /support/using-github/
   ---
   class: title-top
 
-  # Exploring the Platform
+  # About the Platform
 
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon acticon-checklist"></span><strong>&nbsp;Live Demonstration</strong></div>
+            <div class="card-img-top text-left"><span class="mega-octicon acticon-checklist"></span><strong>&nbsp;Our philosophy</strong></div>
             <ul class="card-text">
             </ul>
           </div>
@@ -776,7 +779,7 @@ permalink: /support/using-github/
             <ul class="card-text">
             <li>These tools enable Inner Source</li>
             <li>Developers share and reuse</li>
-            <li>We encourage open-communication</li>
+            <li>Encourage open-communication</li>
             <li>Pull Request as a key concepts</li>
             <li>Code Review and Continuous Integration</li>
             </ul>
@@ -833,7 +836,7 @@ permalink: /support/using-github/
             <li>Accelerate release cycles</li>
             <li>Decrease the value/cost of bugs</li>
             <li>Build community your teams</li>
-            <li>Visbility breeds code-reuse</li>
+            <li>Visibility breeds code-reuse</li>
             </small>
             </ul> 
             </div>
