@@ -25,4 +25,3 @@ title: Why Developers Choose GitHub Lab
 - Explore github.com/atom to see GitHub used in the Open-Source Community
 - Review https://guides.github.com/activities/hello-world/
 - Review https://help.github.com/enterprise/
-
