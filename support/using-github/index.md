@@ -802,7 +802,7 @@ permalink: /support/using-github/
           <div class="card-block">
             <div class="card-title">The GitHub Flow</div>
             <div class="card-text">
-            <center><img src="/images/gflow.png"></center> 
+            <center><img src="/images/gflow.png"></center>
             </div>
           </div>
         </div>
@@ -821,7 +821,7 @@ permalink: /support/using-github/
             <li>Bugs are found at time of Pull Request</li>
             <li>Decrease number of meetings</li>
             </small>
-            </ul> 
+            </ul>
             </div>
           </div>
         </div>
@@ -838,7 +838,7 @@ permalink: /support/using-github/
             <li>Build community your teams</li>
             <li>Visibility breeds code-reuse</li>
             </small>
-            </ul> 
+            </ul>
             </div>
           </div>
         </div>
