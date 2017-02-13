@@ -257,7 +257,7 @@ permalink: /support/using-github/
         <div class="card-block">
           <div class="card-img-top text-center"><span class="mega-octicon octicon-mark-github"></span> <span class="mega-octicon octicon-server"></span> <span class="mega-octicon octicon-database"></span></div>
           <div class="card-title"><a href="https://enterprise.github.com" target="_blank"><h3>Hosted GHE</h3></a></div>
-          <p class="card-text"><strong>GitHub Enterprise</strong> can be offered as a hosted solution with Managed Service Providers like IBM Bluemix. <a href="https://developer.ibm.com/bluemix/2016/02/22/github-enterprise-service/">Learn more ...</a></p>
+          <p class="card-text"><strong>GitHub Enterprise</strong> can be offered as a hosted solution with Managed Service Providers.</p>
         </div>
       </div>
       </div>
