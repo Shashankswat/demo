@@ -6,7 +6,7 @@ title: Why Developers Choose GitHub Lab
 # Why Developers Choose GitHub
 
 ## Prerequisites
-- Make sure you have an account on the Bluemix GHE Instance at <ADDRESSS>
+- Make sure you have an account on the training instance
 - Make sure you are a Site Admin
 
 ## Familiarize yourself with GitHub Enterprise
