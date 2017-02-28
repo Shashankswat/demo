@@ -257,7 +257,7 @@ permalink: /support/using-github/
         <div class="card-block">
           <div class="card-img-top text-center"><span class="mega-octicon octicon-mark-github"></span> <span class="mega-octicon octicon-server"></span> <span class="mega-octicon octicon-database"></span></div>
           <div class="card-title"><a href="https://enterprise.github.com" target="_blank"><h3>Hosted GHE</h3></a></div>
-          <p class="card-text"><strong>GitHub Enterprise</strong> can be offered as a hosted solution with Managed Service Providers like IBM Bluemix. <a href="https://developer.ibm.com/bluemix/2016/02/22/github-enterprise-service/">Learn more ...</a></p>
+          <p class="card-text"><strong>GitHub Enterprise</strong> can be offered as a hosted solution with Managed Service Providers.</p>
         </div>
       </div>
       </div>
@@ -802,7 +802,7 @@ permalink: /support/using-github/
           <div class="card-block">
             <div class="card-title">The GitHub Flow</div>
             <div class="card-text">
-            <center><img src="/images/gflow.png"></center> 
+            <center><img src="/images/gflow.png"></center>
             </div>
           </div>
         </div>
@@ -821,7 +821,7 @@ permalink: /support/using-github/
             <li>Bugs are found at time of Pull Request</li>
             <li>Decrease number of meetings</li>
             </small>
-            </ul> 
+            </ul>
             </div>
           </div>
         </div>
@@ -838,7 +838,7 @@ permalink: /support/using-github/
             <li>Build community your teams</li>
             <li>Visibility breeds code-reuse</li>
             </small>
-            </ul> 
+            </ul>
             </div>
           </div>
         </div>
