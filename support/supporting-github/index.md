@@ -103,7 +103,7 @@ permalink: /support/supporting-github/
               <li>Virtual image built on Linux delivered as a single appliance</li>
               <li>All necessary services and processes all held within</li>
               <li>Consistent experience from support perspective</li>
-              <li>Maintenance of customer appliances supported by IBM DevOps Team</li>
+              <li>Maintenance of customer appliances</li>
               <li>Current release (May 2016) Enterprise 2.6</li>
             </ul>
           </div>
@@ -115,11 +115,11 @@ permalink: /support/supporting-github/
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;L1 Responsibilities</strong></div>
             <ul class="card-text">
             <li>Monitoring the appliance(s)</li>
-            <li>Gathering Support Bundles and Diangnostics</li> 
+            <li>Gathering Support Bundles and Diangnostics</li>
             <li>Working with customers to enabling/disabling users on the appliance</li>
             <li>Enabling/disabling features on the appliance</li>
             <li>Running reports for our customers</li>
-            <li>Being the face of GitHub at IBM!</li>
+            <li>Being the face of GitHub!</li>
             </ul>
           </div>
         </div>
@@ -130,7 +130,7 @@ permalink: /support/supporting-github/
    <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
-  
+
   ---
   class: title-top
 
@@ -173,7 +173,7 @@ permalink: /support/supporting-github/
             <li>Monitoring set up via SNMP (+collectd)</li>
             <li>GitLFS optionally supported</li>
             <li>Robust backup-utilities available to backup customer data</li>
-            <li>Proxy server support available (Useful if customer is VIP'ing to Bluemix)</li>
+            <li>Proxy server support available</li>
             </ul>
           </div>
         </div>
@@ -269,8 +269,8 @@ permalink: /support/supporting-github/
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Features</strong></div>
             <ul class="card-text">
             <li>Used to manage high-level GitHub Enterprise Settings</li>
-            <li>Managed by IBM Bluemix Support</li>
-            <li>Manage Shell Access for Admins</li>
+            <li>Managed by MSP</li>
+            <li>Management Shell Access for MSP Admins</li>
             <li>Configure DNS/NTP/IdP</li>
             <li>Check for Updates</li>
             </ul>
@@ -521,7 +521,7 @@ permalink: /support/supporting-github/
       </div>
     </div>
   </div>
-  
+
     <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
     </footer>
@@ -581,7 +581,7 @@ permalink: /support/supporting-github/
         </div>
       </div>
     </div>
-  </div> 
+  </div>
    <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
    </footer>
@@ -690,7 +690,7 @@ permalink: /support/supporting-github/
   ---
   class: title-top
 
-  # Applications connecting to GitHub 
+  # Applications connecting to GitHub
 
   <div class="container">
     <div class="row">
@@ -743,7 +743,7 @@ permalink: /support/supporting-github/
   ---
   class: title-top
 
-  # OAuth Flow 
+  # OAuth Flow
 
   <div class="container">
     <div class="row">
@@ -765,7 +765,7 @@ permalink: /support/supporting-github/
            <img src="/images/oauth2_flow.png" height="50%" width="50%">          
           </div>
         </div>
-      </div> 
+      </div>
     </div>
   </div>
   <footer>
@@ -903,7 +903,7 @@ permalink: /support/supporting-github/
   ---
   class: title-top
 
-  # GitHub's Support Structure 
+  # GitHub's Support Structure
 
   <div class="container">
     <div class="row">
@@ -953,7 +953,7 @@ permalink: /support/supporting-github/
   ---
   class: title-top
 
-  # Creating a Knowledge Base 
+  # Creating a Knowledge Base
 
   <div class="container">
     <div class="row">
@@ -1099,7 +1099,7 @@ permalink: /support/supporting-github/
    <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
    </footer>
-  
+
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
    </footer>    
