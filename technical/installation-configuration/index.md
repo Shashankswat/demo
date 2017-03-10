@@ -160,7 +160,7 @@ permalink: /technical/installation-configuration/
           <li><span class="octicon octicon-checklist"></span> Xen/KVM</li>
           <li><span class="octicon octicon-checklist"></span> Amazon Web Services</li>
           <li><span class="octicon octicon-checklist"></span> Microsoft Azure</li>
-          <li><span class="octicon octicon-checklist"></span> IBM Bluemix</li>
+          <li><span class="octicon octicon-checklist"></span> Google Cloud Platform</li>
           </ul>
         </div>
       </div>
@@ -284,7 +284,7 @@ permalink: /technical/installation-configuration/
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
-  
+
   ---
   class: title-slide
 
@@ -646,7 +646,7 @@ permalink: /technical/installation-configuration/
           <img src="/images/EC2-Review.png" class="img-resize">
          </div>
         </div>
-       </div> 
+       </div>
       </div>
     </div>
   </div>
@@ -930,7 +930,7 @@ permalink: /technical/installation-configuration/
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
-  
+
   ---
   class: title-top
 
