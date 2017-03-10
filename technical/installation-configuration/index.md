@@ -157,7 +157,7 @@ permalink: /technical/installation-configuration/
           <h4 class="card-title">Platforms</h4>
           <ul class="card-text" style="list-style: none;">
           <li><span class="octicon octicon-checklist"></span> VMWare</li>
-          <li><span class="octicon octicon-checklist"></span> Xen/KVM</li>
+          <li><span class="octicon octicon-checklist"></span> Xen/KVM/Hyper-V</li>
           <li><span class="octicon octicon-checklist"></span> Amazon Web Services</li>
           <li><span class="octicon octicon-checklist"></span> Microsoft Azure</li>
           <li><span class="octicon octicon-checklist"></span> Google Cloud Platform</li>
