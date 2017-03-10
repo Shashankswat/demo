@@ -284,7 +284,7 @@ permalink: /technical/installation-configuration/
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
-  
+
   ---
   class: title-slide
 
@@ -646,7 +646,7 @@ permalink: /technical/installation-configuration/
           <img src="/images/EC2-Review.png" class="img-resize">
          </div>
         </div>
-       </div> 
+       </div>
       </div>
     </div>
   </div>
@@ -930,7 +930,7 @@ permalink: /technical/installation-configuration/
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
-  
+
   ---
   class: title-top
 
@@ -1455,7 +1455,7 @@ permalink: /technical/installation-configuration/
       <div class="card">
         <div class="card-block">
         <div class="card-title"><h3>User</h3></div>
-        <p class="card-text">Users can have a GH Pages site setup tied to their username. Always hosted under the <code>[username]/[username]</code> location on the account. Hosted on the master branch</p>
+        <p class="card-text">Users can have a GH Pages site setup tied to their username. Always hosted under the <code>https//pages.[hostname]/[username]</code> if you create a repo with <code>[username].[hostname]</code>. Hosted on the master branch</p>
         </div>
        </div>
         <div class="card">
