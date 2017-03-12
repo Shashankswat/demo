@@ -256,7 +256,7 @@ permalink: /support/using-github/
           <div class="card">
             <div class="card-block">
               <div class="card-img-top text-center"><span class="mega-octicon octicon-mark-github"></span> <span class="mega-octicon octicon-server"></span> <span class="mega-octicon octicon-database"></span></div>
-              <div class="card-title"><a href="https://enterprise.github.com" target="_blank"><h3>Hosted GHE</h3></a></div>
+              <div class="card-title"><a href="https://enterprise.github.com" target="_blank"><h3>Managed Hosted GitHub</h3></a></div>
               <p class="card-text"><strong>GitHub Enterprise</strong> can be offered as a hosted solution with Managed Service Providers.</p>
             </div> <!-- msp cardblock -->
           </div> <!-- msp card -->
