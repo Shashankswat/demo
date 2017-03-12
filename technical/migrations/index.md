@@ -47,7 +47,7 @@ permalink: /technical/migrations/
   ---
   class: title-top
 
-  # Migrations 
+  # Migrations
   <div class="container">
     <div class="row">
       <div class="col-md-6">
@@ -112,8 +112,9 @@ permalink: /technical/migrations/
                <dt><b>Clearcase</b></dt>
                 <dd> - <a href="https://github.com/charleso/git-cc">git-cc</a></dd>
                <dt><b>Subversion</b></dt>
+                <dd> - <a href="https://help.github.com/enterprise/admin/guides/migrations/importing-data-from-third-party-version-control-systems/#importing-projects-from-subversion">git-import (<b>Recommended</b>: GHE officially provides)</a></dd>  
                 <dd> - <a href="https://github.com/git/git/blob/master/git-svn.perl">git-svn</a></dd>
-                <dd> - <a href="https://github.com/nirvdrum/svn2git">svn2git</a>(adds tag conversion)</dd>                
+                <dd> - <a href="https://github.com/nirvdrum/svn2git">svn2git</a>(adds tag conversion)</dd>              
               </dl>
           </div>
         </div>
@@ -125,6 +126,10 @@ permalink: /technical/migrations/
               <dl>
                <dt><b>Perforce</b></dt>
                 <dd> - <a href="https://github.com/git/git/blob/master/git-p4.py">git-p4</a></dd>
+               <dt><b>Mercurial</b></dt>
+                <dd> - <a href="https://help.github.com/enterprise/admin/guides/migrations/importing-data-from-third-party-version-control-systems/#importing-projects-from-mercurial">git-import (<b>Recommended</b>: GHE officially provides)</a></dd>
+                <dt><b>TFS</b></dt>
+                 <dd> - <a href="https://help.github.com/enterprise/admin/guides/migrations/importing-data-from-third-party-version-control-systems/#importing-projects-from-team-foundation-version-control">git-import (<b>Recommended</b>: GHE officially provides)</a></dd>
                <dt><b>Agnostic</b></dt>
                 <dd> - <a href="https://import.github.com">GitHub.com Importer</a> (TFS, Mercurial, Subversion)</dd>
                 <dd> - <a href="https://help.github.com/enterprise/admin/guides/migrations/importing-migration-data-to-github-enterprise/">gh-migrator</a></dd>
@@ -187,7 +192,7 @@ permalink: /technical/migrations/
   class: title-top
 
   # ClearCase
-  
+
   <div class="container">
     <div class="row">
       <div class="col-md-6">
@@ -230,12 +235,12 @@ permalink: /technical/migrations/
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
- 
+
   ---
   class: title-top
 
   # Subversion (SVN)
-  
+
   <div class="container">
     <div class="row">
       <div class="col-md-6">
@@ -256,11 +261,11 @@ permalink: /technical/migrations/
           <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Common reasons for migrating</strong></div>
               <ul>
                 <li>Renaming Files/Dirs not consistent (Copy + Delete)</li>
-                <li>No modification time of files</li> 
+                <li>No modification time of files</li>
                 <li>Centralized Version Control Model</li>
                 <li>No idea of committing locally</li>
                 <li>Support for tagging limited</li>
-              </ul> 
+              </ul>
           </div>
         </div>
       </div>
@@ -274,7 +279,7 @@ permalink: /technical/migrations/
   class: title-top
 
   # Perforce
-  
+
   <div class="container">
     <div class="row">
       <div class="col-md-6">
@@ -283,7 +288,7 @@ permalink: /technical/migrations/
           <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;About Perforce</strong></div>
               <ul>
                 <li>Originally released in 1995</li>
-                <li>Can be configured as a CVS/DVCS</li> 
+                <li>Can be configured as a CVS/DVCS</li>
                 <li>Underlying revision control is proprietary, option for git</li>
                 <li>Branching is inter-file like SVN</li>
                 <li>Used considerably in the gaming industry</li>
@@ -315,7 +320,7 @@ permalink: /technical/migrations/
   class: title-top
 
   # Mercurial (Hg)
-  
+
   <div class="container">
     <div class="row">
       <div class="col-md-6">
@@ -415,7 +420,7 @@ permalink: /technical/migrations/
           <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Common Flags</strong></div>
             <ul>
               <li>-d CVSROOT CVS_Module: Specifies root dir and module to import</li>
-              <li>-C TARGET_DIR: Specifies target dir, PWD if blankt</li> 
+              <li>-C TARGET_DIR: Specifies target dir, PWD if blankt</li>
               <li>-r REMOTE Remote to import this CVS repo into</li>
               <li>Note: Moves all CVS branches into remotes/:remote/:branch akin to way git clone uses origin by default</li>
               <li>-o BRANCH_FOR_HEAD - Use if you want to import into a different branch if you want to import HEAD elsewhere</li>
@@ -516,7 +521,7 @@ permalink: /technical/migrations/
 
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-  </footer> 
+  </footer>
   ---
   class: title-top
 
@@ -571,7 +576,7 @@ permalink: /technical/migrations/
               <li>--rebase : Rebases the existing project against SVN</li>
               <li>--trunk PATH : Define the path for TRUNK</li>
               <li>--branches PATH : Define the path for Branches</li>
-              <li>--tags PATH : Define the tags path</li> 
+              <li>--tags PATH : Define the tags path</li>
               <li>--rootistrunk : Use if root of the repo is TRUNK and there are no tags or branches</li>
               <li>--notrunk : Do not import trunk</li>
               <li>--nobranches : Do not import branches</li>
@@ -627,7 +632,7 @@ permalink: /technical/migrations/
           <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;About the tool</strong></div>
              <ul>
               <li>Tool built into git</li>
-              <li>Used to create git repositories from P4 repos</li> 
+              <li>Used to create git repositories from P4 repos</li>
               <li>Can be used as a bridge for P4 users as well moving to git</li>
               <li>A separate client needed to utilize the above functionality</li>
              </ul>
@@ -722,7 +727,7 @@ permalink: /technical/migrations/
             <li>Shell utility</li>
             <li>Used to migrate from GitHub.com -> GHE</li>
             <li>Can migrate between two GHE instances</li>
-          </ul> 
+          </ul>
           </div>
         </div>
       </div>
@@ -732,7 +737,7 @@ permalink: /technical/migrations/
   class: title-top
 
   #Migration Documentation
-  
+
   <div class="container">
     <div class="row">
       <div class="col-md-6">
