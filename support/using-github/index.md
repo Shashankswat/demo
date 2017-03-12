@@ -244,7 +244,7 @@ permalink: /support/using-github/
           <div class="card-block">
             <div class="card-img-top text-center"><span class="mega-octicon octicon-mark-github"></span><span class="mega-octicon octicon-cloud-upload"</span></div>
             <div class="card-title"><a href="https://github.com" target="_blank"><h3>GitHub.com</h3></a></div>
-            <p class="card-text"><strong>GitHub.com</strong> is the <i>hosted</i> version of GitHub, which is fully managed for you in our datacenter.  We currently host over 52m repositories and 18m users in our infrastructure. GitHub.com proudly hosts the largest collection and community of Open Source software development, and allows developers to easily collaborate on code. <a href="https://enterprise.github.com/downloads/en/comvsenterprise-082415.pdf">Learn more ...</a></p>
+            <p class="card-text"><strong>GitHub.com</strong> is the <i>public cloud</i> version of GitHub, which is fully managed for you on our servers. GitHub.com proudly hosts the largest community of Open Source development. <a href="https://enterprise.github.com/downloads/en/comvsenterprise-082415.pdf">Learn more ...</a></p>
           </div> <!-- cardblock for .com -->
           <div class="card">
             <div class="card-block">
