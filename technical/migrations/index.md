@@ -766,6 +766,7 @@ permalink: /technical/migrations/
                   <dd><a href="http://www.perforce.com/blog/120113/git-perforce-client">Git as a Perforce client</a></dd>
                   <dd><a href="http://answers.perforce.com/articles/KB/2790/?q=git-p4&l=en_US&fs=Search&pn=1">git-p4 documentation</a></dd>
                  <dt>Agnostic</dt>
+                  <dd><a href="https://help.github.com/enterprise/admin/guides/migrations/importing-data-from-third-party-version-control-systems/">git-import (GHE officially provides)</a></dd>
                   <dd><a href="http://git-scm.com/book/en/v2/Git-and-Other-Systems-Migrating-to-Git">Migrating to git</a></dd>
                   <dd><a href="https://help.github.com/articles/importing-from-subversion/#importing-a-subversion-project-using-githubs-importer">Importing from SVN with GitHub importer</a></dd>
               </dl>
