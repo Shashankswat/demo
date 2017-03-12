@@ -316,6 +316,7 @@ permalink: /support/using-github/
             <div class="card-title">Increase Efficiency</div>
             <ul class="card-text">
               <li>code search</li>
+              <li>commit search</li>
               <li>continuous integration</li>
               <li>releases + tags</li>
               <li>pulse &amp; graphs</li>
@@ -575,7 +576,7 @@ permalink: /support/using-github/
   </footer>
   ---
   class: title-top
-  # Driving Enterprise growth
+  # Driving Enterprise Growth
 
   <div class="container">
     <div class="row">
@@ -657,7 +658,7 @@ permalink: /support/using-github/
     <div class="card-group">
       <div class="card">
         <div class="card-block">
-          <h5 class="card-title">Infrastructure</h5>
+          <div class="card-title">Infrastructure</div>
           <section>
           <ul class="card-text">
             <li>Single appliance</li>
@@ -670,7 +671,7 @@ permalink: /support/using-github/
        </div>
         <div class="card">
         <div class="card-block">
-          <h5 class="card-title">Code</h5>
+          <div class="card-title">Code</div>
           <section>
           <ul class="card-text">
             <li>GPG Signed Commits</li>
@@ -686,7 +687,7 @@ permalink: /support/using-github/
       </div>
       <div class="card">
         <div class="card-block">
-          <h5 class="card-title">Platform</h5>
+          <div class="card-title">Platform</div>
           <section>
           <ul class="card-text">
             <li>First-class API</li>
@@ -725,7 +726,7 @@ permalink: /support/using-github/
     <div class="card-group">
       <div class="card">
         <div class="card-block">
-          <h5 class="card-title">Recruitment</h5>
+          <div class="card-title">Recruitment</div>
           <section>
           <ul class="card-text">
             <li>GitHub Student Pack</li>
@@ -738,7 +739,7 @@ permalink: /support/using-github/
        </div>
         <div class="card">
         <div class="card-block">
-          <h5 class="card-title">Retention</h5>
+          <div class="card-title">Retention</div>
           <section>
           <ul class="card-text">
             <li>New hires learning git</li>
