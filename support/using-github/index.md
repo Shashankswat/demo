@@ -726,7 +726,7 @@ permalink: /support/using-github/
     <div class="card-group">
       <div class="card">
         <div class="card-block">
-          <h5 class="card-title">Recruitment</h5>
+          <div class="card-title">Recruitment</div>
           <section>
           <ul class="card-text">
             <li>GitHub Student Pack</li>
@@ -739,7 +739,7 @@ permalink: /support/using-github/
        </div>
         <div class="card">
         <div class="card-block">
-          <h5 class="card-title">Retention</h5>
+          <div class="card-title">Retention</div>
           <section>
           <ul class="card-text">
             <li>New hires learning git</li>
