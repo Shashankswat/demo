@@ -634,7 +634,7 @@ permalink: /support/using-github/
   ---
   class: title-top
 
-  # Security from all angles
+  # Security and Stability
   <div class="container">
       <div class="row">
       <div class="col-md-12">
@@ -656,7 +656,7 @@ permalink: /support/using-github/
             <li>Single appliance</li>
             <li>Hosted in chosen environment</li>
             <li>Maintain existing compliance</li>
-            <li>Simple licensing</li>
+            <li>HA, Clustering, Load Balancing</li>
           </ul>
           </section>
         </div>
@@ -670,19 +670,23 @@ permalink: /support/using-github/
             <li>Code Review</li>
             <li>Protected Branches</li>
             <li>Branch Permissions</li>
+            <li>WebHooks</li>
+            <li>Commit and Code Search</li>
+            <li>Fork Preservation</li>
           </ul>
           </section>
         </div>
       </div>
       <div class="card">
         <div class="card-block">
-          <h5 class="card-title">Security</h5>
+          <h5 class="card-title">Platform</h5>
           <section>
           <ul class="card-text">
-            <li>Flexible API</li>
+            <li>First-class API</li>
             <li>Monitoring via SNMP</li>
             <li>Audit Logging</li>
             <li>3rd party logging services</li>
+            <li>TLS Log Forwarding</li>
           </ul>
           </section>
         </div>
