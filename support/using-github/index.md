@@ -237,7 +237,7 @@ permalink: /support/using-github/
   class: title-top  
 
   # Product Offering Overview
-  <div class="container-fluid">
+  <div class="container">
     <div class="col-md-12">
       <div class="card-group">
         <div class="card">
