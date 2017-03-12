@@ -687,6 +687,7 @@ permalink: /support/using-github/
             <li>Audit Logging</li>
             <li>3rd party logging services</li>
             <li>TLS Log Forwarding</li>
+            <li>Bulk User Management</li>
           </ul>
           </section>
         </div>
