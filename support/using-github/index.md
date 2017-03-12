@@ -591,13 +591,14 @@ permalink: /support/using-github/
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-            <div class="card-title">Benefit</div>
+            <div class="card-title">Features</div>
             <div class="card-text">
                <ul>
-                  <li>Apply PM techniques directly on GitHub</li>
-                  <li>Approval gates, eyes on code</li>
-                  <li>A tried and true workflow</li>
-                  <li>No reinvention of the wheel</li>
+                  <li>Projects at Org + Repo Level</li>
+                  <li>Robust Code Review w/Pull Requests</li>
+                  <li>Best of Breed Integrations</li>
+                  <li>Webhooks and API</li>
+                  <li>Standardized appliance delivery</li>
                 </ul>
               </div>
           </div>
