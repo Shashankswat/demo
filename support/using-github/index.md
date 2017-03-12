@@ -234,10 +234,10 @@ permalink: /support/using-github/
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
   ---
-  class: title-top
+  class: title-top  
 
   # Product Offering Overview
-  <div class="container">
+  <div class="container-fluid">
     <div class="col-md-12">
       <div class="card-group">
         <div class="card">
