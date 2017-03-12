@@ -239,31 +239,31 @@ permalink: /support/using-github/
   # Product Offering Overview
   <div class="container">
     <div class="col-md-12">
-    <div class="card-group">
-      <div class="card">
-        <div class="card-block">
-        <div class="card-img-top text-center"><span class="mega-octicon octicon-logo-github"></span></div>
-        <div class="card-title"><a href="https://github.com" target="_blank"><h3>GitHub.com</h3></a></div>
-        <p class="card-text"><strong>GitHub.com</strong> is the <i>hosted</i> version of GitHub, which is fully managed for you in our datacenter.  We currently host over 52m repositories and 18m users in our infrastructure. GitHub.com proudly hosts the largest collection and community of Open Source software development, and allows developers to easily collaborate on code. <a href="https://enterprise.github.com/downloads/en/comvsenterprise-082415.pdf">Learn more ...</a></p>
-        </div>
-       </div>
+      <div class="card-group">
         <div class="card">
-        <div class="card-block">
-        <div class="card-img-top text-center"><span class="mega-octicon octicon-mark-github"></span> <span class="mega-octicon octicon-server"></span> <span class="mega-octicon octicon-database"></span></div>
-        <div class="card-title"><a href="https://enterprise.github.com" target="_blank"><h3>GitHub Enterprise</h3></a></div>
-        <p class="card-text"><strong>GitHub Enterprise</strong> is the <i>on-premises</i> version of GitHub, which you can deploy and manage in your own, secure environment. <a href="https://enterprise.github.com/downloads/en/comvsenterprise-082415.pdf">Learn more ...</a></p>
-        </div>
+          <div class="card-block">
+            <div class="card-img-top text-center"><span class="mega-octicon octicon-logo-github"></span></div>
+            <div class="card-title"><a href="https://github.com" target="_blank"><h3>GitHub.com</h3></a></div>
+            <p class="card-text"><strong>GitHub.com</strong> is the <i>hosted</i> version of GitHub, which is fully managed for you in our datacenter.  We currently host over 52m repositories and 18m users in our infrastructure. GitHub.com proudly hosts the largest collection and community of Open Source software development, and allows developers to easily collaborate on code. <a href="https://enterprise.github.com/downloads/en/comvsenterprise-082415.pdf">Learn more ...</a></p>
+          </div> <!-- cardblock for .com -->
+        </div> <!-- card for .com -->
         <div class="card">
-        <div class="card-block">
-          <div class="card-img-top text-center"><span class="mega-octicon octicon-mark-github"></span> <span class="mega-octicon octicon-server"></span> <span class="mega-octicon octicon-database"></span></div>
-          <div class="card-title"><a href="https://enterprise.github.com" target="_blank"><h3>Hosted GHE</h3></a></div>
-          <p class="card-text"><strong>GitHub Enterprise</strong> can be offered as a hosted solution with Managed Service Providers.</p>
-        </div>
-      </div>
-      </div>
-    </div>
-  </div>
-  </div>
+          <div class="card-block">
+            <div class="card-img-top text-center"><span class="mega-octicon octicon-mark-github"></span> <span class="mega-octicon octicon-server"></span> <span class="mega-octicon octicon-database"></span></div>
+            <div class="card-title"><a href="https://enterprise.github.com" target="_blank"><h3>GitHub Enterprise</h3></a></div>
+            <p class="card-text"><strong>GitHub Enterprise</strong> is the <i>on-premises</i> version of GitHub, which you can deploy and manage in your own, secure environment. <a href="https://enterprise.github.com/downloads/en/comvsenterprise-082415.pdf">Learn more ...</a></p>
+          </div> <!-- GHE cardblock-->
+          <div class="card">
+            <div class="card-block">
+              <div class="card-img-top text-center"><span class="mega-octicon octicon-mark-github"></span> <span class="mega-octicon octicon-server"></span> <span class="mega-octicon octicon-database"></span></div>
+              <div class="card-title"><a href="https://enterprise.github.com" target="_blank"><h3>Hosted GHE</h3></a></div>
+              <p class="card-text"><strong>GitHub Enterprise</strong> can be offered as a hosted solution with Managed Service Providers.</p>
+            </div> <!-- msp cardblock -->
+          </div> <!-- msp card -->
+        </div> <!-- on-prem card -->
+      </div> <!-- card group for offerings -->
+    </div> <!-- col for offerings -->
+  </div> <!-- container for slide 6 -->
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
