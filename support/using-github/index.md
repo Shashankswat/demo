@@ -568,20 +568,21 @@ permalink: /support/using-github/
   </footer>
   ---
   class: title-top
-  #Features to drive Enterprise growth
+  # Driving Enterprise growth
 
   <div class="container">
     <div class="row">
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-            <div class="card-title">Features</div>
+            <div class="card-title">Roles</div>
             <div class="card-text">
                <ul>
-                  <li>GitHub Projects</li>
-                  <li>Code Review</li>
-                  <li>Pull Requests</li>
-                  <li>Integrations and API</li>
+                  <li>Project Managers</li>
+                  <li>Development Managers</li>
+                  <li>Developers</li>
+                  <li>Deployment Managers</li>
+                  <li>System Administrators</li>
                 </ul>
               </div>
           </div>
@@ -599,6 +600,26 @@ permalink: /support/using-github/
                   <li>No reinvention of the wheel</li>
                 </ul>
               </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title"></div>
+            <div class="card-text">
+            "When we told the team we'd be rolling out GitHub Enterprise we were met with insanely enthusiastic cheers." - Benedict Lee, Kakao
+            </div>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title"></div>
+            <div class="card-text">
+            "We've narrowed down the ramp up for our developers from three months to a three days. In fact, some people come in on day one and they're contributing code." - Bill O'Neill, MailChimp
+            </div>
           </div>
         </div>
       </div>
