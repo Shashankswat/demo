@@ -658,7 +658,7 @@ permalink: /support/using-github/
     <div class="card-group">
       <div class="card">
         <div class="card-block">
-          <h5 class="card-title">Infrastructure</h5>
+          <div class="card-title">Infrastructure</div>
           <section>
           <ul class="card-text">
             <li>Single appliance</li>
@@ -671,7 +671,7 @@ permalink: /support/using-github/
        </div>
         <div class="card">
         <div class="card-block">
-          <h5 class="card-title">Code</h5>
+          <div class="card-title">Code</div>
           <section>
           <ul class="card-text">
             <li>GPG Signed Commits</li>
@@ -687,7 +687,7 @@ permalink: /support/using-github/
       </div>
       <div class="card">
         <div class="card-block">
-          <h5 class="card-title">Platform</h5>
+          <div class="card-title">Platform</div>
           <section>
           <ul class="card-text">
             <li>First-class API</li>
