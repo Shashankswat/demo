@@ -11,7 +11,7 @@ title: Migrating from SVN to Git
   - Need Ruby `2.2.4`
 - `gem install svn2git`
 
-**Windows users:** if the `gem` command does not work, it is likely that you do not have the appropriate certificate on your system. 
+**Windows users:** if the `gem` command does not work, it is likely that you do not have the appropriate certificate on your system.
   This will be evidenced by an error message containng something similar to the following:
   `Gem::RemoteFetcher::FetchError: SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed`
 This is fixed by:
@@ -19,7 +19,7 @@ This is fixed by:
   - Placing it an appropriate area on your hard drive
   - Issuing the following command in a command prompt:`SET SSL_CERT_FILE=<PATH TO .pem FILE>`
   - Try the gem command again.
-  
+
 For example, with `cacert.pem` downloaded as `C:\Ruby200\cacert.pem`, issue `SET SSL_CERT_FILE=C:\Ruby200\cacert.pem`
 See http://help.rubygems.org/discussions/problems/11732-ssl-problems-with-rubygems-on-windows for more information.
 
@@ -38,11 +38,12 @@ See http://help.rubygems.org/discussions/problems/11732-ssl-problems-with-rubyge
   - `lee.faus = Luke Skywalker <luke@gitaboard.com>`
   - `nicolas.byl = Chewbacca <chewbacca@gitaboard.com>`
   - `matthias.wiesen = Leia <leia@gitaboard.com>`
+  - `gitaboard = Han Solo <solo@gitaboard.com>`
   - Save the file
 - Create a directory called `notifications`
 - Change the working directory to `notifications`
 - Perform an SVN migration
-  - `svn2git http://ldap.gitaboard.com:8090/svn/SampleProject --authors ../authors.txt --rootistrunk --username gitaboard`
+  - `svn2git http://ldap.gitaboard.com:8090/svn/SampleProject --authors ../authors.txt --trunk / --nobranches --notags`
 - Add a remote to your GitHub Enterprise URL
   - `git remote add origin http://luke@{serverurl}/development/notifications.git`
   - `git push --force --all origin`
