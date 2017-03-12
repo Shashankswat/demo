@@ -316,6 +316,7 @@ permalink: /support/using-github/
             <div class="card-title">Increase Efficiency</div>
             <ul class="card-text">
               <li>code search</li>
+              <li>commit search</li>
               <li>continuous integration</li>
               <li>releases + tags</li>
               <li>pulse &amp; graphs</li>
