@@ -249,8 +249,8 @@ permalink: /support/using-github/
           <div class="card">
             <div class="card-block">
               <div class="card-img-top text-center"><span class="mega-octicon octicon-mark-github"></span> <span class="mega-octicon octicon-cloud-upload"></span> <span class="mega-octicon octicon-lock"></span></div>
-              <div class="card-title"><a href="https://enterprise.github.com" target="_blank"><h3>GitHub for Business Hosted</h3></a></div>
-              <p class="card-text"><strong>GitHub Enterprise</strong> can be offered as a hosted solution with Managed Service Providers.</p>
+              <div class="card-title"><a href="https://github.com/business" target="_blank"><h3>GitHub for Business Hosted</h3></a></div>
+              <p class="card-text"><strong>GitHub for Business Hosted</strong> can be offered as a hosted solution with Managed Service Providers.</p>
             </div> <!-- GHfB hosted cardblock -->
           </div> <!-- GHfB hosted card -->
         </div> <!-- card for .com -->
@@ -258,7 +258,7 @@ permalink: /support/using-github/
           <div class="card-block">
             <div class="card-img-top text-center"><span class="mega-octicon octicon-mark-github"></span> <span class="mega-octicon octicon-server"></span> <span class="mega-octicon octicon-database"></span></div>
             <div class="card-title"><a href="https://enterprise.github.com" target="_blank"><h3>GitHub Enterprise</h3></a></div>
-            <p class="card-text"><strong>GitHub Enterprise</strong> is the <i>on-premises</i> version of GitHub, which you can deploy and manage in your own, secure environment. <a href="https://enterprise.github.com/downloads/en/comvsenterprise-082415.pdf">Learn more ...</a></p>
+            <p class="card-text"><strong>GitHub Enterprise</strong> is the <i>on-premises</i> version of GitHub, which you can deploy and manage in your own secure environment behind your firewall. <a href="https://enterprise.github.com/downloads/en/comvsenterprise-082415.pdf">Learn more ...</a></p>
           </div> <!-- GHE cardblock-->
           <div class="card">
             <div class="card-block">
