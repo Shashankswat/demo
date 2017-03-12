@@ -576,7 +576,7 @@ permalink: /support/using-github/
   </footer>
   ---
   class: title-top
-  # Driving Enterprise growth
+  # Driving Enterprise Growth
 
   <div class="container">
     <div class="row">
