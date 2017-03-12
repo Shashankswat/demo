@@ -250,7 +250,7 @@ permalink: /support/using-github/
             <div class="card-block">
               <div class="card-img-top text-center"><span class="mega-octicon octicon-mark-github"></span> <span class="mega-octicon octicon-cloud-upload"></span> <span class="mega-octicon octicon-lock"></span></div>
               <div class="card-title"><a href="https://github.com/business" target="_blank"><h3>GitHub for Business Hosted</h3></a></div>
-              <p class="card-text"><strong>GitHub for Business Hosted</strong> can be offered as a hosted solution with Managed Service Providers.</p>
+              <p class="card-text"><strong>GitHub for Business Hosted</strong> can be offered as a private hosted solution on our servers with SAML integration and 99.95% uptime SLA. </p>
             </div> <!-- GHfB hosted cardblock -->
           </div> <!-- GHfB hosted card -->
         </div> <!-- card for .com -->
@@ -264,7 +264,7 @@ permalink: /support/using-github/
             <div class="card-block">
               <div class="card-img-top text-center"><span class="mega-octicon octicon-mark-github"></span> <span class="mega-octicon octicon-server"></span> <span class="mega-octicon octicon-database"></span></div>
               <div class="card-title"><a href="https://enterprise.github.com" target="_blank"><h3>Managed Hosted GitHub</h3></a></div>
-              <p class="card-text"><strong>GitHub Enterprise</strong> can be offered as a hosted solution with Managed Service Providers.</p>
+              <p class="card-text"><strong>GitHub Enterprise</strong> can be offered as a hosted solution with Managed Service Providers on their servers.</p>
             </div> <!-- msp cardblock -->
           </div> <!-- msp card -->
         </div> <!-- on-prem card -->
