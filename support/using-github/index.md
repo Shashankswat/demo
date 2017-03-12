@@ -234,36 +234,43 @@ permalink: /support/using-github/
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
   ---
-  class: title-top
+  class: title-top  
 
   # Product Offering Overview
-  <div class="container">
+  <div class="container-fluid">
     <div class="col-md-12">
-    <div class="card-group">
-      <div class="card">
-        <div class="card-block">
-        <div class="card-img-top text-center"><span class="mega-octicon octicon-logo-github"></span></div>
-        <div class="card-title"><a href="https://github.com" target="_blank"><h3>GitHub.com</h3></a></div>
-        <p class="card-text"><strong>GitHub.com</strong> is the <i>hosted</i> version of GitHub, which is fully managed for you in our datacenter.  We currently host over 52m repositories and 18m users in our infrastructure. GitHub.com proudly hosts the largest collection and community of Open Source software development, and allows developers to easily collaborate on code. <a href="https://enterprise.github.com/downloads/en/comvsenterprise-082415.pdf">Learn more ...</a></p>
-        </div>
-       </div>
+      <div class="card-group">
         <div class="card">
-        <div class="card-block">
-        <div class="card-img-top text-center"><span class="mega-octicon octicon-mark-github"></span> <span class="mega-octicon octicon-server"></span> <span class="mega-octicon octicon-database"></span></div>
-        <div class="card-title"><a href="https://enterprise.github.com" target="_blank"><h3>GitHub Enterprise</h3></a></div>
-        <p class="card-text"><strong>GitHub Enterprise</strong> is the <i>on-premises</i> version of GitHub, which you can deploy and manage in your own, secure environment. <a href="https://enterprise.github.com/downloads/en/comvsenterprise-082415.pdf">Learn more ...</a></p>
-        </div>
+          <div class="card-block">
+            <div class="card-img-top text-center"><span class="mega-octicon octicon-mark-github"></span><span class="mega-octicon octicon-cloud-upload"</span></div>
+            <div class="card-title"><a href="https://github.com" target="_blank"><h3>GitHub.com</h3></a></div>
+            <p class="card-text"><strong>GitHub.com</strong> is the <i>public cloud</i> version of GitHub, which is fully managed for you on our servers. GitHub.com proudly hosts the largest community of Open Source development. <a href="https://enterprise.github.com/downloads/en/comvsenterprise-082415.pdf">Learn more ...</a></p>
+          </div> <!-- cardblock for .com -->
+          <div class="card">
+            <div class="card-block">
+              <div class="card-img-top text-center"><span class="mega-octicon octicon-mark-github"></span> <span class="mega-octicon octicon-cloud-upload"></span> <span class="mega-octicon octicon-lock"></span></div>
+              <div class="card-title"><a href="https://github.com/business" target="_blank"><h3>GitHub for Business Hosted</h3></a></div>
+              <p class="card-text"><strong>GitHub for Business Hosted</strong> can be offered as a private hosted solution on our servers with SAML integration and 99.95% uptime SLA. </p>
+            </div> <!-- GHfB hosted cardblock -->
+          </div> <!-- GHfB hosted card -->
+        </div> <!-- card for .com -->
         <div class="card">
-        <div class="card-block">
-          <div class="card-img-top text-center"><span class="mega-octicon octicon-mark-github"></span> <span class="mega-octicon octicon-server"></span> <span class="mega-octicon octicon-database"></span></div>
-          <div class="card-title"><a href="https://enterprise.github.com" target="_blank"><h3>Hosted GHE</h3></a></div>
-          <p class="card-text"><strong>GitHub Enterprise</strong> can be offered as a hosted solution with Managed Service Providers.</p>
-        </div>
-      </div>
-      </div>
-    </div>
-  </div>
-  </div>
+          <div class="card-block">
+            <div class="card-img-top text-center"><span class="mega-octicon octicon-mark-github"></span> <span class="mega-octicon octicon-server"></span> <span class="mega-octicon octicon-database"></span></div>
+            <div class="card-title"><a href="https://enterprise.github.com" target="_blank"><h3>GitHub Enterprise</h3></a></div>
+            <p class="card-text"><strong>GitHub Enterprise</strong> is the <i>on-premises</i> version of GitHub, which you can deploy and manage in your own secure environment behind your firewall. <a href="https://enterprise.github.com/downloads/en/comvsenterprise-082415.pdf">Learn more ...</a></p>
+          </div> <!-- GHE cardblock-->
+          <div class="card">
+            <div class="card-block">
+              <div class="card-img-top text-center"><span class="mega-octicon octicon-mark-github"></span> <span class="mega-octicon octicon-server"></span> <span class="mega-octicon octicon-database"></span></div>
+              <div class="card-title"><a href="https://enterprise.github.com" target="_blank"><h3>Managed Hosted GitHub</h3></a></div>
+              <p class="card-text"><strong>GitHub Enterprise</strong> can be offered as a hosted solution with Managed Service Providers on their servers.</p>
+            </div> <!-- msp cardblock -->
+          </div> <!-- msp card -->
+        </div> <!-- on-prem card -->
+      </div> <!-- card group for offerings -->
+    </div> <!-- col for offerings -->
+  </div> <!-- container for slide 6 -->
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
@@ -309,6 +316,7 @@ permalink: /support/using-github/
             <div class="card-title">Increase Efficiency</div>
             <ul class="card-text">
               <li>code search</li>
+              <li>commit search</li>
               <li>continuous integration</li>
               <li>releases + tags</li>
               <li>pulse &amp; graphs</li>
@@ -568,20 +576,21 @@ permalink: /support/using-github/
   </footer>
   ---
   class: title-top
-  #Features to drive Enterprise growth
+  # Driving Enterprise Growth
 
   <div class="container">
     <div class="row">
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-            <div class="card-title">Features</div>
+            <div class="card-title">Roles</div>
             <div class="card-text">
                <ul>
-                  <li>GitHub Projects</li>
-                  <li>Code Review</li>
-                  <li>Pull Requests</li>
-                  <li>Integrations and API</li>
+                  <li>Project Managers</li>
+                  <li>Development Managers</li>
+                  <li>Developers</li>
+                  <li>Deployment Managers</li>
+                  <li>System Administrators</li>
                 </ul>
               </div>
           </div>
@@ -590,15 +599,36 @@ permalink: /support/using-github/
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-            <div class="card-title">Benefit</div>
+            <div class="card-title">Features</div>
             <div class="card-text">
                <ul>
-                  <li>Apply PM techniques directly on GitHub</li>
-                  <li>Approval gates, eyes on code</li>
-                  <li>A tried and true workflow</li>
-                  <li>No reinvention of the wheel</li>
+                  <li>Projects at Org + Repo Level</li>
+                  <li>Robust Code Review w/Pull Requests</li>
+                  <li>Best of Breed Integrations</li>
+                  <li>Webhooks and API</li>
+                  <li>Standardized appliance delivery</li>
                 </ul>
               </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title"></div>
+            <div class="card-text">
+            "When we told the team we'd be rolling out GitHub Enterprise we were met with insanely enthusiastic cheers." - Benedict Lee, Kakao
+            </div>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title"></div>
+            <div class="card-text">
+            "We've narrowed down the ramp up for our developers from three months to a three days. In fact, some people come in on day one and they're contributing code." - Bill O'Neill, MailChimp
+            </div>
           </div>
         </div>
       </div>
@@ -612,7 +642,7 @@ permalink: /support/using-github/
   ---
   class: title-top
 
-  # Security from all angles
+  # Security and Stability
   <div class="container">
       <div class="row">
       <div class="col-md-12">
@@ -628,39 +658,44 @@ permalink: /support/using-github/
     <div class="card-group">
       <div class="card">
         <div class="card-block">
-          <h5 class="card-title">Infrastructure</h5>
+          <div class="card-title">Infrastructure</div>
           <section>
           <ul class="card-text">
             <li>Single appliance</li>
             <li>Hosted in chosen environment</li>
             <li>Maintain existing compliance</li>
-            <li>Simple licensing</li>
+            <li>HA, Clustering, Load Balancing</li>
           </ul>
           </section>
         </div>
        </div>
         <div class="card">
         <div class="card-block">
-          <h5 class="card-title">Code</h5>
+          <div class="card-title">Code</div>
           <section>
           <ul class="card-text">
             <li>GPG Signed Commits</li>
             <li>Code Review</li>
             <li>Protected Branches</li>
             <li>Branch Permissions</li>
+            <li>WebHooks</li>
+            <li>Commit and Code Search</li>
+            <li>Fork Preservation</li>
           </ul>
           </section>
         </div>
       </div>
       <div class="card">
         <div class="card-block">
-          <h5 class="card-title">Security</h5>
+          <div class="card-title">Platform</div>
           <section>
           <ul class="card-text">
-            <li>Flexible API</li>
+            <li>First-class API</li>
             <li>Monitoring via SNMP</li>
             <li>Audit Logging</li>
             <li>3rd party logging services</li>
+            <li>TLS Log Forwarding</li>
+            <li>Bulk User Management</li>
           </ul>
           </section>
         </div>
@@ -691,7 +726,7 @@ permalink: /support/using-github/
     <div class="card-group">
       <div class="card">
         <div class="card-block">
-          <h5 class="card-title">Recruitment</h5>
+          <div class="card-title">Recruitment</div>
           <section>
           <ul class="card-text">
             <li>GitHub Student Pack</li>
@@ -704,7 +739,7 @@ permalink: /support/using-github/
        </div>
         <div class="card">
         <div class="card-block">
-          <h5 class="card-title">Retention</h5>
+          <div class="card-title">Retention</div>
           <section>
           <ul class="card-text">
             <li>New hires learning git</li>

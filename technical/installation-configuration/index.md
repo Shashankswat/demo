@@ -300,7 +300,7 @@ permalink: /technical/installation-configuration/
   <span class="mega-octicon octicon-mark-github"></span>
   <h1><a href="install-guides/aws/">Amazon Web Services</a></h1>
   <h1><a href="install-guides/azure/">Microsoft Azure</a></h1>
-  <h1>On-Prem (Coming Soon)</h1>
+  <h1><a href="https://help.github.com/enterprise/2.9/admin/guides/installation/">On-Prem</a></h1>
 
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>

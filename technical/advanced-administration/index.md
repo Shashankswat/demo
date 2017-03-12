@@ -167,7 +167,7 @@ permalink: /technical/advanced-administration/
   - Fully redundant GitHub Enterprise instance
   - Automated setup of one-way, asynchronous replication of all datastores
   - Active/Passive HA configuration
-  - Manual DNS failover
+  - Manual DNS or Load Balancer failover
 
   The replication and failover features included in GitHub Enterprise should **only** be used for:
   - Software crashes
