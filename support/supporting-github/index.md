@@ -28,7 +28,7 @@ permalink: /support/supporting-github/
               <li>GitHub Enterprise Appliance</li>
               <li>Site Admins</li>
               <li>Gathering Support Bundles and Diagnostics</li>
-              <li>Integrations and WebHooks</li>
+              <li>Integrations and Webhooks</li>
               <li>Documentation and Resources</li>
             </ul>
           </div>
@@ -42,7 +42,7 @@ permalink: /support/supporting-github/
               <li>GitHub Enterprise Appliance Deep-Dive</li>
               <li>Management Console</li>
               <li>Reading Support Bundles and Diagnostics</li>
-              <li>Understanding webhooks, API, and apps</li>
+              <li>Understanding Webhooks, API, and apps</li>
               <li>Upgrading GitHub Enterprise</li>
             </ul>
           </div>
@@ -100,9 +100,10 @@ permalink: /support/supporting-github/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;About</strong></div>
             <ul class="card-text">
-              <li>A single virtual appliance built on Linux</li>
-              <li>Fully self-contained</li>
-              <li>Consistent experience from a user and support perspective</li>
+              <li>Virtual appliance built on Linux</li>
+              <li>Distributed as an image</li>
+              <li>Fully self-contained, no external dependencies</li>
+              <li>Consistent experience from a support perspective</li>
             </ul>
           </div>
         </div>
@@ -110,7 +111,7 @@ permalink: /support/supporting-github/
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;L1 Responsibilities</strong></div>
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;MSP Responsibilities</strong></div>
             <ul class="card-text">
             <li>Monitoring the appliance(s)</li>
             <li>Gathering Support Bundles and Diagnostics</li>
@@ -140,9 +141,6 @@ permalink: /support/supporting-github/
         <div class="card">
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Appliance Deep Dive</strong></div>
-            <ul class="card-text">
-            <li>Note: Information up-to-date as of March 2017</li>
-            </ul>
           </div>
         </div>
       </div>
@@ -151,13 +149,12 @@ permalink: /support/supporting-github/
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Appliance Deep Dive</strong></div>
             <ul class="card-text">
             <li>Linux based appliance, running a customised Debian Jessie</li>
             <li>Two filesystems: System and Application Data, logically separated</li>
             <li>Variety of internal monitoring systems in place</li>
-            <li>Minor patch releases every 2-4 weeks</li>
-            <li>Major feature releases every 3-4 months</li>
+            <li>Patch releases every 2-4 weeks</li>
+            <li>Feature releases every 3-4 months</li>
             </ul>
           </div>
         </div>
@@ -165,11 +162,8 @@ permalink: /support/supporting-github/
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Appliance Deep Dive</strong></div>
             <ul class="card-text">
-            <li>A variety of TCP/UDP protocols</li>
-            <li>External monitoring available via SNMP, CollectD and Syslog</li>
-            <li>Git LFS optionally supported</li>
+            <li>External monitoring available via SNMP, collectd and Syslog</li>
             <li>Robust backup utilities suite available to backup customer data</li>
             <li>Proxy server support available</li>
             </ul>
@@ -299,64 +293,11 @@ permalink: /support/supporting-github/
   class: title-slide
 
   <span class="mega-octicon octicon-mark-github"></span>
-  <h1>Support Bundles and Diagnostics</h1>
+  <h1>Diagnostics and Support Bundles</h1>
 
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
-  ---
-  class: title-top
-
-  # Support Bundles
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Support Bundles</strong></div>
-            <ul class="card-text">
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Use Cases</strong></div>
-            <ul class="card-text">
-            <li>Key for troubleshooting the appliance</li>
-            <li>Sometimes user's issues will be system based</li>
-            <li>Often needed when escalating to L2 or GitHub</li>
-            <li>Useful to become comfortable with core components</li>
-            <li>Determining webhook/polling issues</li>
-            <li>Helpful to share snippets of log data with customer</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;How to Gather</strong></div>
-            <ul class="card-text">
-            <li>Two ways</li>
-            <li>From Management Console Web: http(s)://[hostname]/setup/support</li>
-            <li>From Management Console Shell: 'ghe-support-bundle'</li>
-            <li>Can take several minutes to gather and compile</li>
-            <li>On large appliances, can be several hundred megs to gigabytes in size</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-   <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-   </footer>
   ---
   class: title-top
 
@@ -382,7 +323,7 @@ permalink: /support/supporting-github/
             <ul class="card-text">
             <li>Key for troubleshooting the appliance</li>
             <li>Finding performance issues</li>
-            <li>Report on core components</li>
+            <li>Reporting on core components</li>
             <li>Logfile size reporting</li>
             </ul>
           </div>
@@ -397,7 +338,7 @@ permalink: /support/supporting-github/
             <li>From Management Console Web: http(s)://[hostname]/setup/diagnostics</li>
             <li>From Management Console Shell: 'ghe-diagnostics'</li>
             <li>Can take several minutes to gather and compile</li>
-            <li>Great for providing to L2 and GitHub for escalation</li>
+            <li>Great for providing to GitHub for escalation</li>
             </ul>
           </div>
         </div>
@@ -408,6 +349,58 @@ permalink: /support/supporting-github/
     <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
     </footer>
+  ---
+  class: title-top
+
+  # Support Bundles
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Support Bundles</strong></div>
+            <ul class="card-text">
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Use Cases</strong></div>
+            <ul class="card-text">
+            <li>Key for troubleshooting the appliance</li>
+            <li>Sometimes user's issues will be system based</li>
+            <li>Often needed when escalating to GitHub or offline analysis</li>
+            <li>Investigating polling issues</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;How to Gather</strong></div>
+            <ul class="card-text">
+            <li>Two ways</li>
+            <li>From Management Console Web: http(s)://[hostname]/setup/support</li>
+            <li>From Management Console Shell: 'ghe-support-bundle'</li>
+            <li>Can take several minutes to gather and compile</li>
+            <li>On large appliances, can be several hundred megs to gigabytes in size</li>
+            <li>'ghe-support-bundle -h' for help</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+   </footer>
   ---
   class: title-slide
 
