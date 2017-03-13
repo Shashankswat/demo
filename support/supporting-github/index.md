@@ -214,11 +214,11 @@ permalink: /support/supporting-github/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Features</strong></div>
             <ul class="card-text">
-            <li>Used to manage the GitHub Enterprise installation</li>
-            <li>Audit Logging for activity on the instance </li>
+            <li>Used to manage the GitHub application</li>
+            <li>Audit Logging for activity on the appliance</li>
             <li>Run Reports to gather user, org and repository metrics</li>
-            <li>Indexing gives view into ElasticSearch internal custer</li>
-            <li>Manage custom applications that access the instance</li>
+            <li>Indexing gives view into ElasticSearch search indices</li>
+            <li>Manage external applications that access the appliance</li>
             </ul>
           </div>
         </div>
@@ -231,7 +231,7 @@ permalink: /support/supporting-github/
             <li>File Storage - See usage, and GitLFS store</li>
             <li>Admin Center - Manage global settings</li>
             <li>Manage/Invite/Suspend Users</li>
-            <li>Promote/Remove users at Site Admins</li>
+            <li>Promote/Remove Site Admin users</li>
             <li>Enterprise Admin API exposes some of these features</li>
             </ul>
           </div>
