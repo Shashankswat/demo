@@ -329,10 +329,10 @@ permalink: /support/supporting-github/
             <ul class="card-text">
             <li>Key for troubleshooting the appliance</li>
             <li>Sometimes user's issues will be system based</li>
-            <li>Will need when escalating to L2/GitHub</li>
+            <li>Will need when escalating to L2 or GitHub</li>
             <li>Useful to become comfortable with core components</li>
             <li>Determining webhook/polling issues</li>
-            <li>Helpful to share with customer</li>
+            <li>Helpful to share snippets of log data with customer</li>
             </ul>
           </div>
         </div>
@@ -343,10 +343,10 @@ permalink: /support/supporting-github/
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;How to Gather</strong></div>
             <ul class="card-text">
             <li>Two ways</li>
-            <li>From Staff Tools -> Support</li>
-            <li>From command line: 'ghe-support-bundle'</li>
+            <li>From Management Console Web</li>
+            <li>From Management Console Shell: 'ghe-support-bundle'</li>
             <li>Can take several minutes to gather and compile</li>
-            <li>On large appliances, can be several hundred megs in size</li>
+            <li>On large appliances, can be several hundred megs to gigabytes in size</li>
             </ul>
           </div>
         </div>
