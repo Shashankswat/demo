@@ -266,10 +266,10 @@ permalink: /support/supporting-github/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Features</strong></div>
             <ul class="card-text">
-            <li>Used to manage high-level GitHub Enterprise Settings</li>
+            <li>Used to manage high-level GitHub Enterprise appliance settings</li>
             <li>Managed by MSP</li>
             <li>Management Shell Access for MSP Admins</li>
-            <li>Configure DNS/NTP/IdP</li>
+            <li>Configure DNS/NTP/Auth/SSL/Monitoring</li>
             <li>Check for Updates</li>
             </ul>
           </div>
