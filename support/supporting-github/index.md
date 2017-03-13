@@ -141,7 +141,7 @@ permalink: /support/supporting-github/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Appliance Deep Dive</strong></div>
             <ul class="card-text">
-            <li>Note: Information up-to-date as of May 2016</li>
+            <li>Note: Information up-to-date as of March 2017</li>
             </ul>
           </div>
         </div>
@@ -153,11 +153,11 @@ permalink: /support/supporting-github/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Appliance Deep Dive</strong></div>
             <ul class="card-text">
-            <li>Server based on Ubuntu Server 12.04 LTS</li>
-            <li>Two filesystems: User and Application, logically separated</li>
-            <li>Variety of internal monitoring systems in place to feed external SNMP monitoring</li>
-            <li>GitHub Enterprise is patched and updated regularly, pro-active</li>
-            <li>Major releases every 3-4 months</li>
+            <li>Linux based appliance, running a customised Debian Jessie</li>
+            <li>Two filesystems: System and Application Data, logically separated</li>
+            <li>Variety of internal monitoring systems in place</li>
+            <li>Minor patch releases every 2-4 weeks</li>
+            <li>Major feature releases every 3-4 months</li>
             </ul>
           </div>
         </div>
@@ -168,9 +168,9 @@ permalink: /support/supporting-github/
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Appliance Deep Dive</strong></div>
             <ul class="card-text">
             <li>A variety of TCP/UDP protocols</li>
-            <li>Monitoring set up via SNMP (+collectd)</li>
-            <li>GitLFS optionally supported</li>
-            <li>Robust backup-utilities available to backup customer data</li>
+            <li>External monitoring available via SNMP, CollectD and Syslog</li>
+            <li>Git LFS optionally supported</li>
+            <li>Robust backup utilities suite available to backup customer data</li>
             <li>Proxy server support available</li>
             </ul>
           </div>
