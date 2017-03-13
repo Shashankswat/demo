@@ -53,6 +53,10 @@ If you are getting a certificate error when trying to perform the above `git pus
 - Issue the command `git config http.sslVerify "false"`
 - Try the affected `git push` command again.
 
+## If you are under a proxy server your company provide
+It might helps
+http://stackoverflow.com/questions/15095561/cannot-do-git-svn-fetch-behind-proxy
+
 ## Optional/Extra Credit
 - Run some `svn` commands in your `git` repositories
  - What happens? Why?
