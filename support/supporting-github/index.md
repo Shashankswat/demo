@@ -100,11 +100,9 @@ permalink: /support/supporting-github/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;About</strong></div>
             <ul class="card-text">
-              <li>Virtual image built on Linux delivered as a single appliance</li>
-              <li>All necessary services and processes all held within</li>
-              <li>Consistent experience from support perspective</li>
-              <li>Maintenance of customer appliances</li>
-              <li>Current release (May 2016) Enterprise 2.6</li>
+              <li>A single virtual appliance built on Linux</li>
+              <li>Fully self-contained</li>
+              <li>Consistent experience from a user and support perspective</li>
             </ul>
           </div>
         </div>
@@ -115,11 +113,11 @@ permalink: /support/supporting-github/
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;L1 Responsibilities</strong></div>
             <ul class="card-text">
             <li>Monitoring the appliance(s)</li>
-            <li>Gathering Support Bundles and Diangnostics</li>
-            <li>Working with customers to enabling/disabling users on the appliance</li>
-            <li>Enabling/disabling features on the appliance</li>
-            <li>Running reports for our customers</li>
-            <li>Being the face of GitHub!</li>
+            <li>Gathering Support Bundles and Diagnostics</li>
+            <li>Working with customers to enable/disable users on the appliance</li>
+            <li>Enabling/disabling/configuring features on the appliance</li>
+            <li>Running reports for customers</li>
+            <li>Being the face of Support!</li>
             </ul>
           </div>
         </div>
