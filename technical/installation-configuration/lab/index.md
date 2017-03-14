@@ -32,6 +32,9 @@ title: Installation and Setup Lab
 # Adding Users and Teams with LDAP/SYNC
 
 ## LDAP Settings
+
+_Although there is text in some of these fields, we still need to enter the values below_
+
 - `host` - `ldap.gitaboard.com`
 - `port` - `389`
 - `domain search user` - `cn=admin,dc=gitaboard,dc=com`
@@ -40,6 +43,9 @@ title: Installation and Setup Lab
 - `domain base`:
   - `o=engineering,dc=gitaboard,dc=com`
   - `o=operations,dc=gitaboard,dc=com`
+- `User ID` - `uid`
+- `Profile Name` - `cn`
+- `Emails` - `mail`
 
 ## Setting Up LDAP
 - [LDAP Configuration](https://help.github.com/enterprise/admin/guides/user-management/using-ldap/)
