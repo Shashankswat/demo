@@ -807,7 +807,7 @@ permalink: /support/supporting-github/
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Supporting GitHub</strong></div>
             <ul class="card-text">
             <li><a href="https://developer.github.com/v3/">GitHub API Guides</a></li>
-            <li><a href="https://github.zendesk.com/">ZenDesk (Contacting us)</a></li>
+            <li><a href="https://enterprise.github.com/support">Contacting Enterprise Support</a></li>
             <li><a href="https://help.github.com/enterprise/2.6/admin/">GitHub Enterprise Admin Guide</a></li>
             <li><a href="https://help.github.com/enterprise/2.6/user/">GitHub Enterprise User Guides</a></li>
             <li><a href="https://help.github.com/enterprise/2.6/admin/guides/user-management/">GitHub Enterprise User Management</a></li>
@@ -850,11 +850,10 @@ permalink: /support/supporting-github/
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Consideratiosn</strong></div>
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Considerations</strong></div>
             <ul class="card-text">
-            <li>Upgrades typically take minutes</li>
+            <li>Upgrades typically take 5 to 10 minutes, but can be longer for feature releases</li>
             <li>Longest effort involves backups</li>
-            <li>Check for upgrades in Management Console</li>
             <li>Prioritize security patches over all</li>
             <li>Customer has no access during upgrade</li>
             </ul>
@@ -867,8 +866,8 @@ permalink: /support/supporting-github/
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Best Practices</strong></div>
             <ul class="card-text">
             <li>Define an outage period</li>
-            <li>Encourage customers to run backup-utils</li>
-            <li>Experiment with major releases in labs</li>
+            <li>Perform a backup-utils backup immediately before</li>
+            <li>Experiment with new releases in labs</li>
             <li>Stagger upgrades across customer base</li>
             <li>No customer more than 2 major releases behind</li>
             </ul>
