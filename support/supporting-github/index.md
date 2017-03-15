@@ -992,57 +992,6 @@ permalink: /support/supporting-github/
   ---
   class: title-top
 
-  # Escalation Paths internally and to GitHub
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Escalation</strong></div>
-            <ul class="card-text">
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;L1 -> L2</strong></div>
-            <ul class="card-text">
-            <li>Customer cannot resolve</li>
-            <li>Documentation cannot resolve</li>
-            <li>Is actively preventing development</li>
-            <li>Appliance setting may need change</li>
-            <li>Infrastructure work needed</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;L2 -> GitHub</strong></div>
-            <ul class="card-text">
-            <li>Typically code related</li>
-            <li>Issue internal to appliance</li>
-            <li>Infrastructure ruled out</li>
-            <li>Can not resolve within reasonable time</li>
-            <li>Always provide Support Bundles!</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-   </footer>
-  ---
-  class: title-top
-
   # Escalating to GitHub Enterprise Support
 
   <div class="container">
