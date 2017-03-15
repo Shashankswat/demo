@@ -701,7 +701,7 @@ permalink: /support/supporting-github/
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Applications vs tokenized API</strong></div>
             <ul class="card-text">
             <li>Applications need to be registered</li>
-            <li>OAuth2 via web flow/oauth api (Preview mode)</li>
+            <li>OAuth2 via web flow/oauth api</li>
             <li>Access private data with user permission</li>
             <li>Preferred over Basic Authentication</li>
             <li>Access can be scoped</li>
@@ -716,7 +716,6 @@ permalink: /support/supporting-github/
               <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Considerations</strong></div>
             </div>
             <ul class="card-text">
-            <li>Sizable portion of L1 Support</li>
             <li>We provide excellent documentation</li>
             <li>Experiment for familiarity</li>
             <li>GitHub Support has your back!</li>
