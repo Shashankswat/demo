@@ -1063,10 +1063,10 @@ permalink: /support/supporting-github/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>Opening Tickets</strong></div>
             <ul class="card-text">
-            <li>Open a new ticket in GitHub ZenDesk https://git.io/voaUg</li>
+            <li>Open a new ticket in GitHub Zendesk: https://enterprise.github.com/support</li>
             <li>Describe the issue, and steps taken to reproduce and troubleshoot</li>
             <li>Full error messages and screenshots are useful</li>
-            <li>"Urgent" is reserved for production outages.</li>
+            <li>"Urgent" is reserved for production outages</li>
             </ul>
           </div>
         </div>
