@@ -1,6 +1,6 @@
 ---
 layout: slides
-title: Why Developers choose GitHub
+title: The GitHub Voice
 permalink: /support/github-voice/
 ---
 
