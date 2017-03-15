@@ -664,11 +664,10 @@ permalink: /support/supporting-github/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Troubleshooting</strong></div>
             <ul class="card-text">
-            <li>L1 handles a lot of API support</li>
-            <li>Always attempt to re-recreate</li>
+            <li>Always attempt to re-recreate issues</li>
             <li>Sometimes issues are environmental</li>
             <li>Go the extra step for our customers</li>
-            <li>You may receive customer feedback. Yay!</li>
+            <li>Provide sample scripts using octokit.rb</li>
             </ul>
           </div>
         </div>
@@ -702,7 +701,7 @@ permalink: /support/supporting-github/
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Applications vs tokenized API</strong></div>
             <ul class="card-text">
             <li>Applications need to be registered</li>
-            <li>OAuth2 via web flow/oauth api (Preview mode)</li>
+            <li>OAuth2 via web flow/oauth api</li>
             <li>Access private data with user permission</li>
             <li>Preferred over Basic Authentication</li>
             <li>Access can be scoped</li>
@@ -717,7 +716,6 @@ permalink: /support/supporting-github/
               <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Considerations</strong></div>
             </div>
             <ul class="card-text">
-            <li>Sizable portion of L1 Support</li>
             <li>We provide excellent documentation</li>
             <li>Experiment for familiarity</li>
             <li>GitHub Support has your back!</li>
@@ -809,7 +807,7 @@ permalink: /support/supporting-github/
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Supporting GitHub</strong></div>
             <ul class="card-text">
             <li><a href="https://developer.github.com/v3/">GitHub API Guides</a></li>
-            <li><a href="https://github.zendesk.com/">ZenDesk (Contacting us)</a></li>
+            <li><a href="https://enterprise.github.com/support">Contacting Enterprise Support</a></li>
             <li><a href="https://help.github.com/enterprise/2.6/admin/">GitHub Enterprise Admin Guide</a></li>
             <li><a href="https://help.github.com/enterprise/2.6/user/">GitHub Enterprise User Guides</a></li>
             <li><a href="https://help.github.com/enterprise/2.6/admin/guides/user-management/">GitHub Enterprise User Management</a></li>
@@ -852,13 +850,12 @@ permalink: /support/supporting-github/
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Consideratiosn</strong></div>
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Considerations</strong></div>
             <ul class="card-text">
-            <li>Upgrades typically take minutes</li>
+            <li>Upgrades typically take 5 to 10 minutes, but can be longer for feature releases</li>
             <li>Longest effort involves backups</li>
-            <li>Check for upgrades in Management Console</li>
             <li>Prioritize security patches over all</li>
-            <li>Customer has no access during upgrade</li>
+            <li>End-user access is not available during upgrade</li>
             </ul>
           </div>
         </div>
@@ -869,8 +866,8 @@ permalink: /support/supporting-github/
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Best Practices</strong></div>
             <ul class="card-text">
             <li>Define an outage period</li>
-            <li>Encourage customers to run backup-utils</li>
-            <li>Experiment with major releases in labs</li>
+            <li>Perform a backup-utils backup immediately before</li>
+            <li>Experiment with new releases in labs</li>
             <li>Stagger upgrades across customer base</li>
             <li>No customer more than 2 major releases behind</li>
             </ul>
@@ -930,8 +927,7 @@ permalink: /support/supporting-github/
             <ul class="card-text">
             <li>Shift-based around the clock support</li>
             <li>Defined urgent/non-urgent response times</li>
-            <li>Contribute to release QA</li>
-            <li>3 Levels of Support</li>            
+            <li>Contribute to release QA</li>         
             </ul>
           </div>
         </div>
@@ -995,57 +991,6 @@ permalink: /support/supporting-github/
   ---
   class: title-top
 
-  # Escalation Paths internally and to GitHub
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Escalation</strong></div>
-            <ul class="card-text">
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;L1 -> L2</strong></div>
-            <ul class="card-text">
-            <li>Customer cannot resolve</li>
-            <li>Documentation cannot resolve</li>
-            <li>Is actively preventing development</li>
-            <li>Appliance setting may need change</li>
-            <li>Infrastructure work needed</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;L2 -> GitHub</strong></div>
-            <ul class="card-text">
-            <li>Typically code related</li>
-            <li>Issue internal to appliance</li>
-            <li>Infrastructure ruled out</li>
-            <li>Can not resolve within reasonable time</li>
-            <li>Always provide Support Bundles!</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-   </footer>
-  ---
-  class: title-top
-
   # Escalating to GitHub Enterprise Support
 
   <div class="container">
@@ -1066,10 +1011,10 @@ permalink: /support/supporting-github/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>Opening Tickets</strong></div>
             <ul class="card-text">
-            <li>Open a new ticket in GitHub ZenDesk https://git.io/voaUg</li>
+            <li>Open a new ticket in GitHub Zendesk: https://enterprise.github.com/support</li>
             <li>Describe the issue, and steps taken to reproduce and troubleshoot</li>
             <li>Full error messages and screenshots are useful</li>
-            <li>"Urgent" is reserved for production outages.</li>
+            <li>"Urgent" is reserved for production outages</li>
             </ul>
           </div>
         </div>
