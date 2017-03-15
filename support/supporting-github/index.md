@@ -855,7 +855,7 @@ permalink: /support/supporting-github/
             <li>Upgrades typically take 5 to 10 minutes, but can be longer for feature releases</li>
             <li>Longest effort involves backups</li>
             <li>Prioritize security patches over all</li>
-            <li>Customer has no access during upgrade</li>
+            <li>End-user access is not available during upgrade</li>
             </ul>
           </div>
         </div>
@@ -927,8 +927,7 @@ permalink: /support/supporting-github/
             <ul class="card-text">
             <li>Shift-based around the clock support</li>
             <li>Defined urgent/non-urgent response times</li>
-            <li>Contribute to release QA</li>
-            <li>3 Levels of Support</li>            
+            <li>Contribute to release QA</li>         
             </ul>
           </div>
         </div>
