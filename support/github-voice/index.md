@@ -120,7 +120,6 @@ permalink: /support/github-voice/
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;</strong></div>
             <ul class="card-text">
             <li>Reduces "lost-in-translation" issues</li>
             <li>Avoids conflict with our customers</li>
@@ -134,7 +133,6 @@ permalink: /support/github-voice/
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;</strong></div>
             <ul class="card-text">
             <li>Builds loyalty to using GitHub on an MSP platform</li>
             <li>Drives consistency</li>
