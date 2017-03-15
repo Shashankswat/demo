@@ -664,11 +664,10 @@ permalink: /support/supporting-github/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Troubleshooting</strong></div>
             <ul class="card-text">
-            <li>L1 handles a lot of API support</li>
-            <li>Always attempt to re-recreate</li>
+            <li>Always attempt to re-recreate issues</li>
             <li>Sometimes issues are environmental</li>
             <li>Go the extra step for our customers</li>
-            <li>You may receive customer feedback. Yay!</li>
+            <li>Provide sample scripts using octokit.rb</li>
             </ul>
           </div>
         </div>
