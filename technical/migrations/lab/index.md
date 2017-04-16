@@ -27,38 +27,29 @@ Make sure you can issue the Windows equivalent to the above command, or configur
     `git-import-svn-raw http://ldap.gitaboard.com:8090/svn/SampleProject notifications.git --user gitaboard --password gitaboard`
 
 ## Remap the original users in svn to the users in your GitHub Enterprise instance
-- Copy the `raw-authors.csv` file for editing
-  - `cp notifications.git/git-import/raw-authors.csv ./authors.csv`
-  
-<details>
-<summary> 👈🏼 Click to see OLD STUFF</summary>
-<p>
-- Create a file called `authors.txt`
-  - Edit the file and add the following 3 lines
-  - `lee.faus = Luke Skywalker <luke@gitaboard.com>`
-  - `nicolas.byl = Chewbacca <chewbacca@gitaboard.com>`
-  - `matthias.wiesen = Leia <leia@gitaboard.com>`
-  - `gitaboard = Han Solo <solo@gitaboard.com>`
-  - Save the file
-- Create a directory called `notifications`
-- Change the working directory to `notifications`
-- Perform an SVN migration
-  - `svn2git http://ldap.gitaboard.com:8090/svn/SampleProject --authors ../authors.txt --trunk / --nobranches --notags`
-- Add a remote to your GitHub Enterprise URL
-  - `git remote add origin http://luke@{serverurl}/development/notifications.git`
-  - `git push --force --all origin`
-
-## If you are having problems with the self signed certificate
-If you are getting a certificate error when trying to perform the above `git push` command, you can disable SSL certificate checking for the `notifications-git` repository only, or for all repositories within your local `git` installation. For this lab we recommend you change only for the `notifications-git` repository:
-- Change the working directory to `notifications-git`
-- Issue the command `git config http.sslVerify "false"`
-- Try the affected `git push` command again.
-
-## If your company requires a proxy to connect to the internet
-See the [following StackOverflow discussion](http://stackoverflow.com/questions/15095561/cannot-do-git-svn-fetch-behind-proxy)
-
-</p>
-</details>
+- Look at the `raw-authors.csv` file
+  - `less notifications.git/git-import/raw-authors.csv`
+    - You can see that there is a line for each commit and it will list the `ID` and the `NAME`. In this repository all commits are made by the same person: `gitaboard@4b8cc709-3b1e-4a39-9d75-0916ae99683d,gitaboard`
+ 
+ - To map authors from the original repository to an email address and name
+   - create a new CSV file with the columns `ID`,`(ignored)`,`GIT_EMAIL`,`GIT_NAME`, which replaces the author information for anything by `ID` with `GIT_EMAIL` and `GIT_NAME`.
+     - call the file `authors.csv`
+     - add the following line:
+   `gitaboard@4b8cc709-3b1e-4a39-9d75-0916ae99683d,gitaboard,solo@gitaboard.com,Han Solo`
+    - Save the file
+  - Rewrite the authors and branches using the CSV file:
+    - `git-import-rewrite --flavor svn --authors authors.csv notifications.git`
+  - Change the working directory to `notifications-git`
+    - `cd notifications.git`
+  - Add a remote to your GitHub Enterprise URL
+    - `git remote add origin http://{serverurl}/development/notifications.git`
+    - `git push --force --all origin` 
+    - use the username `chewbacca` with password `P@ssw0rd`
+ 
+ ## If you are having problems with the self signed certificate
+If you are getting a certificate error when trying to perform the above `git push` command, you can disable SSL certificate checking for the `notifications.git` repository. For this lab we recommend you change only for the `notifications.git` repository:
+  - Issue the command `git config http.sslVerify "false"`
+  - Try the affected `git push` command again.
 
 ## Optional/Extra Credit
 - Run some `svn` commands in your `git` repositories
