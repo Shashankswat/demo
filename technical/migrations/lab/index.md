@@ -16,6 +16,8 @@ Make sure you can issue the Windows equivalent to the above command, or configur
   - Authentication: `Certificate`
   - Certificate Location: `<DRIVE LETTER>:\<PATH TO YOUR>\keyfile.pem`
 
+#### Note - you should have already tested the above in an earlier lab.
+
 # Perform the migration
 ## Create a local copy of the svn repository converted to a git repository.
 - As a site admin, SSH into your GitHub Enterprise instance, using the appropriate method for your platfom (Linux, macOS, Windows)
