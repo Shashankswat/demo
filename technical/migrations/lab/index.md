@@ -5,34 +5,30 @@ title: Migrating from SVN to Git
 
 # Prepare
 
-- Ruby
-  - Mac/Linux - https://github.com/rbenv/rbenv#readme
-  - Windows - http://rubyinstaller.org/
-  - Need Ruby `2.2.4`
-- `gem install svn2git`
+### Linux and macOS users:
+Make sure you can SSH into your instance using the command `ssh -p 122 -i /<PATH TO YOUR>/keyfile.pem admin@<YOUR HOSTNAME>` in Terminal
 
-**Windows users:** if the `gem` command does not work, it is likely that you do not have the appropriate certificate on your system.
-  This will be evidenced by an error message containng something similar to the following:
-  `Gem::RemoteFetcher::FetchError: SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed`
-This is fixed by:
-  - Downloading the cacert.pem file from: http://curl.haxx.se/docs/caextract.html,
-  - Placing it an appropriate area on your hard drive
-  - Issuing the following command in a command prompt:`SET SSL_CERT_FILE=<PATH TO .pem FILE>`
-  - Try the gem command again.
+### Windows users
+Make sure you can issue the Windows equivalent to the above command, or configure your favourite SSH client to be able to connect to:
+  - Hostname: `<YOUR HOSTNAME>`
+  - Port: `122`
+  - User: `admin`
+  - Authentication: `Certificate`
+  - Certificate Location: `<DRIVE LETTER>:\<PATH TO YOUR>\keyfile.pem`
 
-For example, with `cacert.pem` downloaded as `C:\Ruby200\cacert.pem`, issue `SET SSL_CERT_FILE=C:\Ruby200\cacert.pem`
-See http://help.rubygems.org/discussions/problems/11732-ssl-problems-with-rubygems-on-windows for more information.
-
-- Create a new directory called `migrations`
-
-# Downloading an SVN Repository
+# Perform the migration
+## Create a local copy of the svn repository converted to a git repository.
+- As a site admin, SSH into your GitHub Enterprise instance, using the appropriate method for your platfom (Linux, macOS, Windows)
+- Create a direcory called `migrations`
+    - `mkdir migrations`
 - Change the working directory to `migrations`
-- Create a directory called `notifications-svn`
-- Change the working directory to `notifications-svn`
-- `svn checkout http://ldap.gitaboard.com:8090/svn/SampleProject --username gitaboard` (Password same as username)
+    - `cd migrations`
+- Make a raw clone of the project using the command below, specifying the URL of the source project, and a path to a temporary repository:
+    `git-import-svn-raw http://ldap.gitaboard.com:8090/svn/SampleProject notifications.git --user gitaboard --password gitaboard`
 
-# Converting an SVN Repository to Git
-- Change the working directory to `migrations`
+## Remap the original users in svn to the users in your GitHub Enterprise instance
+- Copy the `raw-authors.csv` file for editing
+  - `cp notifications.git/git-import/raw-authors.csv ./authors.csv`
 - Create a file called `authors.txt`
   - Edit the file and add the following 3 lines
   - `lee.faus = Luke Skywalker <luke@gitaboard.com>`
