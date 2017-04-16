@@ -33,7 +33,7 @@ Make sure you can issue the Windows equivalent to the above command, or configur
   - `less notifications.git/git-import/raw-authors.csv`
     - You can see that there is a line for each commit and it will list the `ID` and the `NAME`. In this repository all commits are made by the same person: `gitaboard@4b8cc709-3b1e-4a39-9d75-0916ae99683d,gitaboard`
  
- - To map authors from the original repository to an email address and name
+ - To map authors from the original repository to an email address and name of a user in GitHub Enterprise.
    - create a new CSV file with the columns `ID`,`(ignored)`,`GIT_EMAIL`,`GIT_NAME`, which replaces the author information for anything by `ID` with `GIT_EMAIL` and `GIT_NAME`.
      - call the file `authors.csv`
      - add the following line:
