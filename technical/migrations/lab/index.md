@@ -31,7 +31,7 @@ Make sure you can issue the Windows equivalent to the above command, or configur
   - `cp notifications.git/git-import/raw-authors.csv ./authors.csv`
   
 <details>
-<summary>OLD STUFF</summary>
+<summary> 👈🏼 Click to see OLD STUFF</summary>
 <p>
 - Create a file called `authors.txt`
   - Edit the file and add the following 3 lines
