@@ -26,7 +26,7 @@ Make sure you can issue the Windows equivalent to the above command, or configur
 - Change the working directory to `migrations`
     - `cd migrations`
 - Make a raw clone of the project using the command below, specifying the URL of the source project, and a path to a temporary repository:
-    `git-import-svn-raw http://ldap.gitaboard.com:8090/svn/SampleProject notifications.git --user gitaboard --password gitaboard`
+  - `git-import-svn-raw http://ldap.gitaboard.com:8090/svn/SampleProject notifications.git --user gitaboard --password gitaboard`
 
 ## Remap the original users in svn to the users in your GitHub Enterprise instance
 - Look at the `raw-authors.csv` file
