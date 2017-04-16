@@ -48,6 +48,7 @@ Make sure you can issue the Windows equivalent to the above command, or configur
  
  ## If you are having problems with the self signed certificate
 If you are getting a certificate error when trying to perform the above `git push` command, you can disable SSL certificate checking for the `notifications.git` repository. For this lab we recommend you change only for the `notifications.git` repository:
+  - Make sure you are in the `notifications.git` directory
   - Issue the command `git config http.sslVerify "false"`
   - Try the affected `git push` command again.
 
