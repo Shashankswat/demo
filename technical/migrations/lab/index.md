@@ -29,6 +29,10 @@ Make sure you can issue the Windows equivalent to the above command, or configur
 ## Remap the original users in svn to the users in your GitHub Enterprise instance
 - Copy the `raw-authors.csv` file for editing
   - `cp notifications.git/git-import/raw-authors.csv ./authors.csv`
+  
+<details>
+<summary>OLD STUFF</summary>
+<p>
 - Create a file called `authors.txt`
   - Edit the file and add the following 3 lines
   - `lee.faus = Luke Skywalker <luke@gitaboard.com>`
@@ -52,6 +56,9 @@ If you are getting a certificate error when trying to perform the above `git pus
 
 ## If your company requires a proxy to connect to the internet
 See the [following StackOverflow discussion](http://stackoverflow.com/questions/15095561/cannot-do-git-svn-fetch-behind-proxy)
+
+</p>
+</details>
 
 ## Optional/Extra Credit
 - Run some `svn` commands in your `git` repositories
