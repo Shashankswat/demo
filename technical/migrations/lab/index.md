@@ -54,8 +54,18 @@ If you are getting a certificate error when trying to perform the above `git pus
   - Issue the command `git config http.sslVerify "false"`
   - Try the affected `git push` command again.
 
+## Finishing up
+- delete the migrations directory:
+  - `cd ~`
+  - `rm -rf migrations`
+- sign out of your SSH session
+- make a copy of the notifications repository on your local drive
+  - change to the directory you want the local repository to be stored in
+  - issue the command:
+    - `git clone https://{serverurl}/development/notifications.git`
+
 ## Optional/Extra Credit
-- Run some `svn` commands in your `git` repositories
+- Run some `svn` commands in your local `git` repositories
  - What happens? Why?
 
 # Validate
