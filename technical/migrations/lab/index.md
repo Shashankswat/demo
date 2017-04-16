@@ -6,11 +6,11 @@ title: Migrating from SVN to Git
 # Prepare
 
 ### Linux and macOS users:
-Make sure you can SSH into your instance using the command `ssh -p 122 -i /<PATH TO YOUR>/keyfile.pem admin@<YOUR HOSTNAME>` in Terminal
+Make sure you can SSH into your instance using the command `ssh -p 122 -i /{PATH TO YOUR}/keyfile.pem admin@{serverurl}` in Terminal
 
 ### Windows users
 Make sure you can issue the Windows equivalent to the above command, or configure your favourite SSH client to be able to connect to:
-  - Hostname: `<YOUR HOSTNAME>`
+  - Hostname: `{serverurl}`
   - Port: `122`
   - User: `admin`
   - Authentication: `Certificate`
