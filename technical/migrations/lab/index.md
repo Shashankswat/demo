@@ -41,7 +41,7 @@ Make sure you can issue the Windows equivalent to the above command, or configur
     - Save the file
   - Rewrite the authors and branches using the CSV file:
     - `git-import-rewrite --flavor svn --authors authors.csv notifications.git`
-  - Change the working directory to `notifications-git`
+  - Change the working directory to `notifications.git`
     - `cd notifications.git`
   - Add a remote to your GitHub Enterprise URL
     - `git remote add origin http://{serverurl}/development/notifications.git`
