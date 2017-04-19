@@ -19,9 +19,9 @@ Make sure you can issue the Windows equivalent to the above command, or configur
 #### Note - you should have already tested the above in an earlier lab.
 
 # Perform the migration
-## Create a local copy of the svn repository converted to a git repository.
+## Create a 'local' copy of the svn repository converted to a git repository, on your GitHub Enterrpise instance.
 - As a site admin, SSH into your GitHub Enterprise instance, using the appropriate method for your platfom (Linux, macOS, Windows)
-- Create a direcory called `migrations`
+- In the directory you are now in on your GitHub Enterprise instance, create a directory called `migrations`
     - `mkdir migrations`
 - Change the working directory to `migrations`
     - `cd migrations`
