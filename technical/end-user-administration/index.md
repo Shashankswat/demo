@@ -49,7 +49,7 @@ permalink: /technical/end-user-administration/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Topics and Agenda:</strong></div>
             <ul class="card-text">
-              <li>Notification Emals</li>
+              <li>Notification Emails</li>
               <li>GPG Keys - Signed Commits</li>
               <li>Git Large File Storage</li>
               <li>Benefits/Enabling git-lfs</li>
@@ -587,7 +587,7 @@ permalink: /technical/end-user-administration/
       <div class="col-md-6">
         <div class="card-block">
           <div class="card-text">You can enable or disable <a href="https://help.github.com/enterprise/admin/articles/configuring-git-large-file-storage-for-a-repository/" target="_blank">Git LFS</a> on a per-repository or organization basis: </div></br>
-          <b>For an Organzation:</b>
+          <b>For an Organization:</b>
           <ul class="card-text">
             <li>As a site admin, sign in to your GitHub Enterprise instance at <code>http(s)://[hostname]/login</code></li>
             <li>In the upper-right corner of any page, click <span class="octicon octicon-rocket" aria-label="The rocket ship " title="The rocket ship "></span></li>
