@@ -49,7 +49,7 @@ permalink: /technical/end-user-administration/
           <div class="card-block">
             <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;Topics and Agenda:</strong></div>
             <ul class="card-text">
-              <li>Notification Emals</li>
+              <li>Notification Emails</li>
               <li>GPG Keys - Signed Commits</li>
               <li>Git Large File Storage</li>
               <li>Benefits/Enabling git-lfs</li>
