@@ -3,7 +3,7 @@ layout: labs
 title: Migrating from SVN to Git
 ---
 
-# Prepare
+## Prepare
 
 ### Linux and macOS users:
 Make sure you can SSH into your instance using the command `ssh -p 122 -i /{PATH TO YOUR}/keyfile.pem admin@{serverurl}` in Terminal
@@ -17,11 +17,11 @@ Make sure you can issue the Windows equivalent to the above command, or configur
   - Authentication: `Certificate`
   - Certificate Location: `<DRIVE LETTER>:\<PATH TO YOUR>\keyfile.pem`
 
-#### Note - you should have already tested the above in an earlier lab.
+**_Note - you should have already tested the above in an earlier lab._**
 
-# Perform the migration
+## Perform the migration
 
-## Create a 'local' copy of the svn repository converted to a git repository, on your GitHub Enterprise instance.
+### Create a 'local' copy of the svn repository converted to a git repository, on your GitHub Enterprise instance.
 - As a site admin, SSH into your GitHub Enterprise instance, using the appropriate method for your platfom (Linux, macOS, Windows)
 - In the directory you are now in on your GitHub Enterprise instance, create a directory called `migrations`
     - `mkdir migrations`
@@ -30,7 +30,7 @@ Make sure you can issue the Windows equivalent to the above command, or configur
 - Make a raw clone of the project using the command below, specifying the URL of the source project, and a path to a temporary repository:
   - `git-import-svn-raw http://ldap.gitaboard.com:8090/svn/SampleProject notifications.git --user gitaboard --password gitaboard`
 
-## Remap the original users in svn to the users in your GitHub Enterprise instance
+### Remap the original users in svn to the users in your GitHub Enterprise instance
 - Look at the `raw-authors.csv` file
   - `less notifications.git/git-import/raw-authors.csv`
     - You can see that there is a line for each commit and it will list the `ID` and the `NAME`. In this repository all commits are made by the same person: `gitaboard@4b8cc709-3b1e-4a39-9d75-0916ae99683d,gitaboard`
@@ -50,14 +50,14 @@ Make sure you can issue the Windows equivalent to the above command, or configur
     - `git push --force --all origin` 
     - use the username `chewbacca` with password `P@ssw0rd`
  
-## If you are having problems with the self signed certificate 
+#### If you are having problems with the self signed certificate 
 If you are getting a certificate error when trying to perform the above `git push` command, you can disable SSL certificate checking for the `notifications.git` repository. For this lab we recommend you change only for the `notifications.git` repository:
 
   - Make sure you are in the `notifications.git` directory
   - Issue the command `git config http.sslVerify "false"`
   - Try the affected `git push` command again.
 
-## Finishing up
+### Finishing up
 - delete the migrations directory:
   - `cd ~`
   - `rm -rf migrations`
@@ -71,7 +71,7 @@ If you are getting a certificate error when trying to perform the above `git pus
 - Run some `svn` commands in your local `git` repositories
  - What happens? Why?
 
-# Validate
+## Validate
 - Open a browser to your GitHub Enterprise instance
   - `http://{serverurl}/development/notifications`
   - Click on the dropdown for branches, list out the branches
