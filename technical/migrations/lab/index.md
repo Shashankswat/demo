@@ -50,7 +50,7 @@ Make sure you can issue the Windows equivalent to the above command, or configur
     - `git push --force --all origin` 
     - use the username `chewbacca` with password `P@ssw0rd`
  
- ## If you are having problems with the self signed certificate
+## If you are having problems with the self signed certificate 
 If you are getting a certificate error when trying to perform the above `git push` command, you can disable SSL certificate checking for the `notifications.git` repository. For this lab we recommend you change only for the `notifications.git` repository:
   - Make sure you are in the `notifications.git` directory
   - Issue the command `git config http.sslVerify "false"`
