@@ -10,6 +10,7 @@ Make sure you can SSH into your instance using the command `ssh -p 122 -i /{PATH
 
 ### Windows users
 Make sure you can issue the Windows equivalent to the above command, or configure your favourite SSH client to be able to connect to:
+
   - Hostname: `{serverurl}`
   - Port: `122`
   - User: `admin`
