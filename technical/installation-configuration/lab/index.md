@@ -34,6 +34,7 @@ title: Installation and Setup Lab
 ## LDAP Settings
 
 _Although there is text in some of these fields, we still need to enter the values below_
+_Documentation on [LDAP Configuration](https://help.github.com/enterprise/admin/guides/user-management/using-ldap/)_
 
 - `host` - `ldap.gitaboard.com`
 - `port` - `389`
@@ -47,11 +48,10 @@ _Although there is text in some of these fields, we still need to enter the valu
 - `Profile Name` - `cn`
 - `Emails` - `mail`
 
-## Setting Up LDAP
-- [LDAP Configuration](https://help.github.com/enterprise/admin/guides/user-management/using-ldap/)
-
 ## Additional Settings
-- [Basic Configuration](https://help.github.com/enterprise/admin/guides/installation/basic-configuration/)
+
+_ Documentation on [Basic Configuration](https://help.github.com/enterprise/admin/guides/installation/basic-configuration/)_
+
 - Check `Synchronization`
 - Check `Synchronize Emails`
 - Check `Enable Pages`
