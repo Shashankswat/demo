@@ -56,6 +56,7 @@ _Although there is text in some of these fields, we still need to enter the valu
 - Check `Synchronize Emails`
 - Check `Enable Pages`
 - Check `Public Pages`
+- Save settings
 - Login to appliance `http://{hostname}/login`
   - Username - `chewbacca`
   - Password - `P@ssw0rd`
