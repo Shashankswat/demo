@@ -381,7 +381,7 @@ permalink: /technical/end-user-administration/
             <li>Protect your code</li>
             <li>Prevent bad code being introduced</li>
             <li>Disable history-destroying force pushes and merges</li>
-            <li>Helps new employees feel empowered to experiment</li>
+            <li>Help employees feel empowered to experiment</li>
             <li>Prevent IP/API keys from being stored in code</li>
           </ul>
         </div>
@@ -396,6 +396,7 @@ permalink: /technical/end-user-administration/
             <li>GPG Signed Commits</li>
             <li>Outside Collaborators</li>
             <li>Pre-Receive Hooks</li>
+            <li>Code Review + Pull Requests</li>
           </ul>
         </div>
       </div>
