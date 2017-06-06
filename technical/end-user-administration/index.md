@@ -397,6 +397,7 @@ permalink: /technical/end-user-administration/
             <li>Outside Collaborators</li>
             <li>Pre-Receive Hooks</li>
             <li>Code Review + Pull Requests</li>
+            <li>Restrict Repository Deletion</li>
           </ul>
         </div>
       </div>
