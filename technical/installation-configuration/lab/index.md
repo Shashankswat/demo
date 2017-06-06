@@ -7,7 +7,7 @@ title: Installation and Setup Lab
 
 ## Prerequisites
 - Make sure you have a GitHub.com User ID
-- Ensure you GitHub.com User ID is added to the [Partners Enablement Repository](https://github.com/githubpartners/enablement)
+- Ensure your GitHub.com User ID is added to the [Partners Enablement Repository](https://github.com/githubpartners/enablement)
 - Download the [GitHub Enterprise License](https://github-partner-enablement.herokuapp.com/license/github-enterprise.ghl)
 
 ## Provisioning Your AWS Instance
@@ -34,6 +34,7 @@ title: Installation and Setup Lab
 ## LDAP Settings
 
 _Although there is text in some of these fields, we still need to enter the values below_
+_Documentation on [LDAP Configuration](https://help.github.com/enterprise/admin/guides/user-management/using-ldap/)_
 
 - `host` - `ldap.gitaboard.com`
 - `port` - `389`
@@ -47,15 +48,15 @@ _Although there is text in some of these fields, we still need to enter the valu
 - `Profile Name` - `cn`
 - `Emails` - `mail`
 
-## Setting Up LDAP
-- [LDAP Configuration](https://help.github.com/enterprise/admin/guides/user-management/using-ldap/)
-
 ## Additional Settings
-- [Basic Configuration](https://help.github.com/enterprise/admin/guides/installation/basic-configuration/)
+
+_ Documentation on [Basic Configuration](https://help.github.com/enterprise/admin/guides/installation/basic-configuration/)_
+
 - Check `Synchronization`
 - Check `Synchronize Emails`
 - Check `Enable Pages`
 - Check `Public Pages`
+- Save settings
 - Login to appliance `http://{hostname}/login`
   - Username - `chewbacca`
   - Password - `P@ssw0rd`
