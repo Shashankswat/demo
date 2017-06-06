@@ -292,6 +292,8 @@ permalink: /support/using-github/
               <li>file editor</li>
               <li>fuzzy file search</li>
               <li>news feed</li>
+              <li>topics</li>
+              <li>blame</li>
             </ul>
         </div>
        </div>
