@@ -102,7 +102,7 @@ permalink: /support/using-github/
           <div class="card-block">
             <div class="card-text">Total Registered Users </div>
             <ul class="card-text">
-              <li>19M</li>
+              <li>21M</li>
             </ul>
           </div>
         </div>
