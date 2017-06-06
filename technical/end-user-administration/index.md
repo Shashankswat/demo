@@ -529,7 +529,7 @@ permalink: /technical/end-user-administration/
     <div class="row">
       <div class="col-md-12">
         <div class="card-block">
-          <div class="card-text"><strong>An open source Git extension for versioning large files</strong></div>
+          <div class="card-text"><strong>An open source Git extension for working with, and versioning large files</strong></div>
         </div>
       </div>
     </div>
@@ -567,8 +567,11 @@ permalink: /technical/end-user-administration/
             <ul class="card-text"><li>Download less data. This means faster cloning and fetching from repositories that deal with large files.</li></ul>
           <h4><span class="octicon octicon-git-branch"></span> Same Git workflow:</h4>
             <ul class="card-text"><li>Work like you always do on Git—no need for additional commands, secondary storage systems, or toolsets.</li></ul>
-          <h4><span class="octicon octicon-lock"></span> Same access controls and permissions:</h4>
-            <ul class="card-text"><li>Keep the same access controls and permissions for large files as the rest of your Git repository when working with a remote host like GitHub.</li></ul>
+          <h4><span class="octicon octicon-lock"></span> Access controls and permissions:</h4>
+            <ul class="card-text">
+              <li>Keep the same access controls and permissions for large files as the rest of your Git repository when working with a remote host like GitHub.</li>
+              <li>Use File Locking in Git LFS to alleviate merge conflicts with large binaries, and larget assets</li>
+            </ul>
         </div>
       </div>
     </div>
