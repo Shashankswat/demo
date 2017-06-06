@@ -142,9 +142,9 @@ permalink: /support/using-github/
       <div class="col-md-4">
         <div class="card">
           <div class="card-block">
-            <div class="card-text">Universities Using GitHub </div>
+            <div class="card-text">Fortune 100 Using GHE</div>
             <ul class="card-text">
-              <li>1000+</li>
+              <li>41</li>
             </ul>
           </div>
         </div>
