@@ -156,7 +156,7 @@ permalink: /technical/installation-configuration/
         <div class="card-block">
           <h4 class="card-title">Platforms</h4>
           <ul class="card-text" style="list-style: none;">
-          <li><span class="octicon octicon-checklist"></span> VMWare</li>
+          <li><span class="octicon octicon-checklist"></span> VMware</li>
           <li><span class="octicon octicon-checklist"></span> Xen/KVM/Hyper-V</li>
           <li><span class="octicon octicon-checklist"></span> Amazon Web Services</li>
           <li><span class="octicon octicon-checklist"></span> Microsoft Azure</li>
@@ -1455,7 +1455,7 @@ permalink: /technical/installation-configuration/
       <div class="card">
         <div class="card-block">
         <div class="card-title"><h3>User</h3></div>
-        <p class="card-text">Users can have a GH Pages site setup tied to their username. Always hosted under the <code>https//pages.[hostname]/[username]</code> if you create a repo with <code>[username].[hostname]</code>. Hosted on the master branch</p>
+        <p class="card-text">Users can have a GH Pages site setup tied to their username. Always hosted under the <code>https://pages.[hostname]/[username]</code> if you create a repo with <code>[username].[hostname]</code>. Hosted on the master branch</p>
         </div>
        </div>
         <div class="card">
