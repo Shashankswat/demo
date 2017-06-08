@@ -37,6 +37,7 @@ permalink: /technical/integrations/
             <ul class="card-text">
               <li>Webhooks</li>
               <li>APIs</li>
+              <li>GraphQL</li>
               <li>Integrations Directory</li>
             </ul>
           </div>
@@ -121,6 +122,65 @@ permalink: /technical/integrations/
         <div class="card">
           <div class="card-block">
             <div class="card-text">Enterprise API endpoints accept the same authentication methods as the GitHub.com API. Specifically, you can authenticate yourself with <a href="https://developer.github.com/v3/oauth/" target="_blank">OAuth tokens</a> (which can be created using the Authorizations API) or <a href="https://developer.github.com/v3/#basic-authentication" target="_blank">basic authentication</a>.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+
+  ---
+  class: title-top
+
+  # GrapQL
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text">GitHub now also supports GraphQL on both GitHub.com and Enterprise. GraphQL is a specification for a data querying language and aims at overcoming some of the drawbacks of RESTful APIs. It offers great flexibility to integrators. You can find the GraphQL API specs <a href="https://developer.github.com/v4/" target="_blank">here.</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text">Example query:</div>
+            <pre>
+{
+  viewer {
+    login
+    bio
+    location
+    isBountyHunter
+  }
+}
+</pre>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text">Result:</div><br/>
+            <pre>
+{
+  "data": {
+    "viewer": {
+      "login": "octocat",
+      "bio": "I've been around the world, from London to the Bay.",
+      "location": "San Francisco, CA",
+      "isBountyHunter": true
+    }
+  }
+}
+</pre>
           </div>
         </div>
       </div>
