@@ -80,7 +80,7 @@ permalink: /technical/integrations/
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-            <div class="card-text">Using the GitHub API, you can make these webhooks update an external issue tracker, trigger CI builds, update a backup mirror, or even deploy to your production server.</div></br>
+            <div class="card-text">Using the GitHub API, you can make these webhooks update an external issue tracker, trigger CI builds, update a backup mirror, or even deploy to your production server.</div><br/>
             <div class="card-text">For help on building a webhook, including a full list of actions you can associate with, visit our <a href="https://developer.github.com/webhooks/" target="_blank">Developer guide</a>.</div>
           </div>
         </div>
@@ -110,7 +110,7 @@ permalink: /technical/integrations/
       <div class="col-md-12">
         <div class="card">
           <div class="card-block">
-            <div class="card-text">All API endpoints—except Management Console API endpoints—are prefixed with the following URL: <code>http(s)://hostname/api/v3/</code></div></br>
+            <div class="card-text">All API endpoints—except Management Console API endpoints—are prefixed with the following URL: <code>http(s)://hostname/api/v3/</code></div><br/>
             <div class="card-text"><a href="https://developer.github.com/v3/enterprise/management_console/" target="_blank">Management Console</a> API endpoints are only prefixed with a hostname: <code>http(s)://hostname/</code></div>
           </div>
         </div>
@@ -140,7 +140,7 @@ permalink: /technical/integrations/
       <div class="col-md-12">
         <a href="https://github.com/integrations" target="_blank"><img src="/images/Integrations_Directory.png" class="img-responsive"></a>
       </div>
-    </div></br>
+    </div><br/>
     <div class="row">
       <div class="col-md-4">
         <div class="card">
@@ -154,7 +154,7 @@ permalink: /technical/integrations/
         <div class="card">
           <div class="card-block">
             <div class="card-text"><span class="octicon octicon-git-pull-request"></span> Integrations / <a href="https://github.com/integrations/feature/collaborate" target="_blank">Collaborate</a></div>
-            <div class="card-text">Use GitHub with the apps and services that help you chat, track your progress, and work better with your team.</div></br>
+            <div class="card-text">Use GitHub with the apps and services that help you chat, track your progress, and work better with your team.</div><br/>
           </div>
         </div>
       </div>
@@ -162,7 +162,7 @@ permalink: /technical/integrations/
         <div class="card">
           <div class="card-block">
             <div class="card-text"><span class="octicon octicon-rocket"></span> Integrations / <a href="https://github.com/integrations/feature/ship" target="_blank">Ship</a></div>
-            <div class="card-text">Deploy software directly from your repositories using continuous deployment services.</div></br>
+            <div class="card-text">Deploy software directly from your repositories using continuous deployment services.</div><br/>
           </div>
         </div>
       </div>
@@ -203,7 +203,6 @@ permalink: /technical/integrations/
       </div>     
      </div> 
     </div>
-  </div>
 
   <footer>
    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
@@ -320,7 +319,7 @@ permalink: /technical/integrations/
         <div class="card">
           <div class="card-block">
           <div class="card-text"></div>
-          <center><img src="/images/myget.png" height="50px" width=50px" alt="MyGet">
+          <center><img src="/images/myget.png" height="50px" width="50px" alt="MyGet">
           <br><small>MyGet</small></center>
             <ul class="card-text">
             </ul>
@@ -329,8 +328,6 @@ permalink: /technical/integrations/
        </div>
       </div>
      </div>
-    </div>
-  </div>
 
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
