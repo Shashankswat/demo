@@ -72,7 +72,7 @@ permalink: /technical/end-user-administration/
     <div class="row">
       <div class="col-md-6">
         <div class="card-block">
-          <div class="card-text">An <a href="https://help.github.com/enterprise/admin/guides/user-management/creating-organizations/" target="_blank">organization</a> is a collection of user accounts that owns repositories. To create an organization: </div></br>
+          <div class="card-text">An <a href="https://help.github.com/enterprise/admin/guides/user-management/creating-organizations/" target="_blank">organization</a> is a collection of user accounts that owns repositories. To create an organization: </div><br/>
           <ul class="card-text">
             <li>click your profile photo > 'Settings'</li>
             <li>settings sidebar, click 'Organizations'</li>
@@ -84,7 +84,7 @@ permalink: /technical/end-user-administration/
         </div>
       </div>
       <div class="col-md-6">
-        <img src="/images/ACCOUNT-Settings.png" class="img-resize"></br>
+        <img src="/images/ACCOUNT-Settings.png" class="img-resize"><br/>
         <img src="/images/SETTINGS-ORg.png" class="img-resize">
       </div>
     </div>
@@ -239,7 +239,7 @@ permalink: /technical/end-user-administration/
     <div class="row">
       <div class="col-md-6">
         <div class="card-block">
-          <div class="card-text"><a href="https://help.github.com/enterprise/admin/guides/user-management/creating-teams/" target="_blank">Teams</a> give organizations the ability to create groups of members and control access to repositories. Team members can be granted read, write, or admin permissions to specific repositories. To create a team: </div></br>
+          <div class="card-text"><a href="https://help.github.com/enterprise/admin/guides/user-management/creating-teams/" target="_blank">Teams</a> give organizations the ability to create groups of members and control access to repositories. Team members can be granted read, write, or admin permissions to specific repositories. To create a team: </div><br/>
           <ul class="card-text">
             <li>click your profile photo > 'Your profile'</li>
             <li>Organizations, click your org icon</li>
@@ -251,8 +251,8 @@ permalink: /technical/end-user-administration/
         </div>
       </div>
       <div class="col-md-6">
-        </br>
-        <img src="/images/ORG-Teams.png" class="img-resize"></br>
+        <br/>
+        <img src="/images/ORG-Teams.png" class="img-resize"><br/>
         <img src="/images/TEAM-New.png" class="img-resize">
       </div>
     </div>
@@ -346,7 +346,7 @@ permalink: /technical/end-user-administration/
     <div class="row">
       <div class="col-md-6">
         <div class="card-block">
-          <div class="card-text">You can <a href="https://help.github.com/enterprise/user/articles/creating-a-new-repository/" target="_blank">create a new repository</a> on your personal account or any organization where you have sufficient permissions. To create a repository: </div></br>
+          <div class="card-text">You can <a href="https://help.github.com/enterprise/user/articles/creating-a-new-repository/" target="_blank">create a new repository</a> on your personal account or any organization where you have sufficient permissions. To create a repository: </div><br/>
           <ul class="card-text">
             <li>click <span class="octicon octicon-plus" aria-label="Plus symbol " title="Plus symbol "></span> > 'New repository'</li>
             <li>select the account</li>
@@ -357,8 +357,8 @@ permalink: /technical/end-user-administration/
         </div>
       </div>
       <div class="col-md-6">
-        </br>
-        <img src="/images/REPO-Create.png" class="img-resize"></br>
+        <br/>
+        <img src="/images/REPO-Create.png" class="img-resize"><br/>
         <img src="/images/REPO-Name.png" class="img-resize">
       </div>
     </div>
@@ -586,7 +586,7 @@ permalink: /technical/end-user-administration/
     <div class="row">
       <div class="col-md-6">
         <div class="card-block">
-          <div class="card-text">You can enable or disable <a href="https://help.github.com/enterprise/admin/articles/configuring-git-large-file-storage-for-a-repository/" target="_blank">Git LFS</a> on a per-repository or organization basis: </div></br>
+          <div class="card-text">You can enable or disable <a href="https://help.github.com/enterprise/admin/articles/configuring-git-large-file-storage-for-a-repository/" target="_blank">Git LFS</a> on a per-repository or organization basis: </div><br/>
           <b>For an Organization:</b>
           <ul class="card-text">
             <li>As a site admin, sign in to your GitHub Enterprise instance at <code>http(s)://[hostname]/login</code></li>
