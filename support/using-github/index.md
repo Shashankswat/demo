@@ -323,7 +323,7 @@ permalink: /support/using-github/
               <li>releases + tags</li>
               <li>pulse &amp; graphs</li>
               <li>integrations</li>
-              <li>Seamless API</li>
+              <li>seamless API &amp; GraphQL</li>
             </ul>
         </div>
       </div>
