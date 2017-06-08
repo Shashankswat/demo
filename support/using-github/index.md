@@ -242,7 +242,7 @@ permalink: /support/using-github/
       <div class="card-group">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-center"><span class="mega-octicon octicon-mark-github"></span><span class="mega-octicon octicon-cloud-upload"</span></div>
+            <div class="card-img-top text-center"><span class="mega-octicon octicon-mark-github"></span><span class="mega-octicon octicon-cloud-upload"></span></div>
             <div class="card-title"><a href="https://github.com" target="_blank"><h3>GitHub.com</h3></a></div>
             <p class="card-text"><strong>GitHub.com</strong> is the <i>public cloud</i> version of GitHub, which is fully managed for you on our servers. GitHub.com proudly hosts the largest community of Open Source development. <a href="https://enterprise.github.com/downloads/en/comvsenterprise-082415.pdf">Learn more ...</a></p>
           </div> <!-- cardblock for .com -->
@@ -438,7 +438,6 @@ permalink: /support/using-github/
       </div>
      </div>
     </div>
-  </div>
 
   <footer>
    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
@@ -555,7 +554,7 @@ permalink: /support/using-github/
         <div class="card">
           <div class="card-block">
           <div class="card-text"></div>
-          <center><img src="/images/myget.png" height="50px" width=50px" alt="MyGet">
+          <center><img src="/images/myget.png" height="50px" width="50px" alt="MyGet">
           <br><small>MyGet</small></center>
             <ul class="card-text">
             </ul>
@@ -564,7 +563,6 @@ permalink: /support/using-github/
        </div>
       </div>
      </div>
-  </div>
   ---
   class: title-slide
 
@@ -634,7 +632,6 @@ permalink: /support/using-github/
       </div>
      </div>
     </div>
-  </div>
 
   <footer>
    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
