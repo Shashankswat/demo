@@ -134,7 +134,7 @@ permalink: /technical/integrations/
   ---
   class: title-top
 
-  # GrapQL
+  # GraphQL
 
   <div class="container">
     <div class="row">
