@@ -131,7 +131,6 @@ permalink: /technical/integrations/
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
-
   ---
   class: title-top
 
@@ -153,15 +152,15 @@ permalink: /technical/integrations/
           <div class="card-block">
             <div class="card-text">Example query:</div>
             <pre>
-{
-  viewer {
-    login
-    bio
-    location
-    isBountyHunter
-  }
-}
-</pre>
+              {
+                viewer {
+                  login
+                  bio
+                  location
+                  isBountyHunter
+                }
+              }
+            </pre>
           </div>
         </div>
       </div>
@@ -170,17 +169,17 @@ permalink: /technical/integrations/
           <div class="card-block">
             <div class="card-text">Result:</div><br/>
             <pre>
-{
-  "data": {
-    "viewer": {
-      "login": "octocat",
-      "bio": "I've been around the world, from London to the Bay.",
-      "location": "San Francisco, CA",
-      "isBountyHunter": true
-    }
-  }
-}
-</pre>
+              {
+                "data": {
+                  "viewer": {
+                    "login": "octocat",
+                    "bio": "I've been around the world, from London to the Bay.",
+                    "location": "San Francisco, CA",
+                    "isBountyHunter": true
+                  }
+                }
+              }
+            </pre>
           </div>
         </div>
       </div>
@@ -239,7 +238,7 @@ permalink: /technical/integrations/
           <div class="card-block">
             <div class="card-title">Integrations to Boost Developer Productivity</div>
             <div class="card-text">
-            <center><img src="/images/integrations-directory-graphic.svg" height='60%' width='60%'></center> 
+            <center><img src="/images/integrations-directory-graphic.svg" height='60%' width='60%'></center>
             </div>
           </div>
         </div>
@@ -261,7 +260,7 @@ permalink: /technical/integrations/
           </div>
         </div>
       </div>     
-     </div> 
+     </div>
     </div>
   </div>
 
