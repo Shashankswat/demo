@@ -147,39 +147,21 @@ permalink: /technical/integrations/
       </div>
     </div>
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-12">
         <div class="card">
           <div class="card-block">
-            <div class="card-text">Example query:</div>
-            <pre>
-              {
-                viewer {
-                  login
-                  bio
-                  location
-                  isBountyHunter
-                }
-              }
-            </pre>
+            <div class="card-text">The GraphQL API has a single endpoint:<code>http(s)://hostname/graphql/</code></div></br>
+            <div class="card-text"><a href="https://developer.github.com/v3/enterprise/management_console/" target="_blank">Management Console</a> API endpoints are only prefixed with a hostname: <code>http(s)://hostname/</code></div>
           </div>
         </div>
       </div>
-      <div class="col-md-6">
+    </div>
+    <div class="row">
+      <div class="col-md-12">
         <div class="card">
           <div class="card-block">
-            <div class="card-text">Result:</div><br/>
-            <pre>
-              {
-                "data": {
-                  "viewer": {
-                    "login": "octocat",
-                    "bio": "I've been around the world, from London to the Bay.",
-                    "location": "San Francisco, CA",
-                    "isBountyHunter": true
-                  }
-                }
-              }
-            </pre>
+            <div class="card-text">To communicate with the GraphQL server, you'll need a <a href="https://help.github.com/enterprise/2.10/user/articles/creating-a-personal-access-token-for-the-command-line/">personal access token</a> with the right scopes.</div><br/>
+            <div class="card-text">Use the <a href="https://developer.github.com/v4/guides/using-the-explorer">GraphQL Explorer</a> to create live queries, use auto-completion, and examine the results.</div>
           </div>
         </div>
       </div>
