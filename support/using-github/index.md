@@ -666,7 +666,8 @@ permalink: /support/using-github/
             <li>Single appliance</li>
             <li>Hosted in chosen environment</li>
             <li>Maintain existing compliance</li>
-            <li>HA, Clustering, Load Balancing</li>
+            <li>HA, Clustering, Load Balancing, Geo-Replication</li>
+            <li>Hotpatching</li>
           </ul>
           </section>
         </div>
