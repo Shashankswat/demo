@@ -37,6 +37,7 @@ permalink: /technical/integrations/
             <ul class="card-text">
               <li>Webhooks</li>
               <li>APIs</li>
+              <li>GraphQL</li>
               <li>Integrations Directory</li>
             </ul>
           </div>
@@ -133,6 +134,46 @@ permalink: /technical/integrations/
   ---
   class: title-top
 
+  # GraphQL
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text">GitHub now also supports GraphQL on both GitHub.com and Enterprise. GraphQL is a specification for a data querying language and aims at overcoming some of the drawbacks of RESTful APIs. It offers great flexibility to integrators. You can find the GraphQL API specs <a href="https://developer.github.com/v4/" target="_blank">here.</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text">The GraphQL API has a single endpoint:<code>http(s)://hostname/graphql/</code></div></br>
+            <div class="card-text"><a href="https://developer.github.com/v3/enterprise/management_console/" target="_blank">Management Console</a> API endpoints are only prefixed with a hostname: <code>http(s)://hostname/</code></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text">To communicate with the GraphQL server, you'll need a <a href="https://help.github.com/enterprise/2.10/user/articles/creating-a-personal-access-token-for-the-command-line/">personal access token</a> with the right scopes.</div><br/>
+            <div class="card-text">Use the <a href="https://developer.github.com/v4/guides/using-the-explorer">GraphQL Explorer</a> to create live queries, use auto-completion, and examine the results.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
   # Integrations Directory
 
   <div class="container">
@@ -179,7 +220,7 @@ permalink: /technical/integrations/
           <div class="card-block">
             <div class="card-title">Integrations to Boost Developer Productivity</div>
             <div class="card-text">
-            <center><img src="/images/integrations-directory-graphic.svg" height='60%' width='60%'></center> 
+            <center><img src="/images/integrations-directory-graphic.svg" height='60%' width='60%'></center>
             </div>
           </div>
         </div>
@@ -201,7 +242,7 @@ permalink: /technical/integrations/
           </div>
         </div>
       </div>     
-     </div> 
+     </div>
     </div>
   </div>
 

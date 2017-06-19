@@ -102,7 +102,7 @@ permalink: /support/using-github/
           <div class="card-block">
             <div class="card-text">Total Registered Users </div>
             <ul class="card-text">
-              <li>19M</li>
+              <li>21M</li>
             </ul>
           </div>
         </div>
@@ -142,9 +142,9 @@ permalink: /support/using-github/
       <div class="col-md-4">
         <div class="card">
           <div class="card-block">
-            <div class="card-text">Universities Using GitHub </div>
+            <div class="card-text">Fortune 100 Using GHE</div>
             <ul class="card-text">
-              <li>1000+</li>
+              <li>41</li>
             </ul>
           </div>
         </div>
@@ -292,6 +292,8 @@ permalink: /support/using-github/
               <li>file editor</li>
               <li>fuzzy file search</li>
               <li>news feed</li>
+              <li>topics</li>
+              <li>blame</li>
             </ul>
         </div>
        </div>
@@ -321,7 +323,7 @@ permalink: /support/using-github/
               <li>releases + tags</li>
               <li>pulse &amp; graphs</li>
               <li>integrations</li>
-              <li>Seamless API</li>
+              <li>seamless API &amp; GraphQL</li>
             </ul>
         </div>
       </div>
@@ -664,7 +666,8 @@ permalink: /support/using-github/
             <li>Single appliance</li>
             <li>Hosted in chosen environment</li>
             <li>Maintain existing compliance</li>
-            <li>HA, Clustering, Load Balancing</li>
+            <li>HA, Clustering, Load Balancing, Geo-Replication</li>
+            <li>Hotpatching</li>
           </ul>
           </section>
         </div>

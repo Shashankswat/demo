@@ -543,9 +543,9 @@ permalink: /technical/installation-configuration/
           <div class="card-block">
             <div class="card-text"><strong>Root</strong></div>
             <ul class="card-text">
-              <li>80 GB</li>
-              <li>80 GB</li>
-              <li>80 GB</li>
+              <li>200 GB</li>
+              <li>200 GB</li>
+              <li>200 GB</li>
             </ul>
           </div>
         </div>
