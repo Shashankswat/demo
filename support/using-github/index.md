@@ -809,12 +809,12 @@ permalink: /support/using-github/
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;InnerSourcing</strong></div>
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>Building Communities</strong></div>
             <ul class="card-text">
-            <li>These tools enable Inner Source</li>
-            <li>Developers share and reuse</li>
+            <li>Internal software development communities</li>
+            <li>Code Sharing and Re-Use</li>
             <li>Encourage open-communication</li>
-            <li>Pull Request as a key concepts</li>
+            <li>Pull Request as a key concept</li>
             <li>Code Review and Continuous Integration</li>
             </ul>
           </div>
