@@ -784,7 +784,7 @@ permalink: /support/using-github/
       <div class="col-md-12">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon acticon-checklist"></span><strong>&nbsp;Our philosophy</strong></div>
+            <div class="card-img-top text-left"><span class="mega-octicon acticon-checklist"></span><strong>&nbsp;Not just SCM - An ecosystem</strong></div>
             <ul class="card-text">
             </ul>
           </div>
@@ -876,7 +876,28 @@ permalink: /support/using-github/
             </div>
           </div>
         </div>
-      </div>     
+      </div>
+     </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+  # Building Software Communities
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">Discoverability</div>
+            <div class="card-text">
+            <center><img class="img-resize" src="/images/showcases.png"></center>
+            </div>
+          </div>
+        </div>
+      </div>
      </div>
   </div>
   <footer>
