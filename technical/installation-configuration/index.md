@@ -1157,7 +1157,7 @@ permalink: /technical/installation-configuration/
       <div class="col-md-12">
         <div class="card">
           <div class="card-block">
-            <div class="card-title">Add your SSH public key to the list of authorized keys on the Management Console's settings page. </br>Open <code>https://{host}/setup/settings</code> in a browser and add your key to the list:</div>
+            <div class="card-title">Add your SSH public key to the list of authorized keys on the Management Console's settings page. <br/>Open <code>https://{host}/setup/settings</code> in a browser and add your key to the list:</div>
           </div>
         </div>
       </div>
@@ -1200,7 +1200,7 @@ permalink: /technical/installation-configuration/
       <div class="col-md-12">
         <div class="card">
           <div class="card-block">
-            <div class="card-text"><code>$ ssh -p 122 admin@github.example.com</br>Last login: Sun Nov  9 07:53:29 2014 from 169.254.1.1</br>admin@github-example-com:~$ █</code></div>
+            <div class="card-text"><code>$ ssh -p 122 admin@github.example.com<br/>Last login: Sun Nov  9 07:53:29 2014 from 169.254.1.1<br/>admin@github-example-com:~$ █</code></div>
           </div>
         </div>
       </div>
