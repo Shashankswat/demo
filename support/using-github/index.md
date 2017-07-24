@@ -770,8 +770,7 @@ permalink: /support/using-github/
   class: title-slide
 
   <span class="mega-octicon octicon-mark-github"></span>
-  <h1>Exploring the Platform</h1>
-
+  <h1>About the Platform</h1>
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
