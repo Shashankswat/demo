@@ -50,7 +50,7 @@ _Documentation on [LDAP Configuration](https://help.github.com/enterprise/admin/
 
 ## Additional Settings
 
-_ Documentation on [Basic Configuration](https://help.github.com/enterprise/admin/guides/installation/basic-configuration/)_
+_Documentation on [Basic Configuration](https://help.github.com/enterprise/admin/guides/installation/basic-configuration/)_
 
 - Check `Synchronization`
 - Check `Synchronize Emails`
