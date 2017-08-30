@@ -102,7 +102,7 @@ permalink: /support/using-github/
           <div class="card-block">
             <div class="card-text">Total Registered Users </div>
             <ul class="card-text">
-              <li>21M</li>
+              <li>23M</li>
             </ul>
           </div>
         </div>
@@ -112,7 +112,7 @@ permalink: /support/using-github/
           <div class="card-block">
             <div class="card-text">Total Repositories </div>
             <ul class="card-text">
-              <li>52M</li>
+              <li>63M</li>
             </ul>
           </div>
         </div>
@@ -124,7 +124,7 @@ permalink: /support/using-github/
           <div class="card-block">
             <div class="card-text">Employees </div>
             <ul class="card-text">
-              <li>600+</li>
+            <li>650+</li>
             </ul>
           </div>
         </div>
@@ -134,7 +134,7 @@ permalink: /support/using-github/
           <div class="card-block">
             <div class="card-text">Paying Organizations </div>
             <ul class="card-text">
-              <li>>60,000+</li>
+              <li>117,000+</li>
             </ul>
           </div>
         </div>
@@ -770,8 +770,7 @@ permalink: /support/using-github/
   class: title-slide
 
   <span class="mega-octicon octicon-mark-github"></span>
-  <h1>Exploring the Platform</h1>
-
+  <h1>About the Platform</h1>
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
   </footer>
@@ -785,7 +784,7 @@ permalink: /support/using-github/
       <div class="col-md-12">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon acticon-checklist"></span><strong>&nbsp;Our philosophy</strong></div>
+            <div class="card-img-top text-left"><span class="mega-octicon acticon-checklist"></span><strong>&nbsp;Not just SCM - An ecosystem</strong></div>
             <ul class="card-text">
             </ul>
           </div>
@@ -810,12 +809,12 @@ permalink: /support/using-github/
       <div class="col-md-6">
         <div class="card">
           <div class="card-block">
-            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>&nbsp;InnerSourcing</strong></div>
+            <div class="card-img-top text-left"><span class="mega-octicon octicon-checklist"></span><strong>Building Communities</strong></div>
             <ul class="card-text">
-            <li>These tools enable Inner Source</li>
-            <li>Developers share and reuse</li>
+            <li>Internal software development communities</li>
+            <li>Code Sharing and Re-Use</li>
             <li>Encourage open-communication</li>
-            <li>Pull Request as a key concepts</li>
+            <li>Pull Request as a key concept</li>
             <li>Code Review and Continuous Integration</li>
             </ul>
           </div>
@@ -877,7 +876,49 @@ permalink: /support/using-github/
             </div>
           </div>
         </div>
-      </div>     
+      </div>
+     </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+  # Building Software Communities
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">Discoverability</div>
+            <div class="card-text">
+            <center><img class="img-resize" src="/images/showcases.png"></center>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+  </div>
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+  # Building Software Communities
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">Relevance and Re-Use</div>
+            <div class="card-text">
+            <center><img class="img-resize" src="/images/pinned-org-repos.png"></center>
+            </div>
+          </div>
+        </div>
+      </div>
      </div>
   </div>
   <footer>
