@@ -1,0 +1,193 @@
+version: 1
+
+dn: dc=gitaboard,dc=com
+objectClass: organization
+objectClass: dcObject
+objectClass: top
+dc: gitaboard
+o: Channel Enablement
+
+dn: cn=admin,dc=gitaboard,dc=com
+objectClass: organizationalRole
+objectClass: simpleSecurityObject
+cn: admin
+userPassword:: e1NTSEF9cmhzcHpGOVFGUHlBeWJveW5hUnlGc3NFNU5qSnUwK3k=
+description: LDAP administrator
+
+dn: o=engineering,dc=gitaboard,dc=com
+objectClass: top
+objectClass: organization
+o: engineering
+
+dn: o=operations,dc=gitaboard,dc=com
+objectClass: top
+objectClass: organization
+o: operations
+
+dn: cn=chewbacca,o=engineering,dc=gitaboard,dc=com
+objectClass: uidObject
+objectClass: organizationalPerson
+objectClass: top
+objectClass: mailAccount
+cn: chewbacca
+mail: chewbacca@gitaboard.com
+sn: chewbacca
+uid: chewbacca
+userPassword:: UEBzc3cwcmQ=
+
+dn: cn=yoda,o=engineering,dc=gitaboard,dc=com
+objectClass: uidObject
+objectClass: organizationalPerson
+objectClass: top
+objectClass: mailAccount
+cn: yoda
+mail: yoda@gitaboard.com
+sn: yoda
+uid: yoda
+userPassword:: UEBzc3cwcmQ=
+
+dn: cn=leia,o=engineering,dc=gitaboard,dc=com
+objectClass: uidObject
+objectClass: organizationalPerson
+objectClass: top
+objectClass: mailAccount
+cn: leia
+mail: leia@gitaboard.com
+sn: leia
+uid: leia
+userPassword:: UEBzc3cwcmQ=
+
+dn: cn=luke,o=engineering,dc=gitaboard,dc=com
+objectClass: uidObject
+objectClass: organizationalPerson
+objectClass: top
+objectClass: mailAccount
+cn: luke
+mail: chewbacca@gitaboard.com
+sn: chewbacca
+uid: chewbacca
+userPassword:: UEBzc3cwcmQ=
+
+dn: cn=solo,o=operations,dc=gitaboard,dc=com
+objectClass: uidObject
+objectClass: organizationalPerson
+objectClass: top
+objectClass: mailAccount
+cn: solo
+mail: solo@gitaboard.com
+sn: solo
+uid: solo
+userPassword:: UEBzc3cwcmQ=
+
+dn: cn=darthvadar,o=operations,dc=gitaboard,dc=com
+objectClass: uidObject
+objectClass: organizationalPerson
+objectClass: top
+objectClass: mailAccount
+cn: darthvadar
+mail: darthvadar@gitaboard.com
+sn: darthvadar
+uid: darthvadar
+userPassword:: UEBzc3cwcmQ=
+
+dn: cn=obiwan,o=engineering,dc=gitaboard,dc=com
+objectClass: uidObject
+objectClass: organizationalPerson
+objectClass: top
+objectClass: mailAccount
+cn: obiwan
+mail: obiwan@gitaboard.com
+sn: obiwan
+uid: obiwan
+userPassword:: UEBzc3cwcmQ=
+
+dn: cn=padme,o=operations,dc=gitaboard,dc=com
+objectClass: uidObject
+objectClass: organizationalPerson
+objectClass: top
+objectClass: mailAccount
+cn: padme
+mail: padme@gitaboard.com
+sn: padme
+uid: padme
+userPassword:: UEBzc3cwcmQ=
+
+dn: cn=jarjar,o=operations,dc=gitaboard,dc=com
+objectClass: uidObject
+objectClass: organizationalPerson
+objectClass: top
+objectClass: mailAccount
+cn: jarjar
+mail: jarjar@gitaboard.com
+sn: jarjar
+uid: jarjar
+userPassword:: UEBzc3cwcmQ=
+
+dn: cn=rey,o=engineering,dc=gitaboard,dc=com
+objectClass: uidObject
+objectClass: organizationalPerson
+objectClass: top
+objectClass: mailAccount
+cn: rey
+mail: rey@gitaboard.com
+sn: rey
+uid: rey
+userPassword:: UEBzc3cwcmQ=
+
+dn: cn=finn,o=engineering,dc=gitaboard,dc=com
+objectClass: uidObject
+objectClass: organizationalPerson
+objectClass: top
+objectClass: mailAccount
+cn: finn
+mail: finn@gitaboard.com
+sn: finn
+uid: finn
+userPassword:: UEBzc3cwcmQ=
+
+dn: cn=jabba,o=operations,dc=gitaboard,dc=com
+objectClass: uidObject
+objectClass: organizationalPerson
+objectClass: top
+objectClass: mailAccount
+cn: jabba
+mail: jabba@gitaboard.com
+sn: jabba
+uid: jabba
+userPassword:: UEBzc3cwcmQ=
+
+dn: cn=site-admins,dc=gitaboard,dc=com
+objectClass: top
+objectClass: groupOfNames
+cn: site-admins
+member: cn=chewbacca,o=engineering,dc=gitaboard,dc=com
+member: cn=admin,dc=gitaboard,dc=com
+member: cn=solo,o=operations,dc=gitaboard,dc=com
+
+dn: ou=developers,o=engineering,dc=gitaboard,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: developers
+
+dn: cn=ruby-experts,ou=developers,o=engineering,dc=gitaboard,dc=com
+objectClass: top
+objectClass: groupOfNames
+cn: ruby-experts
+member: cn=luke,o=engineering,dc=gitaboard,dc=com
+member: cn=rey,o=engineering,dc=gitaboard,dc=com
+member: cn=finn,o=engineering,dc=gitaboard,dc=com
+
+dn: cn=team-leads,o=engineering,dc=gitaboard,dc=com
+objectClass: top
+objectClass: groupOfNames
+cn: team-leads
+member: cn=leia,o=engineering,dc=gitaboard,dc=com
+member: cn=yoda,o=operations,dc=gitaboard,dc=com
+
+dn: cn=ansible-experts,o=operations,dc=gitaboard,dc=com
+objectClass: top
+objectClass: groupOfNames
+cn: ansible-experts
+member: cn=solo,o=operations,dc=gitaboard,dc=com
+member: cn=darthvadar,o=operations,dc=gitaboard,dc=com
+
