@@ -44,6 +44,7 @@ _Documentation on [LDAP Configuration](https://help.github.com/enterprise/admin/
 - `domain base`:
   - `o=engineering,dc=gitaboard,dc=com`
   - `o=operations,dc=gitaboard,dc=com`
+  - `dc=gitaboard,dc=com`
 - `User ID` - `uid`
 - `Profile Name` - `cn`
 - `Emails` - `mail`
