@@ -8,7 +8,7 @@ permalink: /technical/installation-configuration/
   class: title-slide
 
   <span class="mega-octicon octicon-mark-github"></span>
-  <h1>GitHub Enterpise Architecture and Installation</h1>
+  <h1>GitHub Enterprise Architecture and Installation</h1>
 
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
