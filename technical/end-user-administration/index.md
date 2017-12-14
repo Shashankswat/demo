@@ -101,15 +101,6 @@ permalink: /technical/end-user-administration/
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-title">As a Site Admin, you have a high level overview of the repository</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
         <img src="/images/ghe-org-settings.png" class="img-resize">
       </div>
     </div>
@@ -121,18 +112,9 @@ permalink: /technical/end-user-administration/
   ---
   class: title-top
 
-  # Organization Admin
+  # Organization Admin - Danger Zone!
 
   <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-title">The Org Admins screen provides various functionality</div>
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="row">
       <div class="col-md-12">
         <img src="/images/ghe-org-admin-1.png" class="img-resize">
@@ -247,13 +229,13 @@ permalink: /technical/end-user-administration/
             <li>click 'New team'</li>
             <li>decide if it will be 'Visible'</li>
             <li>click 'Create team'</li>
+            <li>Nested Teams can create logical hierarchies (Not supported with all IAMs)</li>
           </ul>
         </div>
       </div>
       <div class="col-md-6">
         <br/>
-        <img src="/images/ORG-Teams.png" class="img-resize"><br/>
-        <img src="/images/TEAM-New.png" class="img-resize">
+        <img src="/images/TEAM-New.png" class="img-responsive">
       </div>
     </div>
   </div>
@@ -268,17 +250,23 @@ permalink: /technical/end-user-administration/
 
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-title">Have a high level overview of members of teams</div>
-          </div>
+      <div class="col-md-6">
+        <div class="card-block">
+          <div class="card-text"><a href="https://help.github.com/enterprise/admin/guides/user-management/creating-teams/" target="_blank">Team</a> settings allows owners and Admins the ability to manage various permissions and membership</div><br/>
+          <ul class="card-text">
+            <li>click your profile photo > 'Your profile'</li>
+            <li>Organizations, click your org icon</li>
+            <li>click 'Teams' under your org</li>
+            <li>click :yourteam</li>
+            <li>click settings</li>
+            <li>same process for nested teams</li>
+          </ul>
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <img src="/images/ghe-team-admin.png" class="img-resize">
+      <div class="col-md-6">
+        <br/>
+        <img src="/images/ghe-team-admin.png" class="img-responsive">
+        <img src="/images/ghe-team-admin-1.png" class="img-responsive">
       </div>
     </div>
   </div>
@@ -289,43 +277,9 @@ permalink: /technical/end-user-administration/
   ---
   class: title-top
 
-  # Team Admin
+  # Team Homepage, in action
 
   <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-title">Easy access to your team from the org homepage</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <img src="/images/ghe-team-tab.png" class="img-resize">
-      </div>
-    </div>
-  </div>
-
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-  </footer>
-  ---
-  class: title-top
-
-  # Team Homepage
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-title">A team page, in action</div>
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="row">
       <div class="col-md-12">
         <img src="/images/ghe-team-page.png" class="img-resize">
@@ -525,26 +479,17 @@ permalink: /technical/end-user-administration/
   ---
   class: title-top
 
-  # Git Large File Storage
+  # Git LFS - Large files, same git workflow
 
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-6">
         <div class="card-block">
-          <div class="card-text"><strong>An open source Git extension for working with, and versioning large files</strong></div>
+          <div class="card-text">Git Large File Storage (LFS) replaces large files such as audio samples, videos, datasets, and graphics with text pointers inside Git, while storing the file contents on a remote server like GitHub.com or GitHub Enterprise.</div><br/>
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card-block">
-          <div class="card-text"><a href="https://git-lfs.github.com/" target="_blank">Git Large File Storage (LFS)</a> replaces large files such as audio samples, videos, datasets, and graphics with text pointers inside Git, while storing the file contents on a remote server like GitHub.com or GitHub Enterprise. </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <img src="/images/GIT-LFS-Overview.gif" class="img-resize">
+      <div class="col-md-6">
+        <img src="/images/GIT-LFS-Overview.gif" class="img-resize"><br/>
       </div>
     </div>
   </div>
