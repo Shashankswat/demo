@@ -223,9 +223,24 @@ permalink: /technical/advanced-administration/
   ---
   class: title-top
 
+  # Clustering Overview
+  <div class="container">
+    <img src="/images/cluster-diagram.png" class="img-resize">
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
   # Site Admin Overview
 
-  .container[.img-responsive[![site admin](/images/site-admin-overview.png)]]
+  .container[
+    
+    ![site admin](/images/site-admin-overview.png)
+    
+    ]
 
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
