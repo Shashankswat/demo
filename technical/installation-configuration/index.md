@@ -262,18 +262,9 @@ permalink: /technical/installation-configuration/
   ---
   class: title-top
 
-  # GitHub Enterprise License
+  # GitHub Enterprise Download: https://enterprise.github.com/releases/x.y.z/download
 
   <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-title">Download License (or appliance for an on-premises install).</div>
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="row">
       <div class="col-md-12">
         <img src="/images/GHE-Download.png" class="img-resize">
@@ -331,6 +322,10 @@ permalink: /technical/installation-configuration/
             <div class="card-text"><strong>Installation Instructions:</strong></div>
             <ul class="card-text">
              <li><a href="https://help.github.com/enterprise/admin/guides/installation/installing-github-enterprise-on-aws/" target="_blank">Enterprise AWS Installation Guide</a></li>
+             <li><a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/LaunchingAndUsingInstances.html" target="_blank">Launching EC2 Instances</a></li>
+             <li><a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AmazonEBS.html">Managing EBS Volumes</a></li>
+             <li><a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-network-security.html">Using Security Groups</a></li>
+             <li><a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-vpc.html">Using VPCs</a></li>
             </ul>
           </div>
         </div>
@@ -341,6 +336,10 @@ permalink: /technical/installation-configuration/
             <div class="card-text"><strong>Configuration Instructions:</strong></div>
             <ul class="card-text">
              <li><a href="https://help.github.com/enterprise/admin/guides/installation/" target="_blank">Enterprise Configuration Guide</a></li>
+             <li><a href="https://help.github.com/enterprise/2.12/admin/guides/installation/network-configuration">Network Configuration</a></li>
+             <li><a href="https://help.github.com/enterprise/2.12/admin/guides/installation/updating-the-virtual-machine-and-physical-resources">Updating VM Resources</a></li>
+             <li><a href="https://help.github.com/enterprise/2.12/admin/guides/user-management/authenticating-users-for-your-github-enterprise-instance/">Authentication Guides</a></li>
+             <li><a href="https://help.github.com/enterprise/2.12/admin/guides/installation/system-resource-monitoring-and-alerting">System/Resource Monitoring</a></li>
             </ul>
           </div>
         </div>
@@ -359,7 +358,18 @@ permalink: /technical/installation-configuration/
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <img src="/images/AWS_Management_Console-EC2.png" class="img-responsive">
+        <img src="/images/AWS_quickstart.png" class="img-responsive">
+      </div>
+    </div>
+      <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <p class="card-text">
+              <strong>AWS quickstarts provide a CloudFormation template to auto-provision GitHub Enterprise instances into new, or existing VPCs ✨</strong>
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -386,7 +396,7 @@ permalink: /technical/installation-configuration/
   ---
   class: title-top
 
-  # GitHub Enterprise AMI 2.7.0
+  # GitHub Enterprise Supported Regions
 
   <div class="container">
     <div class="row">
@@ -399,58 +409,30 @@ permalink: /technical/installation-configuration/
       </div>
     </div>
     <div class="row">
-      <div class="col-md-3">
+      <div class="col-md-6">
         <div class="card">
           <div class="card-block">
             <div class="card-text">Region ID </div>
             <ul class="card-text">
-              <li>ap-northeast-1</li>
-              <li>ap-southeast-1</li>
-              <li>ap-southeast-2</li>
+              <li>ap-northeast-1/2</li>
+              <li>ap-southeast-1/2</li>
+              <li>ap-south-1</li>
               <li>eu-central-1</li>
-              <li>eu-west-1</li>
+              <li>eu-west-1/2</li>
             </ul>
           </div>
         </div>
       </div>
-      <div class="col-md-3">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-text">AMI ID </div>
-            <ul class="card-text">
-              <li>ami-521dda33</li>
-              <li>ami-c5ad73a6</li>
-              <li>ami-99ac99fa</li>
-              <li>ami-ee19ee81</li>
-              <li>ami-deeb85ad</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
+      <div class="col-md-6">
         <div class="card">
           <div class="card-block">
             <div class="card-text">Region ID </div>
             <ul class="card-text">
               <li>sa-east-1</li>
-              <li>us-east-1</li>
-              <li>us-west-1</li>
-              <li>us-west-2</li>
+              <li>us-east-1/2</li>
+              <li>us-west-1/2</li>
               <li>us-gov-west-1</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-text">AMI ID </div>
-            <ul class="card-text">
-              <li>ami-24138448</li>
-              <li>ami-59fc6f4e</li>
-              <li>ami-7bc7871b</li>
-              <li>ami-6e04cd0e</li>
-              <li>ami-879d22e6</li>
+              <li>ca-central-1</li>
             </ul>
           </div>
         </div>
@@ -594,11 +576,57 @@ permalink: /technical/installation-configuration/
   class: title-top
 
   # Creating a security group
-
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <img src="/images/EC2-security-group.png" class="img-responsive" height="75%" width="75%">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text"><a href="https://help.github.com/enterprise/2.12/admin/guides/installation/installing-github-enterprise-on-aws/#creating-a-security-group">Creating Security Groups (Detailed)</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text">Ports</div>
+            <ul class="card-text">
+              <li>8443 (TCP)</li>
+              <li>8080 (TCP)</li>
+              <li>122 (TCP)</li>
+              <li>443 (TCP)</li>
+              <li>80 (TCP)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text">Ports</div>
+            <ul class="card-text">
+              <li>22 (TCP)</li>
+              <li>9418 (TCP)</li>
+              <li>25 (TCP)</li>
+              <li>1194 (UDP)</li>
+              <li>161 (UDP)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-text">Thoughts</div>
+            <ul class="card-text">
+              <li>UDP Traffic is Reserved for HA/Backups</li>
+              <li>Save this for reference</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -616,6 +644,31 @@ permalink: /technical/installation-configuration/
     <div class="row">
       <div class="col-md-12">
         <img src="/images/EC2-Select-Instance.png" class="img-responsive">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
+  # Attach Block Storage
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">After you've verified the instance, attach block storage of at least 100GB from the AWS EC2 Console.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="/images/EC2-Volume.png" class="img-responsive">
       </div>
     </div>
   </div>
@@ -657,94 +710,9 @@ permalink: /technical/installation-configuration/
   ---
   class: title-top
 
-  # Attach Block Storage
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-title">After you've verified the instance, attach block storage of at least 10GB from the AWS EC2 Console.</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <img src="/images/EC2-Volume.png" class="img-responsive">
-      </div>
-    </div>
-  </div>
-
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-  </footer>
-  ---
-  class: title-top
-
-  # EBS Volume
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-title">Make sure the EBS volume is in the same availability zone as your EC2 instance.</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <img src="/images/EC2-EBS-Review.png" class="img-responsive">
-      </div>
-    </div>
-  </div>
-
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-  </footer>
-  ---
-  class: title-top
-
-  # Attach to EC2
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-title">Attach the EBS volume to your EC2 instance.</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <img src="/images/EC2-EBS-Attach.png" class="img-responsive">
-      </div>
-    </div>
-  </div>
-
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-  </footer>
-
-  ---
-  class: title-top
-
   # GitHub Enterprise Setup
 
   <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-title">Navigate to the public DNS of the EC2 VM and continue to Setup, bypassing browser certificate warnings.</div>
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="row">
       <div class="col-md-12">
         <img src="/images/GHE-Setup.png" class="img-resize">
@@ -833,6 +801,31 @@ permalink: /technical/installation-configuration/
   ---
   class: title-top
 
+  # Upload New SSH Key
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title">Add your SSH public key to the list of authorized keys on the Management Console's settings page. <br/>Open <code>https://{host}/setup/settings</code> in a browser and add your key to the list:</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="/images/SSH-Keys.png" class="img-resize">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
   # GitHub Enterprise Setup
 
   <div class="container">
@@ -897,7 +890,7 @@ permalink: /technical/installation-configuration/
     </div>
     <div class="row">
       <div class="col-md-12">
-        <img src="/images/ec2-auth.png" class="img-responsive">
+        <img src="/images/ec2-auth.png" class="img-resize">
       </div>
     </div>
   </div>
@@ -1064,15 +1057,6 @@ permalink: /technical/installation-configuration/
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-title">Create an Admin Account.</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
         <img src="/images/GHE-Admin.png" class="img-resize">
       </div>
     </div>
@@ -1089,15 +1073,6 @@ permalink: /technical/installation-configuration/
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-title">Create an Organization.</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
         <img src="/images/GHE-Org.png" class="img-resize">
       </div>
     </div>
@@ -1112,15 +1087,6 @@ permalink: /technical/installation-configuration/
   # GitHub Enterprise Setup
 
   <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-title">Add Organization Members (optional).</div>
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="row">
       <div class="col-md-12">
         <img src="/images/GHE-Members.png" class="img-resize">
@@ -1140,31 +1106,6 @@ permalink: /technical/installation-configuration/
     <div class="row">
       <div class="col-md-12">
         <img src="/images/GHE-Home.png" class="img-responsive">
-      </div>
-    </div>
-  </div>
-
-  <footer>
-    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
-  </footer>
-  ---
-  class: title-top
-
-  # Upload New SSH Key
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-title">Add your SSH public key to the list of authorized keys on the Management Console's settings page. <br/>Open <code>https://{host}/setup/settings</code> in a browser and add your key to the list:</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <img src="/images/SSH-Keys.png" class="img-resize">
       </div>
     </div>
   </div>

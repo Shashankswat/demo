@@ -212,7 +212,7 @@ permalink: /technical/advanced-administration/
   This [configuration](https://help.github.com/enterprise/admin/guides/clustering/initializing-the-cluster/) is only for customers with over 10.000 users.  This requires your sales representative to work with the GitHub Product team to generate a clustering license to be used.
   - Only for companies with > 10.000 developers
   - Get your updated license from GitHub
-  - Deploy the appliance a minimum of 3 times
+  - Follow the clustering [guidelines](https://help.github.com/enterprise/2.11/admin/guides/clustering/about-cluster-nodes/#services-required-for-clustering) for a minimum of 10 nodes
   - Configure the `cluster.conf` on the first node
   - Run the `ghe-cluster-config-init` command to copy the `cluster.conf` to the other nodes
   ]]]]]]
@@ -223,9 +223,24 @@ permalink: /technical/advanced-administration/
   ---
   class: title-top
 
+  # Clustering Overview
+  <div class="container">
+    <img src="/images/cluster-diagram.png" class="img-resize">
+  </div>
+
+  <footer>
+    <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
+  </footer>
+  ---
+  class: title-top
+
   # Site Admin Overview
 
-  .container[.img-responsive[![site admin](/images/site-admin-overview.png)]]
+  .container[
+    
+    ![site admin](/images/site-admin-overview.png)
+    
+    ]
 
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
