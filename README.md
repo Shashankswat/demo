@@ -59,3 +59,5 @@ Access to published collateral is limited to members of the [Enablement Beta](ht
 - `script/bootstrap`
 - `script/server`
 - Open Browser to [http://localhost:4000](http://localhost:4000)
+
+URL Available at: https://github-partner-enablement.herokuapp.com

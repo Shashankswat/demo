@@ -908,18 +908,7 @@ permalink: /support/using-github/
   # Building Software Communities
 
   <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-block">
-            <div class="card-title">Relevance and Re-Use</div>
-            <div class="card-text">
-            <center><img class="img-resize" src="/images/pinned-org-repos.png"></center>
-            </div>
-          </div>
-        </div>
-      </div>
-     </div>
+    <img class="img-resize" src="/images/atom_community.png">
   </div>
   <footer>
     <div class="octicon-spacer"><span class="octicon octicon-logo-github"></span><span class="tagline">how people build software</span></div>
